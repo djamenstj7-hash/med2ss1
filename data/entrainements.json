@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v12-semiologie-lot8",
-  "disclaimer": "V0.12 : entraînements fictifs fondés sur les cours 2026–2027, non présentés comme annales. En sémiologie, les QI sont des QCM indépendants. Réponses et sources indiquées par cours.",
+  "revision": "2026-10-11-v13-semiologie-complete",
+  "disclaimer": "V0.13 : entraînements fictifs fondés sur les CM 2026-2027 et non des annales authentiques. En sémiologie, QI indépendantes sous forme de QCM, QRU ou QRM ; références PDF et pages par question.",
   "subjects": {
     "sang": {
       "qi": [
@@ -6289,6 +6289,1046 @@
             "url": "https://drive.google.com/file/d/1sbLkpwh3DNjcrKA4n2nLfGxte5B2CPxk/view"
           },
           "lessonId": "cm-d4b0e96ef7a8b1a7"
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-01",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Pourquoi deux personnes du même âge peuvent-elles avoir des états fonctionnels très différents ?",
+          "options": [
+            "La fragilité apparaît toujours à 80 ans",
+            "Les réserves fonctionnelles sont identiques au même âge",
+            "L’âge seul prédit la dépendance avec certitude",
+            "Le vieillissement est hétérogène et dépend aussi des maladies et de l’environnement"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Le vieillissement est hétérogène et dépend aussi des maladies et de l’environnement. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 2–3. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "2–3",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-02",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Quel ensemble correspond aux domaines de fragilité recherchés ?",
+          "options": [
+            "Marche, sens, nutrition, vitalité, cognition et psychologie",
+            "Taille, couleur des yeux et latéralité",
+            "Pouls, groupe sanguin, taille et religion",
+            "Troponine, créatinine et ECG uniquement"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Marche, sens, nutrition, vitalité, cognition et psychologie. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-03",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "La préfragilité correspond à :",
+          "options": [
+            "Une forme certaine de démence",
+            "Une dépendance irréversible obligatoire",
+            "Un état intermédiaire entre robustesse et fragilité",
+            "Une situation qui dispense de dépistage"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "Un état intermédiaire entre robustesse et fragilité. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-04",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Quel intérêt le cours donne-t-il au dépistage de la fragilité ?",
+          "options": [
+            "Confirmer automatiquement une institutionnalisation",
+            "Repérer tôt une vulnérabilité encore potentiellement réversible",
+            "Éviter tout bilan nutritionnel",
+            "Démontrer que l’âge est une maladie"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Repérer tôt une vulnérabilité encore potentiellement réversible. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-05",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Quel risque est plus fréquent chez le sujet fragile ?",
+          "options": [
+            "Une absence d’hospitalisations",
+            "La chute et la perte d’autonomie",
+            "Une immunité toujours plus performante",
+            "Une suppression de toutes les maladies chroniques"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La chute et la perte d’autonomie. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-06",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Pourquoi faut-il vérifier les traitements avec les proches et professionnels ?",
+          "options": [
+            "Les médicaments sont inutiles à l’évaluation",
+            "Le dossier pharmaceutique est toujours complet",
+            "Les interactions n’existent plus après 70 ans",
+            "Le patient peut oublier ou confondre ce qu’il prend réellement"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Le patient peut oublier ou confondre ce qu’il prend réellement. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4–5. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "4–5",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-07",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Quel trait caractérise un syndrome gériatrique selon le cours ?",
+          "options": [
+            "Une cause unique obligatoire",
+            "Une origine souvent multifactorielle",
+            "Une absence d’effet sur l’indépendance",
+            "Une fréquence qui diminue avec l’âge"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Une origine souvent multifactorielle. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "6",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qru-08",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRU",
+          "question": "Quels sont les trois étages du modèle du bouchon ?",
+          "options": [
+            "Glycémie, température, taille",
+            "Sport, alimentation et sommeil uniquement",
+            "Diagnostic, imagerie, sortie",
+            "Âge, maladie chronique, maladie aiguë"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Âge, maladie chronique, maladie aiguë. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 7. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "7",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-01",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Qu’est-ce qui définit surtout la phase terminale dans le cours ?",
+          "options": [
+            "Une hospitalisation de plus de six heures",
+            "Une fréquence cardiaque supérieure à 100 seule",
+            "Une période fixe de 24 heures avant la mort",
+            "Une maladie incurable en progression avec déclin fonctionnel irréversible"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Une maladie incurable en progression avec déclin fonctionnel irréversible. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-02",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Quelles étapes peuvent composer la phase ultime ?",
+          "options": [
+            "Incubation puis convalescence",
+            "Traumatisme puis consolidation",
+            "Pré-agonie puis agonie, cette dernière parfois très brève",
+            "Remission puis croissance"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "Pré-agonie puis agonie, cette dernière parfois très brève. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-03",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Quel trio décrit les responsabilités du médecin dans cette sémiologie ?",
+          "options": [
+            "Isoler, attendre et ignorer",
+            "Accompagner, distinguer et décider",
+            "Radiographier, opérer et sortir",
+            "Mesurer, transférer et interdire les visites"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Accompagner, distinguer et décider. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2–4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "2–4",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-04",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "La douleur est décrite principalement comme :",
+          "options": [
+            "Un signe exclusivement biologique",
+            "Une expérience subjective sensorielle et émotionnelle",
+            "Une valeur mesurable uniquement au tensiomètre",
+            "Un réflexe respiratoire toujours inconscient"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Une expérience subjective sensorielle et émotionnelle. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-05",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Pourquoi douleur et souffrance ne sont-elles pas strictement synonymes ?",
+          "options": [
+            "La souffrance peut inclure des dimensions psychiques, sociales ou spirituelles",
+            "La souffrance est toujours une blessure ouverte",
+            "La douleur n’existe qu’en phase agonique",
+            "La souffrance exclut toute dimension émotionnelle"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "La souffrance peut inclure des dimensions psychiques, sociales ou spirituelles. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-06",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Quelle caractéristique distingue la pré-agonie de l’agonie dans cette ronéo ?",
+          "options": [
+            "La pré-agonie exclut toute défaillance d’organe",
+            "La pré-agonie reste potentiellement réversible",
+            "La pré-agonie dure toujours dix minutes",
+            "La pré-agonie est toujours un signe certain de décès"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La pré-agonie reste potentiellement réversible. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "5",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-07",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Quel exemple montre qu’un tableau pré-agonique peut s’améliorer ?",
+          "options": [
+            "Pneumopathie avec défaillances dont le traitement améliore l’état",
+            "Rigidité cadavérique installée",
+            "Décès déjà certifié par signes positifs",
+            "Putréfaction établie"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Pneumopathie avec défaillances dont le traitement améliore l’état. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "5",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qru-08",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRU",
+          "question": "Quel signe circulatoire peut accompagner la phase pré-agonique ?",
+          "options": [
+            "Des marbrures et des extrémités froides",
+            "Un signe de Babinski isolé",
+            "Des réflexes ostéotendineux vifs isolés",
+            "Une hypertrophie musculaire systématique"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Des marbrures et des extrémités froides. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "5",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-01",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Quelle couche de peau est la plus superficielle ?",
+          "options": [
+            "Le fascia profond",
+            "L’hypoderme",
+            "L’épiderme",
+            "Le péritoine"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "L’épiderme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-02",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Quelle couche cutanée est décrite comme avasculaire ?",
+          "options": [
+            "L’hypoderme",
+            "Le tissu musculaire",
+            "L’épiderme",
+            "Le derme profond"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "L’épiderme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-03",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Une abrasion ou érosion est surtout :",
+          "options": [
+            "Une collection de sang liquide",
+            "Une atteinte superficielle de l’épiderme par frottement",
+            "Une destruction totale de l’os",
+            "Une rupture de la plèvre viscérale"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Une atteinte superficielle de l’épiderme par frottement. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-04",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Quel mécanisme classique provoque une excoriation ?",
+          "options": [
+            "Une rupture d’une valve cardiaque",
+            "Une griffure atteignant le derme",
+            "Une thrombose veineuse",
+            "Une diminution de la diurèse"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Une griffure atteignant le derme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-05",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Qu’est-ce qu’une plaie pénétrante du thorax dans la définition du cours ?",
+          "options": [
+            "Une plaie franchissant la plèvre pariétale",
+            "Une abrasion sans saignement",
+            "Une simple rougeur après frottement",
+            "Toute ecchymose du bras"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Une plaie franchissant la plèvre pariétale. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "2",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-06",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Quel aspect oriente vers une plaie franche ?",
+          "options": [
+            "Lividité déclive après la mort",
+            "Bords déchiquetés et ponts cutanés",
+            "Collection profonde sans ouverture",
+            "Bords nets et absence de ponts cutanés"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Bords nets et absence de ponts cutanés. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "3",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-07",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Quel aspect oriente vers une plaie contuse ?",
+          "options": [
+            "Absence totale d’effraction",
+            "Bords irréguliers et ponts cutanés",
+            "Une simple tache jaune isolée",
+            "Bords parfaitement réguliers sans pont"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Bords irréguliers et ponts cutanés. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "3",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qru-08",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRU",
+          "question": "Un objet contondant blesse principalement par :",
+          "options": [
+            "Simple action thermique obligatoire",
+            "Écrasement lié à sa masse",
+            "Transformation enzymatique du sang",
+            "Réaction photochimique"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Écrasement lié à sa masse. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "3",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-01",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Que signifie la « cinétique » d’un accident routier ?",
+          "options": [
+            "Le seul nombre de passagers indemnes",
+            "Le mécanisme et l’énergie du choc pouvant renseigner sur la gravité",
+            "La durée d’un traitement antibiotique",
+            "Le taux de glucose dans le sang"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Le mécanisme et l’énergie du choc pouvant renseigner sur la gravité. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 2–3. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "2–3",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-02",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Pourquoi un patient conscient après un choc violent peut-il être gravement blessé ?",
+          "options": [
+            "La conscience élimine toute hémorragie",
+            "Le traumatisme n’est grave qu’en cas de plaie visible",
+            "Une personne qui parle n’a jamais de fracture",
+            "Des lésions internes peuvent être présentes malgré une présentation rassurante"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Des lésions internes peuvent être présentes malgré une présentation rassurante. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 2–3. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "2–3",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-03",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Quelle est la première considération sur les lieux de l’accident ?",
+          "options": [
+            "L’identification du groupe sanguin par interrogation",
+            "La prise de photographies pour les réseaux sociaux",
+            "La sécurité de la scène pour victimes et intervenants",
+            "Un examen neurologique détaillé avant toute sécurité"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "La sécurité de la scène pour victimes et intervenants. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "3",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-04",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Quelle information est pertinente à transmettre aux secours ?",
+          "options": [
+            "Seulement le prénom du conducteur",
+            "Nombre de victimes, mécanisme, état et dangers résiduels",
+            "Le prix de réparation de la voiture",
+            "Uniquement la couleur du véhicule"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Nombre de victimes, mécanisme, état et dangers résiduels. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3–4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "3–4",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-05",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Pourquoi la déformation du véhicule est-elle importante ?",
+          "options": [
+            "Elle aide à estimer l’énergie du choc et les lésions possibles",
+            "Elle exclut une atteinte thoracique",
+            "Elle remplace l’examen du patient",
+            "Elle permet de connaître l’hémoglobine"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Elle aide à estimer l’énergie du choc et les lésions possibles. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3–4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "page": "3–4",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-06",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Quelle formule relie le débit cardiaque au pouls et au volume d’éjection ?",
+          "options": [
+            "Débit cardiaque = SpO₂ × température",
+            "Débit cardiaque = diurèse + FiO₂",
+            "Débit cardiaque = VES × fréquence cardiaque",
+            "Débit cardiaque = glycémie / taille"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "Débit cardiaque = VES × fréquence cardiaque. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 5–6. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "page": "5–6",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-07",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Quel signe est évocateur d’une compensation circulatoire devant une hémorragie ?",
+          "options": [
+            "Bradycardie obligatoire dès la première seconde",
+            "Tachycardie",
+            "Augmentation certaine de l’hémoglobine",
+            "Élévation constante de la SpO₂"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Tachycardie. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "page": "6",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qru-08",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRU",
+          "question": "Quel aspect cutané peut accompagner un choc hémorragique ?",
+          "options": [
+            "Extrémités froides et marbrures",
+            "Une peau toujours chaude et rouge",
+            "Érythème solaire isolé",
+            "Une disparition obligatoire de la pâleur"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Extrémités froides et marbrures. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Le point clé est la distinction précise posée dans l’énoncé.",
+          "page": "6",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qrm-01",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRM",
+          "question": "Parmi les éléments suivants, lesquels sont étudiés lors du dépistage de la fragilité ?",
+          "options": [
+            "Marche et équilibre",
+            "Nutrition",
+            "Capacités cognitives",
+            "Groupe sanguin ABO"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les six domaines cités dans le cours comprennent la marche, les sens, la nutrition, la vitalité, la cognition et la psychologie. Ronéo p. 4.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qrm-02",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRM",
+          "question": "Quelles propositions concernent les IADL plutôt que les ADL ?",
+          "options": [
+            "Gérer son argent",
+            "Faire les courses",
+            "Gérer ses traitements",
+            "Assurer la continence"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La continence fait partie de l’ADL, alors que la gestion financière, des courses et des traitements relève des IADL. Ronéo p. 8.",
+          "page": "8",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qrm-03",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRM",
+          "question": "Devant une confusion aiguë chez le sujet âgé, quelles causes précipitantes faut-il rechercher ?",
+          "options": [
+            "Infection",
+            "Rétention urinaire",
+            "Effet médicamenteux",
+            "Vieillissement normal, à considérer comme seule explication"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La confusion aiguë doit inciter à rechercher plusieurs facteurs précipitants et ne se résume pas à l’âge. Ronéo p. 12–14.",
+          "page": "12–14",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-902a16006f1cb7d3-qrm-04",
+          "lessonId": "cm-902a16006f1cb7d3",
+          "format": "QRM",
+          "question": "Quels éléments sont utilisés pour l’évaluation gériatrique ?",
+          "options": [
+            "Timed Up and Go",
+            "MMSE ou MoCA",
+            "Évolution du poids",
+            "La couleur des yeux comme score validé"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La mobilité, la cognition et l’état nutritionnel font partie de l’évaluation multidimensionnelle. Ronéo p. 8–11.",
+          "page": "8–11",
+          "source": {
+            "title": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+            "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qrm-01",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRM",
+          "question": "Quels signes peuvent se voir en phase pré-agonique ?",
+          "options": [
+            "Marbrures",
+            "Tachycardie et hypotension",
+            "Confusion fluctuante",
+            "Rigidité cadavérique comme signe habituel de pré-agonie"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La pré-agonie peut associer défaillances circulatoires et neurologiques ; la rigidité cadavérique est post mortem. Ronéo p. 5–7.",
+          "page": "5–7",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qrm-02",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRM",
+          "question": "Quels éléments décrivent une respiration de Cheyne–Stokes ?",
+          "options": [
+            "Amplitude croissante puis décroissante",
+            "Pauses d’apnée",
+            "Rythme involontaire",
+            "Preuve automatique d’une douleur ressentie"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La respiration oscille et comprend des pauses, mais ne prouve pas à elle seule une souffrance consciente. Ronéo p. 8.",
+          "page": "8",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qrm-03",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRM",
+          "question": "Quels signes peuvent accompagner la phase agonique ?",
+          "options": [
+            "Coma aréactif",
+            "Perte de réflexes du tronc cérébral",
+            "Râle terminal",
+            "Retour systématique à une conscience normale"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La phase agonique associe altération neurologique profonde et signes respiratoires et circulatoires variés. Ronéo p. 9–12.",
+          "page": "9–12",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-ef1a54f93d5a2366-qrm-04",
+          "lessonId": "cm-ef1a54f93d5a2366",
+          "format": "QRM",
+          "question": "Dans l’accompagnement de la fin de vie, quelles actions le cours met-il en avant ?",
+          "options": [
+            "Soins de bouche",
+            "Positionnement et confort",
+            "Explications répétées aux proches",
+            "Interdiction automatique de toute visite"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le soin implique le confort physique et la présence des proches, dans le respect des volontés de la personne. Ronéo p. 13.",
+          "page": "13",
+          "source": {
+            "title": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+            "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qrm-01",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRM",
+          "question": "Quels caractères orientent vers une plaie franche ?",
+          "options": [
+            "Bords nets",
+            "Forme linéaire",
+            "Absence de ponts cutanés",
+            "Bords nécessairement stellaires et irréguliers"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Une plaie franche a des bords nets, linéaires et sans ponts ; la forme stellaire évoque une contusion. Ronéo p. 3.",
+          "page": "3",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qrm-02",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRM",
+          "question": "Quels énoncés distinguent ecchymose et hématome ?",
+          "options": [
+            "Ecchymose : infiltration sanguine",
+            "Hématome : collection de sang",
+            "Le terme vital signifie lésion produite du vivant",
+            "Une ecchymose peut toujours être évacuée par ponction"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Une ecchymose est une infiltration, un hématome une collection. Vital n’est pas synonyme de mortel. Ronéo p. 4.",
+          "page": "4",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qrm-03",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRM",
+          "question": "Parmi ces éléments, quels signes sont classés positifs de la mort par la ronéo ?",
+          "options": [
+            "Rigidité cadavérique",
+            "Lividités",
+            "Putréfaction",
+            "Arrêt respiratoire isolé"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les signes positifs reflètent les transformations post mortem ; l’arrêt respiratoire isolé est un signe négatif de vie. Ronéo p. 6–7.",
+          "page": "6–7",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-16323bb6df6e6573-qrm-04",
+          "lessonId": "cm-16323bb6df6e6573",
+          "format": "QRM",
+          "question": "Quelles précautions s’imposent pour dater une lésion ou un décès ?",
+          "options": [
+            "Interpréter la couleur d’une ecchymose avec prudence",
+            "Tenir compte de la température ambiante",
+            "Croiser plusieurs signes et le contexte",
+            "Conclure à une heure certaine à partir d’un halo jaune"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les phénomènes évoluent avec le contexte ; une couleur ou une température isolée ne donnent pas une datation certaine. Ronéo p. 5, 7–8.",
+          "page": "5, 7–8",
+          "source": {
+            "title": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+            "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qrm-01",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRM",
+          "question": "Parmi les critères majeurs cités de gravité d’un traumatisé, lesquels sont retenus ?",
+          "options": [
+            "Hypotension systolique marquée autour de 90 mmHg",
+            "SpO₂ ≤ 90 %",
+            "Glasgow < 13",
+            "ETCO₂ isolé comme unique critère du trio de Vittel"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La ronéo souligne PAS basse, SpO₂ basse et Glasgow inférieur à 13 ; l’ETCO₂ ne fait pas partie du trio rappelé. Le cas frontière à 90 mmHg est discordant dans le PDF. Ronéo p. 7–10.",
+          "page": "7–10",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qrm-02",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRM",
+          "question": "Quels indices peuvent orienter vers une hémorragie grave ?",
+          "options": [
+            "Tachycardie",
+            "Extrémités froides ou marbrées",
+            "Suspicion de fracture du bassin",
+            "Patient conscient donc absence certaine de saignement"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La perfusion peut être compromise avec saignement interne sans plaie extérieure ni perte de conscience. Ronéo p. 6–7.",
+          "page": "6–7",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qrm-03",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRM",
+          "question": "Quelles composantes forment le Glasgow ?",
+          "options": [
+            "Ouverture des yeux",
+            "Réponse verbale",
+            "Réponse motrice",
+            "Saturation en oxygène"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le total du Glasgow repose sur E (4), V (5) et M (6), pour un score de 3 à 15. Ronéo p. 9.",
+          "page": "9",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
+        },
+        {
+          "id": "semio-v13-cm-67af8b3da656c367-qrm-04",
+          "lessonId": "cm-67af8b3da656c367",
+          "format": "QRM",
+          "question": "Quels dangers respiratoires le cours évoque-t-il après un accident routier ?",
+          "options": [
+            "Obstruction des voies aériennes",
+            "Traumatisme thoracique avec pneumothorax",
+            "Atteinte cérébrale ou médullaire",
+            "Fracture de cheville isolée comme cause obligatoire de pneumothorax"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les causes décrites comprennent atteintes des voies aériennes, du thorax, du cerveau et de la moelle. Ronéo p. 7–8.",
+          "page": "7–8",
+          "source": {
+            "title": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+            "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view"
+          }
         }
       ],
       "cases": [],

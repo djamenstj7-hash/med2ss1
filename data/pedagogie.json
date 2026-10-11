@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v12-semiologie-lot8",
+  "revision": "2026-10-11-v13-semiologie-complete",
   "lessons": {
     "cm-de715b67886d4881": {
       "id": "cm-de715b67886d4881",
@@ -20262,6 +20262,2672 @@
         "S’entraîner"
       ],
       "flags": []
+    },
+    "cm-902a16006f1cb7d3": {
+      "id": "cm-902a16006f1cb7d3",
+      "subject": "semio",
+      "title": "Sémiologie du sujet âgé — fragilité, syndromes et vigilance",
+      "courseName": "SÉMIOLOGIE PERSONNE ÂGÉE .pdf",
+      "teacher": "Dr Aurélie Mailliez",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, 17 pages",
+        "url": "https://drive.google.com/file/d/1nZ0go3oRFyCxZYtQReo3nwxwe9AtbfZo/view",
+        "pages": 17
+      },
+      "hook": "En gériatrie, un symptôme n’est jamais une île. Le patient avance avec des réserves physiologiques variables : un petit événement peut faire déborder le vase. On observe donc la personne entière, pas seulement son organe.",
+      "editorialNote": "Réécriture narrative et questions originales fondées sur le CM 2026–2027 (ce ne sont pas des annales). Les éventuelles formulations délicates de la ronéo sont indiquées explicitement ; les photos proviennent du document source.",
+      "flow": [
+        "Vieillissement hétérogène",
+        "Fragilité",
+        "Autonomie & tests",
+        "Confusion aiguë",
+        "Nutrition & prévention"
+      ],
+      "flags": [
+        "Une fragilité n’est pas synonyme de dépendance : elle peut être repérée avant une perte d’autonomie et reste potentiellement réversible (p. 4).",
+        "Le syndrome confusionnel aigu ne doit pas être attribué au vieillissement « normal » : son début aigu impose de rechercher des facteurs précipitants (p. 12)."
+      ],
+      "sections": [
+        {
+          "heading": "Vieillir : même âge, trajectoires différentes",
+          "pages": "2–3",
+          "paragraphs": [
+            "Le même âge inscrit sur deux cartes d’identité ne garantit pas le même état fonctionnel. La ronéo oppose vieillissement physiologique, vieillissement accéléré par les maladies et facteurs environnementaux.",
+            "Pour examiner un sujet âgé, il faut donc rechercher ses capacités actuelles, son environnement et son histoire, sans réduire sa santé à un chiffre."
+          ],
+          "memory": "Âge chronologique ≠ réserves fonctionnelles."
+        },
+        {
+          "heading": "La fragilité : repérer avant que tout ne bascule",
+          "pages": "3–4",
+          "paragraphs": [
+            "La fragilité correspond à une vulnérabilité accrue aux événements défavorables. Le cours propose d’explorer six domaines : marche/équilibre, audition/vision, nutrition, vitalité, cognition et psychologie.",
+            "La préfragilité n’est déjà plus une robustesse complète, mais elle n’est pas non plus une fragilité constituée. Le dépistage permet de proposer des interventions et un suivi avant la chute ou la perte d’autonomie."
+          ],
+          "memory": "Fragilité = vulnérabilité ; dépistage = possibilité d’agir."
+        },
+        {
+          "heading": "Une consultation globale : vérifier au-delà de l’ordonnance",
+          "pages": "4–6",
+          "paragraphs": [
+            "L’entretien doit reconstituer le motif, les antécédents, les traitements réels et les conditions de vie. Le patient peut oublier ou méconnaître certains médicaments : aidants, médecin traitant et pharmacien aident à les vérifier.",
+            "L’examen se poursuit par la recherche de syndromes gériatriques qui s’associent entre eux. Leur fréquence augmente avec l’âge ; ils sont multifactoriels et demandent souvent une prise en charge multidisciplinaire."
+          ],
+          "memory": "Évaluer les traitements, le domicile, l’aide disponible et les syndromes."
+        },
+        {
+          "heading": "Le modèle du bouchon : quand le facteur aigu déborde les réserves",
+          "pages": "6–7",
+          "paragraphs": [
+            "Imagine une bouteille déjà presque remplie par l’âge et les maladies chroniques. Une infection ou une chute peut être la goutte supplémentaire qui entraîne la décompensation : c’est le modèle du bouchon.",
+            "Un événement déclenche parfois une cascade : infection → hospitalisation → immobilisation → dénutrition → faiblesse → confusion → chute. Il faut rechercher ce qui peut être corrigé à chaque étape."
+          ],
+          "memory": "Âge + maladie chronique + événement aigu = risque de décompensation."
+        },
+        {
+          "heading": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "pages": "8–9",
+          "paragraphs": [
+            "ADL mesure six activités élémentaires : toilette, habillage, toilettes, transferts, continence et alimentation. IADL concerne les activités plus complexes : téléphone, courses, ménage, lessive, gestion des médicaments et de l’argent.",
+            "Un patient peut conserver ses ADL tout en ayant perdu des IADL. Le Timed Up and Go observe lever de chaise, marche sur trois mètres, demi-tour, retour et assise ; la station unipodale et la force de préhension complètent l’examen."
+          ],
+          "memory": "ADL = gestes essentiels ; IADL = gérer la vie quotidienne."
+        },
+        {
+          "heading": "Mobilité, cognition, sens et nutrition : quatre regards",
+          "pages": "9–11",
+          "paragraphs": [
+            "La SPPB évalue notamment équilibre, vitesse de marche et levers de chaise. Le cours présente aussi les tests cognitifs MMSE et MoCA, ainsi que l’importance de rechercher les déficits auditifs et visuels.",
+            "Sur le plan nutritionnel, ne te contente pas du poids à un instant donné : suis l’évolution pondérale, les apports, l’IMC et la masse musculaire. Une sarcopénie contribue à la perte de mobilité."
+          ],
+          "memory": "Force + marche + mémoire + sens + nutrition forment un ensemble."
+        },
+        {
+          "heading": "Confusion aiguë : l’alarme, pas une fatalité",
+          "pages": "11–14",
+          "paragraphs": [
+            "Le patient confus change brutalement par rapport à son état habituel. Les troubles fluctuent, avec inattention, pensée désorganisée et parfois altération de la vigilance. La CAM s’appuie sur un début aigu et fluctuant, une inattention, puis une pensée désorganisée ou un niveau de conscience modifié.",
+            "Cherche rapidement l’élément déclencheur : infection, déshydratation, désordre métabolique, médicament, douleur, rétention urinaire, constipation, changement d’environnement ou événement cardio-neurologique. Une maladie cognitive sous-jacente peut ensuite être explorée à distance."
+          ],
+          "memory": "CONFUSION : rapide, fluctuante, attention altérée → rechercher une cause aiguë."
+        },
+        {
+          "heading": "Dénutrition : le cercle vicieux à interrompre",
+          "pages": "14–17",
+          "paragraphs": [
+            "Le cours distingue quatre gestes : confirmer la dénutrition, en mesurer la gravité, la prendre en charge et en suivre l’évolution. Les problèmes bucco-dentaires, les maladies, la dépendance et l’isolement peuvent réduire les apports.",
+            "La dénutrition diminue les défenses, la force musculaire et la capacité à récupérer. Elle favorise infections, chutes et hospitalisations, qui aggravent à leur tour la dénutrition."
+          ],
+          "memory": "Dépister → évaluer → agir → réévaluer : casser la spirale."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Vieillir : même âge, trajectoires différentes",
+          "detail": "Âge chronologique ≠ réserves fonctionnelles.",
+          "pages": "2–3"
+        },
+        {
+          "name": "La fragilité : repérer avant que tout ne bascule",
+          "detail": "Fragilité = vulnérabilité ; dépistage = possibilité d’agir.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Une consultation globale : vérifier au-delà de l’ordonnance",
+          "detail": "Évaluer les traitements, le domicile, l’aide disponible et les syndromes.",
+          "pages": "4–6"
+        },
+        {
+          "name": "Le modèle du bouchon : quand le facteur aigu déborde les réserves",
+          "detail": "Âge + maladie chronique + événement aigu = risque de décompensation.",
+          "pages": "6–7"
+        },
+        {
+          "name": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "detail": "ADL = gestes essentiels ; IADL = gérer la vie quotidienne.",
+          "pages": "8–9"
+        },
+        {
+          "name": "Mobilité, cognition, sens et nutrition : quatre regards",
+          "detail": "Force + marche + mémoire + sens + nutrition forment un ensemble.",
+          "pages": "9–11"
+        },
+        {
+          "name": "Confusion aiguë : l’alarme, pas une fatalité",
+          "detail": "CONFUSION : rapide, fluctuante, attention altérée → rechercher une cause aiguë.",
+          "pages": "11–14"
+        },
+        {
+          "name": "Dénutrition : le cercle vicieux à interrompre",
+          "detail": "Dépister → évaluer → agir → réévaluer : casser la spirale.",
+          "pages": "14–17"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Pourquoi deux personnes du même âge peuvent-elles avoir des états fonctionnels très différents ?",
+          "choices": [
+            "La fragilité apparaît toujours à 80 ans",
+            "Les réserves fonctionnelles sont identiques au même âge",
+            "L’âge seul prédit la dépendance avec certitude",
+            "Le vieillissement est hétérogène et dépend aussi des maladies et de l’environnement"
+          ],
+          "answer": 3,
+          "why": "Le vieillissement est hétérogène et dépend aussi des maladies et de l’environnement. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 2–3. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "2–3",
+          "topic": "Vieillir : même âge, trajectoires différentes",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel ensemble correspond aux domaines de fragilité recherchés ?",
+          "choices": [
+            "Marche, sens, nutrition, vitalité, cognition et psychologie",
+            "Taille, couleur des yeux et latéralité",
+            "Pouls, groupe sanguin, taille et religion",
+            "Troponine, créatinine et ECG uniquement"
+          ],
+          "answer": 0,
+          "why": "Marche, sens, nutrition, vitalité, cognition et psychologie. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes",
+          "difficulty": "standard"
+        },
+        {
+          "q": "La préfragilité correspond à :",
+          "choices": [
+            "Une forme certaine de démence",
+            "Une dépendance irréversible obligatoire",
+            "Un état intermédiaire entre robustesse et fragilité",
+            "Une situation qui dispense de dépistage"
+          ],
+          "answer": 2,
+          "why": "Un état intermédiaire entre robustesse et fragilité. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel intérêt le cours donne-t-il au dépistage de la fragilité ?",
+          "choices": [
+            "Confirmer automatiquement une institutionnalisation",
+            "Repérer tôt une vulnérabilité encore potentiellement réversible",
+            "Éviter tout bilan nutritionnel",
+            "Démontrer que l’âge est une maladie"
+          ],
+          "answer": 1,
+          "why": "Repérer tôt une vulnérabilité encore potentiellement réversible. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel risque est plus fréquent chez le sujet fragile ?",
+          "choices": [
+            "Une absence d’hospitalisations",
+            "La chute et la perte d’autonomie",
+            "Une immunité toujours plus performante",
+            "Une suppression de toutes les maladies chroniques"
+          ],
+          "answer": 1,
+          "why": "La chute et la perte d’autonomie. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "4",
+          "topic": "La fragilité : repérer avant que tout ne bascule",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi faut-il vérifier les traitements avec les proches et professionnels ?",
+          "choices": [
+            "Les médicaments sont inutiles à l’évaluation",
+            "Le dossier pharmaceutique est toujours complet",
+            "Les interactions n’existent plus après 70 ans",
+            "Le patient peut oublier ou confondre ce qu’il prend réellement"
+          ],
+          "answer": 3,
+          "why": "Le patient peut oublier ou confondre ce qu’il prend réellement. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 4–5. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "4–5",
+          "topic": "La fragilité : repérer avant que tout ne bascule",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel trait caractérise un syndrome gériatrique selon le cours ?",
+          "choices": [
+            "Une cause unique obligatoire",
+            "Une origine souvent multifactorielle",
+            "Une absence d’effet sur l’indépendance",
+            "Une fréquence qui diminue avec l’âge"
+          ],
+          "answer": 1,
+          "why": "Une origine souvent multifactorielle. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "6",
+          "topic": "La fragilité : repérer avant que tout ne bascule",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quels sont les trois étages du modèle du bouchon ?",
+          "choices": [
+            "Glycémie, température, taille",
+            "Sport, alimentation et sommeil uniquement",
+            "Diagnostic, imagerie, sortie",
+            "Âge, maladie chronique, maladie aiguë"
+          ],
+          "answer": 3,
+          "why": "Âge, maladie chronique, maladie aiguë. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 7. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "7",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel événement peut déclencher une cascade gériatrique ?",
+          "choices": [
+            "Un examen audiométrique simple",
+            "Une lecture quotidienne de journal",
+            "Une infection respiratoire entraînant immobilisation et perte d’autonomie",
+            "Une consultation de prévention isolée"
+          ],
+          "answer": 2,
+          "why": "Une infection respiratoire entraînant immobilisation et perte d’autonomie. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 7. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "7",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle échelle mesure les activités élémentaires de la vie quotidienne ?",
+          "choices": [
+            "INR",
+            "ECG",
+            "Glasgow",
+            "ADL"
+          ],
+          "answer": 3,
+          "why": "ADL. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 8. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "8",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Combien d’activités l’échelle ADL présentée dans le cours comporte-t-elle ?",
+          "choices": [
+            "Douze",
+            "Trois",
+            "Neuf",
+            "Six"
+          ],
+          "answer": 3,
+          "why": "Six. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 8. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Laquelle est une activité IADL plutôt qu’une ADL ?",
+          "choices": [
+            "Gérer son traitement médicamenteux",
+            "Assurer sa continence",
+            "Se nourrir",
+            "S’habiller"
+          ],
+          "answer": 0,
+          "why": "Gérer son traitement médicamenteux. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 8. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Un patient peut-il conserver ses ADL tout en perdant ses IADL ?",
+          "choices": [
+            "Oui, les activités instrumentales peuvent être altérées en premier",
+            "Oui, mais seulement en cas de coma",
+            "Non, les IADL n’existent pas",
+            "Non, les deux scores sont obligatoirement identiques"
+          ],
+          "answer": 0,
+          "why": "Oui, les activités instrumentales peuvent être altérées en premier. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 8. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Que demande le Timed Up and Go ?",
+          "choices": [
+            "Reconnaître cinq odeurs",
+            "Sauter sur place pendant dix minutes",
+            "Se lever, marcher trois mètres, faire demi-tour, revenir et se rasseoir",
+            "Calculer son IMC mentalement"
+          ],
+          "answer": 2,
+          "why": "Se lever, marcher trois mètres, faire demi-tour, revenir et se rasseoir. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 8–9. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "8–9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel seuil d’équilibre unipodal le cours associe-t-il à un risque accru de chute ?",
+          "choices": [
+            "Plus de deux minutes",
+            "Moins de cinq secondes",
+            "Moins d’une demi-heure",
+            "Exactement vingt secondes"
+          ],
+          "answer": 1,
+          "why": "Moins de cinq secondes. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 9. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Que mesure le grip test ?",
+          "choices": [
+            "La pression artérielle systolique",
+            "L’audition des sons aigus",
+            "La force de préhension musculaire",
+            "La fonction rénale"
+          ],
+          "answer": 2,
+          "why": "La force de préhension musculaire. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 9. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quels tests le cours cite-t-il pour l’évaluation cognitive ?",
+          "choices": [
+            "INR et TCA",
+            "MoCA et MMSE",
+            "Spirométrie et DLCO",
+            "ECG et Holter"
+          ],
+          "answer": 1,
+          "why": "MoCA et MMSE. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 9–10. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "9–10",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel est un caractère majeur du syndrome confusionnel aigu ?",
+          "choices": [
+            "Une évolution toujours lente sur plusieurs années",
+            "Un début aigu et une fluctuation des troubles",
+            "Une stabilité parfaite de l’attention",
+            "Une absence totale de facteur déclenchant"
+          ],
+          "answer": 1,
+          "why": "Un début aigu et une fluctuation des troubles. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle fonction est particulièrement perturbée dans la confusion ?",
+          "choices": [
+            "La couleur de l’iris",
+            "L’attention",
+            "La glycémie uniquement",
+            "La taille osseuse"
+          ],
+          "answer": 1,
+          "why": "L’attention. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quels éléments constituent la logique CAM rapportée ?",
+          "choices": [
+            "Fièvre et douleur uniquement",
+            "IRM positive obligatoire et scanner normal",
+            "Altération de la continence seule",
+            "Début aigu/fluctuant et inattention, associés à pensée désorganisée ou vigilance modifiée"
+          ],
+          "answer": 3,
+          "why": "Début aigu/fluctuant et inattention, associés à pensée désorganisée ou vigilance modifiée. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle démarche est prioritaire devant une confusion aiguë chez un sujet âgé ?",
+          "choices": [
+            "Conclure à un vieillissement normal",
+            "Chercher une cause aiguë précipitante",
+            "Prescrire systématiquement une échelle IADL seule",
+            "Attendre six mois sans investigation"
+          ],
+          "answer": 1,
+          "why": "Chercher une cause aiguë précipitante. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12–14. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "12–14",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel facteur déclenchant de confusion est cité dans le cours ?",
+          "choices": [
+            "Rétention urinaire",
+            "Myopie ancienne isolée",
+            "Couleur des cheveux",
+            "Groupe sanguin O"
+          ],
+          "answer": 0,
+          "why": "Rétention urinaire. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "12",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quand explorer une maladie cognitive sous-jacente après une confusion traitée ?",
+          "choices": [
+            "À l’instant où le patient fait de la fièvre",
+            "À distance de l’épisode aigu",
+            "Jamais après une confusion",
+            "Uniquement pendant la crise d’agitation"
+          ],
+          "answer": 1,
+          "why": "À distance de l’épisode aigu. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 12. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "12",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel parcours en quatre étapes suit l’évaluation nutritionnelle ?",
+          "choices": [
+            "Éviter le dépistage, attendre, constater, classer",
+            "Radiographie, ECG, PL, biopsie",
+            "Jeûne, sédation, isolement, sortie",
+            "Confirmer, évaluer la gravité, prendre en charge, surveiller"
+          ],
+          "answer": 3,
+          "why": "Confirmer, évaluer la gravité, prendre en charge, surveiller. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 15. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "15",
+          "topic": "Dénutrition : le cercle vicieux à interrompre",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi la dénutrition favorise-t-elle les chutes ?",
+          "choices": [
+            "Elle rend automatiquement les muscles hypertoniques",
+            "Elle diminue notamment la masse et la force musculaires",
+            "Elle augmente toujours la densité osseuse",
+            "Elle supprime les troubles de l’équilibre"
+          ],
+          "answer": 1,
+          "why": "Elle diminue notamment la masse et la force musculaires. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 16–17. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "16–17",
+          "topic": "Dénutrition : le cercle vicieux à interrompre",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelle situation psychosociale peut participer à une dénutrition ?",
+          "choices": [
+            "Bonne couverture nutritionnelle",
+            "Consultation de prévention annuelle",
+            "Présence régulière d’un entourage aidant",
+            "Isolement avec difficultés à préparer les repas"
+          ],
+          "answer": 3,
+          "why": "Isolement avec difficultés à préparer les repas. Explication et repère : « Sémiologie du sujet âgé — fragilité, syndromes et vigilance », ronéo 2026–2027, p. 16. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "16",
+          "topic": "Dénutrition : le cercle vicieux à interrompre",
+          "difficulty": "standard"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Pourquoi deux personnes du même âge peuvent-elles avoir des états fonctionnels très différents ?",
+          "a": "Le vieillissement est hétérogène et dépend aussi des maladies et de l’environnement",
+          "pages": "2–3",
+          "topic": "Vieillir : même âge, trajectoires différentes"
+        },
+        {
+          "q": "Quel ensemble correspond aux domaines de fragilité recherchés ?",
+          "a": "Marche, sens, nutrition, vitalité, cognition et psychologie",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes"
+        },
+        {
+          "q": "La préfragilité correspond à :",
+          "a": "Un état intermédiaire entre robustesse et fragilité",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes"
+        },
+        {
+          "q": "Quel intérêt le cours donne-t-il au dépistage de la fragilité ?",
+          "a": "Repérer tôt une vulnérabilité encore potentiellement réversible",
+          "pages": "4",
+          "topic": "Vieillir : même âge, trajectoires différentes"
+        },
+        {
+          "q": "Quel risque est plus fréquent chez le sujet fragile ?",
+          "a": "La chute et la perte d’autonomie",
+          "pages": "4",
+          "topic": "La fragilité : repérer avant que tout ne bascule"
+        },
+        {
+          "q": "Pourquoi faut-il vérifier les traitements avec les proches et professionnels ?",
+          "a": "Le patient peut oublier ou confondre ce qu’il prend réellement",
+          "pages": "4–5",
+          "topic": "La fragilité : repérer avant que tout ne bascule"
+        },
+        {
+          "q": "Quel trait caractérise un syndrome gériatrique selon le cours ?",
+          "a": "Une origine souvent multifactorielle",
+          "pages": "6",
+          "topic": "La fragilité : repérer avant que tout ne bascule"
+        },
+        {
+          "q": "Quels sont les trois étages du modèle du bouchon ?",
+          "a": "Âge, maladie chronique, maladie aiguë",
+          "pages": "7",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance"
+        },
+        {
+          "q": "Quel événement peut déclencher une cascade gériatrique ?",
+          "a": "Une infection respiratoire entraînant immobilisation et perte d’autonomie",
+          "pages": "7",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance"
+        },
+        {
+          "q": "Quelle échelle mesure les activités élémentaires de la vie quotidienne ?",
+          "a": "ADL",
+          "pages": "8",
+          "topic": "Une consultation globale : vérifier au-delà de l’ordonnance"
+        },
+        {
+          "q": "Combien d’activités l’échelle ADL présentée dans le cours comporte-t-elle ?",
+          "a": "Six",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves"
+        },
+        {
+          "q": "Laquelle est une activité IADL plutôt qu’une ADL ?",
+          "a": "Gérer son traitement médicamenteux",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves"
+        },
+        {
+          "q": "Un patient peut-il conserver ses ADL tout en perdant ses IADL ?",
+          "a": "Oui, les activités instrumentales peuvent être altérées en premier",
+          "pages": "8",
+          "topic": "Le modèle du bouchon : quand le facteur aigu déborde les réserves"
+        },
+        {
+          "q": "Que demande le Timed Up and Go ?",
+          "a": "Se lever, marcher trois mètres, faire demi-tour, revenir et se rasseoir",
+          "pages": "8–9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle"
+        },
+        {
+          "q": "Quel seuil d’équilibre unipodal le cours associe-t-il à un risque accru de chute ?",
+          "a": "Moins de cinq secondes",
+          "pages": "9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle"
+        },
+        {
+          "q": "Que mesure le grip test ?",
+          "a": "La force de préhension musculaire",
+          "pages": "9",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle"
+        },
+        {
+          "q": "Quels tests le cours cite-t-il pour l’évaluation cognitive ?",
+          "a": "MoCA et MMSE",
+          "pages": "9–10",
+          "topic": "ADL, IADL et marche : mesurer l’autonomie réelle"
+        },
+        {
+          "q": "Quel est un caractère majeur du syndrome confusionnel aigu ?",
+          "a": "Un début aigu et une fluctuation des troubles",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards"
+        },
+        {
+          "q": "Quelle fonction est particulièrement perturbée dans la confusion ?",
+          "a": "L’attention",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards"
+        },
+        {
+          "q": "Quels éléments constituent la logique CAM rapportée ?",
+          "a": "Début aigu/fluctuant et inattention, associés à pensée désorganisée ou vigilance modifiée",
+          "pages": "12",
+          "topic": "Mobilité, cognition, sens et nutrition : quatre regards"
+        },
+        {
+          "q": "Quelle démarche est prioritaire devant une confusion aiguë chez un sujet âgé ?",
+          "a": "Chercher une cause aiguë précipitante",
+          "pages": "12–14",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité"
+        },
+        {
+          "q": "Quel facteur déclenchant de confusion est cité dans le cours ?",
+          "a": "Rétention urinaire",
+          "pages": "12",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité"
+        },
+        {
+          "q": "Quand explorer une maladie cognitive sous-jacente après une confusion traitée ?",
+          "a": "À distance de l’épisode aigu",
+          "pages": "12",
+          "topic": "Confusion aiguë : l’alarme, pas une fatalité"
+        },
+        {
+          "q": "Quel parcours en quatre étapes suit l’évaluation nutritionnelle ?",
+          "a": "Confirmer, évaluer la gravité, prendre en charge, surveiller",
+          "pages": "15",
+          "topic": "Dénutrition : le cercle vicieux à interrompre"
+        },
+        {
+          "q": "Pourquoi la dénutrition favorise-t-elle les chutes ?",
+          "a": "Elle diminue notamment la masse et la force musculaires",
+          "pages": "16–17",
+          "topic": "Dénutrition : le cercle vicieux à interrompre"
+        },
+        {
+          "q": "Quelle situation psychosociale peut participer à une dénutrition ?",
+          "a": "Isolement avec difficultés à préparer les repas",
+          "pages": "16",
+          "topic": "Dénutrition : le cercle vicieux à interrompre"
+        }
+      ]
+    },
+    "cm-ef1a54f93d5a2366": {
+      "id": "cm-ef1a54f93d5a2366",
+      "subject": "semio",
+      "title": "Sémiologie de la fin de vie — accompagner la phase ultime",
+      "courseName": "SÉMIOLOGIE DE LA FIN DE VIE.pdf",
+      "teacher": "Dr C. Prod’homme",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, 13 pages",
+        "url": "https://drive.google.com/file/d/18mfPCBgqL_XVX1v1geOJsLMbvYUL9Y_h/view",
+        "pages": 13
+      },
+      "hook": "Devant les derniers moments, la sémiologie n’est pas un compte à rebours. Elle aide à distinguer ce qui fait souffrir, ce qui traduit l’évolution physiologique, et ce qui peut être soulagé. Le patient et ses proches restent au centre.",
+      "editorialNote": "Réécriture narrative et questions originales fondées sur le CM 2026–2027 (ce ne sont pas des annales). Les éventuelles formulations délicates de la ronéo sont indiquées explicitement ; les photos proviennent du document source.",
+      "flow": [
+        "Phase terminale",
+        "Phase ultime",
+        "Pré-agonie : réversibilité possible",
+        "Agonie : irréversibilité",
+        "Confort & proches"
+      ],
+      "flags": [
+        "Les signes pré-agoniques ne sont ni spécifiques ni nécessairement irréversibles. Ne jamais conclure à la fin de vie sur une marbrure ou une polypnée isolée (p. 5–9).",
+        "Le terme « confusion = infection cérébrale aiguë » apparaît dans la ronéo (p. 6) : formulation impropre. Le cours décrit dans le même paragraphe un trouble aigu et fluctuant de la vigilance et de l’attention ; la confusion peut être déclenchée par diverses causes et n’est pas synonyme d’infection cérébrale."
+      ],
+      "sections": [
+        {
+          "heading": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "pages": "2",
+          "paragraphs": [
+            "La phase terminale correspond à une maladie incurable dont l’évolution altère les fonctions et la qualité de vie ; elle ne se définit pas uniquement par un nombre fixe de jours.",
+            "La phase ultime associe une évolution défavorable et des défaillances vitales. Elle comprend une phase pré-agonique, puis parfois une phase agonique difficile à identifier lorsqu’elle est très brève."
+          ],
+          "memory": "Terminale = contexte ; ultime = défaillances ; pré-agonie/agonie = étapes."
+        },
+        {
+          "heading": "Reconnaître pour accompagner, distinguer et décider",
+          "pages": "2–4",
+          "paragraphs": [
+            "La reconnaissance clinique aide à expliquer aux proches les manifestations observées et à ajuster les soins. Un mouvement respiratoire impressionnant n’est pas, à lui seul, la preuve d’une souffrance ressentie.",
+            "Le confort couvre les besoins fondamentaux ; la douleur est une expérience sensorielle et émotionnelle subjective ; la souffrance peut être psychique, sociale ou spirituelle. Les décisions de traitement visent à éviter les soins devenus disproportionnés tout en préservant l’accompagnement."
+          ],
+          "memory": "Trois missions : accompagner, distinguer, décider."
+        },
+        {
+          "heading": "Pré-agonie : le corps se met en mode économie",
+          "pages": "4–6",
+          "paragraphs": [
+            "La phase pré-agonique ressemble à une défaillance multi-organique avec état de choc ; elle demeure potentiellement réversible selon le contexte. Une infection ou une déshydratation corrigée peut parfois améliorer nettement l’état d’un patient.",
+            "Sur le plan circulatoire, on peut observer extrémités froides, cyanose, marbrures, hypotension, tachycardie et pouls filant. Aucun de ces signes ne suffit à isoler un pronostic."
+          ],
+          "memory": "Pré-agonie = faisceau de défaillances, parfois réversible."
+        },
+        {
+          "heading": "Neurologie, digestion et reins : une constellation de signes",
+          "pages": "6–7",
+          "paragraphs": [
+            "La confusion aiguë peut associer inattention, désorientation, agitation ou somnolence, hallucinations et fluctuation de vigilance. Elle fait discuter des facteurs aggravants dans le contexte global du patient.",
+            "Sont également décrits constipation, diarrhée, rétention urinaire, oligo-anurie et sécheresse buccale. Leur absence ne suffit pas à écarter une évolution ultime."
+          ],
+          "memory": "La clinique varie : ne pas attendre une check-list complète."
+        },
+        {
+          "heading": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "pages": "7–8",
+          "paragraphs": [
+            "Le cours décrit polypnée, désaturation, cyanose et signes de lutte : tirage, battement des ailes du nez, balancement thoraco-abdominal. Il faut apprécier ces signes avec le niveau de conscience et les indices de confort.",
+            "La respiration de Cheyne–Stokes alterne des mouvements respiratoires croissants, puis décroissants, et des périodes d’apnée. Le mécanisme est involontaire et peut impressionner les proches : expliquer ce qu’ils voient fait partie du soin."
+          ],
+          "memory": "Cheyne–Stokes = crescendo → decrescendo → apnée → reprise."
+        },
+        {
+          "heading": "Soulager : un soin actif, pas un abandon",
+          "pages": "8–9",
+          "paragraphs": [
+            "Le confort impose de soulager douleur, anxiété, agitation et dyspnée selon l’évaluation clinique. Lorsque des symptômes persistent malgré les traitements adaptés, une sédation peut être discutée dans le cadre prévu par l’équipe.",
+            "La durée pré-agonique est incertaine : du temps pour soigner, expliquer, réévaluer et respecter les souhaits exprimés."
+          ],
+          "memory": "Réévaluer le confort plutôt que traiter une valeur isolée."
+        },
+        {
+          "heading": "Agonie : quand les fonctions vitales s’éteignent",
+          "pages": "9–11",
+          "paragraphs": [
+            "La phase agonique est présentée comme irréversible, menant au décès à court terme. Un coma aréactif et la disparition progressive de certains réflexes du tronc cérébral en sont des manifestations neurologiques ; une hypotonie peut entraîner une ouverture de la bouche.",
+            "La respiration devient souvent lente, irrégulière, interrompue par des apnées plus longues. Le râle terminal provient d’une accumulation de sécrétions que le patient ne peut plus évacuer par toux ou déglutition."
+          ],
+          "memory": "Agonie = altération neurologique profonde + respiration terminale."
+        },
+        {
+          "heading": "Gasps, circulation et accompagnement des proches",
+          "pages": "11–13",
+          "paragraphs": [
+            "Les gasps sont des inspirations réflexes archaïques et inefficaces, avec ouverture brusque de la bouche et mouvement de la mandibule. Ils ne doivent pas être interprétés d’emblée comme l’expression consciente d’un étouffement.",
+            "Bradycardie, hypotension, teint cireux et oligo-anurie peuvent accompagner l’extinction circulatoire. L’équipe continue les soins de bouche, le positionnement, l’attention au confort et l’information répétée des proches."
+          ],
+          "memory": "Même lorsque guérir n’est plus possible, prendre soin reste essentiel."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "detail": "Terminale = contexte ; ultime = défaillances ; pré-agonie/agonie = étapes.",
+          "pages": "2"
+        },
+        {
+          "name": "Reconnaître pour accompagner, distinguer et décider",
+          "detail": "Trois missions : accompagner, distinguer, décider.",
+          "pages": "2–4"
+        },
+        {
+          "name": "Pré-agonie : le corps se met en mode économie",
+          "detail": "Pré-agonie = faisceau de défaillances, parfois réversible.",
+          "pages": "4–6"
+        },
+        {
+          "name": "Neurologie, digestion et reins : une constellation de signes",
+          "detail": "La clinique varie : ne pas attendre une check-list complète.",
+          "pages": "6–7"
+        },
+        {
+          "name": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "detail": "Cheyne–Stokes = crescendo → decrescendo → apnée → reprise.",
+          "pages": "7–8"
+        },
+        {
+          "name": "Soulager : un soin actif, pas un abandon",
+          "detail": "Réévaluer le confort plutôt que traiter une valeur isolée.",
+          "pages": "8–9"
+        },
+        {
+          "name": "Agonie : quand les fonctions vitales s’éteignent",
+          "detail": "Agonie = altération neurologique profonde + respiration terminale.",
+          "pages": "9–11"
+        },
+        {
+          "name": "Gasps, circulation et accompagnement des proches",
+          "detail": "Même lorsque guérir n’est plus possible, prendre soin reste essentiel.",
+          "pages": "11–13"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Qu’est-ce qui définit surtout la phase terminale dans le cours ?",
+          "choices": [
+            "Une hospitalisation de plus de six heures",
+            "Une fréquence cardiaque supérieure à 100 seule",
+            "Une période fixe de 24 heures avant la mort",
+            "Une maladie incurable en progression avec déclin fonctionnel irréversible"
+          ],
+          "answer": 3,
+          "why": "Une maladie incurable en progression avec déclin fonctionnel irréversible. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "2",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelles étapes peuvent composer la phase ultime ?",
+          "choices": [
+            "Incubation puis convalescence",
+            "Traumatisme puis consolidation",
+            "Pré-agonie puis agonie, cette dernière parfois très brève",
+            "Remission puis croissance"
+          ],
+          "answer": 2,
+          "why": "Pré-agonie puis agonie, cette dernière parfois très brève. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "2",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel trio décrit les responsabilités du médecin dans cette sémiologie ?",
+          "choices": [
+            "Isoler, attendre et ignorer",
+            "Accompagner, distinguer et décider",
+            "Radiographier, opérer et sortir",
+            "Mesurer, transférer et interdire les visites"
+          ],
+          "answer": 1,
+          "why": "Accompagner, distinguer et décider. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 2–4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "2–4",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "difficulty": "standard"
+        },
+        {
+          "q": "La douleur est décrite principalement comme :",
+          "choices": [
+            "Un signe exclusivement biologique",
+            "Une expérience subjective sensorielle et émotionnelle",
+            "Une valeur mesurable uniquement au tensiomètre",
+            "Un réflexe respiratoire toujours inconscient"
+          ],
+          "answer": 1,
+          "why": "Une expérience subjective sensorielle et émotionnelle. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "4",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Pourquoi douleur et souffrance ne sont-elles pas strictement synonymes ?",
+          "choices": [
+            "La souffrance peut inclure des dimensions psychiques, sociales ou spirituelles",
+            "La souffrance est toujours une blessure ouverte",
+            "La douleur n’existe qu’en phase agonique",
+            "La souffrance exclut toute dimension émotionnelle"
+          ],
+          "answer": 0,
+          "why": "La souffrance peut inclure des dimensions psychiques, sociales ou spirituelles. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "4",
+          "topic": "Reconnaître pour accompagner, distinguer et décider",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle caractéristique distingue la pré-agonie de l’agonie dans cette ronéo ?",
+          "choices": [
+            "La pré-agonie exclut toute défaillance d’organe",
+            "La pré-agonie reste potentiellement réversible",
+            "La pré-agonie dure toujours dix minutes",
+            "La pré-agonie est toujours un signe certain de décès"
+          ],
+          "answer": 1,
+          "why": "La pré-agonie reste potentiellement réversible. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "5",
+          "topic": "Reconnaître pour accompagner, distinguer et décider",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel exemple montre qu’un tableau pré-agonique peut s’améliorer ?",
+          "choices": [
+            "Pneumopathie avec défaillances dont le traitement améliore l’état",
+            "Rigidité cadavérique installée",
+            "Décès déjà certifié par signes positifs",
+            "Putréfaction établie"
+          ],
+          "answer": 0,
+          "why": "Pneumopathie avec défaillances dont le traitement améliore l’état. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "5",
+          "topic": "Reconnaître pour accompagner, distinguer et décider",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel signe circulatoire peut accompagner la phase pré-agonique ?",
+          "choices": [
+            "Des marbrures et des extrémités froides",
+            "Un signe de Babinski isolé",
+            "Des réflexes ostéotendineux vifs isolés",
+            "Une hypertrophie musculaire systématique"
+          ],
+          "answer": 0,
+          "why": "Des marbrures et des extrémités froides. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "5",
+          "topic": "Pré-agonie : le corps se met en mode économie",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Qu’appelle-t-on pouls filant ?",
+          "choices": [
+            "Une onde ECG plus large",
+            "Un souffle cardiaque auscultatoire",
+            "Un pouls très faible, difficile à percevoir",
+            "Un pouls toujours bondissant"
+          ],
+          "answer": 2,
+          "why": "Un pouls très faible, difficile à percevoir. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 5. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "5",
+          "topic": "Pré-agonie : le corps se met en mode économie",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Peut-on affirmer la pré-agonie sur une hypotension isolée ?",
+          "choices": [
+            "Oui, même après une déshydratation réversible",
+            "Oui, une hypotension suffit à annoncer le décès",
+            "Non, les signes ne sont pas spécifiques et doivent être contextualisés",
+            "Oui, sans tenir compte de la maladie sous-jacente"
+          ],
+          "answer": 2,
+          "why": "Non, les signes ne sont pas spécifiques et doivent être contextualisés. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 6. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "6",
+          "topic": "Pré-agonie : le corps se met en mode économie",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelle manifestation neurologique peut apparaître en pré-agonie ?",
+          "choices": [
+            "Une confusion aiguë et fluctuante",
+            "Un réflexe cornéen toujours conservé",
+            "Une myopie isolée",
+            "Une mémoire nécessairement intacte"
+          ],
+          "answer": 0,
+          "why": "Une confusion aiguë et fluctuante. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "6",
+          "topic": "Neurologie, digestion et reins : une constellation de signes",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel symptôme urinaire le cours cite-t-il ?",
+          "choices": [
+            "Un besoin toujours augmenté de miction",
+            "Une rétention aiguë d’urine",
+            "Une pollakiurie nocturne isolée comme critère obligatoire",
+            "Une hématurie systématique"
+          ],
+          "answer": 1,
+          "why": "Une rétention aiguë d’urine. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 6. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "6",
+          "topic": "Neurologie, digestion et reins : une constellation de signes",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel signe caractérise la polypnée ?",
+          "choices": [
+            "Une seule inspiration par heure",
+            "Une augmentation de la fréquence respiratoire",
+            "L’arrêt définitif de tout mouvement respiratoire",
+            "Une diminution de la température centrale"
+          ],
+          "answer": 1,
+          "why": "Une augmentation de la fréquence respiratoire. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 7. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "7",
+          "topic": "Neurologie, digestion et reins : une constellation de signes",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel signe de lutte provoque une dépression visible des espaces intercostaux à l’inspiration ?",
+          "choices": [
+            "La diurèse",
+            "Le tirage",
+            "Le signe de Babinski",
+            "La mydriase"
+          ],
+          "answer": 1,
+          "why": "Le tirage. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 7. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "7",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "difficulty": "standard"
+        },
+        {
+          "q": "À quoi correspond le battement des ailes du nez ?",
+          "choices": [
+            "À une bradycardie isolée",
+            "À une fermeture permanente des paupières",
+            "À une hypertonie des mollets",
+            "À une dilatation inspiratoire des narines"
+          ],
+          "answer": 3,
+          "why": "À une dilatation inspiratoire des narines. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 7. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "7",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Comment se décrit la respiration de Cheyne–Stokes ?",
+          "choices": [
+            "Augmentation puis diminution de l’amplitude respiratoire, avec apnées",
+            "Respiration exclusivement volontaire",
+            "Un éternuement isolé",
+            "Respiration toujours uniforme et sans pause"
+          ],
+          "answer": 0,
+          "why": "Augmentation puis diminution de l’amplitude respiratoire, avec apnées. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 8. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "8",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Un cycle de Cheyne–Stokes prouve-t-il une sensation consciente de suffocation ?",
+          "choices": [
+            "Non, car il ne peut jamais survenir en fin de vie",
+            "Non, le ressenti doit être apprécié selon l’état neurologique et le confort",
+            "Oui, quelle que soit la conscience",
+            "Oui, même chez une personne en coma profond"
+          ],
+          "answer": 1,
+          "why": "Non, le ressenti doit être apprécié selon l’état neurologique et le confort. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 8. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "8",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Que privilégier devant des symptômes pénibles persistants ?",
+          "choices": [
+            "Réévaluation et soulagement proportionnés, avec discussion de sédation si réfractaires",
+            "Aucune intervention de confort",
+            "Un examen douloureux répété sans objectif",
+            "Une antibiothérapie systématique quelle que soit la cause"
+          ],
+          "answer": 0,
+          "why": "Réévaluation et soulagement proportionnés, avec discussion de sédation si réfractaires. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 8–9. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "8–9",
+          "topic": "Soulager : un soin actif, pas un abandon",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle phase est décrite comme irréversible et proche du décès ?",
+          "choices": [
+            "La phase préclinique d’une maladie",
+            "La préfragilité",
+            "La phase agonique",
+            "La convalescence"
+          ],
+          "answer": 2,
+          "why": "La phase agonique. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 9. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "9",
+          "topic": "Soulager : un soin actif, pas un abandon",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel signe neurologique majeur peut marquer l’agonie ?",
+          "choices": [
+            "Une hypervigilance obligatoire",
+            "Un coma aréactif",
+            "Une amélioration de la mémoire",
+            "Une lecture de journal conservée"
+          ],
+          "answer": 1,
+          "why": "Un coma aréactif. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 10. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "10",
+          "topic": "Soulager : un soin actif, pas un abandon",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel réflexe du tronc cérébral le cours cite-t-il ?",
+          "choices": [
+            "La contraction du quadriceps à l’effort",
+            "Le réflexe bicipital comme réflexe crânien",
+            "Le réflexe rotulien comme réflexe crânien",
+            "Le réflexe photomoteur"
+          ],
+          "answer": 3,
+          "why": "Le réflexe photomoteur. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 10. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "10",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi apparaît un râle terminal ?",
+          "choices": [
+            "Les bronches deviennent toujours parfaitement sèches",
+            "La personne crie volontairement",
+            "Les sécrétions stagnent car la toux et la déglutition deviennent inefficaces",
+            "Un pneumothorax se forme obligatoirement"
+          ],
+          "answer": 2,
+          "why": "Les sécrétions stagnent car la toux et la déglutition deviennent inefficaces. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 11. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "11",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Que sont les gasps dans ce contexte ?",
+          "choices": [
+            "Des respirations volontaires contrôlées",
+            "Une reprise certaine de conscience",
+            "Des inspirations réflexes archaïques et inefficaces",
+            "Des efforts musculaires pour se lever"
+          ],
+          "answer": 2,
+          "why": "Des inspirations réflexes archaïques et inefficaces. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 12. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "12",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel signe hémodynamique peut s’observer au cours de l’agonie ?",
+          "choices": [
+            "Retour garanti d’un pouls normal",
+            "Hypertension obligatoire à 200 mmHg",
+            "Poussée systématique de débit cardiaque",
+            "Bradycardie et hypotension"
+          ],
+          "answer": 3,
+          "why": "Bradycardie et hypotension. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 12–13. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "12–13",
+          "topic": "Gasps, circulation et accompagnement des proches",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelles actions d’accompagnement restent essentielles en phase ultime ?",
+          "choices": [
+            "Soins de bouche, positionnement, confort et présence des proches",
+            "Interdire systématiquement les visites",
+            "Arrêter toute évaluation du confort",
+            "Supprimer toute communication avec le patient"
+          ],
+          "answer": 0,
+          "why": "Soins de bouche, positionnement, confort et présence des proches. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 13. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "13",
+          "topic": "Gasps, circulation et accompagnement des proches",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "La durée de la phase pré-agonique est-elle prévisible exactement ?",
+          "choices": [
+            "Non, elle reste incertaine et le pronostic difficile",
+            "Oui, uniquement sur la couleur des marbrures",
+            "Oui, exactement deux jours",
+            "Oui, strictement cinq minutes"
+          ],
+          "answer": 0,
+          "why": "Non, elle reste incertaine et le pronostic difficile. Explication et repère : « Sémiologie de la fin de vie — accompagner la phase ultime », ronéo 2026–2027, p. 9. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "9",
+          "topic": "Gasps, circulation et accompagnement des proches",
+          "difficulty": "standard"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Qu’est-ce qui définit surtout la phase terminale dans le cours ?",
+          "a": "Une maladie incurable en progression avec déclin fonctionnel irréversible",
+          "pages": "2",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique"
+        },
+        {
+          "q": "Quelles étapes peuvent composer la phase ultime ?",
+          "a": "Pré-agonie puis agonie, cette dernière parfois très brève",
+          "pages": "2",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique"
+        },
+        {
+          "q": "Quel trio décrit les responsabilités du médecin dans cette sémiologie ?",
+          "a": "Accompagner, distinguer et décider",
+          "pages": "2–4",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique"
+        },
+        {
+          "q": "La douleur est décrite principalement comme :",
+          "a": "Une expérience subjective sensorielle et émotionnelle",
+          "pages": "4",
+          "topic": "Trois mots, trois horizons : terminale, ultime, pré-agonique"
+        },
+        {
+          "q": "Pourquoi douleur et souffrance ne sont-elles pas strictement synonymes ?",
+          "a": "La souffrance peut inclure des dimensions psychiques, sociales ou spirituelles",
+          "pages": "4",
+          "topic": "Reconnaître pour accompagner, distinguer et décider"
+        },
+        {
+          "q": "Quelle caractéristique distingue la pré-agonie de l’agonie dans cette ronéo ?",
+          "a": "La pré-agonie reste potentiellement réversible",
+          "pages": "5",
+          "topic": "Reconnaître pour accompagner, distinguer et décider"
+        },
+        {
+          "q": "Quel exemple montre qu’un tableau pré-agonique peut s’améliorer ?",
+          "a": "Pneumopathie avec défaillances dont le traitement améliore l’état",
+          "pages": "5",
+          "topic": "Reconnaître pour accompagner, distinguer et décider"
+        },
+        {
+          "q": "Quel signe circulatoire peut accompagner la phase pré-agonique ?",
+          "a": "Des marbrures et des extrémités froides",
+          "pages": "5",
+          "topic": "Pré-agonie : le corps se met en mode économie"
+        },
+        {
+          "q": "Qu’appelle-t-on pouls filant ?",
+          "a": "Un pouls très faible, difficile à percevoir",
+          "pages": "5",
+          "topic": "Pré-agonie : le corps se met en mode économie"
+        },
+        {
+          "q": "Peut-on affirmer la pré-agonie sur une hypotension isolée ?",
+          "a": "Non, les signes ne sont pas spécifiques et doivent être contextualisés",
+          "pages": "6",
+          "topic": "Pré-agonie : le corps se met en mode économie"
+        },
+        {
+          "q": "Quelle manifestation neurologique peut apparaître en pré-agonie ?",
+          "a": "Une confusion aiguë et fluctuante",
+          "pages": "6",
+          "topic": "Neurologie, digestion et reins : une constellation de signes"
+        },
+        {
+          "q": "Quel symptôme urinaire le cours cite-t-il ?",
+          "a": "Une rétention aiguë d’urine",
+          "pages": "6",
+          "topic": "Neurologie, digestion et reins : une constellation de signes"
+        },
+        {
+          "q": "Quel signe caractérise la polypnée ?",
+          "a": "Une augmentation de la fréquence respiratoire",
+          "pages": "7",
+          "topic": "Neurologie, digestion et reins : une constellation de signes"
+        },
+        {
+          "q": "Quel signe de lutte provoque une dépression visible des espaces intercostaux à l’inspiration ?",
+          "a": "Le tirage",
+          "pages": "7",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti"
+        },
+        {
+          "q": "À quoi correspond le battement des ailes du nez ?",
+          "a": "À une dilatation inspiratoire des narines",
+          "pages": "7",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti"
+        },
+        {
+          "q": "Comment se décrit la respiration de Cheyne–Stokes ?",
+          "a": "Augmentation puis diminution de l’amplitude respiratoire, avec apnées",
+          "pages": "8",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti"
+        },
+        {
+          "q": "Un cycle de Cheyne–Stokes prouve-t-il une sensation consciente de suffocation ?",
+          "a": "Non, le ressenti doit être apprécié selon l’état neurologique et le confort",
+          "pages": "8",
+          "topic": "Respiration : distinguer le bruit, l’effort et le ressenti"
+        },
+        {
+          "q": "Que privilégier devant des symptômes pénibles persistants ?",
+          "a": "Réévaluation et soulagement proportionnés, avec discussion de sédation si réfractaires",
+          "pages": "8–9",
+          "topic": "Soulager : un soin actif, pas un abandon"
+        },
+        {
+          "q": "Quelle phase est décrite comme irréversible et proche du décès ?",
+          "a": "La phase agonique",
+          "pages": "9",
+          "topic": "Soulager : un soin actif, pas un abandon"
+        },
+        {
+          "q": "Quel signe neurologique majeur peut marquer l’agonie ?",
+          "a": "Un coma aréactif",
+          "pages": "10",
+          "topic": "Soulager : un soin actif, pas un abandon"
+        },
+        {
+          "q": "Quel réflexe du tronc cérébral le cours cite-t-il ?",
+          "a": "Le réflexe photomoteur",
+          "pages": "10",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent"
+        },
+        {
+          "q": "Pourquoi apparaît un râle terminal ?",
+          "a": "Les sécrétions stagnent car la toux et la déglutition deviennent inefficaces",
+          "pages": "11",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent"
+        },
+        {
+          "q": "Que sont les gasps dans ce contexte ?",
+          "a": "Des inspirations réflexes archaïques et inefficaces",
+          "pages": "12",
+          "topic": "Agonie : quand les fonctions vitales s’éteignent"
+        },
+        {
+          "q": "Quel signe hémodynamique peut s’observer au cours de l’agonie ?",
+          "a": "Bradycardie et hypotension",
+          "pages": "12–13",
+          "topic": "Gasps, circulation et accompagnement des proches"
+        },
+        {
+          "q": "Quelles actions d’accompagnement restent essentielles en phase ultime ?",
+          "a": "Soins de bouche, positionnement, confort et présence des proches",
+          "pages": "13",
+          "topic": "Gasps, circulation et accompagnement des proches"
+        },
+        {
+          "q": "La durée de la phase pré-agonique est-elle prévisible exactement ?",
+          "a": "Non, elle reste incertaine et le pronostic difficile",
+          "pages": "9",
+          "topic": "Gasps, circulation et accompagnement des proches"
+        }
+      ]
+    },
+    "cm-16323bb6df6e6573": {
+      "id": "cm-16323bb6df6e6573",
+      "subject": "semio",
+      "title": "Sémiologie médico-légale — blessures et signes de la mort",
+      "courseName": "SÉMIOLOGIE MÉDICO-LÉGALE.pdf",
+      "teacher": "Pr V. Hédouin",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, 8 pages",
+        "url": "https://drive.google.com/file/d/1ky5eFgjQGvjhTZvXRA_EN01Kc5xdIsc3/view",
+        "pages": 8
+      },
+      "hook": "Le médecin légiste lit les tissus comme un carnet d’indices. La profondeur, les bords d’une plaie et l’aspect d’une contusion renseignent sur le mécanisme ; pour le décès, il distingue les signes réversibles des transformations post mortem.",
+      "editorialNote": "Réécriture narrative et questions originales fondées sur le CM 2026–2027 (ce ne sont pas des annales). Les éventuelles formulations délicates de la ronéo sont indiquées explicitement ; les photos proviennent du document source.",
+      "flow": [
+        "Couches cutanées",
+        "Blessures avec effraction",
+        "Contusions sans effraction",
+        "Vitalité et chronologie",
+        "Signes du décès"
+      ],
+      "flags": [
+        "La couleur d’une ecchymose donne une orientation grossière, pas une datation certaine au jour près. La ronéo précise qu’un halo jaunâtre ne permet pas de dater précisément la lésion (p. 5).",
+        "La ronéo décrit la rigidité comme « neurodépendante » puis explique une contraction post mortem sans commande cérébrale (p. 6–7). Ce terme est contradictoire avec son mécanisme : ne pas apprendre cette étiquette comme une vérité.",
+        "Les délais d’apparition de la rigidité et du refroidissement sont influencés par l’environnement : ne jamais en déduire une heure de décès précise sans contexte (p. 7–8)."
+      ],
+      "sections": [
+        {
+          "heading": "La peau : une coupe en trois étages",
+          "pages": "2",
+          "paragraphs": [
+            "L’épiderme est la couche superficielle avasculaire ; le derme est une couche intermédiaire vascularisée ; l’hypoderme est plus profond et riche en tissu adipeux.",
+            "La profondeur de l’atteinte permet de distinguer une abrasion superficielle, une excoriation dermique et une plaie plus profonde."
+          ],
+          "memory": "Épiderme → derme → hypoderme : profondeur et saignement changent."
+        },
+        {
+          "heading": "Abrasion, excoriation, plaie : trois profondeurs",
+          "pages": "2",
+          "paragraphs": [
+            "Une abrasion/érosion concerne l’épiderme, souvent après frottement, avec suintement. L’excoriation atteint le derme, par exemple après griffure, avec saignement limité et petite croûte.",
+            "Une plaie est plus profonde. Elle peut être dite pénétrante lorsqu’elle franchit certaines limites anatomiques décrites dans la ronéo (plèvre ou péritoine pariétal, notamment)."
+          ],
+          "memory": "Abrasion superficielle ; excoriation dermique ; plaie profonde.",
+          "visual": "v13-legal-erosion"
+        },
+        {
+          "heading": "Plaie franche ou contuse : lire les bords",
+          "pages": "3",
+          "paragraphs": [
+            "Une coupure tranchante produit généralement une plaie franche : bords nets, aspect linéaire, sans ponts cutanés, rapprochement possible.",
+            "Une plaie contuse résulte d’un écrasement entre un objet et un plan dur : bords irréguliers, dessin parfois stellaire et ponts cutanés. Ces éléments orientent vers le mécanisme mais s’interprètent ensemble."
+          ],
+          "memory": "Franche = nette sans pont ; contuse = irrégulière avec ponts.",
+          "visual": "v13-legal-excoriation"
+        },
+        {
+          "heading": "Objets vulnérants : masse, section, perforation",
+          "pages": "3–4",
+          "paragraphs": [
+            "Un objet contondant blesse surtout par sa masse et l’écrasement. Un objet tranchant coupe. Un objet piquant perfore et peut produire une petite ouverture avec un trajet profond.",
+            "Les mécanismes se combinent : une lame pointue peut piquer et trancher. Le cours décrit aussi, dans certaines blessures par projectile, des collerettes autour de l’orifice d’entrée."
+          ],
+          "memory": "Masse = contondant ; section = tranchant ; profondeur = piquant."
+        },
+        {
+          "heading": "Ecchymose, hématome et vitalité",
+          "pages": "4",
+          "paragraphs": [
+            "Une ecchymose est une infiltration sanguine dans les tissus après rupture de petits vaisseaux : elle ne forme pas nécessairement une poche à évacuer. Un hématome correspond à une collection sanguine plus localisée, dans une cavité néoformée.",
+            "La « vitalité » signifie que la blessure s’est produite du vivant, et non qu’elle est mortelle. La circulation participe à la formation de certaines lésions."
+          ],
+          "memory": "Ecchymose = infiltration ; hématome = collection ; vital ≠ mortel.",
+          "visual": "v13-legal-ecchymose"
+        },
+        {
+          "heading": "Couleur des ecchymoses : un indice limité",
+          "pages": "5",
+          "paragraphs": [
+            "L’évolution des pigments peut modifier les teintes, du bleu-violet vers le vert puis le jaune. La résorption part notamment de la périphérie.",
+            "Un halo jaunâtre peut faire évoquer une lésion non récente, mais l’apparence seule ne permet pas d’attribuer un âge exact en heures ou en jours. Il faut aussi replacer la localisation dans le contexte de l’histoire et de l’examen."
+          ],
+          "memory": "Couleur = indice approximatif ; jamais chronomètre infaillible."
+        },
+        {
+          "heading": "Signes négatifs de vie et signes positifs de mort",
+          "pages": "6",
+          "paragraphs": [
+            "La ronéo appelle signes négatifs de la vie l’arrêt cardio-circulatoire, l’arrêt respiratoire et la mydriase : pris isolément, ils n’excluent pas toute réversibilité.",
+            "Elle oppose cinq familles de signes positifs de la mort : rigidité cadavérique, autolyse/putréfaction, lividités, refroidissement et déshydratation. La conduite réelle dépend bien sûr du contexte et des protocoles de soins."
+          ],
+          "memory": "Signes négatifs = potentiellement réversibles ; positifs = post mortem."
+        },
+        {
+          "heading": "Transformations post mortem : rigidité, lividités, refroidissement",
+          "pages": "6–8",
+          "paragraphs": [
+            "Après le décès surviennent des phénomènes cellulaires et chimiques de rigidité, puis de résolution musculaire à mesure que les tissus se dégradent. L’autolyse et la putréfaction ne suivent pas une horloge identique dans tous les environnements.",
+            "Les lividités reflètent les déplacements gravitationnels du sang ; le refroidissement varie avec la température ambiante, la morphologie et les vêtements. Ces signes doivent être interprétés avec prudence et ensemble."
+          ],
+          "memory": "Le contexte thermique modifie les délais : observer, ne pas surdater."
+        }
+      ],
+      "summary": [
+        {
+          "name": "La peau : une coupe en trois étages",
+          "detail": "Épiderme → derme → hypoderme : profondeur et saignement changent.",
+          "pages": "2"
+        },
+        {
+          "name": "Abrasion, excoriation, plaie : trois profondeurs",
+          "detail": "Abrasion superficielle ; excoriation dermique ; plaie profonde.",
+          "pages": "2"
+        },
+        {
+          "name": "Plaie franche ou contuse : lire les bords",
+          "detail": "Franche = nette sans pont ; contuse = irrégulière avec ponts.",
+          "pages": "3"
+        },
+        {
+          "name": "Objets vulnérants : masse, section, perforation",
+          "detail": "Masse = contondant ; section = tranchant ; profondeur = piquant.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Ecchymose, hématome et vitalité",
+          "detail": "Ecchymose = infiltration ; hématome = collection ; vital ≠ mortel.",
+          "pages": "4"
+        },
+        {
+          "name": "Couleur des ecchymoses : un indice limité",
+          "detail": "Couleur = indice approximatif ; jamais chronomètre infaillible.",
+          "pages": "5"
+        },
+        {
+          "name": "Signes négatifs de vie et signes positifs de mort",
+          "detail": "Signes négatifs = potentiellement réversibles ; positifs = post mortem.",
+          "pages": "6"
+        },
+        {
+          "name": "Transformations post mortem : rigidité, lividités, refroidissement",
+          "detail": "Le contexte thermique modifie les délais : observer, ne pas surdater.",
+          "pages": "6–8"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Quelle couche de peau est la plus superficielle ?",
+          "choices": [
+            "Le fascia profond",
+            "L’hypoderme",
+            "L’épiderme",
+            "Le péritoine"
+          ],
+          "answer": 2,
+          "why": "L’épiderme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelle couche cutanée est décrite comme avasculaire ?",
+          "choices": [
+            "L’hypoderme",
+            "Le tissu musculaire",
+            "L’épiderme",
+            "Le derme profond"
+          ],
+          "answer": 2,
+          "why": "L’épiderme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Une abrasion ou érosion est surtout :",
+          "choices": [
+            "Une collection de sang liquide",
+            "Une atteinte superficielle de l’épiderme par frottement",
+            "Une destruction totale de l’os",
+            "Une rupture de la plèvre viscérale"
+          ],
+          "answer": 1,
+          "why": "Une atteinte superficielle de l’épiderme par frottement. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel mécanisme classique provoque une excoriation ?",
+          "choices": [
+            "Une rupture d’une valve cardiaque",
+            "Une griffure atteignant le derme",
+            "Une thrombose veineuse",
+            "Une diminution de la diurèse"
+          ],
+          "answer": 1,
+          "why": "Une griffure atteignant le derme. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Qu’est-ce qu’une plaie pénétrante du thorax dans la définition du cours ?",
+          "choices": [
+            "Une plaie franchissant la plèvre pariétale",
+            "Une abrasion sans saignement",
+            "Une simple rougeur après frottement",
+            "Toute ecchymose du bras"
+          ],
+          "answer": 0,
+          "why": "Une plaie franchissant la plèvre pariétale. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 2. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "2",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel aspect oriente vers une plaie franche ?",
+          "choices": [
+            "Lividité déclive après la mort",
+            "Bords déchiquetés et ponts cutanés",
+            "Collection profonde sans ouverture",
+            "Bords nets et absence de ponts cutanés"
+          ],
+          "answer": 3,
+          "why": "Bords nets et absence de ponts cutanés. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "3",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel aspect oriente vers une plaie contuse ?",
+          "choices": [
+            "Absence totale d’effraction",
+            "Bords irréguliers et ponts cutanés",
+            "Une simple tache jaune isolée",
+            "Bords parfaitement réguliers sans pont"
+          ],
+          "answer": 1,
+          "why": "Bords irréguliers et ponts cutanés. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "3",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Un objet contondant blesse principalement par :",
+          "choices": [
+            "Simple action thermique obligatoire",
+            "Écrasement lié à sa masse",
+            "Transformation enzymatique du sang",
+            "Réaction photochimique"
+          ],
+          "answer": 1,
+          "why": "Écrasement lié à sa masse. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "3",
+          "topic": "Plaie franche ou contuse : lire les bords",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Un objet tranchant produit principalement :",
+          "choices": [
+            "Une dilatation artérielle",
+            "Un blocage respiratoire neurogène",
+            "Une section des tissus",
+            "Un suintement sans aucune ouverture"
+          ],
+          "answer": 2,
+          "why": "Une section des tissus. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "3",
+          "topic": "Plaie franche ou contuse : lire les bords",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle caractéristique oriente vers un objet piquant ?",
+          "choices": [
+            "Une perforation parfois profonde par petite ouverture",
+            "Une ecchymose sans effraction obligatoire",
+            "Une hyperthermie isolée",
+            "Une lésion toujours circulaire superficielle"
+          ],
+          "answer": 0,
+          "why": "Une perforation parfois profonde par petite ouverture. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "4",
+          "topic": "Plaie franche ou contuse : lire les bords",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Que peut associer une lame de couteau pointue ?",
+          "choices": [
+            "Mécanismes piquant et tranchant",
+            "Uniquement une compression sans effraction",
+            "Uniquement une brûlure",
+            "Exclusivement une lésion par froid"
+          ],
+          "answer": 0,
+          "why": "Mécanismes piquant et tranchant. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "4",
+          "topic": "Objets vulnérants : masse, section, perforation",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle particularité est décrite autour d’un orifice d’entrée de projectile ?",
+          "choices": [
+            "Une collerette d’essuyage obligatoire à la sortie seulement",
+            "Une collection liquidienne extracrânienne systématique",
+            "Une collerette d’essuyage peut être présente",
+            "Une absence constante d’atteinte cutanée"
+          ],
+          "answer": 2,
+          "why": "Une collerette d’essuyage peut être présente. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 3. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "3",
+          "topic": "Objets vulnérants : masse, section, perforation",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Une ecchymose correspond à :",
+          "choices": [
+            "Une poche de sang liquide drainable obligatoirement",
+            "Une ouverture profonde de la plèvre",
+            "Une fracture osseuse fermée",
+            "Une infiltration de sang dans les tissus"
+          ],
+          "answer": 3,
+          "why": "Une infiltration de sang dans les tissus. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "4",
+          "topic": "Objets vulnérants : masse, section, perforation",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Un hématome correspond à :",
+          "choices": [
+            "Un arrêt du rythme respiratoire",
+            "Une collection sanguine dans une cavité néoformée",
+            "Une lésion limitée à la couche cornée",
+            "Une simple modification de température"
+          ],
+          "answer": 1,
+          "why": "Une collection sanguine dans une cavité néoformée. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "En médico-légal, une blessure « vitale » signifie :",
+          "choices": [
+            "Qu’elle entraîne forcément la mort",
+            "Qu’elle est nécessairement ancienne",
+            "Qu’elle a été produite du vivant",
+            "Qu’elle guérit sans traitement"
+          ],
+          "answer": 2,
+          "why": "Qu’elle a été produite du vivant. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "La présence d’une lésion vitale démontre-t-elle qu’elle est mortelle ?",
+          "choices": [
+            "Oui, par définition",
+            "Oui, seulement pour les érosions",
+            "Oui, toutes les ecchymoses le sont",
+            "Non, vital et mortel désignent deux notions différentes"
+          ],
+          "answer": 3,
+          "why": "Non, vital et mortel désignent deux notions différentes. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel sens suit la résorption décrite pour certaines ecchymoses ?",
+          "choices": [
+            "Toujours du centre vers l’extérieur uniquement",
+            "Une résorption en une minute",
+            "Uniquement du bas vers le haut",
+            "De la périphérie vers le centre"
+          ],
+          "answer": 3,
+          "why": "De la périphérie vers le centre. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 5. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "5",
+          "topic": "Ecchymose, hématome et vitalité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Que permet un halo jaune autour d’une ecchymose ?",
+          "choices": [
+            "L’affirmation d’une origine infectieuse",
+            "La preuve d’une fracture osseuse",
+            "La certitude d’un traumatisme datant de onze jours",
+            "Une orientation prudente vers une lésion non récente, pas une datation exacte"
+          ],
+          "answer": 3,
+          "why": "Une orientation prudente vers une lésion non récente, pas une datation exacte. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 5. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "5",
+          "topic": "Couleur des ecchymoses : un indice limité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel signe est classé comme « négatif de la vie » dans cette ronéo ?",
+          "choices": [
+            "Putréfaction",
+            "Lividités cadavériques",
+            "Rigidité cadavérique",
+            "Arrêt respiratoire"
+          ],
+          "answer": 3,
+          "why": "Arrêt respiratoire. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "6",
+          "topic": "Couleur des ecchymoses : un indice limité",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel signe est classé comme « positif de la mort » dans cette ronéo ?",
+          "choices": [
+            "Mydriase isolée",
+            "Arrêt cardio-circulatoire isolé",
+            "Lividités cadavériques",
+            "Arrêt respiratoire isolé"
+          ],
+          "answer": 2,
+          "why": "Lividités cadavériques. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 6. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "6",
+          "topic": "Couleur des ecchymoses : un indice limité",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi une mydriase isolée ne suffit-elle pas au diagnostic certain de décès ?",
+          "choices": [
+            "Elle appartient aux signes négatifs de vie potentiellement réversibles",
+            "Elle témoigne toujours d’une putréfaction",
+            "Elle signifie que le patient a 24 heures de décès",
+            "Elle prouve le refroidissement complet"
+          ],
+          "answer": 0,
+          "why": "Elle appartient aux signes négatifs de vie potentiellement réversibles. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 6. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "6",
+          "topic": "Signes négatifs de vie et signes positifs de mort",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Qu’est-ce que la rigidité cadavérique ?",
+          "choices": [
+            "Une conséquence obligatoire d’un choc allergique",
+            "Un phénomène musculaire post mortem",
+            "Un trouble articulaire chronique du vivant",
+            "Une simple contracture volontaire"
+          ],
+          "answer": 1,
+          "why": "Un phénomène musculaire post mortem. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 6–7. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "6–7",
+          "topic": "Signes négatifs de vie et signes positifs de mort",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Pourquoi la rigidité finit-elle par disparaître ?",
+          "choices": [
+            "Un traitement antalgique agit post mortem",
+            "Une hyperventilation spontanée apparaît",
+            "Le cerveau commande une relaxation volontaire",
+            "La dégradation des tissus et les processus de putréfaction entraînent une résolution musculaire"
+          ],
+          "answer": 3,
+          "why": "La dégradation des tissus et les processus de putréfaction entraînent une résolution musculaire. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 7. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "7",
+          "topic": "Signes négatifs de vie et signes positifs de mort",
+          "difficulty": "standard"
+        },
+        {
+          "q": "De quoi dépend la rapidité de la rigidité cadavérique ?",
+          "choices": [
+            "Elle est totalement fixe chez tous les individus",
+            "Uniquement du groupe sanguin",
+            "Uniquement du mois de naissance",
+            "Notamment de la température ambiante"
+          ],
+          "answer": 3,
+          "why": "Notamment de la température ambiante. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 7. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "7",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Comment interpréter le refroidissement post mortem ?",
+          "choices": [
+            "En tenant compte de l’environnement et de la morphologie",
+            "Comme une baisse toujours exactement identique heure par heure",
+            "Comme un critère indépendant de l’air ambiant",
+            "Sans tenir compte des vêtements"
+          ],
+          "answer": 0,
+          "why": "En tenant compte de l’environnement et de la morphologie. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 8. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "8",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Pourquoi les lividités apparaissent-elles après le décès ?",
+          "choices": [
+            "La peau synthétise une nouvelle hémoglobine",
+            "Le cœur accélère sa fréquence",
+            "Le sang se répartit sous l’effet de la gravité",
+            "Le sujet se met à marcher"
+          ],
+          "answer": 2,
+          "why": "Le sang se répartit sous l’effet de la gravité. Explication et repère : « Sémiologie médico-légale — blessures et signes de la mort », ronéo 2026–2027, p. 7–8. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "7–8",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement",
+          "difficulty": "standard"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Quelle couche de peau est la plus superficielle ?",
+          "a": "L’épiderme",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages"
+        },
+        {
+          "q": "Quelle couche cutanée est décrite comme avasculaire ?",
+          "a": "L’épiderme",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages"
+        },
+        {
+          "q": "Une abrasion ou érosion est surtout :",
+          "a": "Une atteinte superficielle de l’épiderme par frottement",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages"
+        },
+        {
+          "q": "Quel mécanisme classique provoque une excoriation ?",
+          "a": "Une griffure atteignant le derme",
+          "pages": "2",
+          "topic": "La peau : une coupe en trois étages"
+        },
+        {
+          "q": "Qu’est-ce qu’une plaie pénétrante du thorax dans la définition du cours ?",
+          "a": "Une plaie franchissant la plèvre pariétale",
+          "pages": "2",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs"
+        },
+        {
+          "q": "Quel aspect oriente vers une plaie franche ?",
+          "a": "Bords nets et absence de ponts cutanés",
+          "pages": "3",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs"
+        },
+        {
+          "q": "Quel aspect oriente vers une plaie contuse ?",
+          "a": "Bords irréguliers et ponts cutanés",
+          "pages": "3",
+          "topic": "Abrasion, excoriation, plaie : trois profondeurs"
+        },
+        {
+          "q": "Un objet contondant blesse principalement par :",
+          "a": "Écrasement lié à sa masse",
+          "pages": "3",
+          "topic": "Plaie franche ou contuse : lire les bords"
+        },
+        {
+          "q": "Un objet tranchant produit principalement :",
+          "a": "Une section des tissus",
+          "pages": "3",
+          "topic": "Plaie franche ou contuse : lire les bords"
+        },
+        {
+          "q": "Quelle caractéristique oriente vers un objet piquant ?",
+          "a": "Une perforation parfois profonde par petite ouverture",
+          "pages": "4",
+          "topic": "Plaie franche ou contuse : lire les bords"
+        },
+        {
+          "q": "Que peut associer une lame de couteau pointue ?",
+          "a": "Mécanismes piquant et tranchant",
+          "pages": "4",
+          "topic": "Objets vulnérants : masse, section, perforation"
+        },
+        {
+          "q": "Quelle particularité est décrite autour d’un orifice d’entrée de projectile ?",
+          "a": "Une collerette d’essuyage peut être présente",
+          "pages": "3",
+          "topic": "Objets vulnérants : masse, section, perforation"
+        },
+        {
+          "q": "Une ecchymose correspond à :",
+          "a": "Une infiltration de sang dans les tissus",
+          "pages": "4",
+          "topic": "Objets vulnérants : masse, section, perforation"
+        },
+        {
+          "q": "Un hématome correspond à :",
+          "a": "Une collection sanguine dans une cavité néoformée",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité"
+        },
+        {
+          "q": "En médico-légal, une blessure « vitale » signifie :",
+          "a": "Qu’elle a été produite du vivant",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité"
+        },
+        {
+          "q": "La présence d’une lésion vitale démontre-t-elle qu’elle est mortelle ?",
+          "a": "Non, vital et mortel désignent deux notions différentes",
+          "pages": "4",
+          "topic": "Ecchymose, hématome et vitalité"
+        },
+        {
+          "q": "Quel sens suit la résorption décrite pour certaines ecchymoses ?",
+          "a": "De la périphérie vers le centre",
+          "pages": "5",
+          "topic": "Ecchymose, hématome et vitalité"
+        },
+        {
+          "q": "Que permet un halo jaune autour d’une ecchymose ?",
+          "a": "Une orientation prudente vers une lésion non récente, pas une datation exacte",
+          "pages": "5",
+          "topic": "Couleur des ecchymoses : un indice limité"
+        },
+        {
+          "q": "Quel signe est classé comme « négatif de la vie » dans cette ronéo ?",
+          "a": "Arrêt respiratoire",
+          "pages": "6",
+          "topic": "Couleur des ecchymoses : un indice limité"
+        },
+        {
+          "q": "Quel signe est classé comme « positif de la mort » dans cette ronéo ?",
+          "a": "Lividités cadavériques",
+          "pages": "6",
+          "topic": "Couleur des ecchymoses : un indice limité"
+        },
+        {
+          "q": "Pourquoi une mydriase isolée ne suffit-elle pas au diagnostic certain de décès ?",
+          "a": "Elle appartient aux signes négatifs de vie potentiellement réversibles",
+          "pages": "6",
+          "topic": "Signes négatifs de vie et signes positifs de mort"
+        },
+        {
+          "q": "Qu’est-ce que la rigidité cadavérique ?",
+          "a": "Un phénomène musculaire post mortem",
+          "pages": "6–7",
+          "topic": "Signes négatifs de vie et signes positifs de mort"
+        },
+        {
+          "q": "Pourquoi la rigidité finit-elle par disparaître ?",
+          "a": "La dégradation des tissus et les processus de putréfaction entraînent une résolution musculaire",
+          "pages": "7",
+          "topic": "Signes négatifs de vie et signes positifs de mort"
+        },
+        {
+          "q": "De quoi dépend la rapidité de la rigidité cadavérique ?",
+          "a": "Notamment de la température ambiante",
+          "pages": "7",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement"
+        },
+        {
+          "q": "Comment interpréter le refroidissement post mortem ?",
+          "a": "En tenant compte de l’environnement et de la morphologie",
+          "pages": "8",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement"
+        },
+        {
+          "q": "Pourquoi les lividités apparaissent-elles après le décès ?",
+          "a": "Le sang se répartit sous l’effet de la gravité",
+          "pages": "7–8",
+          "topic": "Transformations post mortem : rigidité, lividités, refroidissement"
+        }
+      ]
+    },
+    "cm-67af8b3da656c367": {
+      "id": "cm-67af8b3da656c367",
+      "subject": "semio",
+      "title": "Traumatisé de la route — examiner sans perdre le temps vital",
+      "courseName": "EXAMEN D'UN TRAUMA DE LA ROUTE",
+      "teacher": "Pr Wiel",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, 10 pages",
+        "url": "https://drive.google.com/file/d/1Sj315NHqAaR5DBPuiyX_JoBGj9GDu8DC/view",
+        "pages": 10
+      },
+      "hook": "Après un choc routier, le tableau peut être trompeur. La priorité n’est pas de collectionner les diagnostics, mais de comprendre la cinétique, protéger la scène, repérer les détresses et surveiller trois alarmes majeures.",
+      "editorialNote": "Réécriture narrative et questions originales fondées sur le CM 2026–2027 (ce ne sont pas des annales). Les éventuelles formulations délicates de la ronéo sont indiquées explicitement ; les photos proviennent du document source.",
+      "flow": [
+        "Sécuriser & alerter",
+        "Cinétique & contexte",
+        "Hémorragie",
+        "Respiration",
+        "Neurologie & Vittel"
+      ],
+      "flags": [
+        "La ronéo indique une fois PAS < 90 mmHg puis récapitule PAS ≤ 90 mmHg parmi les critères de gravité (p. 7, 10). La divergence est signalée ; aucune question ne dépendra du cas frontière exactement égal à 90.",
+        "La ronéo écrit « score de Glasgow défini uniquement pour les traumatisés crâniens » (p. 9), formulation trop restrictive en pratique. Pour l’examen, retenir sa description du score 3 à 15 avec les trois composantes, sans généraliser cette exclusivité.",
+        "Les gestes invasifs et la prise en charge d’un traumatisme réel relèvent de secours qualifiés. Le module explique les indices décrits dans le cours et ne constitue pas un protocole d’intervention individuelle."
+      ],
+      "sections": [
+        {
+          "heading": "Un accident ne se résume pas à ce que l’on voit",
+          "pages": "2–3",
+          "paragraphs": [
+            "Un traumatisme à haute énergie peut cacher de graves lésions, même chez une personne qui parle et se déplace. La vitesse, la décélération, l’éjection, les déformations du véhicule et l’environnement sont des indices.",
+            "La première démarche reste de vérifier la sécurité de la scène et d’alerter les secours adaptés, sans exposer le patient ou les témoins à un second danger."
+          ],
+          "memory": "La cinétique est un signe de gravité, même si le patient paraît stable."
+        },
+        {
+          "heading": "Décrire l’environnement et transmettre un message utile",
+          "pages": "3–4",
+          "paragraphs": [
+            "Avant de réduire le problème à un symptôme, regarde le nombre de victimes et de véhicules, l’existence d’un incendie ou d’un risque secondaire, et les mécanismes du choc.",
+            "La transmission aux secours précise ce qui s’est passé, le nombre de personnes, leur état apparent et les risques encore présents. La présentation initiale peut masquer des lésions évolutives."
+          ],
+          "memory": "Sécurité → nombre de victimes → mécanisme → état clinique → alerte."
+        },
+        {
+          "heading": "Les constantes : ton tableau de bord",
+          "pages": "4–5",
+          "paragraphs": [
+            "Le monitorage décrit notamment fréquence cardiaque et respiratoire, pression artérielle systolique et diastolique, saturation pulsée, température et CO₂ expiré. Le cours rappelle que le débit cardiaque est le produit du volume d’éjection systolique par la fréquence cardiaque.",
+            "Ces valeurs ne remplacent pas l’observation du patient : aspect cutané, conscience, perfusion et évolution dans le temps sont des indices complémentaires."
+          ],
+          "memory": "Débit cardiaque = VES × FC ; constante + clinique + évolution."
+        },
+        {
+          "heading": "Première menace : le choc hémorragique",
+          "pages": "5–7",
+          "paragraphs": [
+            "Une hémorragie réduit la quantité de sang circulant et la perfusion. Le cœur accélère pour compenser, tandis que les vaisseaux périphériques se contractent : tachycardie, pouls filant, extrémités froides, pâleur et marbrures.",
+            "La ronéo donne des ordres de grandeur de pertes sanguines possibles lors de certaines fractures : le fémur ou le bassin peuvent cacher des hémorragies majeures. La gravité n’est donc pas proportionnelle à la quantité de sang visible à l’extérieur."
+          ],
+          "memory": "Hémorragie interne possible : tachycardie + peau froide + perfusion dégradée."
+        },
+        {
+          "heading": "Le rachis, le bassin et les gestes de protection",
+          "pages": "6–7",
+          "paragraphs": [
+            "L’équipe considère la possibilité de lésions rachidiennes après un choc grave et protège l’axe tête-cou-tronc selon les procédures. L’instabilité d’un bassin fracturé peut aggraver une hémorragie.",
+            "En secourisme professionnel, le cours évoque la compression de saignements extériorisés, les dispositifs de stabilisation pelvienne et le maintien thermique. Les gestes se décident selon la situation et les compétences des intervenants."
+          ],
+          "memory": "Ne pas aggraver : sécurité, immobilisation adaptée, limitation des pertes."
+        },
+        {
+          "heading": "Deuxième menace : insuffisance respiratoire",
+          "pages": "7–8",
+          "paragraphs": [
+            "L’examen recherche fréquence respiratoire, saturation, cyanose et signes de détresse. Une obstruction des voies aériennes, un traumatisme thoracique, une atteinte cérébrale ou médullaire peuvent entraver l’oxygénation.",
+            "Les images de la ronéo illustrent notamment le pneumothorax et le déplacement de structures thoraciques. Le deuxième grand indicateur pronostique cité est une SpO₂ basse, de l’ordre de 90 % ou moins."
+          ],
+          "memory": "Respirer ≠ oxygéner suffisamment : fréquence et SpO₂ comptent.",
+          "visual": "v13-trauma-imaging"
+        },
+        {
+          "heading": "Troisième menace : le cerveau et le score de Glasgow",
+          "pages": "8–10",
+          "paragraphs": [
+            "Le cours décrit des signes neurologiques : agitation, déficit moteur, convulsions, anisocorie et baisse de vigilance. Une lésion intracrânienne peut se compliquer secondairement.",
+            "Le Glasgow cote l’ouverture des yeux de 1 à 4, la réponse verbale de 1 à 5 et la réponse motrice de 1 à 6, pour un score total de 3 à 15. Un score inférieur à 13 est présenté comme un signe de gravité dans le rappel de Vittel."
+          ],
+          "memory": "GCS = yeux 4 + parole 5 + motricité 6 ; total de 3 à 15."
+        },
+        {
+          "heading": "Vittel : trois seuils à reconnaître et à contextualiser",
+          "pages": "7–10",
+          "paragraphs": [
+            "La ronéo insiste sur trois paramètres pronostiques : une pression systolique basse autour de 90 mmHg, une saturation au plus à 90 %, et un Glasgow inférieur à 13. Le score ne se limite pas à la dimension neurologique : il s’inscrit dans un patient dont les défaillances circulatoire et respiratoire doivent aussi être évaluées.",
+            "Le document mentionne aussi le shock index FC/PAS. Retenir les critères sans les transformer en diagnostic automatique : l’examen et le mécanisme restent indispensables."
+          ],
+          "memory": "Trois alarmes : pression, oxygène, conscience."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Un accident ne se résume pas à ce que l’on voit",
+          "detail": "La cinétique est un signe de gravité, même si le patient paraît stable.",
+          "pages": "2–3"
+        },
+        {
+          "name": "Décrire l’environnement et transmettre un message utile",
+          "detail": "Sécurité → nombre de victimes → mécanisme → état clinique → alerte.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Les constantes : ton tableau de bord",
+          "detail": "Débit cardiaque = VES × FC ; constante + clinique + évolution.",
+          "pages": "4–5"
+        },
+        {
+          "name": "Première menace : le choc hémorragique",
+          "detail": "Hémorragie interne possible : tachycardie + peau froide + perfusion dégradée.",
+          "pages": "5–7"
+        },
+        {
+          "name": "Le rachis, le bassin et les gestes de protection",
+          "detail": "Ne pas aggraver : sécurité, immobilisation adaptée, limitation des pertes.",
+          "pages": "6–7"
+        },
+        {
+          "name": "Deuxième menace : insuffisance respiratoire",
+          "detail": "Respirer ≠ oxygéner suffisamment : fréquence et SpO₂ comptent.",
+          "pages": "7–8"
+        },
+        {
+          "name": "Troisième menace : le cerveau et le score de Glasgow",
+          "detail": "GCS = yeux 4 + parole 5 + motricité 6 ; total de 3 à 15.",
+          "pages": "8–10"
+        },
+        {
+          "name": "Vittel : trois seuils à reconnaître et à contextualiser",
+          "detail": "Trois alarmes : pression, oxygène, conscience.",
+          "pages": "7–10"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Que signifie la « cinétique » d’un accident routier ?",
+          "choices": [
+            "Le seul nombre de passagers indemnes",
+            "Le mécanisme et l’énergie du choc pouvant renseigner sur la gravité",
+            "La durée d’un traitement antibiotique",
+            "Le taux de glucose dans le sang"
+          ],
+          "answer": 1,
+          "why": "Le mécanisme et l’énergie du choc pouvant renseigner sur la gravité. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 2–3. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "2–3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Pourquoi un patient conscient après un choc violent peut-il être gravement blessé ?",
+          "choices": [
+            "La conscience élimine toute hémorragie",
+            "Le traumatisme n’est grave qu’en cas de plaie visible",
+            "Une personne qui parle n’a jamais de fracture",
+            "Des lésions internes peuvent être présentes malgré une présentation rassurante"
+          ],
+          "answer": 3,
+          "why": "Des lésions internes peuvent être présentes malgré une présentation rassurante. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 2–3. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "2–3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle est la première considération sur les lieux de l’accident ?",
+          "choices": [
+            "L’identification du groupe sanguin par interrogation",
+            "La prise de photographies pour les réseaux sociaux",
+            "La sécurité de la scène pour victimes et intervenants",
+            "Un examen neurologique détaillé avant toute sécurité"
+          ],
+          "answer": 2,
+          "why": "La sécurité de la scène pour victimes et intervenants. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle information est pertinente à transmettre aux secours ?",
+          "choices": [
+            "Seulement le prénom du conducteur",
+            "Nombre de victimes, mécanisme, état et dangers résiduels",
+            "Le prix de réparation de la voiture",
+            "Uniquement la couleur du véhicule"
+          ],
+          "answer": 1,
+          "why": "Nombre de victimes, mécanisme, état et dangers résiduels. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3–4. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "3–4",
+          "topic": "Un accident ne se résume pas à ce que l’on voit",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Pourquoi la déformation du véhicule est-elle importante ?",
+          "choices": [
+            "Elle aide à estimer l’énergie du choc et les lésions possibles",
+            "Elle exclut une atteinte thoracique",
+            "Elle remplace l’examen du patient",
+            "Elle permet de connaître l’hémoglobine"
+          ],
+          "answer": 0,
+          "why": "Elle aide à estimer l’énergie du choc et les lésions possibles. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 3–4. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "3–4",
+          "topic": "Décrire l’environnement et transmettre un message utile",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle formule relie le débit cardiaque au pouls et au volume d’éjection ?",
+          "choices": [
+            "Débit cardiaque = SpO₂ × température",
+            "Débit cardiaque = diurèse + FiO₂",
+            "Débit cardiaque = VES × fréquence cardiaque",
+            "Débit cardiaque = glycémie / taille"
+          ],
+          "answer": 2,
+          "why": "Débit cardiaque = VES × fréquence cardiaque. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 5–6. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "5–6",
+          "topic": "Décrire l’environnement et transmettre un message utile",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel signe est évocateur d’une compensation circulatoire devant une hémorragie ?",
+          "choices": [
+            "Bradycardie obligatoire dès la première seconde",
+            "Tachycardie",
+            "Augmentation certaine de l’hémoglobine",
+            "Élévation constante de la SpO₂"
+          ],
+          "answer": 1,
+          "why": "Tachycardie. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "6",
+          "topic": "Décrire l’environnement et transmettre un message utile",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel aspect cutané peut accompagner un choc hémorragique ?",
+          "choices": [
+            "Extrémités froides et marbrures",
+            "Une peau toujours chaude et rouge",
+            "Érythème solaire isolé",
+            "Une disparition obligatoire de la pâleur"
+          ],
+          "answer": 0,
+          "why": "Extrémités froides et marbrures. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "6",
+          "topic": "Les constantes : ton tableau de bord",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Que signifie un pouls petit, rapide et filant dans ce contexte ?",
+          "choices": [
+            "Une perfusion circulatoire susceptible d’être altérée",
+            "L’absence d’hémorragie",
+            "Une bonne oxygénation garantie",
+            "Une hyperglycémie confirmée"
+          ],
+          "answer": 0,
+          "why": "Une perfusion circulatoire susceptible d’être altérée. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "6",
+          "topic": "Les constantes : ton tableau de bord",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi la fracture du bassin peut-elle être très grave ?",
+          "choices": [
+            "Elle est toujours indolore",
+            "Elle exclut toute perte sanguine",
+            "Elle peut s’accompagner d’une hémorragie interne majeure",
+            "Elle ne provoque jamais de choc"
+          ],
+          "answer": 2,
+          "why": "Elle peut s’accompagner d’une hémorragie interne majeure. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 7. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "7",
+          "topic": "Les constantes : ton tableau de bord",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelle fracture est associée dans la ronéo à un saignement caché important ?",
+          "choices": [
+            "Fracture d’un ongle",
+            "Aucune fracture n’entraîne d’hémorragie",
+            "Fracture isolée d’une phalange",
+            "Fracture du fémur"
+          ],
+          "answer": 3,
+          "why": "Fracture du fémur. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 7. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "7",
+          "topic": "Première menace : le choc hémorragique",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Pourquoi surveiller la température d’un traumatisé grave ?",
+          "choices": [
+            "L’hypothermie peut aggraver les défaillances circulatoires",
+            "La température est toujours sans impact",
+            "Une température basse exclut le choc",
+            "La chaleur supprime les saignements profonds"
+          ],
+          "answer": 0,
+          "why": "L’hypothermie peut aggraver les défaillances circulatoires. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "6",
+          "topic": "Première menace : le choc hémorragique",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle précaution concerne le rachis après un traumatisme important ?",
+          "choices": [
+            "Mobiliser brutalement les vertèbres",
+            "Faire tourner le cou pour tester sa souplesse",
+            "Considérer une atteinte possible jusqu’à évaluation adaptée",
+            "Exclure toute atteinte si le patient parle"
+          ],
+          "answer": 2,
+          "why": "Considérer une atteinte possible jusqu’à évaluation adaptée. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 6, 10. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "6, 10",
+          "topic": "Première menace : le choc hémorragique",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel paramètre mesure l’oxymètre de pouls ?",
+          "choices": [
+            "La pression intracrânienne",
+            "Le taux de troponine",
+            "La saturation périphérique en oxygène (SpO₂)",
+            "Le volume sanguin total"
+          ],
+          "answer": 2,
+          "why": "La saturation périphérique en oxygène (SpO₂). Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 5, 7. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "5, 7",
+          "topic": "Le rachis, le bassin et les gestes de protection",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel type de lésion peut entraîner un pneumothorax ?",
+          "choices": [
+            "Une entorse isolée de cheville",
+            "Une lésion uniquement cutanée au genou",
+            "Une plaie superficielle de l’avant-bras",
+            "Un traumatisme thoracique"
+          ],
+          "answer": 3,
+          "why": "Un traumatisme thoracique. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 8. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "8",
+          "topic": "Le rachis, le bassin et les gestes de protection",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel seuil de SpO₂ est repris parmi les critères de gravité du cours ?",
+          "choices": [
+            "100 % exactement",
+            "120 %",
+            "90 % ou moins",
+            "95 % ou plus"
+          ],
+          "answer": 2,
+          "why": "90 % ou moins. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 8, 10. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "8, 10",
+          "topic": "Le rachis, le bassin et les gestes de protection",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "À quoi correspond une anisocorie ?",
+          "choices": [
+            "Une toux avec expectoration",
+            "Une asymétrie de la longueur des pieds",
+            "Une différence de taille entre les deux pupilles",
+            "Une élévation symétrique de la tension artérielle"
+          ],
+          "answer": 2,
+          "why": "Une différence de taille entre les deux pupilles. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "9",
+          "topic": "Le rachis, le bassin et les gestes de protection",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel examen est cité pour évaluer la conscience après un traumatisme ?",
+          "choices": [
+            "L’échelle de Bristol",
+            "Le score ADL",
+            "Le score de Glasgow",
+            "L’INR"
+          ],
+          "answer": 2,
+          "why": "Le score de Glasgow. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9–10. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "9–10",
+          "topic": "Deuxième menace : insuffisance respiratoire",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelles sont les trois composantes du Glasgow ?",
+          "choices": [
+            "Ouverture des yeux, réponse verbale et réponse motrice",
+            "Taille, âge et sexe",
+            "Glycémie, natriurèse et poids",
+            "Fréquence respiratoire, température et IMC"
+          ],
+          "answer": 0,
+          "why": "Ouverture des yeux, réponse verbale et réponse motrice. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "9",
+          "topic": "Deuxième menace : insuffisance respiratoire",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quelle est l’étendue totale du score de Glasgow ?",
+          "choices": [
+            "De 1 à 100",
+            "De 6 à 30",
+            "De 3 à 15",
+            "De 0 à 15"
+          ],
+          "answer": 2,
+          "why": "De 3 à 15. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "9",
+          "topic": "Deuxième menace : insuffisance respiratoire",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle composante du Glasgow est cotée au maximum sur six points ?",
+          "choices": [
+            "La réponse motrice",
+            "La réponse verbale",
+            "L’ouverture des yeux",
+            "Le diamètre pupillaire"
+          ],
+          "answer": 0,
+          "why": "La réponse motrice. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "9",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quelle composante du Glasgow est cotée au maximum sur quatre points ?",
+          "choices": [
+            "La pression artérielle",
+            "L’ouverture des yeux",
+            "La réponse motrice",
+            "La réponse verbale"
+          ],
+          "answer": 1,
+          "why": "L’ouverture des yeux. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 9. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "9",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quel score Glasgow le cours reprend-il comme critère pronostique de gravité ?",
+          "choices": [
+            "Plus de 20",
+            "Moins de 13",
+            "Exactement 15",
+            "Moins de 2"
+          ],
+          "answer": 1,
+          "why": "Moins de 13. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 10. Ce repère sert à orienter le raisonnement, pas à remplacer un examen global.",
+          "pages": "10",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Comment le cours classe-t-il un Glasgow inférieur ou égal à 8 ?",
+          "choices": [
+            "Traumatisme crânien mineur",
+            "Récupération complète certifiée",
+            "Absence de traumatisme",
+            "Traumatisme crânien sévère"
+          ],
+          "answer": 3,
+          "why": "Traumatisme crânien sévère. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 10. Le point clé est la distinction précise posée dans l’énoncé.",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser",
+          "difficulty": "standard"
+        },
+        {
+          "q": "Quel calcul correspond au « shock index » du cours ?",
+          "choices": [
+            "Fréquence cardiaque divisée par pression artérielle systolique",
+            "Pression artérielle systolique divisée par saturation",
+            "Température multipliée par âge",
+            "Débit cardiaque divisé par oxygène inspiré"
+          ],
+          "answer": 0,
+          "why": "Fréquence cardiaque divisée par pression artérielle systolique. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 10. Relie ce signe au mécanisme expliqué dans le cours et vérifie le contexte clinique.",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser",
+          "difficulty": "approfondissement"
+        },
+        {
+          "q": "Quels sont les trois paramètres pronostiques particulièrement cités dans la conclusion ?",
+          "choices": [
+            "Albumine, ferritine et fer",
+            "Pression systolique, saturation et Glasgow",
+            "Température, poids et taille",
+            "Audiométrie, acuité visuelle et IMC"
+          ],
+          "answer": 1,
+          "why": "Pression systolique, saturation et Glasgow. Explication et repère : « Traumatisé de la route — examiner sans perdre le temps vital », ronéo 2026–2027, p. 10. Attention à ne pas confondre cette définition avec les propositions voisines.",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser",
+          "difficulty": "standard"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Que signifie la « cinétique » d’un accident routier ?",
+          "a": "Le mécanisme et l’énergie du choc pouvant renseigner sur la gravité",
+          "pages": "2–3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit"
+        },
+        {
+          "q": "Pourquoi un patient conscient après un choc violent peut-il être gravement blessé ?",
+          "a": "Des lésions internes peuvent être présentes malgré une présentation rassurante",
+          "pages": "2–3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit"
+        },
+        {
+          "q": "Quelle est la première considération sur les lieux de l’accident ?",
+          "a": "La sécurité de la scène pour victimes et intervenants",
+          "pages": "3",
+          "topic": "Un accident ne se résume pas à ce que l’on voit"
+        },
+        {
+          "q": "Quelle information est pertinente à transmettre aux secours ?",
+          "a": "Nombre de victimes, mécanisme, état et dangers résiduels",
+          "pages": "3–4",
+          "topic": "Un accident ne se résume pas à ce que l’on voit"
+        },
+        {
+          "q": "Pourquoi la déformation du véhicule est-elle importante ?",
+          "a": "Elle aide à estimer l’énergie du choc et les lésions possibles",
+          "pages": "3–4",
+          "topic": "Décrire l’environnement et transmettre un message utile"
+        },
+        {
+          "q": "Quelle formule relie le débit cardiaque au pouls et au volume d’éjection ?",
+          "a": "Débit cardiaque = VES × fréquence cardiaque",
+          "pages": "5–6",
+          "topic": "Décrire l’environnement et transmettre un message utile"
+        },
+        {
+          "q": "Quel signe est évocateur d’une compensation circulatoire devant une hémorragie ?",
+          "a": "Tachycardie",
+          "pages": "6",
+          "topic": "Décrire l’environnement et transmettre un message utile"
+        },
+        {
+          "q": "Quel aspect cutané peut accompagner un choc hémorragique ?",
+          "a": "Extrémités froides et marbrures",
+          "pages": "6",
+          "topic": "Les constantes : ton tableau de bord"
+        },
+        {
+          "q": "Que signifie un pouls petit, rapide et filant dans ce contexte ?",
+          "a": "Une perfusion circulatoire susceptible d’être altérée",
+          "pages": "6",
+          "topic": "Les constantes : ton tableau de bord"
+        },
+        {
+          "q": "Pourquoi la fracture du bassin peut-elle être très grave ?",
+          "a": "Elle peut s’accompagner d’une hémorragie interne majeure",
+          "pages": "7",
+          "topic": "Les constantes : ton tableau de bord"
+        },
+        {
+          "q": "Quelle fracture est associée dans la ronéo à un saignement caché important ?",
+          "a": "Fracture du fémur",
+          "pages": "7",
+          "topic": "Première menace : le choc hémorragique"
+        },
+        {
+          "q": "Pourquoi surveiller la température d’un traumatisé grave ?",
+          "a": "L’hypothermie peut aggraver les défaillances circulatoires",
+          "pages": "6",
+          "topic": "Première menace : le choc hémorragique"
+        },
+        {
+          "q": "Quelle précaution concerne le rachis après un traumatisme important ?",
+          "a": "Considérer une atteinte possible jusqu’à évaluation adaptée",
+          "pages": "6, 10",
+          "topic": "Première menace : le choc hémorragique"
+        },
+        {
+          "q": "Quel paramètre mesure l’oxymètre de pouls ?",
+          "a": "La saturation périphérique en oxygène (SpO₂)",
+          "pages": "5, 7",
+          "topic": "Le rachis, le bassin et les gestes de protection"
+        },
+        {
+          "q": "Quel type de lésion peut entraîner un pneumothorax ?",
+          "a": "Un traumatisme thoracique",
+          "pages": "8",
+          "topic": "Le rachis, le bassin et les gestes de protection"
+        },
+        {
+          "q": "Quel seuil de SpO₂ est repris parmi les critères de gravité du cours ?",
+          "a": "90 % ou moins",
+          "pages": "8, 10",
+          "topic": "Le rachis, le bassin et les gestes de protection"
+        },
+        {
+          "q": "À quoi correspond une anisocorie ?",
+          "a": "Une différence de taille entre les deux pupilles",
+          "pages": "9",
+          "topic": "Le rachis, le bassin et les gestes de protection"
+        },
+        {
+          "q": "Quel examen est cité pour évaluer la conscience après un traumatisme ?",
+          "a": "Le score de Glasgow",
+          "pages": "9–10",
+          "topic": "Deuxième menace : insuffisance respiratoire"
+        },
+        {
+          "q": "Quelles sont les trois composantes du Glasgow ?",
+          "a": "Ouverture des yeux, réponse verbale et réponse motrice",
+          "pages": "9",
+          "topic": "Deuxième menace : insuffisance respiratoire"
+        },
+        {
+          "q": "Quelle est l’étendue totale du score de Glasgow ?",
+          "a": "De 3 à 15",
+          "pages": "9",
+          "topic": "Deuxième menace : insuffisance respiratoire"
+        },
+        {
+          "q": "Quelle composante du Glasgow est cotée au maximum sur six points ?",
+          "a": "La réponse motrice",
+          "pages": "9",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow"
+        },
+        {
+          "q": "Quelle composante du Glasgow est cotée au maximum sur quatre points ?",
+          "a": "L’ouverture des yeux",
+          "pages": "9",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow"
+        },
+        {
+          "q": "Quel score Glasgow le cours reprend-il comme critère pronostique de gravité ?",
+          "a": "Moins de 13",
+          "pages": "10",
+          "topic": "Troisième menace : le cerveau et le score de Glasgow"
+        },
+        {
+          "q": "Comment le cours classe-t-il un Glasgow inférieur ou égal à 8 ?",
+          "a": "Traumatisme crânien sévère",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser"
+        },
+        {
+          "q": "Quel calcul correspond au « shock index » du cours ?",
+          "a": "Fréquence cardiaque divisée par pression artérielle systolique",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser"
+        },
+        {
+          "q": "Quels sont les trois paramètres pronostiques particulièrement cités dans la conclusion ?",
+          "a": "Pression systolique, saturation et Glasgow",
+          "pages": "10",
+          "topic": "Vittel : trois seuils à reconnaître et à contextualiser"
+        }
+      ]
     }
   }
 }
