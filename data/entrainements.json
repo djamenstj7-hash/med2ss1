@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v06-premier-lot-qi-dc",
-  "disclaimer": "Premier lot de démonstration : exercices construits exclusivement à partir des cours identifiés. Les dossiers sont fictifs ; les formats exacts des QI hors sémiologie restent à confirmer. Ne constitue pas un examen blanc exhaustif.",
+  "revision": "2026-10-11-v07-enrichissement-sang-csh",
+  "disclaimer": "V0.7 : entraînements pédagogiques fictifs construits à partir des cours. Les dossiers cliniques sont des cas d’application ; ils ne correspondent pas à des annales authentiques. La banque de sémiologie reste exclusivement en QCM indépendants.",
   "subjects": {
     "sang": {
       "qi": [
@@ -136,6 +136,212 @@
           "page": "3",
           "format": "QRU",
           "id": "sang-qi-08"
+        },
+        {
+          "id": "sang-qi-09",
+          "question": "Quelles affirmations décrivent les CSH selon le CM ?",
+          "options": [
+            "Elles assurent des lignées sanguines variées",
+            "Elles sont rares et indifférenciées",
+            "Elles sont reconnaissables directement comme des neutrophiles matures",
+            "Elles peuvent s’autorenouveler"
+          ],
+          "correct": [
+            1,
+            3,
+            0
+          ],
+          "explanation": "Les CSH sont rares, non identifiables par leur seule morphologie, et multipotentes.",
+          "page": "5",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-10",
+          "question": "Quels éléments sont associés à la maturation des précurseurs ?",
+          "options": [
+            "Autorenouvellement maintenu sans limite",
+            "Diminution du rapport nucléo-cytoplasmique",
+            "Réduction de la taille cellulaire",
+            "Condensation de la chromatine"
+          ],
+          "correct": [
+            2,
+            3,
+            1
+          ],
+          "explanation": "Le CM décrit diminution de taille et du rapport nucléocytoplasmique, avec condensation chromatinienne.",
+          "page": "7",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-11",
+          "question": "Quels sites sont décrits comme ayant participé à l’hématopoïèse au cours de la vie ?",
+          "options": [
+            "Foie et rate",
+            "Moelle osseuse",
+            "Thymus seul tout au long de la vie",
+            "Îlots embryonnaires"
+          ],
+          "correct": [
+            3,
+            0,
+            1
+          ],
+          "explanation": "Le cours décrit une succession de sites embryonnaires, hépato-spléniques puis médullaires.",
+          "page": "4",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-12",
+          "question": "Parmi ces composants, lesquels sont des granulocytes ?",
+          "options": [
+            "Neutrophiles",
+            "Lymphocytes",
+            "Éosinophiles",
+            "Basophiles"
+          ],
+          "correct": [
+            0,
+            2,
+            3
+          ],
+          "explanation": "Les trois types cités de granulocytes sont neutrophiles, éosinophiles et basophiles.",
+          "page": "3",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-13",
+          "question": "Quelles propriétés du micro-environnement médullaire sont citées ?",
+          "options": [
+            "Énucléation systématique des lymphocytes",
+            "Protection des cellules souches",
+            "Interactions adhésives",
+            "Sécrétion de facteurs de croissance"
+          ],
+          "correct": [
+            1,
+            2,
+            3
+          ],
+          "explanation": "La niche joue un rôle de soutien, de protection, d’adhérence et de signalisation.",
+          "page": "9",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-14",
+          "question": "Quelle séquence est correcte ?",
+          "options": [
+            "Matures → CSH → progéniteurs → précurseurs",
+            "Précurseurs → progéniteurs → CSH → matures",
+            "CSH → progéniteurs → précurseurs → matures",
+            "CSH → précurseurs → matures → progéniteurs"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "C’est le plan des quatre compartiments de l’hématopoïèse.",
+          "page": "5",
+          "format": "QRU"
+        },
+        {
+          "id": "sang-qi-15",
+          "question": "Quel est le marqueur de surface cité par le cours pour le compartiment CSH ?",
+          "options": [
+            "G-CSF",
+            "EPO",
+            "MGG",
+            "CD34"
+          ],
+          "correct": [
+            3
+          ],
+          "explanation": "Le CM mentionne CD34 comme marqueur associé au compartiment souche.",
+          "page": "5",
+          "format": "QRU"
+        },
+        {
+          "id": "sang-qi-16",
+          "question": "Quels éléments correspondent à la lignée érythrocytaire décrite ?",
+          "options": [
+            "Expulsion du noyau",
+            "Réticulocyte comme forme jeune",
+            "Synthèse d’hémoglobine",
+            "Polylobulation terminale du noyau"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "La lignée érythrocytaire perd son noyau, synthétise l’hémoglobine, puis passe par le stade réticulocyte.",
+          "page": "7",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-17",
+          "question": "Une formule comporte 9 G/L de leucocytes et 40 % de lymphocytes. Quelle valeur absolue ?",
+          "options": [
+            "0,4 G/L",
+            "3,6 G/L",
+            "36 G/L",
+            "4 G/L"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "9 × 40 / 100 = 3,6 G/L.",
+          "page": "3",
+          "format": "QRU"
+        },
+        {
+          "id": "sang-qi-18",
+          "question": "À quoi sert le homing ?",
+          "options": [
+            "Produire le bleu de méthylène",
+            "Supprimer tous les facteurs de croissance",
+            "Permettre le retour des CSH à la moelle",
+            "Transformer les réticulocytes en neutrophiles"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "Le homing est la capacité de migration/retour vers la niche médullaire.",
+          "page": "5",
+          "format": "QRU"
+        },
+        {
+          "id": "sang-qi-19",
+          "question": "Quelles correspondances sont exactes selon le CM ?",
+          "options": [
+            "G-CSF — neutrophiles",
+            "Facteur de transcription — régulation des gènes",
+            "CD34 — colorant MGG",
+            "EPO — globules rouges"
+          ],
+          "correct": [
+            3,
+            0,
+            1
+          ],
+          "explanation": "EPO et G-CSF stimulent des lignées différentes ; les facteurs de transcription régulent les programmes génétiques.",
+          "page": "8",
+          "format": "QRM"
+        },
+        {
+          "id": "sang-qi-20",
+          "question": "Un prélèvement médullaire coloré au MGG sert principalement à...",
+          "options": [
+            "Observer des cellules de la moelle au microscope",
+            "Mesurer uniquement la pression artérielle",
+            "Remplacer systématiquement l’hémogramme",
+            "Identifier le fonctionnement du cortex cérébral"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le myélogramme prélève de la moelle pour observation après coloration.",
+          "page": "4",
+          "format": "QRU"
         }
       ],
       "cases": [
@@ -211,13 +417,194 @@
             }
           ],
           "id": "sang-dc-01"
+        },
+        {
+          "id": "sang-dc-02",
+          "title": "Dans le laboratoire de l’hémogramme",
+          "vignette": "Situation pédagogique fictive : un étudiant reçoit une formule de 12 G/L de leucocytes avec 60 % de neutrophiles. Il doit interpréter la valeur absolue, puis proposer l’étape de raisonnement adaptée à la production sanguine.",
+          "questions": [
+            {
+              "id": "sang-dc-02-01",
+              "question": "Combien de neutrophiles sont présents en valeur absolue ?",
+              "options": [
+                "72 G/L",
+                "6 G/L",
+                "0,6 G/L",
+                "7,2 G/L"
+              ],
+              "correct": [
+                3
+              ],
+              "explanation": "12 × 0,60 = 7,2 G/L.",
+              "page": "3",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-02-02",
+              "question": "Pourquoi le pourcentage seul peut-il être insuffisant ?",
+              "options": [
+                "Il n’exprime pas le nombre absolu de cellules",
+                "Il est toujours égal au nombre de leucocytes",
+                "Il indique le taux d’EPO",
+                "Il mesure la concentration médullaire"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "La proportion doit être multipliée par le nombre total de leucocytes.",
+              "page": "3",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-02-03",
+              "question": "Quel groupe représente les granulocytes selon le cours ?",
+              "options": [
+                "Lymphocytes",
+                "Neutrophiles",
+                "Éosinophiles",
+                "Basophiles"
+              ],
+              "correct": [
+                1,
+                2,
+                3
+              ],
+              "explanation": "Neutrophiles, éosinophiles et basophiles forment les granulocytes.",
+              "page": "3",
+              "format": "QRM"
+            },
+            {
+              "id": "sang-dc-02-04",
+              "question": "Pour examiner directement le compartiment médullaire, on réalise plutôt...",
+              "options": [
+                "Un dosage du Ki",
+                "Une spirométrie",
+                "Un myélogramme",
+                "Une auscultation seule"
+              ],
+              "correct": [
+                2
+              ],
+              "explanation": "Un myélogramme consiste en une aspiration médullaire puis examen de cellules.",
+              "page": "4",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-02-05",
+              "question": "Dans ce cours, quel facteur favorise la production de neutrophiles ?",
+              "options": [
+                "EPO",
+                "Éosine",
+                "Hémoglobine",
+                "G-CSF"
+              ],
+              "correct": [
+                3
+              ],
+              "explanation": "Le G-CSF est associé à la lignée neutrophile.",
+              "page": "8",
+              "format": "QRU"
+            }
+          ]
+        },
+        {
+          "id": "sang-dc-03",
+          "title": "La réponse de la moelle osseuse",
+          "vignette": "Situation fictive d’apprentissage : devant une baisse d’hématies, on cherche à comprendre si la moelle fournit de nouveaux globules rouges. L’étudiant explore les étapes de maturation et les signaux de régulation, sans conclure sur le diagnostic d’un patient réel.",
+          "questions": [
+            {
+              "id": "sang-dc-03-01",
+              "question": "Quel paramètre du CM permet d’apprécier la régénération de la lignée érythrocytaire ?",
+              "options": [
+                "Basophiles uniquement",
+                "Nombre de ganglions",
+                "Réticulocytes",
+                "Neutrophiles uniquement"
+              ],
+              "correct": [
+                2
+              ],
+              "explanation": "Les réticulocytes sont des globules rouges jeunes et aident à apprécier la production médullaire.",
+              "page": "7",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-03-02",
+              "question": "Quelle caractéristique du réticulocyte est exacte ?",
+              "options": [
+                "Il conserve toujours deux noyaux",
+                "C’est un progéniteur CFU-L",
+                "Il produit des plaquettes",
+                "Il a expulsé son noyau"
+              ],
+              "correct": [
+                3
+              ],
+              "explanation": "Le réticulocyte se situe après l’énucléation de la lignée érythrocytaire.",
+              "page": "7",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-03-03",
+              "question": "Quels caractères de maturation érythrocytaire sont mentionnés ?",
+              "options": [
+                "Synthèse d’hémoglobine",
+                "Perte du noyau",
+                "Stade réticulocyte",
+                "Polylobulation terminale"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "La maturité érythrocytaire implique notamment hémoglobine et énucléation avant le stade mature.",
+              "page": "7",
+              "format": "QRM"
+            },
+            {
+              "id": "sang-dc-03-04",
+              "question": "Quel facteur de croissance est cité pour stimuler la lignée érythrocytaire ?",
+              "options": [
+                "MGG",
+                "EPO",
+                "G-CSF",
+                "CD34"
+              ],
+              "correct": [
+                1
+              ],
+              "explanation": "L’EPO est associée à l’érythropoïèse dans ce CM.",
+              "page": "8",
+              "format": "QRU"
+            },
+            {
+              "id": "sang-dc-03-05",
+              "question": "Quels composants de la niche peuvent soutenir la production sanguine ?",
+              "options": [
+                "Interactions adhésives",
+                "Absence totale d’interactions",
+                "Cellules de soutien et matrice extracellulaire",
+                "Facteurs de croissance"
+              ],
+              "correct": [
+                2,
+                3,
+                0
+              ],
+              "explanation": "La niche apporte soutien/protection, facteurs de croissance et adhérence.",
+              "page": "9",
+              "format": "QRM"
+            }
+          ]
         }
       ],
       "source": {
         "title": "Cellules souches et progéniteurs hématopoïétiques — Pr N. Duployez",
         "url": "https://drive.google.com/file/d/13xkGlNOkar2aegeSMA5rLHEJt_NeEHwn/view"
       },
-      "notice": "Exercices pédagogiques fictifs issus du CM indiqué, et non annales authentiques. Couverture partielle : premier lot de mise en situation."
+      "notice": "CM de Pr Duployez (9 pages). Exercices fictifs ; la simulation de tissu sanguin combine QI (QRU/QRM) et dossiers cliniques selon les modalités communiquées.",
+      "lessonId": "cm-25910e7347112e7a"
     },
     "immuno": {
       "qi": [

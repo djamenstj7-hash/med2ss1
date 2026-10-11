@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v04-semantique2",
+  "revision": "2026-10-11-v07-tissu-sanguin-csh",
   "lessons": {
     "cm-de715b67886d4881": {
       "id": "cm-de715b67886d4881",
@@ -6391,6 +6391,1180 @@
           "a": "Obscurité. Exemple du cours : scotome (lacune du champ visuel).",
           "pages": "12",
           "topic": "Lumière et vision"
+        }
+      ]
+    },
+    "cm-25910e7347112e7a": {
+      "id": "cm-25910e7347112e7a",
+      "subject": "sang",
+      "title": "Cellules souches et progéniteurs hématopoïétiques — comprendre toute la fabrique du sang",
+      "courseName": "CELLULES SOUCHES ET PROGENITEURS HEMATOPOÏETIQUES.pdf",
+      "date": "2026-09-18",
+      "teacher": "Pr N. Duployez",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, CM Tissu sanguin, 9 pages",
+        "url": "https://drive.google.com/file/d/13xkGlNOkar2aegeSMA5rLHEJt_NeEHwn/view",
+        "pages": 9
+      },
+      "editorialNote": "Réécriture narrative élaborée à partir du CM de Pr Duployez (9 pages) ; illustrations mentales et exercices inédits. Les formulations ambiguës du PDF sont signalées, non transmises comme faits avérés. Le texte source et les images restent sur Drive.",
+      "hook": "Tu entres dans la plus grande usine de remplacement de ton organisme : la moelle osseuse. Ici, on protège une poignée de cellules souches, on choisit les filières, on fabrique des millions de cellules et on contrôle la livraison jour et nuit.",
+      "flow": [
+        "Besoin permanent",
+        "CSH (stock)",
+        "Progéniteurs (choix)",
+        "Précurseurs (fabrication)",
+        "Cellules matures",
+        "Facteurs + niche"
+      ],
+      "flags": [
+        "Le PDF p. 8 contient un exemple qui associe un granulocyte à la production d’hémoglobine ; il ne doit pas être retenu comme mécanisme de différenciation. Dans le reste du cours, la synthèse d’hémoglobine relève de la lignée érythrocytaire.",
+        "Les durées, pourcentages et formulations sont rapportés tels que présentés dans le CM. Ils servent à réviser ce support ; certaines phrases de la ronéo simplifient la physiologie clinique."
+      ],
+      "summary": [
+        {
+          "name": "Définition",
+          "detail": "Hématopoïèse = production et renouvellement continu, régulé, des cellules sanguines à partir des CSH.",
+          "pages": "2"
+        },
+        {
+          "name": "Valeurs repères",
+          "detail": "Durées mentionnées : GR 120 jours ; plaquettes 7 jours ; neutrophiles 1–3 jours.",
+          "pages": "3"
+        },
+        {
+          "name": "Formule leucocytaire",
+          "detail": "La valeur absolue d’une population = leucocytes totaux × pourcentage / 100.",
+          "pages": "3"
+        },
+        {
+          "name": "Leucocytes",
+          "detail": "Trois granulocytes : neutrophiles, éosinophiles, basophiles ; plus monocytes et lymphocytes. Un polynucléaire n’a qu’un noyau polylobé.",
+          "pages": "3"
+        },
+        {
+          "name": "Localisation au cours de la vie",
+          "detail": "Début embryonnaire → foie/rate → prédominance médullaire. Le myélogramme explore la moelle.",
+          "pages": "4"
+        },
+        {
+          "name": "Preuve expérimentale",
+          "detail": "Till et McCulloch : reconstitution de l’hématopoïèse après greffe médullaire chez des souris irradiées ; CFU-S.",
+          "pages": "4"
+        },
+        {
+          "name": "CSH",
+          "detail": "Cellules rares ; CD34 mentionné ; auto-renouvellement, multipotence, quiescence et homing.",
+          "pages": "5"
+        },
+        {
+          "name": "4 étages",
+          "detail": "CSH → progéniteur → précurseur → mature. Stock → engagement → amplification/maturation → fonction.",
+          "pages": "5–7"
+        },
+        {
+          "name": "Lignages",
+          "detail": "CFU-L = lymphoïde ; CFU-GEMM = myéloïde. Précurseurs morphologiquement reconnaissables.",
+          "pages": "6–7"
+        },
+        {
+          "name": "3 maturations",
+          "detail": "Érythrocyte : extrusion du noyau / réticulocyte ; neutrophile : granulations et noyau polylobé ; plaquettes : fragments de mégacaryocyte.",
+          "pages": "7–8"
+        },
+        {
+          "name": "Régulation",
+          "detail": "Facteurs de transcription sur l’expression des gènes ; facteurs de croissance via des récepteurs. EPO et G-CSF.",
+          "pages": "8"
+        },
+        {
+          "name": "Niche médullaire",
+          "detail": "Soutien et protection, sécrétion de facteurs de croissance, interactions adhésives.",
+          "pages": "9"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "La moelle osseuse, une usine qui ne peut jamais fermer",
+          "pages": "2–3",
+          "paragraphs": [
+            "Imagine une ville dont les véhicules de livraison tombent régulièrement en panne. Elle doit constamment en reconstruire. Ton sang suit cette logique : les cellules circulantes ont une durée de vie limitée, et la moelle assure leur renouvellement continu. Le cours appelle cette fabrication régulée l’hématopoïèse.",
+            "Tout commence à partir d’un compartiment minuscule : les cellules souches hématopoïétiques, ou CSH. Elles donnent naissance aux différentes lignées sanguines. Le produit final est une cellule mature, fonctionnelle, mais sans capacité de division selon la présentation du cours.",
+            "Sur une lame de sang, les hématies dominent visuellement. Les leucocytes sont nucléés ; les plaquettes se distinguent des grandes cellules sanguines. Pour comprendre les formules leucocytaires, il faut distinguer une proportion d’une quantité : 50 % de neutrophiles parmi 10 G/L de leucocytes représentent 5 G/L de neutrophiles.",
+            "Le cours donne trois durées de vie repères : globule rouge environ 120 jours, plaquette environ 7 jours, neutrophile 1 à 3 jours. Il évoque aussi une production quotidienne très importante. Plus les cellules vivent peu longtemps, plus la fabrication continue devient indispensable."
+          ],
+          "memory": "Mémo « production sans pause » : durée de vie courte → renouvellement permanent. Une proportion n’est pas une valeur absolue : TOTAL × POURCENTAGE / 100."
+        },
+        {
+          "heading": "Reconnaître les cellules qui circulent",
+          "pages": "3",
+          "paragraphs": [
+            "Il existe cinq grandes familles de leucocytes citées dans ce CM. D’abord trois granulocytes : neutrophiles, éosinophiles et basophiles. Leur noyau peut être polylobé : « polynucléaire » ne veut pas dire qu’ils possèdent plusieurs noyaux.",
+            "Le cours cite ensuite les monocytes, décrits comme les plus grandes cellules sanguines, puis les lymphocytes. Chez l’adulte sain, les intervalles donnés sont : neutrophiles 55–70 %, éosinophiles 1–4 %, basophiles 0,5–1 %, monocytes 2–8 %, lymphocytes 20–40 %. Le cours précise que ces proportions évoluent notamment avec l’âge.",
+            "Imagine un amphithéâtre où 50 % des étudiants portent une blouse rouge. Connaître la proportion ne te dit rien du nombre réel tant que tu ignores combien d’étudiants sont présents. C’est pourquoi le cours insiste : sur un bilan sanguin, la valeur absolue compte davantage que le pourcentage isolé."
+          ],
+          "memory": "Polynucléaire = UN noyau polylobé. Et pour la formule : valeur absolue = leucocytes totaux × % / 100."
+        },
+        {
+          "heading": "Changer d’adresse au fil de la vie",
+          "pages": "4",
+          "paragraphs": [
+            "L’usine du sang ne reste pas au même endroit pendant toute la vie. Au début, l’hématopoïèse primitive a lieu au cours du développement embryonnaire dans les îlots de Wolf-Pander. Le cours situe ensuite une phase foie–rate entre le 40e jour et le sixième mois.",
+            "À partir du sixième mois, la moelle osseuse prend progressivement le relais. Chez l’adulte, l’hématopoïèse habituelle se déroule dans les territoires médullaires décrits dans le cours : os plats et courts ainsi que certaines extrémités des os longs. Chez l’enfant, elle intéresse davantage d’os.",
+            "Le myélogramme, lui, revient à prélever un petit échantillon de l’atelier : aspiration médullaire, étalement sur lame, coloration MGG puis observation microscopique. La coloration associe éosine et bleu de méthylène ; le cours décrit notamment le rose-orangé de certaines protéines cytoplasmiques et le bleu-violet du matériel nucléaire."
+          ],
+          "memory": "Mémo d’itinéraire : début embryonnaire → foie/rate → moelle osseuse. Myélogramme = prélèvement de moelle, pas simple prise de sang."
+        },
+        {
+          "heading": "L’expérience des souris : prouver qu’une cellule peut tout reconstruire",
+          "pages": "4–5",
+          "paragraphs": [
+            "Imagine deux souris soumises à une irradiation détruisant leur tissu hématopoïétique. La seconde reçoit ensuite des cellules de moelle d’un donneur : son hématopoïèse peut être reconstituée. C’est le raisonnement de l’expérience historique de Till et McCulloch présentée dans le cours.",
+            "Les chercheurs observent des colonies spléniques appelées CFU-S et relient la quantité de moelle administrée aux résultats observés. L’expérience appuie l’existence de cellules capables de reconstituer durablement des lignées sanguines.",
+            "Ces cellules sont multipotentes dans le système sanguin : elles peuvent contribuer aux différentes cellules du sang. Elles ne sont pas totipotentes : elles ne génèrent pas tous les tissus de l’organisme."
+          ],
+          "memory": "Multipotente = plusieurs destins sanguins. Totipotente = capacité beaucoup plus large. Ne confonds pas les deux."
+        },
+        {
+          "heading": "Le quartier général : les quatre pouvoirs des CSH",
+          "pages": "5",
+          "paragraphs": [
+            "Une CSH est rare, indifférenciée et impossible à identifier simplement par la morphologie. Le cours signale la présence du marqueur CD34 et insiste sur quatre propriétés : autorenouvellement, multipotence, quiescence et migration.",
+            "L’autorenouvellement entretient le stock : une cellule mère peut produire une cellule qui reste souche, tandis qu’une autre s’engage vers la différenciation. La multipotence explique la diversité des lignées sanguines qui suivront.",
+            "La quiescence correspond à une cellule qui attend en G0 une grande partie de son temps. Ce repos aide à préserver le compartiment souche, et le cours souligne les enjeux face à certains traitements cytotoxiques.",
+            "Enfin, le homing est son GPS : après mobilisation puis passage dans le sang, les cellules souches peuvent rejoindre la moelle osseuse. C’est un principe important pour comprendre la greffe de CSH."
+          ],
+          "memory": "Mémo « A–M–Q–H » : Auto-renouvellement, Multipotence, Quiescence, Homing. A garde le stock, M diversifie, Q protège, H ramène à la moelle."
+        },
+        {
+          "heading": "La chaîne de production : 4 compartiments à ne plus confondre",
+          "pages": "5–7",
+          "paragraphs": [
+            "Voici le plan de l’usine. Premier étage : les cellules souches, qui conservent la capacité de s’auto-renouveler. Deuxième étage : les progéniteurs, déjà engagés dans une orientation de lignée. Troisième étage : les précurseurs, reconnaissables au microscope et capables de nombreuses divisions de maturation. Quatrième étage : les cellules matures fonctionnelles.",
+            "Le choix de filière survient chez les progéniteurs : le cours distingue un versant lymphoïde (CFU-L) et un versant myéloïde (CFU-GEMM). Ces progéniteurs acquièrent des marqueurs de lignée et peuvent former des colonies dans un milieu semi-solide. Le cours précise qu’ils ressemblent encore morphologiquement aux CSH.",
+            "Les précurseurs, eux, deviennent identifiables par leurs caractéristiques morphologiques. Leur mission n’est plus de conserver indéfiniment le stock souche : ils se multiplient, effectuent plusieurs mitoses selon la lignée, puis maturent.",
+            "En avançant, la cellule tend à diminuer de taille ; la chromatine se condense et le nucléole disparaît. Selon la filière : apparition de granulations et de lobes nucléaires, perte du noyau avec synthèse d’hémoglobine, ou phénomènes particuliers de la lignée plaquettaire."
+          ],
+          "memory": "Chaîne : **CSH → progéniteur → précurseur → mature**. Stock → choix de lignée → amplification et maturation → fonction."
+        },
+        {
+          "heading": "Trois filières, trois transformations spectaculaires",
+          "pages": "7–8",
+          "paragraphs": [
+            "Dans la filière érythrocytaire, le proérythroblaste est un précurseur immature. Au fil de la maturation, la cellule se réduit et expulse son noyau. Le réticulocyte est l’étape immédiatement antérieure au globule rouge mature ; il garde des traces d’ARN détectables selon les méthodes décrites.",
+            "Le cours utilise les réticulocytes comme indicateur de la réponse médullaire : devant une anémie, en trouver ou non aide à réfléchir à la capacité de régénération. Attention toutefois : l’interprétation complète d’un patient ne se réduit jamais à un seul élément biologique.",
+            "Dans la granulopoïèse, le myéloblaste évolue vers les granulocytes ; le cours mentionne environ 7 à 10 jours pour les neutrophiles. Dans certaines situations, des formes plus immatures peuvent apparaître dans le sang, ce que le cours appelle myélémie.",
+            "Enfin, le mégacaryocyte ressemble à une fabrique géante : il libère des fragments de cytoplasme qui deviennent les plaquettes. Le mécanisme d’endomitose est caractéristique de sa maturation."
+          ],
+          "memory": "Mémo visuel : GR = expulse le noyau ; neutrophile = granulations + noyau lobé ; plaquette = fragment de mégacaryocyte."
+        },
+        {
+          "heading": "Les ordres de fabrication : facteurs de transcription et de croissance",
+          "pages": "8",
+          "paragraphs": [
+            "Dans cette usine, il existe deux types d’instructions complémentaires. Les facteurs de transcription règlent les programmes génétiques : ils activent ou répriment des gènes, orientant l’identité et la différenciation des cellules.",
+            "Les facteurs de croissance sont plutôt des messages reçus par des récepteurs : ils favorisent notamment survie, multiplication et maturation. Le cours distingue des facteurs multipotents, de promotion et restreints selon le niveau de la chaîne sur lequel ils interviennent.",
+            "Deux noms méritent un éclairage particulier : l’EPO pour la lignée érythrocytaire, et le G-CSF pour la production de neutrophiles. Le cours évoque aussi un rôle de l’IL-6 dans le contexte inflammatoire et la production plaquettaire.",
+            "Si un collègue te dit « un facteur de transcription et l’EPO sont exactement la même chose », tu peux expliquer la différence : l’un module l’expression de gènes ; l’autre est présenté dans ce cours comme un signal agissant via son récepteur."
+          ],
+          "memory": "Transcription = programme de gènes ; croissance = message via récepteur. EPO → érythrocytes ; G-CSF → neutrophiles."
+        },
+        {
+          "heading": "La niche médullaire : plus qu’un simple bâtiment",
+          "pages": "9",
+          "paragraphs": [
+            "La chaîne hématopoïétique ne fonctionne pas dans le vide. Le cours appelle niche hématopoïétique le micro-environnement médullaire qui accueille et soutient ces cellules.",
+            "Cette niche protège les CSH contre certains stress, fournit des signaux par des facteurs de croissance et permet des interactions d’adhérence. Elle joue donc plusieurs rôles : abriter, nourrir, guider et réguler.",
+            "Dernière image à garder : une petite équipe de CSH ne suffit pas. Il lui faut une réserve entretenue, des filières de spécialisation, des précurseurs amplificateurs, des messages de régulation et un environnement protecteur. C’est l’ensemble qui produit le renouvellement du sang."
+          ],
+          "memory": "Le triptyque de la niche : protection + facteurs de croissance + adhérence."
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Dans le cours, l’hématopoïèse désigne quoi ?",
+          "choices": [
+            "La fabrication et le renouvellement régulé des cellules sanguines",
+            "La dégradation des os longs",
+            "La coagulation seule",
+            "L’élimination des lymphocytes seulement"
+          ],
+          "answer": 0,
+          "why": "Le cours définit l’hématopoïèse comme la production continue et régulée de différentes cellules du sang.",
+          "pages": "2",
+          "topic": "Fondations"
+        },
+        {
+          "q": "À partir de quel type de cellule se forment les lignées sanguines ?",
+          "choices": [
+            "Le globule rouge mature",
+            "La cellule souche hématopoïétique",
+            "Le lymphocyte mature",
+            "La plaquette"
+          ],
+          "answer": 1,
+          "why": "La CSH se situe en amont des différents compartiments de différenciation sanguine.",
+          "pages": "2",
+          "topic": "Fondations"
+        },
+        {
+          "q": "Quel élément est quantitativement le plus visible sur un frottis sanguin normal ?",
+          "choices": [
+            "Les basophiles",
+            "Les mégacaryocytes",
+            "Les hématies",
+            "Les monocytes"
+          ],
+          "answer": 2,
+          "why": "Le cours décrit les globules rouges comme majoritaires au microscope.",
+          "pages": "2",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Un polynucléaire est une cellule qui comporte...",
+          "choices": [
+            "Plusieurs noyaux indépendants",
+            "Toujours aucun noyau",
+            "Exclusivement deux noyaux",
+            "Un noyau unique pouvant présenter plusieurs lobes"
+          ],
+          "answer": 3,
+          "why": "Le terme désigne ici le noyau polylobé, pas plusieurs noyaux.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Quel groupe comporte uniquement les trois granulocytes du CM ?",
+          "choices": [
+            "Neutrophiles, éosinophiles, basophiles",
+            "Monocytes, plaquettes, lymphocytes",
+            "Hématies, monocytes, mégacaryocytes",
+            "Neutrophiles, hématies, lymphocytes"
+          ],
+          "answer": 0,
+          "why": "Les neutrophiles, éosinophiles et basophiles constituent les trois groupes granulocytaires mentionnés.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Selon le CM, quels leucocytes sont les plus grands dans le sang ?",
+          "choices": [
+            "Les érythrocytes",
+            "Les monocytes",
+            "Les plaquettes",
+            "Les basophiles"
+          ],
+          "answer": 1,
+          "why": "La ronéo présente les monocytes comme les plus grandes cellules sanguines.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Quel type de leucocyte représente 55 à 70 % des leucocytes chez l’adulte sain selon ce CM ?",
+          "choices": [
+            "Les monocytes",
+            "Les éosinophiles",
+            "Les neutrophiles",
+            "Les basophiles"
+          ],
+          "answer": 2,
+          "why": "Le cours attribue 55 à 70 % aux neutrophiles dans la formule de référence présentée.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Quel intervalle correspond aux lymphocytes chez l’adulte sain selon ce CM ?",
+          "choices": [
+            "0,5 à 1 %",
+            "1 à 4 %",
+            "55 à 70 %",
+            "20 à 40 %"
+          ],
+          "answer": 3,
+          "why": "La fourchette donnée dans le cours pour les lymphocytes est 20 à 40 %.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Les éosinophiles constituent environ...",
+          "choices": [
+            "1 à 4 % des leucocytes",
+            "55 à 70 % des leucocytes",
+            "20 à 40 % des leucocytes",
+            "50 à 80 % des leucocytes"
+          ],
+          "answer": 0,
+          "why": "L’intervalle de la ronéo est 1 à 4 % pour les éosinophiles.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Selon le CM, les basophiles représentent environ...",
+          "choices": [
+            "10 à 20 %",
+            "0,5 à 1 %",
+            "20 à 40 %",
+            "55 à 70 %"
+          ],
+          "answer": 1,
+          "why": "Le cours donne 0,5 à 1 % pour les basophiles.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Selon le CM, les monocytes représentent environ...",
+          "choices": [
+            "55 à 70 %",
+            "20 à 40 %",
+            "2 à 8 %",
+            "0,5 à 1 %"
+          ],
+          "answer": 2,
+          "why": "La proportion indiquée est de 2 à 8 % chez l’adulte sain.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Sur un hémogramme, quelle information le cours privilégie-t-il ?",
+          "choices": [
+            "Uniquement la proportion en pourcentage",
+            "La taille de la lame seule",
+            "Le volume du prélèvement médullaire",
+            "La valeur absolue des cellules"
+          ],
+          "answer": 3,
+          "why": "Une proportion doit être interprétée avec le nombre total de leucocytes.",
+          "pages": "3",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Une formule affiche 8 G/L de leucocytes avec 25 % de lymphocytes : combien de lymphocytes ?",
+          "choices": [
+            "2 G/L",
+            "25 G/L",
+            "8 G/L",
+            "0,25 G/L"
+          ],
+          "answer": 0,
+          "why": "Calcul : 8 × 25 / 100 = 2 G/L.",
+          "pages": "3",
+          "topic": "Calcul"
+        },
+        {
+          "q": "Une formule affiche 12 G/L de leucocytes avec 60 % de neutrophiles : valeur absolue ?",
+          "choices": [
+            "12,6 G/L",
+            "7,2 G/L",
+            "72 G/L",
+            "0,6 G/L"
+          ],
+          "answer": 1,
+          "why": "Calcul : 12 × 0,60 = 7,2 G/L.",
+          "pages": "3",
+          "topic": "Calcul"
+        },
+        {
+          "q": "Quelle durée de vie moyenne des globules rouges est citée ?",
+          "choices": [
+            "1 à 3 jours",
+            "1 an",
+            "120 jours",
+            "7 jours"
+          ],
+          "answer": 2,
+          "why": "La ronéo retient 120 jours pour les globules rouges.",
+          "pages": "3",
+          "topic": "Repères"
+        },
+        {
+          "q": "Quelle durée de vie moyenne des plaquettes est citée ?",
+          "choices": [
+            "120 jours",
+            "1 à 3 mois",
+            "6 mois",
+            "7 jours"
+          ],
+          "answer": 3,
+          "why": "La ronéo retient environ 7 jours pour les plaquettes.",
+          "pages": "3",
+          "topic": "Repères"
+        },
+        {
+          "q": "Quelle durée de vie moyenne des neutrophiles est citée ?",
+          "choices": [
+            "1 à 3 jours",
+            "120 jours",
+            "7 mois",
+            "3 à 5 ans"
+          ],
+          "answer": 0,
+          "why": "La ronéo donne 1 à 3 jours pour les neutrophiles.",
+          "pages": "3",
+          "topic": "Repères"
+        },
+        {
+          "q": "Pourquoi l’hématopoïèse doit-elle être continue ?",
+          "choices": [
+            "Parce que les CSH disparaissent systématiquement en un jour",
+            "Parce que les cellules sanguines ont une durée de vie limitée",
+            "Parce que toutes les cellules matures se divisent sans arrêt",
+            "Parce que les globules rouges ont un noyau"
+          ],
+          "answer": 1,
+          "why": "Les cellules sanguines sont remplacées régulièrement car elles vivent relativement peu longtemps.",
+          "pages": "3",
+          "topic": "Fondations"
+        },
+        {
+          "q": "Où le cours situe-t-il la phase primitive embryonnaire de l’hématopoïèse ?",
+          "choices": [
+            "Uniquement dans le sternum",
+            "Dans les ganglions lymphatiques",
+            "Dans les îlots de Wolf-Pander",
+            "Dans le thymus adulte"
+          ],
+          "answer": 2,
+          "why": "Le cours cite les îlots de Wolf-Pander pour la première période embryonnaire.",
+          "pages": "4",
+          "topic": "Localisation"
+        },
+        {
+          "q": "Entre le 40e jour et le 6e mois, quels organes jouent un rôle majeur selon le CM ?",
+          "choices": [
+            "Thymus et cerveau",
+            "Peau et reins",
+            "Poumons et cœur",
+            "Foie et rate"
+          ],
+          "answer": 3,
+          "why": "La ronéo décrit une phase de production hépato-splénique.",
+          "pages": "4",
+          "topic": "Localisation"
+        },
+        {
+          "q": "À partir de quel moment la moelle devient-elle progressivement principale ?",
+          "choices": [
+            "À partir du 6e mois du développement",
+            "Dès la première semaine adulte",
+            "Seulement après 30 ans",
+            "Uniquement après la puberté"
+          ],
+          "answer": 0,
+          "why": "La moelle osseuse prend progressivement le relais à partir du sixième mois.",
+          "pages": "4",
+          "topic": "Localisation"
+        },
+        {
+          "q": "Quel examen prélève directement de la moelle osseuse ?",
+          "choices": [
+            "Une radiographie sans prélèvement",
+            "Le myélogramme",
+            "L’ECG",
+            "La spirométrie"
+          ],
+          "answer": 1,
+          "why": "Le myélogramme consiste à aspirer des cellules médullaires pour les étudier.",
+          "pages": "4",
+          "topic": "Examen"
+        },
+        {
+          "q": "Quel couple de colorants est décrit dans la coloration MGG ?",
+          "choices": [
+            "Éthanol et acétone",
+            "Hémoglobine et chlorure de sodium",
+            "Éosine et bleu de méthylène",
+            "Iode et fluorescéine"
+          ],
+          "answer": 2,
+          "why": "Le cours cite l’éosine et le bleu de méthylène dans le May-Grünwald Giemsa.",
+          "pages": "4",
+          "topic": "Examen"
+        },
+        {
+          "q": "Dans ce CM, la coloration bleue/violette du noyau est surtout attribuée...",
+          "choices": [
+            "À l’éosine seule",
+            "À l’EPO",
+            "Au G-CSF",
+            "Au bleu de méthylène"
+          ],
+          "answer": 3,
+          "why": "Le bleu de méthylène est présenté comme colorant basique du matériel nucléaire.",
+          "pages": "4",
+          "topic": "Examen"
+        },
+        {
+          "q": "Que démontre schématiquement l’expérience de Till et McCulloch ?",
+          "choices": [
+            "La reconstitution de l’hématopoïèse après apport médullaire",
+            "Le remplacement du sang par du sérum",
+            "L’absence de cellules souches",
+            "La production de plaquettes par le thymus"
+          ],
+          "answer": 0,
+          "why": "Chez des souris irradiées, les cellules médullaires injectées permettent de reconstituer la production sanguine.",
+          "pages": "4",
+          "topic": "Expérience"
+        },
+        {
+          "q": "Que signifie CFU-S dans le contexte de cette expérience ?",
+          "choices": [
+            "Cellules filtrantes du sternum",
+            "Unités formant des colonies dans la rate",
+            "Cellules finales urinaires du sérum",
+            "Facteurs de croissance uniquement"
+          ],
+          "answer": 1,
+          "why": "Les colonies spléniques sont les colonies CFU-S présentées dans le cours.",
+          "pages": "4",
+          "topic": "Expérience"
+        },
+        {
+          "q": "Dire qu’une CSH est multipotente signifie qu’elle peut...",
+          "choices": [
+            "Devenir uniquement un lymphocyte",
+            "Fabriquer directement l’os cortical",
+            "Engendrer plusieurs lignées de cellules sanguines",
+            "Produire toutes les cellules de tous les tissus de l’organisme"
+          ],
+          "answer": 2,
+          "why": "La multipotence concerne la diversité des destins cellulaires sanguins.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Quelle expression est à éviter pour les CSH ?",
+          "choices": [
+            "Multipotentes",
+            "Capables de migration",
+            "Capables d’autorenouvellement",
+            "Totipotentes"
+          ],
+          "answer": 3,
+          "why": "Les CSH ne sont pas totipotentes selon l’opposition formulée par le cours.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Quel marqueur de surface est signalé dans le cours pour les CSH ?",
+          "choices": [
+            "CD34",
+            "HbA1c",
+            "CRP",
+            "IgE"
+          ],
+          "answer": 0,
+          "why": "CD34 est mentionné comme un marqueur associé au compartiment CSH.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Une caractéristique décrite des CSH est...",
+          "choices": [
+            "Leur absence complète de potentiel de différenciation",
+            "Leur rareté",
+            "Leur très grand nombre sur le frottis sanguin",
+            "Leur identification facile par la morphologie seule"
+          ],
+          "answer": 1,
+          "why": "Le cours décrit un compartiment rare et difficile à reconnaître morphologiquement.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "L’autorenouvellement des CSH permet principalement...",
+          "choices": [
+            "De transformer les plaquettes en globules rouges",
+            "De détruire les précurseurs",
+            "De conserver un stock de cellules souches",
+            "D’expulser le noyau de tous les leucocytes"
+          ],
+          "answer": 2,
+          "why": "La division de CSH permet de renouveler le compartiment souche.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Le terme quiescence des CSH renvoie surtout...",
+          "choices": [
+            "À une division permanente en mitose",
+            "À une absence définitive de vitalité",
+            "À une maturation en globule rouge",
+            "À un repos cellulaire en phase G0"
+          ],
+          "answer": 3,
+          "why": "Le cours évoque une proportion importante de temps passée en G0.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Après une greffe, quelle propriété aide les CSH à rejoindre la moelle ?",
+          "choices": [
+            "Le homing",
+            "L’endomitose",
+            "La polylobulation",
+            "L’hémolyse"
+          ],
+          "answer": 0,
+          "why": "Le homing désigne la migration/retour vers la niche médullaire.",
+          "pages": "5",
+          "topic": "CSH"
+        },
+        {
+          "q": "Quel est l’ordre des compartiments décrit dans le CM ?",
+          "choices": [
+            "CSH → cellules matures → progéniteurs → précurseurs",
+            "CSH → progéniteurs → précurseurs → cellules matures",
+            "Précurseurs → CSH → progéniteurs → cellules matures",
+            "Cellules matures → CSH → précurseurs → progéniteurs"
+          ],
+          "answer": 1,
+          "why": "La progression en quatre étages est centrale dans le cours.",
+          "pages": "5",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "À quel niveau commence l’engagement dans une lignée ?",
+          "choices": [
+            "Dans les plaquettes circulantes",
+            "Au niveau des neutrophiles déjà matures",
+            "Chez les progéniteurs",
+            "Uniquement chez les hématies matures"
+          ],
+          "answer": 2,
+          "why": "Le cours situe les premières étapes de différenciation irréversible au compartiment progéniteur.",
+          "pages": "6",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Quel type de progéniteur est désigné CFU-L ?",
+          "choices": [
+            "Érythrocytaire exclusif",
+            "Mégacaryocytaire exclusif",
+            "Neutrophile mature",
+            "Lymphoïde"
+          ],
+          "answer": 3,
+          "why": "Le CM indique CFU-L pour le progéniteur lymphoïde commun.",
+          "pages": "6",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Quel type de progéniteur est désigné CFU-GEMM ?",
+          "choices": [
+            "Myéloïde commun",
+            "Lymphocyte T mature",
+            "Globule rouge circulant",
+            "Éosinophile mature"
+          ],
+          "answer": 0,
+          "why": "CFU-GEMM renvoie au progéniteur myéloïde commun.",
+          "pages": "6",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Dans quel milieu peut-on observer des colonies formées par les progéniteurs ?",
+          "choices": [
+            "Du liquide céphalorachidien exclusivement",
+            "Un milieu semi-solide",
+            "Du plasma sans cellules",
+            "Une lame de radiographie"
+          ],
+          "answer": 1,
+          "why": "La capacité clonogénique en milieu semi-solide est une propriété des progéniteurs citée.",
+          "pages": "6",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Quelle affirmation morphologique distingue surtout progéniteurs et précurseurs ?",
+          "choices": [
+            "Les précurseurs sont tous dépourvus de noyau",
+            "Les progéniteurs sont toujours visibles comme des plaquettes",
+            "Les précurseurs deviennent identifiables morphologiquement",
+            "Les progéniteurs ont tous des noyaux polylobés"
+          ],
+          "answer": 2,
+          "why": "Le CM précise que les progéniteurs ressemblent encore aux CSH, tandis que les précurseurs deviennent reconnaissables.",
+          "pages": "7",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Quelle capacité est perdue au niveau des précurseurs ?",
+          "choices": [
+            "La possibilité de se multiplier",
+            "La maturation",
+            "La réalisation de mitoses",
+            "L’autorenouvellement au sens du compartiment souche"
+          ],
+          "answer": 3,
+          "why": "Les précurseurs ont perdu l’autorenouvellement mais peuvent réaliser plusieurs mitoses.",
+          "pages": "7",
+          "topic": "Compartiments"
+        },
+        {
+          "q": "Au cours de la maturation, le rapport nucléo-cytoplasmique tend à...",
+          "choices": [
+            "Diminuer",
+            "Augmenter systématiquement",
+            "Rester exactement constant",
+            "S’annuler dès le premier progéniteur"
+          ],
+          "answer": 0,
+          "why": "Le cours décrit une diminution du rapport nucléo-cytoplasmique.",
+          "pages": "7",
+          "topic": "Morphologie"
+        },
+        {
+          "q": "Quelle évolution de la chromatine accompagne la maturation ?",
+          "choices": [
+            "Apparition systématique de plusieurs noyaux",
+            "Condensation de la chromatine",
+            "Dispersion définitive de l’ADN hors cellule",
+            "Augmentation de la taille du nucléole"
+          ],
+          "answer": 1,
+          "why": "Le cours évoque condensation de la chromatine et disparition du nucléole.",
+          "pages": "7",
+          "topic": "Morphologie"
+        },
+        {
+          "q": "Quel élément marque la maturation terminale de la lignée érythrocytaire ?",
+          "choices": [
+            "L’endomitose",
+            "L’acquisition d’un noyau polylobé",
+            "L’expulsion du noyau",
+            "L’apparition de granulations neutrophiles"
+          ],
+          "answer": 2,
+          "why": "L’énucléation précède l’état de globule rouge mature.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Le réticulocyte est...",
+          "choices": [
+            "Une plaquette immature nucléée",
+            "Un lymphocyte T issu du thymus",
+            "Un neutrophile totalement mature",
+            "Un globule rouge jeune ayant récemment expulsé son noyau"
+          ],
+          "answer": 3,
+          "why": "Le cours situe le réticulocyte juste après l’énucléation de la lignée érythrocytaire.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Quel élément résiduel permet d’identifier les réticulocytes avec une coloration adaptée ?",
+          "choices": [
+            "L’ARN",
+            "Une seconde membrane nucléaire",
+            "Les granulations basophiles",
+            "Le CD34 obligatoirement"
+          ],
+          "answer": 0,
+          "why": "Le reste d’ARN est utilisé par le cours pour reconnaître les réticulocytes.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "En cas d’anémie, le dosage des réticulocytes renseigne surtout sur...",
+          "choices": [
+            "Le degré d’anticoagulation",
+            "La réponse de production médullaire",
+            "La saturation systématique en oxygène",
+            "La quantité de G-CSF uniquement"
+          ],
+          "answer": 1,
+          "why": "Le taux de réticulocytes aide à apprécier la régénération de la lignée érythrocytaire.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Quelle modification est caractéristique de la granulopoïèse ?",
+          "choices": [
+            "Fragmentation en plaquettes",
+            "Absence de maturation du noyau",
+            "Apparition de granulations et polylobulation du noyau",
+            "Énucléation systématique de tous les granulocytes"
+          ],
+          "answer": 2,
+          "why": "La granulopoïèse s’accompagne d’une différenciation nucléaire et granulaire.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Qu’appelle-t-on myélémie dans le cours ?",
+          "choices": [
+            "La disparition physiologique des globules rouges",
+            "La concentration absolue des monocytes",
+            "La formation de colonies CFU-S dans la rate",
+            "La présence de formes granulocytaires immatures dans le sang"
+          ],
+          "answer": 3,
+          "why": "Le cours évoque l’apparition de myélocytes et autres formes immatures dans le sang.",
+          "pages": "8",
+          "topic": "Lignées"
+        },
+        {
+          "q": "À partir de quelle cellule se forment les plaquettes ?",
+          "choices": [
+            "Du mégacaryocyte",
+            "Du réticulocyte",
+            "Du basophile mature",
+            "Du lymphocyte B"
+          ],
+          "answer": 0,
+          "why": "Les plaquettes proviennent de fragments cytoplasmiques de mégacaryocytes.",
+          "pages": "8",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Quel phénomène particulier est cité dans la maturation mégacaryocytaire ?",
+          "choices": [
+            "Le homing",
+            "L’endomitose",
+            "L’expulsion d’un noyau de réticulocyte",
+            "La quiescence exclusive en G0"
+          ],
+          "answer": 1,
+          "why": "La lignée plaquettaire est associée à des endomitoses.",
+          "pages": "7",
+          "topic": "Lignées"
+        },
+        {
+          "q": "Un facteur de transcription agit principalement en...",
+          "choices": [
+            "Transportant les plaquettes",
+            "Bloquant tout récepteur membranaire",
+            "Modulant l’expression des gènes",
+            "Colorant les noyaux en violet"
+          ],
+          "answer": 2,
+          "why": "Le cours décrit des activations/répressions de gènes par liaison à des séquences d’ADN.",
+          "pages": "8",
+          "topic": "Régulation"
+        },
+        {
+          "q": "Les facteurs de croissance décrits agissent surtout via...",
+          "choices": [
+            "Un remplacement des chromosomes",
+            "Une coloration MGG",
+            "Une destruction universelle des progéniteurs",
+            "Une interaction avec des récepteurs cellulaires"
+          ],
+          "answer": 3,
+          "why": "La signalisation par facteurs de croissance dépend de récepteurs.",
+          "pages": "8",
+          "topic": "Régulation"
+        },
+        {
+          "q": "Quel facteur de croissance stimule l’érythropoïèse dans ce CM ?",
+          "choices": [
+            "L’EPO",
+            "Le G-CSF",
+            "Le bleu de méthylène",
+            "L’éosine"
+          ],
+          "answer": 0,
+          "why": "L’EPO est citée pour stimuler la production de globules rouges.",
+          "pages": "8",
+          "topic": "Régulation"
+        },
+        {
+          "q": "Quel facteur de croissance stimule la production de neutrophiles ?",
+          "choices": [
+            "L’hémoglobine",
+            "Le G-CSF",
+            "L’EPO",
+            "Le CD34"
+          ],
+          "answer": 1,
+          "why": "Le G-CSF est présenté comme facteur stimulant la lignée neutrophile.",
+          "pages": "8",
+          "topic": "Régulation"
+        },
+        {
+          "q": "Quel groupe de facteurs agit selon le cours au passage progéniteur → précurseur ?",
+          "choices": [
+            "Facteurs exclusivement nucléaires MGG",
+            "Facteurs restreints exclusivement",
+            "Facteurs de promotion",
+            "Facteurs multipotents"
+          ],
+          "answer": 2,
+          "why": "Le cours distingue les facteurs de promotion pour la transition progéniteur/précurseur.",
+          "pages": "8",
+          "topic": "Régulation"
+        },
+        {
+          "q": "Le micro-environnement médullaire est aussi nommé...",
+          "choices": [
+            "Polynucléaire",
+            "CFU-S",
+            "Myélémie",
+            "Niche hématopoïétique"
+          ],
+          "answer": 3,
+          "why": "La niche comprend cellules de soutien et matrice extracellulaire autour des cellules hématopoïétiques.",
+          "pages": "9",
+          "topic": "Niche"
+        },
+        {
+          "q": "Quelle fonction caractérise la niche médullaire ?",
+          "choices": [
+            "Protection des CSH et sécrétion de facteurs de croissance",
+            "Transformation immédiate des plaquettes en globules rouges",
+            "Production d’érythrocytes sans aucune cellule souche",
+            "Élimination de toute adhérence cellulaire"
+          ],
+          "answer": 0,
+          "why": "La niche soutient les cellules et participe à leur régulation par facteurs et interactions adhésives.",
+          "pages": "9",
+          "topic": "Niche"
+        },
+        {
+          "q": "Quel triptyque résume la niche selon ce CM ?",
+          "choices": [
+            "Érythrocytes, ECG, auscultation",
+            "Protection, croissance, adhérence",
+            "Bile, cortisol, insuline",
+            "Coloration, radiographie, chirurgie"
+          ],
+          "answer": 1,
+          "why": "Les fonctions citées sont protection, sécrétion de facteurs et interactions adhésives.",
+          "pages": "9",
+          "topic": "Niche"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Hématopoïèse : définition en une phrase ?",
+          "a": "Fabrication et renouvellement continu, régulé, des cellules sanguines.",
+          "pages": "2"
+        },
+        {
+          "q": "Cellule commune à l’origine des lignées sanguines ?",
+          "a": "Cellule souche hématopoïétique (CSH).",
+          "pages": "2"
+        },
+        {
+          "q": "3 populations observables avec un frottis sanguin ?",
+          "a": "Hématies, leucocytes, plaquettes.",
+          "pages": "2"
+        },
+        {
+          "q": "Noyau d’un « polynucléaire » ?",
+          "a": "Un seul noyau, souvent polylobé.",
+          "pages": "3"
+        },
+        {
+          "q": "Quels sont les trois granulocytes ?",
+          "a": "Neutrophiles, éosinophiles, basophiles.",
+          "pages": "3"
+        },
+        {
+          "q": "Quelle cellule est décrite comme la plus grande cellule du sang ?",
+          "a": "Monocyte.",
+          "pages": "3"
+        },
+        {
+          "q": "Repère neutrophiles du CM ?",
+          "a": "55–70 % des leucocytes de l’adulte sain dans le support.",
+          "pages": "3"
+        },
+        {
+          "q": "Repère lymphocytes du CM ?",
+          "a": "20–40 % des leucocytes de l’adulte sain dans le support.",
+          "pages": "3"
+        },
+        {
+          "q": "Repère éosinophiles du CM ?",
+          "a": "1–4 %.",
+          "pages": "3"
+        },
+        {
+          "q": "Repère basophiles du CM ?",
+          "a": "0,5–1 %.",
+          "pages": "3"
+        },
+        {
+          "q": "Repère monocytes du CM ?",
+          "a": "2–8 %.",
+          "pages": "3"
+        },
+        {
+          "q": "Formule de concentration absolue d’une population ?",
+          "a": "Leucocytes totaux × pourcentage / 100.",
+          "pages": "3"
+        },
+        {
+          "q": "10 G/L de leucocytes, 50 % neutrophiles = ?",
+          "a": "5 G/L de neutrophiles.",
+          "pages": "3"
+        },
+        {
+          "q": "Durée de vie GR retenue dans le CM ?",
+          "a": "Environ 120 jours.",
+          "pages": "3"
+        },
+        {
+          "q": "Durée de vie plaquettes retenue ?",
+          "a": "Environ 7 jours.",
+          "pages": "3"
+        },
+        {
+          "q": "Durée de vie neutrophiles retenue ?",
+          "a": "Environ 1 à 3 jours.",
+          "pages": "3"
+        },
+        {
+          "q": "Évolution des sites hématopoïétiques ?",
+          "a": "Embryon (îlots de Wolf-Pander) → foie/rate → moelle osseuse.",
+          "pages": "4"
+        },
+        {
+          "q": "Qu’est-ce qu’un myélogramme ?",
+          "a": "Aspiration de moelle osseuse, étalement sur lame et examen microscopique.",
+          "pages": "4"
+        },
+        {
+          "q": "Coloration MGG : deux colorants cités ?",
+          "a": "Éosine et bleu de méthylène.",
+          "pages": "4"
+        },
+        {
+          "q": "Till et McCulloch : idée de l’expérience ?",
+          "a": "Après irradiation, des cellules médullaires injectées peuvent reconstituer l’hématopoïèse.",
+          "pages": "4"
+        },
+        {
+          "q": "Signification de CFU-S ?",
+          "a": "Colony Forming Units — Spleen (colonies spléniques).",
+          "pages": "4"
+        },
+        {
+          "q": "Multipotence d’une CSH ?",
+          "a": "Peut contribuer à plusieurs lignées de cellules sanguines.",
+          "pages": "5"
+        },
+        {
+          "q": "CSH : quatre propriétés principales ?",
+          "a": "Autorenouvellement, multipotence, quiescence, migration (homing).",
+          "pages": "5"
+        },
+        {
+          "q": "CSH : marqueur de surface cité ?",
+          "a": "CD34.",
+          "pages": "5"
+        },
+        {
+          "q": "CSH : que signifie G0 ?",
+          "a": "État quiescent, hors du cycle actif de division.",
+          "pages": "5"
+        },
+        {
+          "q": "CSH : que signifie homing ?",
+          "a": "Migration/retour vers le micro-environnement médullaire.",
+          "pages": "5"
+        },
+        {
+          "q": "Quatre compartiments dans l’ordre ?",
+          "a": "CSH → progéniteurs → précurseurs → cellules matures.",
+          "pages": "5"
+        },
+        {
+          "q": "CFU-L : orientation ?",
+          "a": "Lymphoïde.",
+          "pages": "6"
+        },
+        {
+          "q": "CFU-GEMM : orientation ?",
+          "a": "Myéloïde.",
+          "pages": "6"
+        },
+        {
+          "q": "Un signe expérimental des progéniteurs ?",
+          "a": "Forment des colonies en milieu semi-solide.",
+          "pages": "6"
+        },
+        {
+          "q": "Précurseurs vs progéniteurs : différence morphologique ?",
+          "a": "Les précurseurs sont reconnaissables morphologiquement, pas les progéniteurs selon ce CM.",
+          "pages": "7"
+        },
+        {
+          "q": "Précurseurs : auto-renouvellement ?",
+          "a": "Non, mais ils effectuent plusieurs mitoses de multiplication et maturation.",
+          "pages": "7"
+        },
+        {
+          "q": "Tendance de taille et noyau à la maturation ?",
+          "a": "Diminution de taille et du rapport nucléo-cytoplasmique ; condensation de chromatine.",
+          "pages": "7"
+        },
+        {
+          "q": "Étape juste avant le globule rouge mature ?",
+          "a": "Réticulocyte, ayant expulsé le noyau avec ARN résiduel.",
+          "pages": "7"
+        },
+        {
+          "q": "Pourquoi compter les réticulocytes ?",
+          "a": "Pour apprécier la réponse/régénération érythrocytaire médullaire.",
+          "pages": "7"
+        },
+        {
+          "q": "Lignée neutrophile : deux signes de maturation ?",
+          "a": "Granulations et polylobulation du noyau.",
+          "pages": "7"
+        },
+        {
+          "q": "Définition de myélémie ?",
+          "a": "Présence de cellules granulocytaires immatures dans le sang.",
+          "pages": "8"
+        },
+        {
+          "q": "Origine cellulaire des plaquettes ?",
+          "a": "Fragments de cytoplasme de mégacaryocytes.",
+          "pages": "8"
+        },
+        {
+          "q": "Particularité du mégacaryocyte ?",
+          "a": "Endomitoses.",
+          "pages": "7"
+        },
+        {
+          "q": "Facteur de transcription : action globale ?",
+          "a": "Modifie l’expression de gènes (activation ou répression).",
+          "pages": "8"
+        },
+        {
+          "q": "Facteur de croissance : mode d’action ?",
+          "a": "Via un récepteur et une cascade de signalisation.",
+          "pages": "8"
+        },
+        {
+          "q": "EPO : lignée surtout stimulée ?",
+          "a": "Érythrocytaire (globules rouges).",
+          "pages": "8"
+        },
+        {
+          "q": "G-CSF : lignée surtout stimulée ?",
+          "a": "Neutrophile.",
+          "pages": "8"
+        },
+        {
+          "q": "Facteurs multipotents vs de promotion vs restreints ?",
+          "a": "Transitions CSH→progéniteur ; progéniteur→précurseur ; précurseur→mature, selon ce CM.",
+          "pages": "8"
+        },
+        {
+          "q": "Niche hématopoïétique : trois rôles ?",
+          "a": "Protection, facteurs de croissance, interactions d’adhérence.",
+          "pages": "9"
+        },
+        {
+          "q": "L’IL-6 est liée à quoi dans ce cours ?",
+          "a": "Inflammation et stimulation de production plaquettaire.",
+          "pages": "8"
         }
       ]
     }
