@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "timezone": "Europe/Paris",
-  "revision": "2026-10-11-confirmed-in-chat",
+  "revision": "2026-10-11-v06-retour-5-6-janvier",
   "exams": [
     {
       "id": "nov-semio",
@@ -85,7 +85,7 @@
     },
     {
       "id": "jan-bmcp",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "start": "09:00",
       "end": "11:00",
       "subject": "bmcp",
@@ -93,7 +93,7 @@
     },
     {
       "id": "jan-viro",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "start": "14:00",
       "end": "15:00",
       "subject": "viro",
@@ -101,7 +101,7 @@
     },
     {
       "id": "jan-parasito",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "start": "15:00",
       "end": "15:45",
       "subject": "parasito",
@@ -109,12 +109,12 @@
     },
     {
       "id": "jan-ssh",
-      "date": "2027-01-08",
+      "date": "2027-01-06",
       "start": "09:00",
       "end": "10:30",
       "subject": "ssh",
       "title": "SSH (santé-société-humanité)"
     }
   ],
-  "notice": "Les dates de janvier 7 et 8 ont été confirmées par l’utilisateur; horaires selon la photographie du planning fournie."
+  "notice": "Dates de janvier confirmées de nouveau par l’utilisateur le 11 octobre 2026 : mardi 5 et mercredi 6 janvier."
 }

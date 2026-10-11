@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-11-v06-premier-lot-qi-dc",
+  "disclaimer": "Premier lot de démonstration : exercices construits exclusivement à partir des cours identifiés. Les dossiers sont fictifs ; les formats exacts des QI hors sémiologie restent à confirmer. Ne constitue pas un examen blanc exhaustif.",
+  "subjects": {
+    "sang": {
+      "qi": [
+        {
+          "question": "Quel compartiment se caractérise par la capacité d’autorenouvellement ?",
+          "options": [
+            "Cellules sanguines matures",
+            "Cellules souches hématopoïétiques",
+            "Plaquettes circulantes",
+            "Réticulocytes"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Les CSH entretiennent leur pool grâce à l’autorenouvellement. Les cellules matures ont achevé leur différenciation.",
+          "page": "5",
+          "format": "QRU",
+          "id": "sang-qi-01"
+        },
+        {
+          "question": "Dans quel ordre se déroule la différenciation hématopoïétique ?",
+          "options": [
+            "Précurseurs → CSH → cellules matures → progéniteurs",
+            "CSH → progéniteurs → précurseurs → cellules matures",
+            "CSH → précurseurs → progéniteurs → cellules matures",
+            "Progéniteurs → CSH → cellules matures → précurseurs"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Le cours décrit quatre compartiments successifs, du plus indifférencié au plus mature.",
+          "page": "5",
+          "format": "QRU",
+          "id": "sang-qi-02"
+        },
+        {
+          "question": "Quelle propriété des CSH permet leur retour vers la moelle après une greffe ?",
+          "options": [
+            "La polylobulation",
+            "L’endomitose",
+            "Le homing (migration)",
+            "La synthèse d’hémoglobine"
+          ],
+          "correct": [
+            2
+          ],
+          "explanation": "La capacité de migration/homing permet aux CSH injectées dans le sang de rejoindre la moelle osseuse.",
+          "page": "5",
+          "format": "QRU",
+          "id": "sang-qi-03"
+        },
+        {
+          "question": "Quels caractères correspondent au compartiment des précurseurs ?",
+          "options": [
+            "Reconnaissables morphologiquement",
+            "Multiplication importante",
+            "Autorenouvellement conservé",
+            "Maturation vers des cellules matures"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Les précurseurs sont reconnaissables, se multiplient et maturent, mais ont perdu l’autorenouvellement.",
+          "page": "7",
+          "format": "QRM",
+          "id": "sang-qi-04"
+        },
+        {
+          "question": "Quel facteur stimule particulièrement la production de neutrophiles ?",
+          "options": [
+            "EPO",
+            "G-CSF",
+            "Bleu de méthylène",
+            "Éosine"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Le G-CSF stimule la production des polynucléaires neutrophiles ; l’EPO concerne surtout la lignée érythrocytaire.",
+          "page": "8",
+          "format": "QRU",
+          "id": "sang-qi-05"
+        },
+        {
+          "question": "Quel est le rôle principal du micro-environnement médullaire ?",
+          "options": [
+            "Transporter l’oxygène",
+            "Soutenir, protéger et réguler les cellules hématopoïétiques",
+            "Remplacer les lymphocytes",
+            "Détruire tous les progéniteurs"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La niche médullaire contribue à la protection des CSH, aux interactions adhésives et à la fourniture de facteurs de croissance.",
+          "page": "9",
+          "format": "QRU",
+          "id": "sang-qi-06"
+        },
+        {
+          "question": "Quelles propositions concernant les progéniteurs sont exactes ?",
+          "options": [
+            "Ils ont commencé à s’engager dans une lignée",
+            "Ils peuvent former des colonies en milieu semi-solide",
+            "Ils sont toujours morphologiquement distincts des CSH",
+            "On distingue notamment des orientations lymphoïde et myéloïde"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "Les progéniteurs s’engagent dans des voies de différenciation, forment des colonies, mais restent morphologiquement proches des CSH.",
+          "page": "6",
+          "format": "QRM",
+          "id": "sang-qi-07"
+        },
+        {
+          "question": "Une préparation présente 10 G/L de leucocytes dont 50 % de neutrophiles. Quelle est la concentration absolue des neutrophiles ?",
+          "options": [
+            "0,5 G/L",
+            "5 G/L",
+            "10 G/L",
+            "50 G/L"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Valeur absolue = leucocytes totaux × proportion / 100, soit 10 × 50/100 = 5 G/L.",
+          "page": "3",
+          "format": "QRU",
+          "id": "sang-qi-08"
+        }
+      ],
+      "cases": [
+        {
+          "title": "Un hémogramme à interpréter",
+          "vignette": "Situation pédagogique fictive : l’hémogramme indique 10 G/L de leucocytes, dont 50 % de neutrophiles. Le clinicien cherche ensuite à comprendre le potentiel de régénération érythrocytaire.",
+          "questions": [
+            {
+              "question": "Combien de neutrophiles par litre cela représente-t-il ?",
+              "options": [
+                "5 G/L",
+                "50 G/L",
+                "0,5 G/L",
+                "10 G/L"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "10 × 50 % = 5 G/L. La valeur absolue importe davantage que le seul pourcentage.",
+              "page": "3",
+              "format": "QRU",
+              "id": "sang-dc-01-01"
+            },
+            {
+              "question": "Pour apprécier la réponse de la moelle dans la lignée érythrocytaire, quel élément du cours est particulièrement informatif ?",
+              "options": [
+                "La proportion de basophiles",
+                "La présence de réticulocytes",
+                "La seule couleur du plasma",
+                "Le nombre de monocytes exclusivement"
+              ],
+              "correct": [
+                1
+              ],
+              "explanation": "Les réticulocytes permettent d’apprécier la régénération érythrocytaire, car ils sont des globules rouges jeunes ayant expulsé leur noyau.",
+              "page": "7",
+              "format": "QRU",
+              "id": "sang-dc-01-02"
+            },
+            {
+              "question": "Quel énoncé relie correctement une fonction et un facteur de croissance ?",
+              "options": [
+                "G-CSF : production des globules rouges",
+                "EPO : neutrophiles",
+                "G-CSF : neutrophiles",
+                "Éosine : croissance des plaquettes"
+              ],
+              "correct": [
+                2
+              ],
+              "explanation": "Le G-CSF stimule les neutrophiles ; l’EPO stimule la production érythrocytaire.",
+              "page": "8",
+              "format": "QRU",
+              "id": "sang-dc-01-03"
+            },
+            {
+              "question": "Quels stades sont situés en amont des cellules sanguines matures ?",
+              "options": [
+                "CSH",
+                "Progéniteurs",
+                "Précurseurs",
+                "Uniquement le plasma"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "Le modèle du cours distingue CSH, progéniteurs et précurseurs avant l’état mature.",
+              "page": "5",
+              "format": "QRM",
+              "id": "sang-dc-01-04"
+            }
+          ],
+          "id": "sang-dc-01"
+        }
+      ],
+      "source": {
+        "title": "Cellules souches et progéniteurs hématopoïétiques — Pr N. Duployez",
+        "url": "https://drive.google.com/file/d/13xkGlNOkar2aegeSMA5rLHEJt_NeEHwn/view"
+      },
+      "notice": "Exercices pédagogiques fictifs issus du CM indiqué, et non annales authentiques. Couverture partielle : premier lot de mise en situation."
+    },
+    "immuno": {
+      "qi": [
+        {
+          "question": "Quelle réponse intervient le plus rapidement lors de la première exposition à un agresseur ?",
+          "options": [
+            "Immunité adaptative mémoire",
+            "Immunité innée",
+            "Réponse anticorps de rappel",
+            "Prolifération clonale déjà achevée"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "L’immunité innée fournit une réponse quasi immédiate, contrairement à la mise en place initiale de l’adaptative.",
+          "page": "6",
+          "format": "QRU",
+          "id": "immuno-qi-01"
+        },
+        {
+          "question": "Quels lymphocytes sont les principaux acteurs de l’immunité adaptative ?",
+          "options": [
+            "Lymphocytes T et B",
+            "Érythrocytes",
+            "Plaquettes",
+            "Fibroblastes"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Les lymphocytes T et B assurent la spécificité de l’immunité adaptative.",
+          "page": "7",
+          "format": "QRU",
+          "id": "immuno-qi-02"
+        },
+        {
+          "question": "Quel organe participe à la maturation/éducation des lymphocytes T ?",
+          "options": [
+            "Rate",
+            "Thymus",
+            "Foie adulte",
+            "Ganglion exclusivement"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Le thymus fait partie des organes lymphoïdes primaires et permet la maturation des LT.",
+          "page": "9",
+          "format": "QRU",
+          "id": "immuno-qi-03"
+        },
+        {
+          "question": "Quels organes sont classés parmi les sites secondaires de rencontre avec l’antigène ?",
+          "options": [
+            "Ganglions lymphatiques",
+            "Rate",
+            "Thymus",
+            "Moelle osseuse"
+          ],
+          "correct": [
+            0,
+            1
+          ],
+          "explanation": "Ganglions et rate sont des organes lymphoïdes secondaires. Thymus et moelle appartiennent aux organes primaires.",
+          "page": "9",
+          "format": "QRM",
+          "id": "immuno-qi-04"
+        },
+        {
+          "question": "Quelle propriété distingue l’immunité adaptative de l’immunité innée dans le cours ?",
+          "options": [
+            "Une réponse systématiquement plus rapide",
+            "Une mémoire immunitaire",
+            "L’absence de spécificité",
+            "L’impossibilité de proliférer"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La réponse adaptative génère des cellules mémoire, en parallèle de la réponse active.",
+          "page": "6",
+          "format": "QRU",
+          "id": "immuno-qi-05"
+        },
+        {
+          "question": "Pourquoi la première réponse adaptative demande-t-elle du temps ?",
+          "options": [
+            "Les récepteurs sont tous identiques",
+            "Il faut sélectionner, multiplier et distribuer les clones pertinents",
+            "Elle n’utilise jamais de cellules",
+            "Elle précède les défenses innées"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La réponse adaptative nécessite une expansion clonale et un acheminement vers les tissus.",
+          "page": "7",
+          "format": "QRU",
+          "id": "immuno-qi-06"
+        },
+        {
+          "question": "Quelles propriétés sont attribuées à l’immunité innée ?",
+          "options": [
+            "Présence immédiate ou mobilisation rapide",
+            "Récepteurs relativement invariants",
+            "Mémoire spécifique durable",
+            "Réponse inflammatoire stéréotypée"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "L’innée est rapide et fondée sur des récepteurs limités et invariants ; le cours lui oppose l’absence de mémoire spécifique.",
+          "page": "7",
+          "format": "QRM",
+          "id": "immuno-qi-07"
+        },
+        {
+          "question": "Lors d’une nouvelle exposition au même agent, quel mécanisme explique une réaction adaptative plus rapide ?",
+          "options": [
+            "L’absence de lymphocytes",
+            "Le recours aux cellules mémoire",
+            "Une multiplication plus lente",
+            "La disparition des récepteurs"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "La mémoire se met en place lors de la première réponse et facilite le rappel.",
+          "page": "6",
+          "format": "QRU",
+          "id": "immuno-qi-08"
+        }
+      ],
+      "cases": [
+        {
+          "title": "Une première rencontre, puis une seconde",
+          "vignette": "Situation fictive : une personne rencontre pour la première fois un agent infectieux. Une réaction rapide apparaît, puis une réponse spécifique se met en place. Plus tard, le même agent est rencontré à nouveau.",
+          "questions": [
+            {
+              "question": "Le premier mécanisme de défense rapide correspond surtout à :",
+              "options": [
+                "L’immunité innée",
+                "La mémoire adaptative déjà constituée",
+                "Une production de globules rouges",
+                "Une suppression de tous les lymphocytes"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "L’immunité innée agit presque immédiatement face à la première exposition.",
+              "page": "6",
+              "format": "QRU",
+              "id": "immuno-dc-01-01"
+            },
+            {
+              "question": "Pourquoi la première réponse adaptative est-elle plus lente ?",
+              "options": [
+                "Les lymphocytes n’ont pas de récepteurs",
+                "Sélection et expansion des clones spécifiques",
+                "L’absence de circulation lymphatique",
+                "La rate détruit tous les antigènes"
+              ],
+              "correct": [
+                1
+              ],
+              "explanation": "Il faut sélectionner puis multiplier les lymphocytes appropriés et les distribuer aux tissus.",
+              "page": "7",
+              "format": "QRU",
+              "id": "immuno-dc-01-02"
+            },
+            {
+              "question": "Quels phénomènes rendent la seconde rencontre potentiellement plus efficace ?",
+              "options": [
+                "Présence de cellules mémoire",
+                "Réponse plus rapide des effecteurs spécifiques",
+                "Absence permanente d’immunité innée",
+                "Reconnaissance spécifique de l’agent déjà rencontré"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ],
+              "explanation": "La mémoire adaptative favorise une réponse spécifique plus rapide lors du rappel.",
+              "page": "6",
+              "format": "QRM",
+              "id": "immuno-dc-01-03"
+            },
+            {
+              "question": "Quel ensemble correspond aux organes lymphoïdes secondaires décrits ?",
+              "options": [
+                "Moelle et thymus",
+                "Rate et ganglions",
+                "Cortex et thalamus",
+                "Moelle et foie adulte"
+              ],
+              "correct": [
+                1
+              ],
+              "explanation": "La rate et les ganglions sont les principaux sites de rencontre avec l’antigène parmi les choix proposés.",
+              "page": "9",
+              "format": "QRU",
+              "id": "immuno-dc-01-04"
+            }
+          ],
+          "id": "immuno-dc-01"
+        }
+      ],
+      "source": {
+        "title": "Organisation temporelle des acteurs de la réponse immunitaire — Pr Dubucquoi",
+        "url": "https://drive.google.com/file/d/1dov_OBPNiaf88QoRcLKr3U7mLj8283kP/view"
+      },
+      "notice": "Exercices pédagogiques fictifs issus du CM indiqué, et non annales authentiques. Couverture partielle : premier lot de mise en situation."
+    },
+    "bmct": {
+      "qi": [
+        {
+          "question": "Quel paramètre représente l’affinité pour un récepteur dans le cours ?",
+          "options": [
+            "Ki",
+            "Durée de la consultation",
+            "Nombre de plaquettes",
+            "Volume du plasma"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le cours utilise notamment Ki comme indicateur de l’affinité ligand-récepteur.",
+          "page": "3",
+          "format": "QRU",
+          "id": "bmct-qi-01"
+        },
+        {
+          "question": "À récepteur identique, un Ki plus faible signifie généralement :",
+          "options": [
+            "Une affinité plus élevée",
+            "Une affinité plus faible",
+            "Une activité intrinsèque nécessairement nulle",
+            "Une efficacité clinique toujours supérieure"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Une plus faible concentration suffit pour occuper les récepteurs : l’affinité est donc plus élevée.",
+          "page": "3",
+          "format": "QRU",
+          "id": "bmct-qi-02"
+        },
+        {
+          "question": "Quelle propriété caractérise un antagoniste neutre dans le modèle du cours ?",
+          "options": [
+            "Activité intrinsèque de 1",
+            "Activité intrinsèque de 0",
+            "Effet maximal certain",
+            "Ki systématiquement élevé"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "L’antagoniste neutre n’active pas le récepteur : son activité intrinsèque est nulle.",
+          "page": "4",
+          "format": "QRU",
+          "id": "bmct-qi-03"
+        },
+        {
+          "question": "Quelles propositions concernant un agoniste partiel sont exactes ?",
+          "options": [
+            "Son effet maximal reste inférieur à celui d’un agoniste entier",
+            "Il peut avoir une forte affinité",
+            "Son Ki est forcément supérieur à celui de l’agoniste entier",
+            "L’activité intrinsèque n’atteint pas 1"
+          ],
+          "correct": [
+            0,
+            1,
+            3
+          ],
+          "explanation": "L’efficacité intrinsèque et l’affinité ne sont pas interchangeables : un agoniste partiel peut être très affin.",
+          "page": "4",
+          "format": "QRM",
+          "id": "bmct-qi-04"
+        },
+        {
+          "question": "Un antagoniste compétitif réversible est généralement qualifié de :",
+          "options": [
+            "Surmontable par plus d’agoniste",
+            "Toujours insurmontable",
+            "Agoniste entier",
+            "Agoniste inverse"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "L’augmentation de l’agoniste peut déplacer un antagoniste compétitif réversible au même site.",
+          "page": "5",
+          "format": "QRU",
+          "id": "bmct-qi-05"
+        },
+        {
+          "question": "Quel mécanisme explique l’effet local de la lidocaïne décrit dans le cours ?",
+          "options": [
+            "Activation des récepteurs μ",
+            "Blocage de canaux sodiques voltage-dépendants",
+            "Stimulation de l’EPO",
+            "Augmentation des réticulocytes"
+          ],
+          "correct": [
+            1
+          ],
+          "explanation": "Le cours décrit le blocage des canaux Na+ voltage-dépendants pour interrompre la transmission du message nociceptif.",
+          "page": "2",
+          "format": "QRU",
+          "id": "bmct-qi-06"
+        },
+        {
+          "question": "Quelles voies/structures participent au parcours du message douloureux décrit ?",
+          "options": [
+            "Fibres sensitives périphériques",
+            "Corne postérieure médullaire",
+            "Thalamus puis cortex",
+            "Réduction immédiate du nombre de lymphocytes"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le message est transmis depuis la périphérie vers la moelle, puis les structures centrales telles que le thalamus et le cortex.",
+          "page": "2",
+          "format": "QRM",
+          "id": "bmct-qi-07"
+        },
+        {
+          "question": "Quel type de molécule peut se lier au récepteur sans produire l’effet activateur d’un agoniste ?",
+          "options": [
+            "Antagoniste",
+            "Agoniste entier",
+            "Érythrocyte",
+            "Facteur de transcription"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "La liaison d’un antagoniste ne produit pas d’activité intrinsèque activatrice malgré son occupation du récepteur.",
+          "page": "4",
+          "format": "QRU",
+          "id": "bmct-qi-08"
+        }
+      ],
+      "cases": [
+        {
+          "title": "Deux ligands et un même récepteur",
+          "vignette": "Situation fictive de pharmacologie : deux substances A et B sont étudiées sur un même récepteur. Ki(A) = 1 unité et Ki(B) = 100 unités, dans les mêmes conditions. A ne produit cependant qu’un effet partiel à saturation.",
+          "questions": [
+            {
+              "question": "Laquelle a la plus grande affinité pour ce récepteur ?",
+              "options": [
+                "La substance A",
+                "La substance B",
+                "Elles ont forcément la même affinité",
+                "Le Ki ne renseigne jamais sur l’affinité"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "Plus le Ki est faible, plus l’affinité est élevée : A présente le Ki le plus faible.",
+              "page": "3",
+              "format": "QRU",
+              "id": "bmct-dc-01-01"
+            },
+            {
+              "question": "L’effet partiel de A malgré la saturation illustre surtout :",
+              "options": [
+                "Une absence totale de liaison",
+                "Une activité intrinsèque inférieure à celle d’un agoniste entier",
+                "Une neutralisation par le plasma",
+                "L’impossibilité d’activer un récepteur"
+              ],
+              "correct": [
+                1
+              ],
+              "explanation": "Un agoniste partiel peut occuper les récepteurs sans atteindre l’effet maximal d’un agoniste entier.",
+              "page": "4",
+              "format": "QRU",
+              "id": "bmct-dc-01-02"
+            },
+            {
+              "question": "Quels paramètres doivent rester distincts pour interpréter A ?",
+              "options": [
+                "Affinité",
+                "Activité intrinsèque",
+                "Taille des globules rouges",
+                "Effet maximal possible"
+              ],
+              "correct": [
+                0,
+                1,
+                3
+              ],
+              "explanation": "L’affinité décrit la liaison, l’activité intrinsèque et l’effet maximal décrivent l’activation fonctionnelle.",
+              "page": "3",
+              "format": "QRM",
+              "id": "bmct-dc-01-03"
+            },
+            {
+              "question": "Un antagoniste compétitif réversible est ajouté. Quel moyen peut théoriquement surmonter son blocage ?",
+              "options": [
+                "Augmenter la concentration d’agoniste",
+                "Baisser systématiquement le Ki par un simple choix de dose",
+                "Supprimer le récepteur",
+                "Aucune modification ne peut jamais être efficace"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "Un antagoniste compétitif réversible peut être déplacé par augmentation de la concentration d’agoniste.",
+              "page": "5",
+              "format": "QRU",
+              "id": "bmct-dc-01-04"
+            }
+          ],
+          "id": "bmct-dc-01"
+        }
+      ],
+      "source": {
+        "title": "Pharmacodynamie générale 1 — Pr Bordet",
+        "url": "https://drive.google.com/file/d/1cgejZpH73jyJlNGgglBbu_JP00FPmXV2/view"
+      },
+      "notice": "Exercices pédagogiques fictifs issus du CM indiqué, et non annales authentiques. Couverture partielle : premier lot de mise en situation."
+    }
+  }
+}
