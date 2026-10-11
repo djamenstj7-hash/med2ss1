@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-drive-index-initial",
+  "revision": "2026-10-11-v09-align-january-dates",
   "scope": "CM S1 + annales de novembre",
   "subjects": [
     {
@@ -51,7 +51,7 @@
     {
       "id": "bmcp",
       "name": "BMCP",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "group": "Examen de janvier",
       "cmCount": 15,
       "annaleCount": 0,
@@ -60,7 +60,7 @@
     {
       "id": "ssh",
       "name": "SSH",
-      "date": "2027-01-08",
+      "date": "2027-01-06",
       "group": "Examen de janvier",
       "cmCount": 9,
       "annaleCount": 0,
@@ -69,7 +69,7 @@
     {
       "id": "viro",
       "name": "Virologie",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "group": "Examen de janvier",
       "cmCount": 0,
       "annaleCount": 0,
@@ -123,7 +123,7 @@
     {
       "id": "parasito",
       "name": "Parasitologie-mycologie",
-      "date": "2027-01-07",
+      "date": "2027-01-05",
       "group": "Examen de janvier",
       "cmCount": 0,
       "annaleCount": 0,

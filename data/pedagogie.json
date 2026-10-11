@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v08-tissu-sanguin-cellules-matures",
+  "revision": "2026-10-11-v09-batch-myelo-immuno-bmct",
   "lessons": {
     "cm-de715b67886d4881": {
       "id": "cm-de715b67886d4881",
@@ -9114,6 +9114,2995 @@
           "q": "Phosphatidylsérines plaquettaires : rôle ?",
           "a": "Support aux réactions de coagulation.",
           "pages": "10"
+        }
+      ]
+    },
+    "cm-b60fb75949097685": {
+      "id": "cm-b60fb75949097685",
+      "subject": "sang",
+      "title": "Myélogramme et hémogramme — lire les indices du sang",
+      "courseName": "MYÉLOGRAMME ET HÉMOGRAMME NORMAUX.pdf",
+      "date": "2026-09-18",
+      "teacher": "Pr N. Duployez",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 · 16 pages",
+        "url": "https://drive.google.com/file/d/19lyloIBLN6hcFdvnr-b2cOlK7Zmem7Sx/view",
+        "pages": 16
+      },
+      "editorialNote": "Réécriture narrative fondée sur le PDF 2026–2027. Schémas simplifiés originaux ; les situations d’entraînement sont fictives. Se reporter au cours original pour les figures et les nuances.",
+      "hook": "Une NFS arrive au cabinet comme un tableau de bord : avant de reconnaître une maladie, il faut identifier quelle aiguille a bougé. La moelle, elle, est l’atelier caché derrière ces chiffres.",
+      "flow": [
+        "Comprendre",
+        "Visualiser",
+        "Restituer",
+        "Corriger"
+      ],
+      "flags": [
+        "Les valeurs des seuils sont reprises du CM 2026–2027, et peuvent être différentes de celles d’autres cours.",
+        "Les cas présentés ne constituent pas une conduite à tenir clinique en situation réelle."
+      ],
+      "sections": [
+        {
+          "heading": "Deux fenêtres sur le même système",
+          "pages": "2–4",
+          "paragraphs": [
+            "Imagine une usine avec deux fenêtres. La première donne sur les produits finis qui circulent : c’est l’hémogramme, ou NFS. La seconde donne sur la chaîne de fabrication : c’est le myélogramme, prélèvement de moelle osseuse.",
+            "La NFS décrit trois familles : globules blancs, hémoglobine pour la lignée rouge et plaquettes. Une diminution s’appelle une cytopénie ; deux lignées atteintes font une bicytopénie ; l’association anémie, neutropénie, thrombopénie forme une pancytopénie.",
+            "Ne lis pas les pourcentages leucocytaires comme des valeurs absolues : le vrai nombre d’une population dépend du total des leucocytes. Dans le cours, leucocytes 4–10 G/L, neutrophiles 1,5–7 G/L, lymphocytes 1,5–4 G/L."
+          ],
+          "memory": "Mémo : NFS = produits en circulation ; myélogramme = atelier. Trois tiroirs = Hb, neutrophiles, plaquettes.",
+          "visual": "nfs"
+        },
+        {
+          "heading": "Leucocytoses : de quelle cellule parle-t-on ?",
+          "pages": "4–7",
+          "paragraphs": [
+            "Une hyperleucocytose seule ne donne pas le diagnostic. Il faut nommer la cellule responsable : neutrophilie, lymphocytose, éosinophilie, basophilie ou monocytose.",
+            "La neutrophilie peut accompagner une infection bactérienne, une inflammation ou une démargination (stress, exercice, corticoïdes). La lymphocytose oriente souvent vers une réaction virale chez le sujet jeune ; chez le sujet âgé, le cours discute notamment la LLC. L’éosinophilie rappelle allergies, parasitoses, médicaments.",
+            "La myélémie signifie présence de précurseurs granuleux dans le sang. Elle peut être réactionnelle : le mot « cellule immature » ne signifie donc pas automatiquement « cancer »."
+          ],
+          "memory": "Mémo : PNN ≈ bactéries ; lymphocytes ≈ virus ; éosinophiles ≈ parasites/allergies. Ce sont des orientations, pas des certitudes."
+        },
+        {
+          "heading": "Trois façons de dérégler la fabrication",
+          "pages": "4, 7",
+          "paragraphs": [
+            "Pense à trois pannes d’usine. Dans un syndrome prolifératif, les cellules prolifèrent mais peuvent garder une maturation relativement conservée. Dans une myélodysplasie, la chaîne produit des cellules mal différenciées. Dans une leucémie aiguë, la maturation est bloquée et les cellules immatures prolifèrent.",
+            "Les blastes sanguins sont un signal d’alarme. Le cours retient, pour la leucémie aiguë, un myélogramme comportant plus de 20 % de blastes ; ils occupent progressivement la place des lignées normales.",
+            "Si les cellules normales manquent, le risque associe infection, anémie et hémorragie : trois manifestations d’une même concurrence dans la moelle."
+          ],
+          "memory": "Mémo : PROlifération = trop ; DYSplasie = maturation anormale ; AIGUË = blastes et blocage.",
+          "visual": "myelo"
+        },
+        {
+          "heading": "Neutropénie : quand l’alarme devient sérieuse",
+          "pages": "8–9",
+          "paragraphs": [
+            "Le cours parle de neutropénie lorsque les PNN sont inférieurs à 1,5 G/L, avec un risque infectieux particulièrement important sous 0,5 G/L s’il est prolongé.",
+            "Trois familles de mécanismes : production médullaire insuffisante ; production inefficace ; consommation ou redistribution périphérique. Les médicaments peuvent provoquer une agranulocytose sélective.",
+            "Le piège d’examen consiste à regarder uniquement les leucocytes totaux. Ici, c’est la valeur absolue des neutrophiles qui permet de classer le risque et d’orienter l’enquête."
+          ],
+          "memory": "Mémo « 3 P » : Production basse, Production inefficace, Périphérie qui consomme ou redistribue."
+        },
+        {
+          "heading": "Anémie : Hb d’abord, VGM puis réticulocytes",
+          "pages": "9–11",
+          "paragraphs": [
+            "Pour poser le diagnostic d’anémie, on regarde l’hémoglobine, pas le nombre brut de globules rouges. Le CM utilise les seuils : femme sous 12 g/dL, femme enceinte sous 11, homme sous 13.",
+            "Puis on ouvre l’arbre : VGM inférieur à 80 fL, anémie microcytaire ; on pense notamment au fer et on examine la ferritine. Si l’anémie est non microcytaire, les réticulocytes renseignent la capacité de réponse de la moelle.",
+            "Réticulocytes élevés : la moelle tente de compenser une perte ou une destruction périphérique. Réticulocytes bas : production insuffisante. La vitesse d’installation et le terrain influencent la tolérance clinique."
+          ],
+          "memory": "Mémo : « Hb → VGM → Réticulocytes ». La ferritine aide à explorer les microcytoses.",
+          "visual": "anemie"
+        },
+        {
+          "heading": "La forme des hématies raconte une histoire",
+          "pages": "11–12",
+          "paragraphs": [
+            "Regarde les globules rouges comme de petites empreintes laissées par le mécanisme de la maladie. Des drépanocytes dessinent des faucilles ; des schizocytes montrent une fragmentation ; des sphérocytes deviennent sphériques.",
+            "Les dacryocytes évoquent des hématies en goutte de larme ; les corps de Howell–Jolly sont des résidus nucléaires normalement éliminés par la rate.",
+            "Une morphologie isolée n’est pas une conclusion complète : on la confronte toujours au reste de l’hémogramme et au contexte clinique."
+          ],
+          "memory": "Visuel : faucille / fragments / sphère / larme / résidu nucléaire = cinq indices différents."
+        },
+        {
+          "heading": "Plaquettes et pancytopénie : mesurer la gravité",
+          "pages": "13–15",
+          "paragraphs": [
+            "Les plaquettes normales sont au moins 150 G/L dans le CM. Sous ce seuil : thrombopénie ; sous 20 G/L : risque de saignement spontané. Une thrombocytose est retenue au-delà de 450 G/L.",
+            "Les saignements cutanéo-muqueux orientent vers l’hémostase primaire. Devant une pancytopénie, le cours fait discuter atteinte médullaire ou mécanisme périphérique et conduit fréquemment au myélogramme.",
+            "Attention à l’urgence citée : pancytopénie avec CIVD chez un sujet jeune impose d’évoquer rapidement une leucémie aiguë promyélocytaire (LAM3), pour laquelle le CM insiste sur le traitement urgent par ATRA."
+          ],
+          "memory": "Triple alerte d’une pancytopénie grave : Hb < 8, PNN < 0,5, plaquettes < 20 (unités du CM)."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Deux fenêtres sur le même système",
+          "detail": "Ne lis pas les pourcentages leucocytaires comme des valeurs absolues : le vrai nombre d’une population dépend du total des leucocytes. Dans le cours, leucocytes 4–10 G/L, neutrophiles 1,5–7 G/L, lymphocytes 1,5–4 G/L.",
+          "pages": "2–4"
+        },
+        {
+          "name": "Leucocytoses : de quelle cellule parle-t-on ?",
+          "detail": "La myélémie signifie présence de précurseurs granuleux dans le sang. Elle peut être réactionnelle : le mot « cellule immature » ne signifie donc pas automatiquement « cancer ».",
+          "pages": "4–7"
+        },
+        {
+          "name": "Trois façons de dérégler la fabrication",
+          "detail": "Si les cellules normales manquent, le risque associe infection, anémie et hémorragie : trois manifestations d’une même concurrence dans la moelle.",
+          "pages": "4, 7"
+        },
+        {
+          "name": "Neutropénie : quand l’alarme devient sérieuse",
+          "detail": "Le piège d’examen consiste à regarder uniquement les leucocytes totaux. Ici, c’est la valeur absolue des neutrophiles qui permet de classer le risque et d’orienter l’enquête.",
+          "pages": "8–9"
+        },
+        {
+          "name": "Anémie : Hb d’abord, VGM puis réticulocytes",
+          "detail": "Réticulocytes élevés : la moelle tente de compenser une perte ou une destruction périphérique. Réticulocytes bas : production insuffisante. La vitesse d’installation et le terrain influencent la tolérance clinique.",
+          "pages": "9–11"
+        },
+        {
+          "name": "La forme des hématies raconte une histoire",
+          "detail": "Une morphologie isolée n’est pas une conclusion complète : on la confronte toujours au reste de l’hémogramme et au contexte clinique.",
+          "pages": "11–12"
+        },
+        {
+          "name": "Plaquettes et pancytopénie : mesurer la gravité",
+          "detail": "Attention à l’urgence citée : pancytopénie avec CIVD chez un sujet jeune impose d’évoquer rapidement une leucémie aiguë promyélocytaire (LAM3), pour laquelle le CM insiste sur le traitement urgent par ATRA.",
+          "pages": "13–15"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Que mesure principalement un hémogramme ?",
+          "choices": [
+            "Les seules cellules souches de la moelle",
+            "La concentration de facteurs de croissance médullaires",
+            "L’architecture osseuse",
+            "Les cellules circulantes du sang"
+          ],
+          "answer": 3,
+          "why": "Les cellules circulantes du sang — Examens. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Examens"
+        },
+        {
+          "q": "Que permet d’explorer un myélogramme ?",
+          "choices": [
+            "Les valvules lymphatiques",
+            "Le ventricule gauche",
+            "La moelle osseuse",
+            "La paroi digestive"
+          ],
+          "answer": 2,
+          "why": "La moelle osseuse — Examens. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Examens"
+        },
+        {
+          "q": "Quelle association définit une pancytopénie dans ce CM ?",
+          "choices": [
+            "Anémie + neutrophilie + thrombocytose",
+            "Anémie + neutropénie + thrombopénie",
+            "Lymphocytose + thrombocytose + polyglobulie",
+            "Seule diminution des leucocytes"
+          ],
+          "answer": 1,
+          "why": "Anémie + neutropénie + thrombopénie — Définitions. Voir la page 14 du CM.",
+          "pages": "14",
+          "topic": "Définitions"
+        },
+        {
+          "q": "Quelle plage de leucocytes totaux est retenue ?",
+          "choices": [
+            "4 à 10 G/L",
+            "0,2 à 0,8 G/L",
+            "20 à 50 G/L",
+            "150 à 400 G/L"
+          ],
+          "answer": 0,
+          "why": "4 à 10 G/L — Numération. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Numération"
+        },
+        {
+          "q": "Quelle plage de PNN est retenue par ce CM ?",
+          "choices": [
+            "0 à 0,1 G/L",
+            "1,5 à 4 G/L",
+            "150 à 450 G/L",
+            "1,5 à 7 G/L"
+          ],
+          "answer": 3,
+          "why": "1,5 à 7 G/L — Numération. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Numération"
+        },
+        {
+          "q": "La formule leucocytaire s’interprète prioritairement avec…",
+          "choices": [
+            "Les pourcentages isolés",
+            "L’hématocrite seulement",
+            "Les valeurs absolues",
+            "Le volume plasmatique uniquement"
+          ],
+          "answer": 2,
+          "why": "Les valeurs absolues — Numération. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Numération"
+        },
+        {
+          "q": "À quoi correspond une neutrophilie selon ce CM ?",
+          "choices": [
+            "PNN < 0,5 G/L",
+            "PNN > 7 G/L",
+            "Lymphocytes > 4 G/L",
+            "Plaquettes > 450 G/L"
+          ],
+          "answer": 1,
+          "why": "PNN > 7 G/L — Leucocytose. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Leucocytose"
+        },
+        {
+          "q": "Quelle réponse est typiquement associée à une infection bactérienne ?",
+          "choices": [
+            "Neutrophilie",
+            "Basophilopénie",
+            "Polyglobulie primitive",
+            "Macrocytose isolée"
+          ],
+          "answer": 0,
+          "why": "Neutrophilie — Leucocytose. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Leucocytose"
+        },
+        {
+          "q": "La myélémie désigne…",
+          "choices": [
+            "Une thrombopénie immune",
+            "Une absence de réticulocytes",
+            "Une anémie par hémodilution",
+            "La présence de précurseurs granuleux dans le sang"
+          ],
+          "answer": 3,
+          "why": "La présence de précurseurs granuleux dans le sang — Leucocytose. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Leucocytose"
+        },
+        {
+          "q": "Une éosinophilie est retenue au-dessus de…",
+          "choices": [
+            "4 G/L",
+            "7 G/L",
+            "0,4 G/L",
+            "150 G/L"
+          ],
+          "answer": 2,
+          "why": "0,4 G/L — Leucocytose. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Leucocytose"
+        },
+        {
+          "q": "Une lymphocytose est retenue au-dessus de…",
+          "choices": [
+            "0,1 G/L",
+            "4 G/L",
+            "1,5 G/L",
+            "450 G/L"
+          ],
+          "answer": 1,
+          "why": "4 G/L — Leucocytose. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Leucocytose"
+        },
+        {
+          "q": "Quel mécanisme caractérise les syndromes myélodysplasiques dans le CM ?",
+          "choices": [
+            "Une différenciation hématopoïétique anormale",
+            "Une absence physiologique de noyau des hématies",
+            "Une augmentation isolée d’EPO liée à l’altitude",
+            "Un drainage lymphatique ralenti"
+          ],
+          "answer": 0,
+          "why": "Une différenciation hématopoïétique anormale — Hémopathies. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Hémopathies"
+        },
+        {
+          "q": "Quel mécanisme caractérise la leucémie aiguë ?",
+          "choices": [
+            "Production excessive de plaquettes fonctionnelles uniquement",
+            "Prolifération normale des lymphocytes mémoire",
+            "Simple démargination des PNN",
+            "Prolifération de cellules immatures avec blocage de maturation"
+          ],
+          "answer": 3,
+          "why": "Prolifération de cellules immatures avec blocage de maturation — Hémopathies. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Hémopathies"
+        },
+        {
+          "q": "Quel seuil de blastes médullaires le CM associe-t-il à la leucémie aiguë ?",
+          "choices": [
+            "Moins de 1 %",
+            "Plus de 90 %",
+            "Plus de 20 %",
+            "Exactement 50 %"
+          ],
+          "answer": 2,
+          "why": "Plus de 20 % — Hémopathies. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Hémopathies"
+        },
+        {
+          "q": "Neutropénie dans ce cours : PNN…",
+          "choices": [
+            "Supérieurs à 7 G/L",
+            "Inférieurs à 1,5 G/L",
+            "Supérieurs à 4 G/L",
+            "Inférieurs à 150 G/L"
+          ],
+          "answer": 1,
+          "why": "Inférieurs à 1,5 G/L — Neutropénie. Voir la page 8 du CM.",
+          "pages": "8",
+          "topic": "Neutropénie"
+        },
+        {
+          "q": "Sous quel seuil des PNN le risque infectieux devient-il majeur dans ce CM ?",
+          "choices": [
+            "0,5 G/L",
+            "4 G/L",
+            "10 G/L",
+            "150 G/L"
+          ],
+          "answer": 0,
+          "why": "0,5 G/L — Neutropénie. Voir la page 8 du CM.",
+          "pages": "8",
+          "topic": "Neutropénie"
+        },
+        {
+          "q": "Quelle origine peut produire une neutropénie sélective sévère ?",
+          "choices": [
+            "Une seule hémoconcentration",
+            "Une polyglobulie physiologique",
+            "Une synthèse excessive d’hémoglobine",
+            "Un médicament"
+          ],
+          "answer": 3,
+          "why": "Un médicament — Neutropénie. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Neutropénie"
+        },
+        {
+          "q": "Le diagnostic d’anémie repose d’abord sur…",
+          "choices": [
+            "Le pourcentage de lymphocytes",
+            "Le nombre de leucocytes totaux",
+            "La concentration en hémoglobine",
+            "La forme des basophiles"
+          ],
+          "answer": 2,
+          "why": "La concentration en hémoglobine — Anémie. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Quel seuil d’Hb définit l’anémie chez l’homme adulte dans ce CM ?",
+          "choices": [
+            "Hb < 7 g/dL",
+            "Hb < 13 g/dL",
+            "Hb > 18,5 g/dL",
+            "Hb < 20 g/dL"
+          ],
+          "answer": 1,
+          "why": "Hb < 13 g/dL — Anémie. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Quel seuil d’Hb définit l’anémie chez la femme adulte dans ce CM ?",
+          "choices": [
+            "Hb < 12 g/dL",
+            "Hb < 4 g/dL",
+            "Hb > 17,5 g/dL",
+            "Hb < 20 g/dL"
+          ],
+          "answer": 0,
+          "why": "Hb < 12 g/dL — Anémie. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Une anémie microcytaire correspond à quel VGM ?",
+          "choices": [
+            "VGM > 120 fL",
+            "VGM = 150 fL",
+            "VGM > 100 fL uniquement",
+            "VGM < 80 fL"
+          ],
+          "answer": 3,
+          "why": "VGM < 80 fL — Anémie. Voir la page 10 du CM.",
+          "pages": "10",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Face à une anémie microcytaire, quel dosage est particulièrement discuté ?",
+          "choices": [
+            "La concentration en IL-8",
+            "Le taux de CD34",
+            "La ferritine",
+            "Le taux de blastes du sang de cordon"
+          ],
+          "answer": 2,
+          "why": "La ferritine — Anémie. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Des réticulocytes élevés lors d’une anémie orientent vers…",
+          "choices": [
+            "Une absence totale de production de globules rouges",
+            "Une réponse médullaire régénérative",
+            "Une absence de moelle osseuse",
+            "Une basophilie isolée"
+          ],
+          "answer": 1,
+          "why": "Une réponse médullaire régénérative — Anémie. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Anémie"
+        },
+        {
+          "q": "Que sont les schizocytes ?",
+          "choices": [
+            "Des fragments d’hématies",
+            "Des hématies en larme",
+            "Des hématies contenant un noyau intact",
+            "Des lymphocytes immatures"
+          ],
+          "answer": 0,
+          "why": "Des fragments d’hématies — Morphologie. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Morphologie"
+        },
+        {
+          "q": "Des dacryocytes sont des hématies…",
+          "choices": [
+            "En forme de faucille",
+            "En forme de grain de riz",
+            "Sans membrane",
+            "En forme de larme"
+          ],
+          "answer": 3,
+          "why": "En forme de larme — Morphologie. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Morphologie"
+        },
+        {
+          "q": "À quoi font penser des corps de Howell–Jolly ?",
+          "choices": [
+            "À un excès d’EPO uniquement",
+            "À une hyperneutrophilie",
+            "À un trouble de la fonction splénique",
+            "À une infection virale systématique"
+          ],
+          "answer": 2,
+          "why": "À un trouble de la fonction splénique — Morphologie. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Morphologie"
+        },
+        {
+          "q": "Quel seuil définit la thrombopénie ?",
+          "choices": [
+            "Plaquettes > 450 G/L",
+            "Plaquettes < 150 G/L",
+            "Plaquettes < 10 G/L uniquement",
+            "Plaquettes > 20 G/L"
+          ],
+          "answer": 1,
+          "why": "Plaquettes < 150 G/L — Plaquettes. Voir la page 13 du CM.",
+          "pages": "13",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quel niveau de plaquettes expose à un risque de saignement spontané selon le CM ?",
+          "choices": [
+            "Moins de 20 G/L",
+            "Plus de 450 G/L",
+            "Plus de 150 G/L",
+            "Plus de 400 G/L"
+          ],
+          "answer": 0,
+          "why": "Moins de 20 G/L — Plaquettes. Voir la page 13 du CM.",
+          "pages": "13",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quel seuil définit la thrombocytose dans le CM ?",
+          "choices": [
+            "Plaquettes < 150 G/L",
+            "Leucocytes > 10 G/L",
+            "PNN > 7 G/L",
+            "Plaquettes > 450 G/L"
+          ],
+          "answer": 3,
+          "why": "Plaquettes > 450 G/L — Plaquettes. Voir la page 14 du CM.",
+          "pages": "14",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quelle hémopathie faut-il évoquer devant pancytopénie et CIVD dans le cours ?",
+          "choices": [
+            "LLC asymptomatique isolée",
+            "Sphérocytose sans hémolyse",
+            "Leucémie aiguë promyélocytaire (LAM3)",
+            "Basophilie isolée"
+          ],
+          "answer": 2,
+          "why": "Leucémie aiguë promyélocytaire (LAM3) — Urgences. Voir la page 15 du CM.",
+          "pages": "15",
+          "topic": "Urgences"
+        },
+        {
+          "q": "Quel traitement urgent est cité pour la LAM3 ?",
+          "choices": [
+            "EPO seule",
+            "ATRA",
+            "Fer oral seul",
+            "Vitamine B9 seule"
+          ],
+          "answer": 1,
+          "why": "ATRA — Urgences. Voir la page 15 du CM.",
+          "pages": "15",
+          "topic": "Urgences"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Que mesure principalement un hémogramme ?",
+          "a": "Les cellules circulantes du sang",
+          "pages": "2"
+        },
+        {
+          "q": "Que permet d’explorer un myélogramme ?",
+          "a": "La moelle osseuse",
+          "pages": "2"
+        },
+        {
+          "q": "Quelle association définit une pancytopénie dans ce CM ?",
+          "a": "Anémie + neutropénie + thrombopénie",
+          "pages": "14"
+        },
+        {
+          "q": "Quelle plage de leucocytes totaux est retenue ?",
+          "a": "4 à 10 G/L",
+          "pages": "3"
+        },
+        {
+          "q": "Quelle plage de PNN est retenue par ce CM ?",
+          "a": "1,5 à 7 G/L",
+          "pages": "3"
+        },
+        {
+          "q": "La formule leucocytaire s’interprète prioritairement avec…",
+          "a": "Les valeurs absolues",
+          "pages": "3"
+        },
+        {
+          "q": "À quoi correspond une neutrophilie selon ce CM ?",
+          "a": "PNN > 7 G/L",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle réponse est typiquement associée à une infection bactérienne ?",
+          "a": "Neutrophilie",
+          "pages": "4"
+        },
+        {
+          "q": "La myélémie désigne…",
+          "a": "La présence de précurseurs granuleux dans le sang",
+          "pages": "5"
+        },
+        {
+          "q": "Une éosinophilie est retenue au-dessus de…",
+          "a": "0,4 G/L",
+          "pages": "6"
+        },
+        {
+          "q": "Une lymphocytose est retenue au-dessus de…",
+          "a": "4 G/L",
+          "pages": "6"
+        },
+        {
+          "q": "Quel mécanisme caractérise les syndromes myélodysplasiques dans le CM ?",
+          "a": "Une différenciation hématopoïétique anormale",
+          "pages": "4"
+        },
+        {
+          "q": "Quel mécanisme caractérise la leucémie aiguë ?",
+          "a": "Prolifération de cellules immatures avec blocage de maturation",
+          "pages": "4"
+        },
+        {
+          "q": "Quel seuil de blastes médullaires le CM associe-t-il à la leucémie aiguë ?",
+          "a": "Plus de 20 %",
+          "pages": "7"
+        },
+        {
+          "q": "Neutropénie dans ce cours : PNN…",
+          "a": "Inférieurs à 1,5 G/L",
+          "pages": "8"
+        },
+        {
+          "q": "Sous quel seuil des PNN le risque infectieux devient-il majeur dans ce CM ?",
+          "a": "0,5 G/L",
+          "pages": "8"
+        },
+        {
+          "q": "Quelle origine peut produire une neutropénie sélective sévère ?",
+          "a": "Un médicament",
+          "pages": "9"
+        },
+        {
+          "q": "Le diagnostic d’anémie repose d’abord sur…",
+          "a": "La concentration en hémoglobine",
+          "pages": "9"
+        },
+        {
+          "q": "Quel seuil d’Hb définit l’anémie chez l’homme adulte dans ce CM ?",
+          "a": "Hb < 13 g/dL",
+          "pages": "9"
+        },
+        {
+          "q": "Quel seuil d’Hb définit l’anémie chez la femme adulte dans ce CM ?",
+          "a": "Hb < 12 g/dL",
+          "pages": "9"
+        },
+        {
+          "q": "Une anémie microcytaire correspond à quel VGM ?",
+          "a": "VGM < 80 fL",
+          "pages": "10"
+        },
+        {
+          "q": "Face à une anémie microcytaire, quel dosage est particulièrement discuté ?",
+          "a": "La ferritine",
+          "pages": "11"
+        },
+        {
+          "q": "Des réticulocytes élevés lors d’une anémie orientent vers…",
+          "a": "Une réponse médullaire régénérative",
+          "pages": "11"
+        },
+        {
+          "q": "Que sont les schizocytes ?",
+          "a": "Des fragments d’hématies",
+          "pages": "12"
+        },
+        {
+          "q": "Des dacryocytes sont des hématies…",
+          "a": "En forme de larme",
+          "pages": "12"
+        },
+        {
+          "q": "À quoi font penser des corps de Howell–Jolly ?",
+          "a": "À un trouble de la fonction splénique",
+          "pages": "12"
+        },
+        {
+          "q": "Quel seuil définit la thrombopénie ?",
+          "a": "Plaquettes < 150 G/L",
+          "pages": "13"
+        },
+        {
+          "q": "Quel niveau de plaquettes expose à un risque de saignement spontané selon le CM ?",
+          "a": "Moins de 20 G/L",
+          "pages": "13"
+        },
+        {
+          "q": "Quel seuil définit la thrombocytose dans le CM ?",
+          "a": "Plaquettes > 450 G/L",
+          "pages": "14"
+        },
+        {
+          "q": "Quelle hémopathie faut-il évoquer devant pancytopénie et CIVD dans le cours ?",
+          "a": "Leucémie aiguë promyélocytaire (LAM3)",
+          "pages": "15"
+        },
+        {
+          "q": "Quel traitement urgent est cité pour la LAM3 ?",
+          "a": "ATRA",
+          "pages": "15"
+        }
+      ]
+    },
+    "cm-db33f80d6c1658c7": {
+      "id": "cm-db33f80d6c1658c7",
+      "subject": "immuno",
+      "title": "Organisation temporelle de la réponse immunitaire — l’alerte puis les renforts",
+      "courseName": "ORGANISATION TEMPORELLE DES ACTEURS DE LA RÉPONSE IMMUNITAIRE",
+      "date": "2026-09-21",
+      "teacher": "Pr Dubucquoi",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 · 13 pages",
+        "url": "https://drive.google.com/file/d/1dov_OBPNiaf88QoRcLKr3U7mLj8283kP/view",
+        "pages": 13
+      },
+      "editorialNote": "Réécriture narrative fondée sur le PDF 2026–2027. Schémas simplifiés originaux ; les situations d’entraînement sont fictives. Se reporter au cours original pour les figures et les nuances.",
+      "hook": "Une intrusion déclenche deux équipes. Les premiers secours agissent tout de suite ; les spécialistes reconnaissent précisément l’intrus et gardent son portrait en mémoire.",
+      "flow": [
+        "Comprendre",
+        "Visualiser",
+        "Restituer",
+        "Corriger"
+      ],
+      "flags": [],
+      "sections": [
+        {
+          "heading": "La sécurité doit protéger… sans attaquer les habitants",
+          "pages": "2–3",
+          "paragraphs": [
+            "Imagine l’organisme comme une cité. Un bon dispositif de sécurité neutralise les menaces sans s’en prendre aux habitants de la ville. En immunologie, cela correspond à la défense et à la tolérance du soi et du microbiote.",
+            "Le système immunitaire combine des cellules et des molécules, dont le rôle est de conserver l’intégrité de l’organisme face à des agressions variables.",
+            "Ne réduis jamais l’immunité à « tuer les microbes » : elle doit aussi contrôler sa propre action et permettre le retour à l’homéostasie."
+          ],
+          "memory": "Défendre, tolérer, réguler : trois verbes à ne pas séparer."
+        },
+        {
+          "heading": "Deux équipes, deux horloges",
+          "pages": "3–7",
+          "paragraphs": [
+            "À la porte de la ville se trouvent les sentinelles innées : macrophages, neutrophiles et cellules dendritiques. Elles détectent vite des motifs communs à plusieurs agresseurs et lancent une réaction inflammatoire.",
+            "Les renforts adaptatifs, les lymphocytes T et B, disposent chacun d’un récepteur spécifique. Ils doivent être sélectionnés, multipliés puis distribués dans les tissus. D’où un temps de montée en puissance plus long.",
+            "Le cours résume le calendrier : réponse innée en heures ; réponse adaptative en jours ; élimination généralement sur une à quatre semaines, puis persistance de cellules mémoire."
+          ],
+          "memory": "I comme Immédiate (innée) ; A comme Adaptée et Avec mémoire.",
+          "visual": "immuneclock"
+        },
+        {
+          "heading": "Pourquoi conserver deux systèmes ?",
+          "pages": "6–8",
+          "paragraphs": [
+            "L’innée est rapide, présente aux frontières de l’organisme et mobilisable en quantité. Mais ses récepteurs sont peu diversifiés et sa réponse est stéréotypée.",
+            "L’adaptative met davantage de temps à se déployer ; en contrepartie, les récepteurs sont très variés, les clones se multiplient et une mémoire spécifique demeure.",
+            "Imagine les secours de proximité et une équipe d’enquêteurs spécialisés : sans les premiers, la ville tombe ; sans les seconds, les adversaires les plus difficiles ne sont pas ciblés."
+          ],
+          "memory": "Innée : vitesse, motifs partagés, pas de mémoire ; adaptative : spécificité, expansion, mémoire."
+        },
+        {
+          "heading": "Préparer les recrues avant l’agression",
+          "pages": "8–10",
+          "paragraphs": [
+            "La moelle osseuse est un organe lymphoïde primaire : elle produit les cellules sanguines et assure la maturation des lymphocytes B. Le thymus est l’autre grande école primaire, spécialisée dans la maturation des lymphocytes T.",
+            "Les organes secondaires — ganglions et rate notamment — sont les lieux de rencontre entre antigènes et lymphocytes naïfs. C’est là que la bonne cellule peut être sélectionnée.",
+            "Le système ne fabrique pas ses premiers lymphocytes spécifiques seulement après l’infection. Le répertoire existe en amont : rencontrer l’antigène sert à sélectionner et amplifier le clone adapté."
+          ],
+          "memory": "Primaires = former/éduquer ; secondaires = rencontrer/activer.",
+          "visual": "immuneorgans"
+        },
+        {
+          "heading": "La cellule dendritique : la messagère décisive",
+          "pages": "10–11",
+          "paragraphs": [
+            "Une cellule dendritique patrouille dans les tissus. Elle capte des informations sur un agresseur puis migre vers le ganglion où elle présente l’antigène au lymphocyte T.",
+            "Le LT possédant le bon récepteur peut s’activer : il prolifère en clones puis se différencie en effecteur. La cellule dendritique ne donne donc pas seulement un nom : elle fournit un contexte et des signaux d’activation.",
+            "Dans cette histoire, la cellule dendritique est le messager qui apporte l’avis de recherche ; le lymphocyte est l’équipe spécialisée qui part en mission."
+          ],
+          "memory": "Dendritique = capter → migrer → présenter → activer."
+        },
+        {
+          "heading": "CD4, CD8, LB : trois métiers qui coopèrent",
+          "pages": "11–12",
+          "paragraphs": [
+            "Les LT CD4 coordonnent la réponse : le cours les compare aux chefs d’orchestre. Les LT CD8 éliminent directement des cellules infectées ou anormales ; les LB produisent, après activation, des anticorps grâce à leurs descendants plasmocytes.",
+            "L’immunité humorale répond surtout à des cibles extracellulaires, tandis que les mécanismes cellulaires cytotoxiques sont adaptés aux menaces cachées dans des cellules.",
+            "Le LT CD4 oriente les différentes branches selon le contexte communiqué par la cellule dendritique : les métiers sont distincts mais interdépendants."
+          ],
+          "memory": "CD4 = Chef ; CD8 = Destructeur ; B = anticorps."
+        },
+        {
+          "heading": "La bataille doit s’arrêter : contraction et mémoire",
+          "pages": "12–13",
+          "paragraphs": [
+            "Une réponse spécifique démarre par sélection et expansion clonale. Mais garder des millions d’effecteurs après la disparition de la menace coûterait trop d’énergie et pourrait endommager les tissus.",
+            "Le CM indique qu’une grande majorité des cellules effectrices disparaît lors de la contraction clonale. Une fraction forme le contingent mémoire, prêt à se remobiliser lors d’une nouvelle rencontre.",
+            "C’est le principe fondateur de la réponse secondaire, plus rapide que la réponse initiale."
+          ],
+          "memory": "Sélection → Expansion → Contraction → Mémoire.",
+          "visual": "immuneclock"
+        }
+      ],
+      "summary": [
+        {
+          "name": "La sécurité doit protéger… sans attaquer les habitants",
+          "detail": "Ne réduis jamais l’immunité à « tuer les microbes » : elle doit aussi contrôler sa propre action et permettre le retour à l’homéostasie.",
+          "pages": "2–3"
+        },
+        {
+          "name": "Deux équipes, deux horloges",
+          "detail": "Le cours résume le calendrier : réponse innée en heures ; réponse adaptative en jours ; élimination généralement sur une à quatre semaines, puis persistance de cellules mémoire.",
+          "pages": "3–7"
+        },
+        {
+          "name": "Pourquoi conserver deux systèmes ?",
+          "detail": "Imagine les secours de proximité et une équipe d’enquêteurs spécialisés : sans les premiers, la ville tombe ; sans les seconds, les adversaires les plus difficiles ne sont pas ciblés.",
+          "pages": "6–8"
+        },
+        {
+          "name": "Préparer les recrues avant l’agression",
+          "detail": "Le système ne fabrique pas ses premiers lymphocytes spécifiques seulement après l’infection. Le répertoire existe en amont : rencontrer l’antigène sert à sélectionner et amplifier le clone adapté.",
+          "pages": "8–10"
+        },
+        {
+          "name": "La cellule dendritique : la messagère décisive",
+          "detail": "Dans cette histoire, la cellule dendritique est le messager qui apporte l’avis de recherche ; le lymphocyte est l’équipe spécialisée qui part en mission.",
+          "pages": "10–11"
+        },
+        {
+          "name": "CD4, CD8, LB : trois métiers qui coopèrent",
+          "detail": "Le LT CD4 oriente les différentes branches selon le contexte communiqué par la cellule dendritique : les métiers sont distincts mais interdépendants.",
+          "pages": "11–12"
+        },
+        {
+          "name": "La bataille doit s’arrêter : contraction et mémoire",
+          "detail": "C’est le principe fondateur de la réponse secondaire, plus rapide que la réponse initiale.",
+          "pages": "12–13"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Quelle mission complète la protection contre l’agresseur ?",
+          "choices": [
+            "L’agression systématique du microbiote",
+            "L’absence de régulation de la réponse",
+            "La production exclusive d’anticorps",
+            "La tolérance du soi et du microbiote"
+          ],
+          "answer": 3,
+          "why": "La tolérance du soi et du microbiote — Définition. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Définition"
+        },
+        {
+          "q": "Quelle réponse agit en premier dans les heures suivant l’agression ?",
+          "choices": [
+            "La mémoire adaptative seule",
+            "La sélection des lymphocytes mémoire uniquement",
+            "La réponse immunitaire innée",
+            "La contraction clonale"
+          ],
+          "answer": 2,
+          "why": "La réponse immunitaire innée — Innée. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Innée"
+        },
+        {
+          "q": "Quels effecteurs sont cités comme sentinelles innées ?",
+          "choices": [
+            "Plasmocytes exclusivement",
+            "Macrophages, neutrophiles et cellules dendritiques",
+            "Hématies et plaquettes uniquement",
+            "Hépatocytes uniquement"
+          ],
+          "answer": 1,
+          "why": "Macrophages, neutrophiles et cellules dendritiques — Innée. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Innée"
+        },
+        {
+          "q": "Quelle propriété caractérise les récepteurs de l’immunité innée ?",
+          "choices": [
+            "Ils reconnaissent des motifs communs à plusieurs agresseurs",
+            "Chaque cellule possède toujours un récepteur différent",
+            "Ils sont fabriqués uniquement après vaccination",
+            "Ils ne détectent aucun signal de danger"
+          ],
+          "answer": 0,
+          "why": "Ils reconnaissent des motifs communs à plusieurs agresseurs — Innée. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Innée"
+        },
+        {
+          "q": "Quel est le profil temporel de l’immunité innée ?",
+          "choices": [
+            "Un délai incompressible de deux mois",
+            "Uniquement après guérison",
+            "Seulement après une deuxième infection",
+            "Rapide, dès les premières heures"
+          ],
+          "answer": 3,
+          "why": "Rapide, dès les premières heures — Innée. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Innée"
+        },
+        {
+          "q": "Quelle faiblesse du système inné est soulignée ?",
+          "choices": [
+            "Absence de présence tissulaire",
+            "Absence de récepteurs de reconnaissance",
+            "Absence de mémoire immunitaire spécifique",
+            "Impossibilité de recruter d’autres cellules"
+          ],
+          "answer": 2,
+          "why": "Absence de mémoire immunitaire spécifique — Innée. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Innée"
+        },
+        {
+          "q": "Quels lymphocytes sont les acteurs centraux de l’immunité adaptative ?",
+          "choices": [
+            "Les érythrocytes et les plaquettes",
+            "Les lymphocytes T et B",
+            "Les ostéoblastes et ostéoclastes",
+            "Les basophiles seuls"
+          ],
+          "answer": 1,
+          "why": "Les lymphocytes T et B — Adaptative. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Adaptative"
+        },
+        {
+          "q": "Pourquoi l’immunité adaptative primaire nécessite-t-elle plusieurs jours ?",
+          "choices": [
+            "Sélection, prolifération et migration des clones spécifiques",
+            "Absence de lymphocytes avant l’infection",
+            "Destruction physiologique de la moelle",
+            "Nécessité de produire toutes les hématies"
+          ],
+          "answer": 0,
+          "why": "Sélection, prolifération et migration des clones spécifiques — Adaptative. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Adaptative"
+        },
+        {
+          "q": "Quelle force caractérise le répertoire adaptatif ?",
+          "choices": [
+            "Récepteurs strictement identiques chez toutes les cellules",
+            "Absence totale d’expansion clonale",
+            "Réponse obligatoirement stéréotypée",
+            "Grande diversité des récepteurs spécifiques"
+          ],
+          "answer": 3,
+          "why": "Grande diversité des récepteurs spécifiques — Adaptative. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Adaptative"
+        },
+        {
+          "q": "Quelle durée le cours indique-t-il pour la réponse efficace complète selon l’agent ?",
+          "choices": [
+            "Quelques secondes systématiquement",
+            "Toujours six mois",
+            "Environ une à quatre semaines",
+            "Douze heures exactement dans tous les cas"
+          ],
+          "answer": 2,
+          "why": "Environ une à quatre semaines — Temps. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Temps"
+        },
+        {
+          "q": "Quand commence la génération des cellules mémoire ?",
+          "choices": [
+            "Seulement plusieurs années après la guérison",
+            "En parallèle de l’initiation de la réponse active",
+            "Avant toute production de lymphocytes",
+            "Exclusivement lors d’une troisième infection"
+          ],
+          "answer": 1,
+          "why": "En parallèle de l’initiation de la réponse active — Mémoire. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Mémoire"
+        },
+        {
+          "q": "Lors d’une seconde exposition au même agent, la réponse est généralement…",
+          "choices": [
+            "Plus rapide grâce aux cellules mémoire",
+            "Toujours plus lente que la première",
+            "Identique en toutes circonstances au délai primaire",
+            "Réalisée uniquement par les hématies"
+          ],
+          "answer": 0,
+          "why": "Plus rapide grâce aux cellules mémoire — Mémoire. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Mémoire"
+        },
+        {
+          "q": "Quel organe participe à la maturation des lymphocytes B ?",
+          "choices": [
+            "Le ventricule gauche",
+            "La thyroïde",
+            "La peau seulement",
+            "La moelle osseuse"
+          ],
+          "answer": 3,
+          "why": "La moelle osseuse — Organes. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Organes"
+        },
+        {
+          "q": "Quel organe mature les lymphocytes T ?",
+          "choices": [
+            "La rate uniquement",
+            "Les glandes salivaires",
+            "Le thymus",
+            "Les hématies"
+          ],
+          "answer": 2,
+          "why": "Le thymus — Organes. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Organes"
+        },
+        {
+          "q": "Où se rencontrent surtout les lymphocytes naïfs et les antigènes ?",
+          "choices": [
+            "La cavité ventriculaire",
+            "Les organes lymphoïdes secondaires",
+            "Les globules rouges",
+            "Le cartilage articulaire"
+          ],
+          "answer": 1,
+          "why": "Les organes lymphoïdes secondaires — Organes. Voir la page 9 du CM.",
+          "pages": "9",
+          "topic": "Organes"
+        },
+        {
+          "q": "Que fait la cellule dendritique après avoir capté des informations en périphérie ?",
+          "choices": [
+            "Elle migre vers un ganglion et présente l’antigène",
+            "Elle devient automatiquement une hématie",
+            "Elle produit toute l’EPO circulante",
+            "Elle détruit immédiatement tous les lymphocytes T"
+          ],
+          "answer": 0,
+          "why": "Elle migre vers un ganglion et présente l’antigène — Dendritique. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Dendritique"
+        },
+        {
+          "q": "Quel est le rôle typique du LT CD4 ?",
+          "choices": [
+            "Transport de l’oxygène",
+            "Production directe d’hémoglobine",
+            "Fabrication des plaquettes",
+            "Coordination et orientation de la réponse"
+          ],
+          "answer": 3,
+          "why": "Coordination et orientation de la réponse — T. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "T"
+        },
+        {
+          "q": "Quel est le rôle typique du LT CD8 ?",
+          "choices": [
+            "Production de ferritine",
+            "Maturation des hématies",
+            "Cytotoxicité contre des cellules infectées",
+            "Filtration du plasma rénal"
+          ],
+          "answer": 2,
+          "why": "Cytotoxicité contre des cellules infectées — T. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "T"
+        },
+        {
+          "q": "Quelle population produit les anticorps après différenciation des LB ?",
+          "choices": [
+            "Les drépanocytes",
+            "Les plasmocytes",
+            "Les éosinophiles",
+            "Les ostéoclastes"
+          ],
+          "answer": 1,
+          "why": "Les plasmocytes — B. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "B"
+        },
+        {
+          "q": "L’immunité humorale cible préférentiellement…",
+          "choices": [
+            "Les pathogènes extracellulaires",
+            "La réplication virale intracellulaire uniquement",
+            "Les fibres musculaires normales",
+            "La forme du globule rouge"
+          ],
+          "answer": 0,
+          "why": "Les pathogènes extracellulaires — Effecteurs. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Effecteurs"
+        },
+        {
+          "q": "L’immunité cellulaire cytotoxique est notamment utile contre…",
+          "choices": [
+            "Les seuls pathogènes extracellulaires visibles aux anticorps",
+            "La dégradation des réticulocytes",
+            "Les variations de l’hématocrite",
+            "Les cellules infectées par des virus"
+          ],
+          "answer": 3,
+          "why": "Les cellules infectées par des virus — Effecteurs. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Effecteurs"
+        },
+        {
+          "q": "L’expansion clonale correspond à…",
+          "choices": [
+            "La disparition de tous les LT avant activation",
+            "La transformation d’une hématie en macrophage",
+            "La multiplication de cellules spécifiques sélectionnées",
+            "La baisse systématique de la concentration d’EPO"
+          ],
+          "answer": 2,
+          "why": "La multiplication de cellules spécifiques sélectionnées — Clones. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Clones"
+        },
+        {
+          "q": "Après la disparition de l’agresseur, que décrit la contraction clonale ?",
+          "choices": [
+            "La production infinie de clones activés",
+            "La réduction importante du contingent des effecteurs",
+            "Le blocage permanent de la mémoire",
+            "Une absence totale d’apoptose"
+          ],
+          "answer": 1,
+          "why": "La réduction importante du contingent des effecteurs — Clones. Voir la page 13 du CM.",
+          "pages": "13",
+          "topic": "Clones"
+        },
+        {
+          "q": "À quoi servent les cellules mémoire conservées ?",
+          "choices": [
+            "À réagir rapidement lors d’une nouvelle rencontre",
+            "À augmenter mécaniquement la masse des hématies",
+            "À empêcher toute réponse secondaire",
+            "À remplacer les plaquettes"
+          ],
+          "answer": 0,
+          "why": "À réagir rapidement lors d’une nouvelle rencontre — Mémoire. Voir la page 13 du CM.",
+          "pages": "13",
+          "topic": "Mémoire"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Quelle mission complète la protection contre l’agresseur ?",
+          "a": "La tolérance du soi et du microbiote",
+          "pages": "2"
+        },
+        {
+          "q": "Quelle réponse agit en premier dans les heures suivant l’agression ?",
+          "a": "La réponse immunitaire innée",
+          "pages": "6"
+        },
+        {
+          "q": "Quels effecteurs sont cités comme sentinelles innées ?",
+          "a": "Macrophages, neutrophiles et cellules dendritiques",
+          "pages": "4"
+        },
+        {
+          "q": "Quelle propriété caractérise les récepteurs de l’immunité innée ?",
+          "a": "Ils reconnaissent des motifs communs à plusieurs agresseurs",
+          "pages": "4"
+        },
+        {
+          "q": "Quel est le profil temporel de l’immunité innée ?",
+          "a": "Rapide, dès les premières heures",
+          "pages": "6"
+        },
+        {
+          "q": "Quelle faiblesse du système inné est soulignée ?",
+          "a": "Absence de mémoire immunitaire spécifique",
+          "pages": "7"
+        },
+        {
+          "q": "Quels lymphocytes sont les acteurs centraux de l’immunité adaptative ?",
+          "a": "Les lymphocytes T et B",
+          "pages": "5"
+        },
+        {
+          "q": "Pourquoi l’immunité adaptative primaire nécessite-t-elle plusieurs jours ?",
+          "a": "Sélection, prolifération et migration des clones spécifiques",
+          "pages": "7"
+        },
+        {
+          "q": "Quelle force caractérise le répertoire adaptatif ?",
+          "a": "Grande diversité des récepteurs spécifiques",
+          "pages": "7"
+        },
+        {
+          "q": "Quelle durée le cours indique-t-il pour la réponse efficace complète selon l’agent ?",
+          "a": "Environ une à quatre semaines",
+          "pages": "6"
+        },
+        {
+          "q": "Quand commence la génération des cellules mémoire ?",
+          "a": "En parallèle de l’initiation de la réponse active",
+          "pages": "6"
+        },
+        {
+          "q": "Lors d’une seconde exposition au même agent, la réponse est généralement…",
+          "a": "Plus rapide grâce aux cellules mémoire",
+          "pages": "6"
+        },
+        {
+          "q": "Quel organe participe à la maturation des lymphocytes B ?",
+          "a": "La moelle osseuse",
+          "pages": "9"
+        },
+        {
+          "q": "Quel organe mature les lymphocytes T ?",
+          "a": "Le thymus",
+          "pages": "9"
+        },
+        {
+          "q": "Où se rencontrent surtout les lymphocytes naïfs et les antigènes ?",
+          "a": "Les organes lymphoïdes secondaires",
+          "pages": "9"
+        },
+        {
+          "q": "Que fait la cellule dendritique après avoir capté des informations en périphérie ?",
+          "a": "Elle migre vers un ganglion et présente l’antigène",
+          "pages": "11"
+        },
+        {
+          "q": "Quel est le rôle typique du LT CD4 ?",
+          "a": "Coordination et orientation de la réponse",
+          "pages": "12"
+        },
+        {
+          "q": "Quel est le rôle typique du LT CD8 ?",
+          "a": "Cytotoxicité contre des cellules infectées",
+          "pages": "12"
+        },
+        {
+          "q": "Quelle population produit les anticorps après différenciation des LB ?",
+          "a": "Les plasmocytes",
+          "pages": "12"
+        },
+        {
+          "q": "L’immunité humorale cible préférentiellement…",
+          "a": "Les pathogènes extracellulaires",
+          "pages": "12"
+        },
+        {
+          "q": "L’immunité cellulaire cytotoxique est notamment utile contre…",
+          "a": "Les cellules infectées par des virus",
+          "pages": "12"
+        },
+        {
+          "q": "L’expansion clonale correspond à…",
+          "a": "La multiplication de cellules spécifiques sélectionnées",
+          "pages": "11"
+        },
+        {
+          "q": "Après la disparition de l’agresseur, que décrit la contraction clonale ?",
+          "a": "La réduction importante du contingent des effecteurs",
+          "pages": "13"
+        },
+        {
+          "q": "À quoi servent les cellules mémoire conservées ?",
+          "a": "À réagir rapidement lors d’une nouvelle rencontre",
+          "pages": "13"
+        }
+      ]
+    },
+    "cm-626b16e1414a733b": {
+      "id": "cm-626b16e1414a733b",
+      "subject": "immuno",
+      "title": "Organes et circulation — les gares du système immunitaire",
+      "courseName": "ORGANES ET CIRCULATION DES CELLULES",
+      "date": "2026-09-21",
+      "teacher": "Pr G. Lefèvre",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 · 14 pages",
+        "url": "https://drive.google.com/file/d/1d0AE0-yKGrd2ii3BI4jTKROEVFNNd3lY/view",
+        "pages": 14
+      },
+      "editorialNote": "Réécriture narrative fondée sur le PDF 2026–2027. Schémas simplifiés originaux ; les situations d’entraînement sont fictives. Se reporter au cours original pour les figures et les nuances.",
+      "hook": "Les cellules immunitaires voyagent entre des écoles, des gares et des lieux d’intervention. Comprendre le réseau, c’est comprendre pourquoi un ganglion grossit ou pourquoi une splénectomie expose à certaines infections.",
+      "flow": [
+        "Comprendre",
+        "Visualiser",
+        "Restituer",
+        "Corriger"
+      ],
+      "flags": [],
+      "sections": [
+        {
+          "heading": "Une armée faite de cellules et de messages",
+          "pages": "2",
+          "paragraphs": [
+            "Les cellules résidentes surveillent déjà les tissus, tandis que d’autres circulent dans le sang et la lymphe. Ensemble, elles échangent des instructions grâce aux cytokines, interleukines, chimiokines, anticorps et protéines du complément.",
+            "Pense à un réseau de communication : les soldats sont les cellules ; les messages radio sont les molécules solubles. Sans l’un ou l’autre, le système n’est pas coordonné.",
+            "La topographie compte autant que le nom des acteurs : certaines rencontres ne peuvent se faire efficacement que dans des structures organisées."
+          ],
+          "memory": "Cellules = acteurs ; cytokines/chimiokines = messages ; organes = lieux de rendez-vous."
+        },
+        {
+          "heading": "Primaires : les écoles ; secondaires : les gares",
+          "pages": "2–4",
+          "paragraphs": [
+            "Dans les organes lymphoïdes primaires, les lymphocytes sont produits et éduqués : moelle osseuse pour les B ; thymus pour les T. Dans le thymus, les précurseurs progressent du cortex vers la médulla et subissent une sélection.",
+            "Les organes secondaires — ganglions, rate, formations lymphoïdes des muqueuses — permettent la rencontre des antigènes avec les cellules immunitaires matures.",
+            "Garde l’image d’une école qui remet un diplôme avant d’envoyer ses élèves dans une grande gare : l’école ne remplace pas la gare, et inversement."
+          ],
+          "memory": "P comme Primaire/Préparer ; S comme Secondaire/Se rencontrer.",
+          "visual": "immuneorgans"
+        },
+        {
+          "heading": "Un ganglion est un filtre et une salle de réunion",
+          "pages": "5–6",
+          "paragraphs": [
+            "La lymphe arrive par plusieurs vaisseaux afférents et repart par un vaisseau efférent. Ce ralentissement favorise l’exposition des antigènes aux lymphocytes.",
+            "Selon le CM, la zone corticale superficielle accueille surtout les lymphocytes B ; la zone corticale profonde surtout les T. C’est une manière de répartir les salles de réunion par métier.",
+            "Lors d’une infection, les clones activés prolifèrent et le ganglion peut augmenter de volume : une adénopathie se lit aussi à travers son territoire de drainage."
+          ],
+          "memory": "Afferent = Arrive ; Efférent = Exit. B = cortex superficiel ; T = cortex profond.",
+          "visual": "ganglion"
+        },
+        {
+          "heading": "La rate n’est pas un simple ganglion géant",
+          "pages": "7–8",
+          "paragraphs": [
+            "La rate est un grand organe lymphoïde secondaire qui filtre surtout le sang et non la lymphe afférente. Le cours rappelle qu’elle ne possède pas de vaisseaux lymphatiques afférents.",
+            "La pulpe rouge participe à l’élimination des hématies âgées ou endommagées ; la pulpe blanche est dédiée aux interactions lymphocytaires.",
+            "Après splénectomie, le cours insiste sur le risque d’infections invasives, particulièrement avec certaines bactéries encapsulées comme le pneumocoque et le méningocoque."
+          ],
+          "memory": "Rate Rouge = Recyclage des globules rouges ; Rate Blanche = rencontres immunitaires.",
+          "visual": "immuneorgans"
+        },
+        {
+          "heading": "À l’entrée des muqueuses : amygdales et Peyer",
+          "pages": "8–9",
+          "paragraphs": [
+            "Les amygdales interceptent les antigènes à l’entrée des voies aérodigestives. Le cours décrit des formations palatines, linguales et pharyngiennes, ainsi que l’anneau de Waldeyer.",
+            "Dans le tube digestif, les plaques de Peyer représentent des amas lymphoïdes organisés, à proximité des expositions antigéniques intestinales.",
+            "L’idée commune est simple : placer des postes d’observation là où le monde extérieur rencontre le corps."
+          ],
+          "memory": "Amygdales = portes aériennes/digestives ; Peyer = sentinelles intestinales."
+        },
+        {
+          "heading": "La lymphe avance sans pompe centrale",
+          "pages": "9–11",
+          "paragraphs": [
+            "La lymphe provient du liquide interstitiel. Les capillaires lymphatiques initient sa collecte ; les vaisseaux la conduisent vers les ganglions, puis vers des conduits qui rejoignent la circulation veineuse.",
+            "Contrairement au réseau sanguin, pas de pompe centrale équivalente au cœur : muscles, mouvements respiratoires, pulsations voisines et valvules anti-reflux favorisent la circulation.",
+            "Le drainage terminal est asymétrique : conduit droit pour le membre supérieur droit et une partie droite de la tête et du thorax ; canal thoracique pour la majorité restante du corps."
+          ],
+          "memory": "La lymphe « marche » avec les muscles, « respire » avec le thorax et ne recule pas grâce aux valvules.",
+          "visual": "lymphflow"
+        },
+        {
+          "heading": "Des trajets qui expliquent la clinique",
+          "pages": "11–13",
+          "paragraphs": [
+            "Une adénopathie inguinale doit inciter à regarder le territoire du membre inférieur correspondant ; une adénopathie axillaire peut conduire à examiner le membre supérieur et la région mammaire du même côté.",
+            "Le chyle intestinal transporte des lipides alimentaires sous forme de chylomicrons. Une interruption du drainage peut donner un épanchement chyleux ou un lymphœdème selon le contexte décrit dans le CM.",
+            "La clinique devient plus logique lorsque tu reconstruis le trajet : quelle région draine où, et quel obstacle se trouve sur le chemin ?"
+          ],
+          "memory": "Symptôme régional → territoire drainé → ganglion/conduit concerné."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Une armée faite de cellules et de messages",
+          "detail": "La topographie compte autant que le nom des acteurs : certaines rencontres ne peuvent se faire efficacement que dans des structures organisées.",
+          "pages": "2"
+        },
+        {
+          "name": "Primaires : les écoles ; secondaires : les gares",
+          "detail": "Garde l’image d’une école qui remet un diplôme avant d’envoyer ses élèves dans une grande gare : l’école ne remplace pas la gare, et inversement.",
+          "pages": "2–4"
+        },
+        {
+          "name": "Un ganglion est un filtre et une salle de réunion",
+          "detail": "Lors d’une infection, les clones activés prolifèrent et le ganglion peut augmenter de volume : une adénopathie se lit aussi à travers son territoire de drainage.",
+          "pages": "5–6"
+        },
+        {
+          "name": "La rate n’est pas un simple ganglion géant",
+          "detail": "Après splénectomie, le cours insiste sur le risque d’infections invasives, particulièrement avec certaines bactéries encapsulées comme le pneumocoque et le méningocoque.",
+          "pages": "7–8"
+        },
+        {
+          "name": "À l’entrée des muqueuses : amygdales et Peyer",
+          "detail": "L’idée commune est simple : placer des postes d’observation là où le monde extérieur rencontre le corps.",
+          "pages": "8–9"
+        },
+        {
+          "name": "La lymphe avance sans pompe centrale",
+          "detail": "Le drainage terminal est asymétrique : conduit droit pour le membre supérieur droit et une partie droite de la tête et du thorax ; canal thoracique pour la majorité restante du corps.",
+          "pages": "9–11"
+        },
+        {
+          "name": "Des trajets qui expliquent la clinique",
+          "detail": "La clinique devient plus logique lorsque tu reconstruis le trajet : quelle région draine où, et quel obstacle se trouve sur le chemin ?",
+          "pages": "11–13"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Quelle distinction le cours établit-il entre cellules immunitaires ?",
+          "choices": [
+            "Uniquement nucléées et anucléées",
+            "Seulement médullaires et hépatiques",
+            "Toujours humorales et épithéliales",
+            "Résidentes et circulantes"
+          ],
+          "answer": 3,
+          "why": "Résidentes et circulantes — Cellules. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Cellules"
+        },
+        {
+          "q": "Quels médiateurs font partie des molécules solubles citées ?",
+          "choices": [
+            "Hémoglobine, actine et kératine seulement",
+            "Ferritine, albumine et myosine uniquement",
+            "Cytokines, chimiokines, complément et immunoglobulines",
+            "Collagène et élastine exclusivement"
+          ],
+          "answer": 2,
+          "why": "Cytokines, chimiokines, complément et immunoglobulines — Messages. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Messages"
+        },
+        {
+          "q": "Quelle fonction des organes lymphoïdes primaires est centrale ?",
+          "choices": [
+            "Élimination des hématies uniquement",
+            "Production, maturation et éducation des lymphocytes",
+            "Filtration exclusive du sang périphérique",
+            "Pompage de la lymphe"
+          ],
+          "answer": 1,
+          "why": "Production, maturation et éducation des lymphocytes — Organes. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Organes"
+        },
+        {
+          "q": "Quel organe participe à la maturation des lymphocytes B ?",
+          "choices": [
+            "La moelle osseuse",
+            "La peau",
+            "Les plaques de Peyer uniquement",
+            "Les valvules lymphatiques"
+          ],
+          "answer": 0,
+          "why": "La moelle osseuse — Organes. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Organes"
+        },
+        {
+          "q": "Où les thymocytes évoluent-ils lors de leur maturation ?",
+          "choices": [
+            "De la rate vers le cœur",
+            "Du foie vers le rein",
+            "Du plasma vers le cytosol des hématies",
+            "Du cortex vers la médulla thymique"
+          ],
+          "answer": 3,
+          "why": "Du cortex vers la médulla thymique — Organes. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Organes"
+        },
+        {
+          "q": "Quelle fonction caractérise les organes lymphoïdes secondaires ?",
+          "choices": [
+            "Synthèse de l’hémoglobine",
+            "Production exclusive des granulocytes",
+            "Rencontre antigènes–lymphocytes et activation",
+            "Destruction de tous les auto-antigènes dans la moelle"
+          ],
+          "answer": 2,
+          "why": "Rencontre antigènes–lymphocytes et activation — Organes. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Organes"
+        },
+        {
+          "q": "Par quels vaisseaux la lymphe entre-t-elle dans un ganglion ?",
+          "choices": [
+            "Le vaisseau efférent seulement",
+            "Des vaisseaux afférents",
+            "L’artère splénique",
+            "Les artères coronaires"
+          ],
+          "answer": 1,
+          "why": "Des vaisseaux afférents — Ganglion. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Ganglion"
+        },
+        {
+          "q": "Quelle population domine le cortex superficiel du ganglion dans le CM ?",
+          "choices": [
+            "Lymphocytes B",
+            "Érythroblastes",
+            "Ostéoclastes",
+            "Mégacaryocytes"
+          ],
+          "answer": 0,
+          "why": "Lymphocytes B — Ganglion. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Ganglion"
+        },
+        {
+          "q": "Quelle population domine le cortex profond du ganglion ?",
+          "choices": [
+            "Plaquettes circulantes",
+            "Hématies",
+            "Précurseurs érythroïdes uniquement",
+            "Lymphocytes T"
+          ],
+          "answer": 3,
+          "why": "Lymphocytes T — Ganglion. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Ganglion"
+        },
+        {
+          "q": "Pourquoi un ganglion peut-il grossir pendant une réaction immunitaire ?",
+          "choices": [
+            "Surproduction locale d’hématies",
+            "Accumulation physiologique d’EPO",
+            "Prolifération des lymphocytes activés",
+            "Formation permanente de moelle"
+          ],
+          "answer": 2,
+          "why": "Prolifération des lymphocytes activés — Ganglion. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Ganglion"
+        },
+        {
+          "q": "Quel liquide la rate filtre-t-elle principalement ?",
+          "choices": [
+            "La lymphe afférente uniquement",
+            "Le sang",
+            "Le LCR uniquement",
+            "Le liquide synovial"
+          ],
+          "answer": 1,
+          "why": "Le sang — Rate. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Rate"
+        },
+        {
+          "q": "La rate possède-t-elle des vaisseaux lymphatiques afférents selon ce CM ?",
+          "choices": [
+            "Non",
+            "Oui, plusieurs centaines",
+            "Oui, un unique afférent",
+            "Uniquement dans la pulpe blanche"
+          ],
+          "answer": 0,
+          "why": "Non — Rate. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Rate"
+        },
+        {
+          "q": "Quel compartiment splénique élimine surtout les hématies vieillissantes ?",
+          "choices": [
+            "La pulpe blanche",
+            "Le cortex thymique",
+            "La plaque de Peyer",
+            "La pulpe rouge"
+          ],
+          "answer": 3,
+          "why": "La pulpe rouge — Rate. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Rate"
+        },
+        {
+          "q": "Quel compartiment splénique est orienté vers les échanges lymphocytaires ?",
+          "choices": [
+            "La pulpe rouge uniquement",
+            "La zone glomérulaire",
+            "La pulpe blanche",
+            "Le système porte"
+          ],
+          "answer": 2,
+          "why": "La pulpe blanche — Rate. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Rate"
+        },
+        {
+          "q": "Après splénectomie, quel risque infectieux le cours souligne-t-il ?",
+          "choices": [
+            "Absence de risque particulier",
+            "Infections invasives à bactéries encapsulées",
+            "Risque exclusif de paludisme",
+            "Risque de carence en vitamine D seulement"
+          ],
+          "answer": 1,
+          "why": "Infections invasives à bactéries encapsulées — Rate. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Rate"
+        },
+        {
+          "q": "Où se trouvent les plaques de Peyer ?",
+          "choices": [
+            "Dans le territoire intestinal",
+            "Dans le cortex thymique",
+            "Dans la pulpe rouge",
+            "Dans le sternum"
+          ],
+          "answer": 0,
+          "why": "Dans le territoire intestinal — Muqueuses. Voir la page 8 du CM.",
+          "pages": "8",
+          "topic": "Muqueuses"
+        },
+        {
+          "q": "À quel ensemble appartiennent les amygdales dans le cours ?",
+          "choices": [
+            "À la moelle osseuse",
+            "À la pulpe rouge",
+            "Aux ganglions profonds du membre inférieur uniquement",
+            "Aux formations lymphoïdes des voies aérodigestives"
+          ],
+          "answer": 3,
+          "why": "Aux formations lymphoïdes des voies aérodigestives — Muqueuses. Voir la page 8 du CM.",
+          "pages": "8",
+          "topic": "Muqueuses"
+        },
+        {
+          "q": "À partir de quel liquide se constitue la lymphe ?",
+          "choices": [
+            "L’hémoglobine",
+            "Le liquide gastrique",
+            "Le liquide interstitiel",
+            "Le liquide intracellulaire exclusivement"
+          ],
+          "answer": 2,
+          "why": "Le liquide interstitiel — Lymphe. Voir la page 10 du CM.",
+          "pages": "10",
+          "topic": "Lymphe"
+        },
+        {
+          "q": "Quel organe fournit une pompe centrale au réseau lymphatique ?",
+          "choices": [
+            "Le ventricule gauche",
+            "Aucun organe comparable au cœur",
+            "Le foie",
+            "La rate"
+          ],
+          "answer": 1,
+          "why": "Aucun organe comparable au cœur — Lymphe. Voir la page 10 du CM.",
+          "pages": "10",
+          "topic": "Lymphe"
+        },
+        {
+          "q": "Quel mécanisme aide le retour lymphatique ?",
+          "choices": [
+            "Les mouvements musculaires et respiratoires",
+            "Une contraction ventriculaire propre aux vaisseaux lymphatiques",
+            "Une absence de valvules",
+            "Une pression uniforme sans mouvement"
+          ],
+          "answer": 0,
+          "why": "Les mouvements musculaires et respiratoires — Lymphe. Voir la page 10 du CM.",
+          "pages": "10",
+          "topic": "Lymphe"
+        },
+        {
+          "q": "Quel mécanisme évite le reflux de la lymphe ?",
+          "choices": [
+            "Les globules rouges",
+            "Les intégrines plaquettaires",
+            "Le thymus",
+            "Des valvules anti-reflux"
+          ],
+          "answer": 3,
+          "why": "Des valvules anti-reflux — Lymphe. Voir la page 10 du CM.",
+          "pages": "10",
+          "topic": "Lymphe"
+        },
+        {
+          "q": "Où se déverse le conduit lymphatique droit ?",
+          "choices": [
+            "Dans le ventricule gauche",
+            "Dans le canal rachidien",
+            "Dans le système veineux sous-clavier droit",
+            "Dans la veine porte hépatique"
+          ],
+          "answer": 2,
+          "why": "Dans le système veineux sous-clavier droit — Drainage. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Drainage"
+        },
+        {
+          "q": "Quel conduit draine la majeure partie du corps ?",
+          "choices": [
+            "Le conduit lymphatique droit",
+            "Le canal thoracique",
+            "Un unique capillaire borgne",
+            "L’artère splénique"
+          ],
+          "answer": 1,
+          "why": "Le canal thoracique — Drainage. Voir la page 11 du CM.",
+          "pages": "11",
+          "topic": "Drainage"
+        },
+        {
+          "q": "Quel type de molécules le chyle intestinal véhicule-t-il ?",
+          "choices": [
+            "Des lipides et des chylomicrons",
+            "Uniquement de l’hémoglobine",
+            "Principalement des cellules souches de la moelle",
+            "Exclusivement des anticorps"
+          ],
+          "answer": 0,
+          "why": "Des lipides et des chylomicrons — Chyle. Voir la page 12 du CM.",
+          "pages": "12",
+          "topic": "Chyle"
+        },
+        {
+          "q": "Que suggère une adénopathie inguinale gauche isolée pour l’examen ?",
+          "choices": [
+            "Examiner exclusivement l’épaule droite",
+            "Conclure d’emblée à une hémopathie",
+            "Rechercher uniquement une otite droite",
+            "Explorer le membre inférieur gauche et son territoire de drainage"
+          ],
+          "answer": 3,
+          "why": "Explorer le membre inférieur gauche et son territoire de drainage — Clinique. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Clinique"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Quelle distinction le cours établit-il entre cellules immunitaires ?",
+          "a": "Résidentes et circulantes",
+          "pages": "2"
+        },
+        {
+          "q": "Quels médiateurs font partie des molécules solubles citées ?",
+          "a": "Cytokines, chimiokines, complément et immunoglobulines",
+          "pages": "2"
+        },
+        {
+          "q": "Quelle fonction des organes lymphoïdes primaires est centrale ?",
+          "a": "Production, maturation et éducation des lymphocytes",
+          "pages": "3"
+        },
+        {
+          "q": "Quel organe participe à la maturation des lymphocytes B ?",
+          "a": "La moelle osseuse",
+          "pages": "3"
+        },
+        {
+          "q": "Où les thymocytes évoluent-ils lors de leur maturation ?",
+          "a": "Du cortex vers la médulla thymique",
+          "pages": "4"
+        },
+        {
+          "q": "Quelle fonction caractérise les organes lymphoïdes secondaires ?",
+          "a": "Rencontre antigènes–lymphocytes et activation",
+          "pages": "4"
+        },
+        {
+          "q": "Par quels vaisseaux la lymphe entre-t-elle dans un ganglion ?",
+          "a": "Des vaisseaux afférents",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle population domine le cortex superficiel du ganglion dans le CM ?",
+          "a": "Lymphocytes B",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle population domine le cortex profond du ganglion ?",
+          "a": "Lymphocytes T",
+          "pages": "5"
+        },
+        {
+          "q": "Pourquoi un ganglion peut-il grossir pendant une réaction immunitaire ?",
+          "a": "Prolifération des lymphocytes activés",
+          "pages": "6"
+        },
+        {
+          "q": "Quel liquide la rate filtre-t-elle principalement ?",
+          "a": "Le sang",
+          "pages": "7"
+        },
+        {
+          "q": "La rate possède-t-elle des vaisseaux lymphatiques afférents selon ce CM ?",
+          "a": "Non",
+          "pages": "7"
+        },
+        {
+          "q": "Quel compartiment splénique élimine surtout les hématies vieillissantes ?",
+          "a": "La pulpe rouge",
+          "pages": "7"
+        },
+        {
+          "q": "Quel compartiment splénique est orienté vers les échanges lymphocytaires ?",
+          "a": "La pulpe blanche",
+          "pages": "7"
+        },
+        {
+          "q": "Après splénectomie, quel risque infectieux le cours souligne-t-il ?",
+          "a": "Infections invasives à bactéries encapsulées",
+          "pages": "7"
+        },
+        {
+          "q": "Où se trouvent les plaques de Peyer ?",
+          "a": "Dans le territoire intestinal",
+          "pages": "8"
+        },
+        {
+          "q": "À quel ensemble appartiennent les amygdales dans le cours ?",
+          "a": "Aux formations lymphoïdes des voies aérodigestives",
+          "pages": "8"
+        },
+        {
+          "q": "À partir de quel liquide se constitue la lymphe ?",
+          "a": "Le liquide interstitiel",
+          "pages": "10"
+        },
+        {
+          "q": "Quel organe fournit une pompe centrale au réseau lymphatique ?",
+          "a": "Aucun organe comparable au cœur",
+          "pages": "10"
+        },
+        {
+          "q": "Quel mécanisme aide le retour lymphatique ?",
+          "a": "Les mouvements musculaires et respiratoires",
+          "pages": "10"
+        },
+        {
+          "q": "Quel mécanisme évite le reflux de la lymphe ?",
+          "a": "Des valvules anti-reflux",
+          "pages": "10"
+        },
+        {
+          "q": "Où se déverse le conduit lymphatique droit ?",
+          "a": "Dans le système veineux sous-clavier droit",
+          "pages": "11"
+        },
+        {
+          "q": "Quel conduit draine la majeure partie du corps ?",
+          "a": "Le canal thoracique",
+          "pages": "11"
+        },
+        {
+          "q": "Quel type de molécules le chyle intestinal véhicule-t-il ?",
+          "a": "Des lipides et des chylomicrons",
+          "pages": "12"
+        },
+        {
+          "q": "Que suggère une adénopathie inguinale gauche isolée pour l’examen ?",
+          "a": "Explorer le membre inférieur gauche et son territoire de drainage",
+          "pages": "5"
+        }
+      ]
+    },
+    "cm-a1455c22b6155e9e": {
+      "id": "cm-a1455c22b6155e9e",
+      "subject": "bmct",
+      "title": "Pharmacodynamie générale 1 — récepteurs, affinité et douleur",
+      "courseName": "PHARMACODYNAMIE GÉNÉRALE 1",
+      "date": "2026-09-21",
+      "teacher": "Pr R. Bordet",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 · 6 pages",
+        "url": "https://drive.google.com/file/d/1cgejZpH73jyJlNGgglBbu_JP00FPmXV2/view",
+        "pages": 6
+      },
+      "editorialNote": "Réécriture narrative fondée sur le PDF 2026–2027. Schémas simplifiés originaux ; les situations d’entraînement sont fictives. Se reporter au cours original pour les figures et les nuances.",
+      "hook": "Un médicament est comme une clé : elle peut se fixer à une serrure, mais se fixer ne garantit pas qu’elle ouvrira la porte. Voilà le secret de la différence entre affinité et activité.",
+      "flow": [
+        "Comprendre",
+        "Visualiser",
+        "Restituer",
+        "Corriger"
+      ],
+      "flags": [
+        "La ronéo contient des simplifications sur les sous-types de récepteurs opioïdes ; la leçon évite de les généraliser au-delà du CM."
+      ],
+      "sections": [
+        {
+          "heading": "Du signal douloureux à la cible pharmacologique",
+          "pages": "2",
+          "paragraphs": [
+            "Une douleur née en périphérie est transmise par des fibres sensitives vers la moelle, puis vers des structures centrales comme le thalamus et le cortex. Le système dispose également de boucles de contrôle descendant.",
+            "Le potentiel d’action nerveux fait intervenir des canaux ioniques, notamment sodiques et potassiques. Le CM cite la xylocaïne, qui bloque les canaux sodiques voltage-dépendants et interrompt ainsi la conduction douloureuse locale.",
+            "Pour comprendre un médicament, on commence toujours par repérer où il agit : sur la conduction nerveuse, sur une synapse, sur un récepteur ou plus loin dans la cascade."
+          ],
+          "memory": "Première question : « quel maillon de la chaîne le médicament modifie-t-il ? »."
+        },
+        {
+          "heading": "Opioïdes : la nature a copié un système déjà présent",
+          "pages": "2–3",
+          "paragraphs": [
+            "Le pavot a fourni l’opium puis plusieurs alcaloïdes, dont la morphine et la codéine. Le cours rapproche leurs effets d’un système physiologique préexistant : les endorphines et d’autres peptides endogènes.",
+            "Les opioïdes interagissent avec des récepteurs, dont le récepteur μ est particulièrement impliqué dans l’analgésie. Ces récepteurs mobilisent notamment des protéines G et des voies intracellulaires.",
+            "Ainsi, un médicament exogène n’invente pas forcément une fonction : il peut imiter, renforcer ou bloquer des messages que l’organisme utilise déjà."
+          ],
+          "memory": "Exogène = apporté de l’extérieur ; endogène = déjà présent dans le corps.",
+          "visual": "pharmacodyn"
+        },
+        {
+          "heading": "Affinité : à quel point la clé tient-elle ?",
+          "pages": "3–4",
+          "paragraphs": [
+            "L’affinité décrit la capacité d’une molécule à occuper son récepteur. Le CM utilise notamment Ki : plus Ki est bas, plus l’affinité est élevée.",
+            "La sélectivité est différente : une molécule préfère certains récepteurs à d’autres. Cette préférence dépend aussi de la concentration ; augmenter la dose peut faire apparaître des actions sur d’autres récepteurs.",
+            "Ne confonds pas deux questions : « se fixe-t-elle ? » et « se fixe-t-elle préférentiellement ici ? ». Une liaison très forte ne garantit pas à elle seule un effet maximal."
+          ],
+          "memory": "Ki ↓ → affinité ↑. Affinité = force de liaison ; sélectivité = préférence de cible."
+        },
+        {
+          "heading": "Activité intrinsèque : ouvrir ou bloquer la porte",
+          "pages": "4–5",
+          "paragraphs": [
+            "L’agoniste active son récepteur. Un agoniste entier peut atteindre l’effet maximal du système ; un agoniste partiel n’atteint pas ce maximum, même lorsque ses récepteurs sont occupés.",
+            "L’antagoniste a une activité intrinsèque nulle : il ne déclenche pas l’activation mesurée, mais bloque l’action d’un agoniste. L’agoniste inverse exerce un effet dans le sens opposé à l’activité constitutive.",
+            "Un agoniste partiel peut avoir une forte affinité. Ne conclus donc jamais à une affinité faible à partir d’un faible effet maximal."
+          ],
+          "memory": "Agoniste = appuie ; antagoniste = empêche ; inverse = pousse dans le sens opposé.",
+          "visual": "receptors"
+        },
+        {
+          "heading": "Antagonisme : peut-on surmonter le blocage ?",
+          "pages": "5",
+          "paragraphs": [
+            "Un antagoniste compétitif occupe le même site que l’agoniste. Lorsqu’il est réversible, augmenter suffisamment l’agoniste peut déloger le compétiteur : on parle d’antagonisme surmontable.",
+            "Un antagoniste insurmontable ne peut pas être dépassé par la simple hausse de l’agoniste, par exemple lorsqu’une liaison irréversible ou un mécanisme allostérique le maintient.",
+            "La logique de la question d’examen est généralement de reconnaître la courbe ou la situation de compétition, sans confondre fixation au même site et réversibilité."
+          ],
+          "memory": "Compétition surmontable : « plus d’agoniste peut reprendre la place »."
+        },
+        {
+          "heading": "Lire ensemble affinité et efficacité",
+          "pages": "3–5",
+          "paragraphs": [
+            "Imagine deux médicaments. Le premier se fixe facilement mais n’active que partiellement la réponse ; le second se fixe moins facilement mais déclenche une réponse maximale quand suffisamment de récepteurs sont occupés.",
+            "C’est pourquoi comparer deux molécules exige au moins de séparer la liaison au récepteur, la sélectivité de cible et l’efficacité intrinsèque.",
+            "Le piège est classique : puissance apparente, affinité et efficacité maximale sont des notions distinctes dans l’histoire pharmacodynamique."
+          ],
+          "memory": "Trois questions : Où se fixe-t-il ? Combien faut-il ? Quel effet maximal peut-il produire ?"
+        }
+      ],
+      "summary": [
+        {
+          "name": "Du signal douloureux à la cible pharmacologique",
+          "detail": "Pour comprendre un médicament, on commence toujours par repérer où il agit : sur la conduction nerveuse, sur une synapse, sur un récepteur ou plus loin dans la cascade.",
+          "pages": "2"
+        },
+        {
+          "name": "Opioïdes : la nature a copié un système déjà présent",
+          "detail": "Ainsi, un médicament exogène n’invente pas forcément une fonction : il peut imiter, renforcer ou bloquer des messages que l’organisme utilise déjà.",
+          "pages": "2–3"
+        },
+        {
+          "name": "Affinité : à quel point la clé tient-elle ?",
+          "detail": "Ne confonds pas deux questions : « se fixe-t-elle ? » et « se fixe-t-elle préférentiellement ici ? ». Une liaison très forte ne garantit pas à elle seule un effet maximal.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Activité intrinsèque : ouvrir ou bloquer la porte",
+          "detail": "Un agoniste partiel peut avoir une forte affinité. Ne conclus donc jamais à une affinité faible à partir d’un faible effet maximal.",
+          "pages": "4–5"
+        },
+        {
+          "name": "Antagonisme : peut-on surmonter le blocage ?",
+          "detail": "La logique de la question d’examen est généralement de reconnaître la courbe ou la situation de compétition, sans confondre fixation au même site et réversibilité.",
+          "pages": "5"
+        },
+        {
+          "name": "Lire ensemble affinité et efficacité",
+          "detail": "Le piège est classique : puissance apparente, affinité et efficacité maximale sont des notions distinctes dans l’histoire pharmacodynamique.",
+          "pages": "3–5"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Par quelle structure passent les messages sensitifs issus de la périphérie dans le CM ?",
+          "choices": [
+            "La rate",
+            "La moelle osseuse",
+            "Le canal thoracique",
+            "La moelle épinière"
+          ],
+          "answer": 3,
+          "why": "La moelle épinière — Douleur. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Douleur"
+        },
+        {
+          "q": "Quelles structures centrales sont citées dans le trajet douloureux ?",
+          "choices": [
+            "Rate et thymus",
+            "Ganglions et foie",
+            "Thalamus et cortex",
+            "Estomac et rate"
+          ],
+          "answer": 2,
+          "why": "Thalamus et cortex — Douleur. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Douleur"
+        },
+        {
+          "q": "Quel canal est bloqué par la xylocaïne selon le cours ?",
+          "choices": [
+            "Le canal thoracique",
+            "Les canaux sodiques voltage-dépendants",
+            "Les récepteurs à l’EPO",
+            "Les canaux lymphatiques"
+          ],
+          "answer": 1,
+          "why": "Les canaux sodiques voltage-dépendants — Douleur. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Douleur"
+        },
+        {
+          "q": "Quels ions jouent un rôle majeur dans le potentiel d’action nerveux décrit ?",
+          "choices": [
+            "Sodium et potassium",
+            "Fer et calcium uniquement",
+            "Iode et cuivre",
+            "Phosphate et magnésium seulement"
+          ],
+          "answer": 0,
+          "why": "Sodium et potassium — Douleur. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Douleur"
+        },
+        {
+          "q": "Quelle substance est un alcaloïde extrait du pavot ?",
+          "choices": [
+            "L’hémoglobine",
+            "L’érythropoïétine",
+            "L’interleukine 8",
+            "La morphine"
+          ],
+          "answer": 3,
+          "why": "La morphine — Opioïdes. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Opioïdes"
+        },
+        {
+          "q": "Quel récepteur le CM met-il particulièrement en avant pour l’analgésie opioïde ?",
+          "choices": [
+            "Le récepteur à l’EPO",
+            "Le récepteur CD34",
+            "Le récepteur μ",
+            "Le récepteur du facteur tissulaire"
+          ],
+          "answer": 2,
+          "why": "Le récepteur μ — Opioïdes. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Opioïdes"
+        },
+        {
+          "q": "Quel système physiologique est mimé par la morphine ?",
+          "choices": [
+            "Le système des lymphocytes B naïfs",
+            "Le système des peptides opioïdes endogènes",
+            "Le système des facteurs de transcription de l’érythropoïèse",
+            "Le système des valvules lymphatiques"
+          ],
+          "answer": 1,
+          "why": "Le système des peptides opioïdes endogènes — Opioïdes. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Opioïdes"
+        },
+        {
+          "q": "À quel grand couplage appartiennent les récepteurs opioïdes décrits ?",
+          "choices": [
+            "Aux protéines G",
+            "Aux canaux sodiques exclusivement",
+            "Aux protéines de la membrane des globules rouges",
+            "Aux récepteurs de l’ADN mitochondrial"
+          ],
+          "answer": 0,
+          "why": "Aux protéines G — Opioïdes. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Opioïdes"
+        },
+        {
+          "q": "Une baisse de Ki traduit généralement…",
+          "choices": [
+            "Une diminution systématique d’efficacité maximale",
+            "Une disparition de toute liaison",
+            "Une augmentation systématique du nombre d’hématies",
+            "Une augmentation d’affinité"
+          ],
+          "answer": 3,
+          "why": "Une augmentation d’affinité — Affinité. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Affinité"
+        },
+        {
+          "q": "Que décrit l’affinité ?",
+          "choices": [
+            "La durée d’un dossier clinique",
+            "La vitesse de distribution de la lymphe",
+            "La liaison préférentielle d’un ligand à son récepteur, quantifiée par Ki",
+            "La fabrication d’anticorps"
+          ],
+          "answer": 2,
+          "why": "La liaison préférentielle d’un ligand à son récepteur, quantifiée par Ki — Affinité. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Affinité"
+        },
+        {
+          "q": "Que décrit la sélectivité pharmacologique ?",
+          "choices": [
+            "La seule durée de vie du médicament",
+            "La préférence pour une cible réceptrice plutôt qu’une autre",
+            "La production exclusive d’EPO",
+            "La forme biconcave du globule rouge"
+          ],
+          "answer": 1,
+          "why": "La préférence pour une cible réceptrice plutôt qu’une autre — Sélectivité. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Sélectivité"
+        },
+        {
+          "q": "Pourquoi une augmentation de dose peut-elle entraîner des effets supplémentaires ?",
+          "choices": [
+            "D’autres récepteurs peuvent être occupés",
+            "Les récepteurs disparaissent tous à faible concentration",
+            "L’affinité devient systématiquement nulle",
+            "Le médicament ne peut plus se distribuer"
+          ],
+          "answer": 0,
+          "why": "D’autres récepteurs peuvent être occupés — Sélectivité. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Sélectivité"
+        },
+        {
+          "q": "Quel type de ligand active un récepteur ?",
+          "choices": [
+            "Un antagoniste neutre uniquement",
+            "Une hématie",
+            "Un facteur de coagulation inactif",
+            "Un agoniste"
+          ],
+          "answer": 3,
+          "why": "Un agoniste — Agoniste. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Agoniste"
+        },
+        {
+          "q": "Quel agoniste peut atteindre l’effet maximal du système ?",
+          "choices": [
+            "L’antagoniste compétitif",
+            "L’agoniste partiel par définition",
+            "L’agoniste entier",
+            "L’antagoniste irréversible"
+          ],
+          "answer": 2,
+          "why": "L’agoniste entier — Agoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Agoniste"
+        },
+        {
+          "q": "Quel agoniste reste en dessous de l’effet maximal ?",
+          "choices": [
+            "L’agoniste entier dans sa définition",
+            "L’agoniste partiel",
+            "Le ligand neutre",
+            "L’antagoniste de liaison"
+          ],
+          "answer": 1,
+          "why": "L’agoniste partiel — Agoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Agoniste"
+        },
+        {
+          "q": "Un agoniste partiel a-t-il nécessairement une faible affinité ?",
+          "choices": [
+            "Non, son affinité peut être élevée",
+            "Oui, toujours",
+            "Oui, si la dose augmente",
+            "Oui, car il ne se fixe pas"
+          ],
+          "answer": 0,
+          "why": "Non, son affinité peut être élevée — Agoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Agoniste"
+        },
+        {
+          "q": "Quelle activité intrinsèque définit un antagoniste neutre ?",
+          "choices": [
+            "Égale à 1",
+            "Toujours supérieure à 1",
+            "Toujours égale à 100 %",
+            "Nulle"
+          ],
+          "answer": 3,
+          "why": "Nulle — Antagoniste. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Antagoniste"
+        },
+        {
+          "q": "Un antagoniste compétitif se fixe généralement…",
+          "choices": [
+            "Sur l’hémoglobine uniquement",
+            "Dans le canal thoracique",
+            "Au même site que l’agoniste",
+            "Sur la pulpe rouge de la rate"
+          ],
+          "answer": 2,
+          "why": "Au même site que l’agoniste — Antagoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Antagoniste"
+        },
+        {
+          "q": "Qu’appelle-t-on antagonisme surmontable ?",
+          "choices": [
+            "Un blocage que la dose ne modifie jamais",
+            "Un blocage levé en augmentant suffisamment l’agoniste",
+            "Un agoniste entier à activité négative",
+            "Une absence de récepteur"
+          ],
+          "answer": 1,
+          "why": "Un blocage levé en augmentant suffisamment l’agoniste — Antagoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Antagoniste"
+        },
+        {
+          "q": "Un antagoniste irréversible est typiquement…",
+          "choices": [
+            "Insurmontable par simple augmentation de l’agoniste",
+            "Toujours dépourvu de liaison au récepteur",
+            "Un agoniste entier",
+            "Identique à une enzyme de dégradation"
+          ],
+          "answer": 0,
+          "why": "Insurmontable par simple augmentation de l’agoniste — Antagoniste. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Antagoniste"
+        },
+        {
+          "q": "Quel ligand exerce un effet opposé à l’activité constitutive ?",
+          "choices": [
+            "Le plasmocyte",
+            "L’agoniste entier uniquement",
+            "Le ligand sans liaison",
+            "L’agoniste inverse"
+          ],
+          "answer": 3,
+          "why": "L’agoniste inverse — Inverse. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Inverse"
+        },
+        {
+          "q": "Que faut-il distinguer de l’affinité pour juger l’effet maximal ?",
+          "choices": [
+            "Le nombre de ganglions",
+            "Le nombre de plaquettes",
+            "L’activité intrinsèque",
+            "La numération des lymphocytes B"
+          ],
+          "answer": 2,
+          "why": "L’activité intrinsèque — Comparaison. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Comparaison"
+        },
+        {
+          "q": "Quel couple d’éléments le professeur demande-t-il de considérer pour l’efficacité d’un produit ?",
+          "choices": [
+            "VGM et réticulocytes",
+            "Affinité et activité intrinsèque",
+            "Cortex et médulla",
+            "Fer et ferritine uniquement"
+          ],
+          "answer": 1,
+          "why": "Affinité et activité intrinsèque — Comparaison. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Comparaison"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Par quelle structure passent les messages sensitifs issus de la périphérie dans le CM ?",
+          "a": "La moelle épinière",
+          "pages": "2"
+        },
+        {
+          "q": "Quelles structures centrales sont citées dans le trajet douloureux ?",
+          "a": "Thalamus et cortex",
+          "pages": "2"
+        },
+        {
+          "q": "Quel canal est bloqué par la xylocaïne selon le cours ?",
+          "a": "Les canaux sodiques voltage-dépendants",
+          "pages": "2"
+        },
+        {
+          "q": "Quels ions jouent un rôle majeur dans le potentiel d’action nerveux décrit ?",
+          "a": "Sodium et potassium",
+          "pages": "2"
+        },
+        {
+          "q": "Quelle substance est un alcaloïde extrait du pavot ?",
+          "a": "La morphine",
+          "pages": "2"
+        },
+        {
+          "q": "Quel récepteur le CM met-il particulièrement en avant pour l’analgésie opioïde ?",
+          "a": "Le récepteur μ",
+          "pages": "3"
+        },
+        {
+          "q": "Quel système physiologique est mimé par la morphine ?",
+          "a": "Le système des peptides opioïdes endogènes",
+          "pages": "2"
+        },
+        {
+          "q": "À quel grand couplage appartiennent les récepteurs opioïdes décrits ?",
+          "a": "Aux protéines G",
+          "pages": "3"
+        },
+        {
+          "q": "Une baisse de Ki traduit généralement…",
+          "a": "Une augmentation d’affinité",
+          "pages": "3"
+        },
+        {
+          "q": "Que décrit l’affinité ?",
+          "a": "La liaison préférentielle d’un ligand à son récepteur, quantifiée par Ki",
+          "pages": "3"
+        },
+        {
+          "q": "Que décrit la sélectivité pharmacologique ?",
+          "a": "La préférence pour une cible réceptrice plutôt qu’une autre",
+          "pages": "3"
+        },
+        {
+          "q": "Pourquoi une augmentation de dose peut-elle entraîner des effets supplémentaires ?",
+          "a": "D’autres récepteurs peuvent être occupés",
+          "pages": "4"
+        },
+        {
+          "q": "Quel type de ligand active un récepteur ?",
+          "a": "Un agoniste",
+          "pages": "4"
+        },
+        {
+          "q": "Quel agoniste peut atteindre l’effet maximal du système ?",
+          "a": "L’agoniste entier",
+          "pages": "5"
+        },
+        {
+          "q": "Quel agoniste reste en dessous de l’effet maximal ?",
+          "a": "L’agoniste partiel",
+          "pages": "5"
+        },
+        {
+          "q": "Un agoniste partiel a-t-il nécessairement une faible affinité ?",
+          "a": "Non, son affinité peut être élevée",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle activité intrinsèque définit un antagoniste neutre ?",
+          "a": "Nulle",
+          "pages": "4"
+        },
+        {
+          "q": "Un antagoniste compétitif se fixe généralement…",
+          "a": "Au même site que l’agoniste",
+          "pages": "5"
+        },
+        {
+          "q": "Qu’appelle-t-on antagonisme surmontable ?",
+          "a": "Un blocage levé en augmentant suffisamment l’agoniste",
+          "pages": "5"
+        },
+        {
+          "q": "Un antagoniste irréversible est typiquement…",
+          "a": "Insurmontable par simple augmentation de l’agoniste",
+          "pages": "5"
+        },
+        {
+          "q": "Quel ligand exerce un effet opposé à l’activité constitutive ?",
+          "a": "L’agoniste inverse",
+          "pages": "4"
+        },
+        {
+          "q": "Que faut-il distinguer de l’affinité pour juger l’effet maximal ?",
+          "a": "L’activité intrinsèque",
+          "pages": "5"
+        },
+        {
+          "q": "Quel couple d’éléments le professeur demande-t-il de considérer pour l’efficacité d’un produit ?",
+          "a": "Affinité et activité intrinsèque",
+          "pages": "5"
+        }
+      ]
+    },
+    "cm-ba8ff30e33bd44a2": {
+      "id": "cm-ba8ff30e33bd44a2",
+      "subject": "bmct",
+      "title": "Pharmacodynamie générale 2 — dose, ADME et variabilité",
+      "courseName": "PHARMACODYNAMIE GENREALE 2",
+      "date": "2026-09-21",
+      "teacher": "Pr R. Bordet",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 · 8 pages",
+        "url": "https://drive.google.com/file/d/147lgsT_wHqqCxKHHVOUCJZ4HDpNftnyu/view",
+        "pages": 8
+      },
+      "editorialNote": "Réécriture narrative fondée sur le PDF 2026–2027. Schémas simplifiés originaux ; les situations d’entraînement sont fictives. Se reporter au cours original pour les figures et les nuances.",
+      "hook": "Après avoir trouvé une molécule active, reste à répondre à trois questions : quelle dose produit l’effet, quelle quantité atteint vraiment le sang, et pourquoi le même médicament ne fonctionne-t-il pas pareil chez tous ?",
+      "flow": [
+        "Comprendre",
+        "Visualiser",
+        "Restituer",
+        "Corriger"
+      ],
+      "flags": [
+        "Les exemples de voies et de promédicaments sont issus du CM : ils ne constituent pas des conseils d’administration de médicaments."
+      ],
+      "sections": [
+        {
+          "heading": "Observer une dose et son effet",
+          "pages": "2",
+          "paragraphs": [
+            "Le CM décrit le test historique de la plaque chauffante pour mesurer un comportement nociceptif avant et après administration d’un antalgique. Une latence de réaction plus longue traduit un effet observé dans ce protocole.",
+            "Les courbes dose-réponse permettent ensuite de comparer les substances. Le cours distingue DL50 (létalité), DA50 (effet gradué à 50 %) et DE50 (réponse présente chez 50 % des individus).",
+            "Ces nombres ne sont pas interchangeables : la question pertinente est toujours de savoir quel phénomène on mesure."
+          ],
+          "memory": "L = Létale ; A = Activité graduée ; E = Efficace dans une population.",
+          "visual": "dose"
+        },
+        {
+          "heading": "Un produit plus puissant n’est pas toute l’histoire",
+          "pages": "3–4",
+          "paragraphs": [
+            "La recherche d’analgésiques plus puissants conduit à étudier des opioïdes variés. Le CM évoque le fentanyl et l’oxycodone, mais aussi les conséquences sociales de l’usage et de la diffusion des médicaments.",
+            "Un antagoniste peut servir d’outil expérimental pour vérifier qu’un effet passe par un récepteur donné : si l’antagoniste retire l’effet, l’hypothèse de mécanisme gagne en cohérence.",
+            "La tolérance pharmacologique est une réduction de l’effet d’une même dose lors d’administrations répétées ; cette notion ne se confond pas avec la dépendance, qui est un autre sujet."
+          ],
+          "memory": "Puissance ≠ absence de risque ; tolérance = effet qui baisse à dose répétée identique."
+        },
+        {
+          "heading": "ADME : suivre le trajet du médicament",
+          "pages": "4–5",
+          "paragraphs": [
+            "Après la pharmacodynamie (ce que le médicament fait), place à la pharmacocinétique (ce que l’organisme lui fait). La suite ADME sert de plan : Absorption, Distribution, Métabolisation, Élimination.",
+            "Une administration intraveineuse a par définition une biodisponibilité de 100 %. Après administration orale, l’absorption et le premier passage hépatique peuvent diminuer la fraction atteignant la circulation générale.",
+            "Visualise un colis : il franchit la douane digestive, voyage vers les tissus, passe éventuellement par un atelier de transformation, puis est éliminé."
+          ],
+          "memory": "ADME = Absorber, Distribuer, Métaboliser, Éliminer.",
+          "visual": "pk"
+        },
+        {
+          "heading": "Premier passage : tous les chemins ne passent pas par le foie",
+          "pages": "5",
+          "paragraphs": [
+            "Par voie orale, un produit absorbé peut traverser la circulation porte et subir une métabolisation hépatique avant d’atteindre la circulation générale : effet de premier passage hépatique.",
+            "Le CM cite la voie sublinguale, la voie transdermique et partiellement la voie rectale parmi les voies qui peuvent contourner cet effet. Il signale aussi les transporteurs d’efflux comme les P-glycoprotéines.",
+            "Évite la formule « toute voie non orale est identique ». Le site d’administration conditionne réellement la fraction de substance disponible."
+          ],
+          "memory": "Premier passage = partie de la dose transformée avant la circulation générale."
+        },
+        {
+          "heading": "Distribution, enzymes, code génétique",
+          "pages": "6–7",
+          "paragraphs": [
+            "La distribution dans les tissus dépend notamment des caractéristiques lipophiles de la molécule ; le cours introduit le volume apparent de distribution, qui est une grandeur de calcul et non un volume anatomique réel.",
+            "La codéine sert d’exemple de promédicament dont l’activité dépend des transformations enzymatiques, particulièrement CYP2D6. Selon l’activité de cette enzyme, l’effet peut être insuffisant ou au contraire renforcé.",
+            "Le CM oppose la variabilité génétique particulièrement marquée de CYP2D6 à des variations surtout environnementales pour CYP3A4. L’enjeu est de comprendre la variabilité interindividuelle."
+          ],
+          "memory": "CYP2D6 : les différences génétiques comptent ; CYP3A4 : interactions/environnement dans l’exemple du CM.",
+          "visual": "pk"
+        },
+        {
+          "heading": "Développement : trois phases à raconter",
+          "pages": "7–8",
+          "paragraphs": [
+            "En phase I, l’objectif mis en avant est surtout la sécurité et la tolérance, notamment la dose maximale tolérée. En phase II, on recherche le niveau d’efficacité et la dose adaptée.",
+            "En phase III, on évalue sur une plus grande population avec comparaison des groupes et analyse statistique. Le CM insiste enfin sur la dimension humaine, sociale et psychologique du médicament.",
+            "Pour retenir la succession, imagine que l’on vérifie d’abord « peut-on l’utiliser ? », puis « quelle dose semble utile ? », puis « fonctionne-t-il suffisamment bien à grande échelle ? »."
+          ],
+          "memory": "Phase I = sécurité ; II = dose/efficacité ; III = comparaison élargie."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Observer une dose et son effet",
+          "detail": "Ces nombres ne sont pas interchangeables : la question pertinente est toujours de savoir quel phénomène on mesure.",
+          "pages": "2"
+        },
+        {
+          "name": "Un produit plus puissant n’est pas toute l’histoire",
+          "detail": "La tolérance pharmacologique est une réduction de l’effet d’une même dose lors d’administrations répétées ; cette notion ne se confond pas avec la dépendance, qui est un autre sujet.",
+          "pages": "3–4"
+        },
+        {
+          "name": "ADME : suivre le trajet du médicament",
+          "detail": "Visualise un colis : il franchit la douane digestive, voyage vers les tissus, passe éventuellement par un atelier de transformation, puis est éliminé.",
+          "pages": "4–5"
+        },
+        {
+          "name": "Premier passage : tous les chemins ne passent pas par le foie",
+          "detail": "Évite la formule « toute voie non orale est identique ». Le site d’administration conditionne réellement la fraction de substance disponible.",
+          "pages": "5"
+        },
+        {
+          "name": "Distribution, enzymes, code génétique",
+          "detail": "Le CM oppose la variabilité génétique particulièrement marquée de CYP2D6 à des variations surtout environnementales pour CYP3A4. L’enjeu est de comprendre la variabilité interindividuelle.",
+          "pages": "6–7"
+        },
+        {
+          "name": "Développement : trois phases à raconter",
+          "detail": "Pour retenir la succession, imagine que l’on vérifie d’abord « peut-on l’utiliser ? », puis « quelle dose semble utile ? », puis « fonctionne-t-il suffisamment bien à grande échelle ? ».",
+          "pages": "7–8"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Que mesure le test historique de la plaque chauffante ?",
+          "choices": [
+            "La filtration glomérulaire",
+            "La concentration de ferritine",
+            "Le volume globulaire",
+            "Le délai avant une réaction nociceptive"
+          ],
+          "answer": 3,
+          "why": "Le délai avant une réaction nociceptive — Expérience. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Expérience"
+        },
+        {
+          "q": "Que signifie DL50 dans le CM ?",
+          "choices": [
+            "Dose active pour 50 %",
+            "Distribution lymphatique de 50 %",
+            "Dose létale pour 50 %",
+            "Dose efficace sans effet indésirable"
+          ],
+          "answer": 2,
+          "why": "Dose létale pour 50 % — Dose. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Dose"
+        },
+        {
+          "q": "Que représente DA50 dans le CM ?",
+          "choices": [
+            "Dose létale 50 %",
+            "Dose donnant 50 % d’un effet gradué",
+            "Demi-vie biologique",
+            "Seuil de 50 % de lymphocytes B"
+          ],
+          "answer": 1,
+          "why": "Dose donnant 50 % d’un effet gradué — Dose. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Dose"
+        },
+        {
+          "q": "Que représente DE50 dans le CM ?",
+          "choices": [
+            "Dose efficace chez 50 % d’une population",
+            "Dose toxique létale pour tous",
+            "Dose sans aucun effet mesurable",
+            "Concentration d’hémoglobine moyenne"
+          ],
+          "answer": 0,
+          "why": "Dose efficace chez 50 % d’une population — Dose. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Dose"
+        },
+        {
+          "q": "Que signifie NOAEL ?",
+          "choices": [
+            "Dose létale moyenne",
+            "Concentration de neutrophiles",
+            "Nombre de récepteurs μ",
+            "Niveau sans effet indésirable observé"
+          ],
+          "answer": 3,
+          "why": "Niveau sans effet indésirable observé — Dose. Voir la page 2 du CM.",
+          "pages": "2",
+          "topic": "Dose"
+        },
+        {
+          "q": "Quel usage expérimental a un antagoniste sélectif ?",
+          "choices": [
+            "Augmenter forcément l’activité intrinsèque",
+            "Mesurer le VGM",
+            "Tester la participation du récepteur à l’effet",
+            "Remplacer la phase III"
+          ],
+          "answer": 2,
+          "why": "Tester la participation du récepteur à l’effet — Pharmacologie. Voir la page 3 du CM.",
+          "pages": "3",
+          "topic": "Pharmacologie"
+        },
+        {
+          "q": "La tolérance pharmacologique décrit…",
+          "choices": [
+            "Une augmentation systématique de l’affinité",
+            "Une diminution de l’effet d’une même dose au fil des administrations",
+            "Une immunisation contre les bactéries",
+            "Une disparition immédiate de tout récepteur"
+          ],
+          "answer": 1,
+          "why": "Une diminution de l’effet d’une même dose au fil des administrations — Tolérance. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Tolérance"
+        },
+        {
+          "q": "Que décrit la pharmacocinétique ?",
+          "choices": [
+            "Le devenir du médicament dans l’organisme",
+            "Uniquement la fixation d’un agoniste au récepteur",
+            "La réponse des lymphocytes T",
+            "La forme des hématies"
+          ],
+          "answer": 0,
+          "why": "Le devenir du médicament dans l’organisme — Concepts. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "Concepts"
+        },
+        {
+          "q": "Que signifie A dans ADME ?",
+          "choices": [
+            "Activation immune",
+            "Antagonisme",
+            "Anaphylaxie",
+            "Absorption"
+          ],
+          "answer": 3,
+          "why": "Absorption — ADME. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "ADME"
+        },
+        {
+          "q": "Que signifie D dans ADME ?",
+          "choices": [
+            "Dilution sanguine",
+            "Différenciation T",
+            "Distribution",
+            "Démargination des neutrophiles"
+          ],
+          "answer": 2,
+          "why": "Distribution — ADME. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "ADME"
+        },
+        {
+          "q": "Que signifie M dans ADME ?",
+          "choices": [
+            "Maturation des lymphocytes",
+            "Métabolisation",
+            "Mémoire immunitaire",
+            "Migration leucocytaire uniquement"
+          ],
+          "answer": 1,
+          "why": "Métabolisation — ADME. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "ADME"
+        },
+        {
+          "q": "Que signifie E dans ADME ?",
+          "choices": [
+            "Élimination",
+            "Erythropoïèse",
+            "Éosinophilie",
+            "Endomitose"
+          ],
+          "answer": 0,
+          "why": "Élimination — ADME. Voir la page 4 du CM.",
+          "pages": "4",
+          "topic": "ADME"
+        },
+        {
+          "q": "Quelle biodisponibilité est attribuée à la voie intraveineuse ?",
+          "choices": [
+            "8 % systématiquement",
+            "30 % systématiquement",
+            "50 % systématiquement",
+            "100 %"
+          ],
+          "answer": 3,
+          "why": "100 % — Biodisponibilité. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Biodisponibilité"
+        },
+        {
+          "q": "Quelle voie peut subir un premier passage hépatique ?",
+          "choices": [
+            "La voie transdermique exclusivement",
+            "La voie intraveineuse directe",
+            "La voie orale",
+            "La voie sublinguale systématiquement"
+          ],
+          "answer": 2,
+          "why": "La voie orale — Biodisponibilité. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Biodisponibilité"
+        },
+        {
+          "q": "Quelles protéines peuvent limiter l’absorption par efflux ?",
+          "choices": [
+            "Les immunoglobulines seules",
+            "Les P-glycoprotéines",
+            "Les GPIIbIIIa",
+            "Les protéines du réticulocyte"
+          ],
+          "answer": 1,
+          "why": "Les P-glycoprotéines — Biodisponibilité. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Biodisponibilité"
+        },
+        {
+          "q": "Quelle voie peut contourner largement le premier passage hépatique ?",
+          "choices": [
+            "La voie sublinguale",
+            "La voie orale avalée",
+            "La voie portale directe",
+            "La déglutition classique"
+          ],
+          "answer": 0,
+          "why": "La voie sublinguale — Voies. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Voies"
+        },
+        {
+          "q": "Quelle voie mentionnée contourne aussi le premier passage en partie ?",
+          "choices": [
+            "La circulation porte exclusivement",
+            "La voie orale classique uniquement",
+            "La perfusion dans la veine porte",
+            "La voie rectale"
+          ],
+          "answer": 3,
+          "why": "La voie rectale — Voies. Voir la page 5 du CM.",
+          "pages": "5",
+          "topic": "Voies"
+        },
+        {
+          "q": "Que mesure le volume apparent de distribution ?",
+          "choices": [
+            "Le volume anatomique réel des ventricules",
+            "Le volume des ganglions",
+            "Une grandeur théorique de répartition du médicament",
+            "La masse des lymphocytes B"
+          ],
+          "answer": 2,
+          "why": "Une grandeur théorique de répartition du médicament — Distribution. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Distribution"
+        },
+        {
+          "q": "La codéine sert dans le cours d’exemple de…",
+          "choices": [
+            "Antagoniste sans transformation",
+            "Promédicament",
+            "Anticorps monoclonal",
+            "Facteur de croissance médullaire"
+          ],
+          "answer": 1,
+          "why": "Promédicament — Métabolisme. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Métabolisme"
+        },
+        {
+          "q": "Quel CYP est particulièrement impliqué dans les différences de réponse à la codéine ?",
+          "choices": [
+            "CYP2D6",
+            "CYP8A8",
+            "CD34",
+            "GPIIbIIIa"
+          ],
+          "answer": 0,
+          "why": "CYP2D6 — Métabolisme. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Métabolisme"
+        },
+        {
+          "q": "Chez un métaboliseur CYP2D6 lent, le cours prédit pour la codéine…",
+          "choices": [
+            "Une activation toujours maximale",
+            "Une absence de métabolisation de tous les médicaments",
+            "Une expansion clonale",
+            "Une activation limitée et un effet antalgique faible"
+          ],
+          "answer": 3,
+          "why": "Une activation limitée et un effet antalgique faible — Métabolisme. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Métabolisme"
+        },
+        {
+          "q": "Quelle variabilité le cours associe particulièrement à CYP2D6 ?",
+          "choices": [
+            "Une variabilité uniquement liée à la rate",
+            "Une variabilité définie par les neutrophiles",
+            "Une variabilité génétique interindividuelle",
+            "Une activité strictement identique chez tous"
+          ],
+          "answer": 2,
+          "why": "Une variabilité génétique interindividuelle — Variabilité. Voir la page 6 du CM.",
+          "pages": "6",
+          "topic": "Variabilité"
+        },
+        {
+          "q": "Quelle variabilité est surtout soulignée pour CYP3A4 dans ce CM ?",
+          "choices": [
+            "Différences de ganglions",
+            "Environnement et interactions",
+            "Absence totale d’interactions",
+            "Variations du VGM"
+          ],
+          "answer": 1,
+          "why": "Environnement et interactions — Variabilité. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Variabilité"
+        },
+        {
+          "q": "Quel objectif est au premier plan en phase I ?",
+          "choices": [
+            "Sécurité et tolérance",
+            "Commercialisation immédiate",
+            "Étude exclusive des résultats scolaires",
+            "Aucune mesure de toxicité"
+          ],
+          "answer": 0,
+          "why": "Sécurité et tolérance — Essais. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Essais"
+        },
+        {
+          "q": "Quel objectif est au premier plan en phase II ?",
+          "choices": [
+            "Surveillance exclusive après dix ans",
+            "Analyse unique des ganglions",
+            "Absence de toute évaluation de dose",
+            "Efficacité et détermination des doses"
+          ],
+          "answer": 3,
+          "why": "Efficacité et détermination des doses — Essais. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Essais"
+        },
+        {
+          "q": "Quel objectif caractérise la phase III dans ce CM ?",
+          "choices": [
+            "Fixation des premiers récepteurs in vitro uniquement",
+            "Étude exclusive du taux d’EPO",
+            "Comparaison d’efficacité sur une population plus large",
+            "Recherche des seules formes des hématies"
+          ],
+          "answer": 2,
+          "why": "Comparaison d’efficacité sur une population plus large — Essais. Voir la page 7 du CM.",
+          "pages": "7",
+          "topic": "Essais"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Que mesure le test historique de la plaque chauffante ?",
+          "a": "Le délai avant une réaction nociceptive",
+          "pages": "2"
+        },
+        {
+          "q": "Que signifie DL50 dans le CM ?",
+          "a": "Dose létale pour 50 %",
+          "pages": "2"
+        },
+        {
+          "q": "Que représente DA50 dans le CM ?",
+          "a": "Dose donnant 50 % d’un effet gradué",
+          "pages": "2"
+        },
+        {
+          "q": "Que représente DE50 dans le CM ?",
+          "a": "Dose efficace chez 50 % d’une population",
+          "pages": "2"
+        },
+        {
+          "q": "Que signifie NOAEL ?",
+          "a": "Niveau sans effet indésirable observé",
+          "pages": "2"
+        },
+        {
+          "q": "Quel usage expérimental a un antagoniste sélectif ?",
+          "a": "Tester la participation du récepteur à l’effet",
+          "pages": "3"
+        },
+        {
+          "q": "La tolérance pharmacologique décrit…",
+          "a": "Une diminution de l’effet d’une même dose au fil des administrations",
+          "pages": "4"
+        },
+        {
+          "q": "Que décrit la pharmacocinétique ?",
+          "a": "Le devenir du médicament dans l’organisme",
+          "pages": "4"
+        },
+        {
+          "q": "Que signifie A dans ADME ?",
+          "a": "Absorption",
+          "pages": "4"
+        },
+        {
+          "q": "Que signifie D dans ADME ?",
+          "a": "Distribution",
+          "pages": "4"
+        },
+        {
+          "q": "Que signifie M dans ADME ?",
+          "a": "Métabolisation",
+          "pages": "4"
+        },
+        {
+          "q": "Que signifie E dans ADME ?",
+          "a": "Élimination",
+          "pages": "4"
+        },
+        {
+          "q": "Quelle biodisponibilité est attribuée à la voie intraveineuse ?",
+          "a": "100 %",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle voie peut subir un premier passage hépatique ?",
+          "a": "La voie orale",
+          "pages": "5"
+        },
+        {
+          "q": "Quelles protéines peuvent limiter l’absorption par efflux ?",
+          "a": "Les P-glycoprotéines",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle voie peut contourner largement le premier passage hépatique ?",
+          "a": "La voie sublinguale",
+          "pages": "5"
+        },
+        {
+          "q": "Quelle voie mentionnée contourne aussi le premier passage en partie ?",
+          "a": "La voie rectale",
+          "pages": "5"
+        },
+        {
+          "q": "Que mesure le volume apparent de distribution ?",
+          "a": "Une grandeur théorique de répartition du médicament",
+          "pages": "6"
+        },
+        {
+          "q": "La codéine sert dans le cours d’exemple de…",
+          "a": "Promédicament",
+          "pages": "6"
+        },
+        {
+          "q": "Quel CYP est particulièrement impliqué dans les différences de réponse à la codéine ?",
+          "a": "CYP2D6",
+          "pages": "7"
+        },
+        {
+          "q": "Chez un métaboliseur CYP2D6 lent, le cours prédit pour la codéine…",
+          "a": "Une activation limitée et un effet antalgique faible",
+          "pages": "7"
+        },
+        {
+          "q": "Quelle variabilité le cours associe particulièrement à CYP2D6 ?",
+          "a": "Une variabilité génétique interindividuelle",
+          "pages": "6"
+        },
+        {
+          "q": "Quelle variabilité est surtout soulignée pour CYP3A4 dans ce CM ?",
+          "a": "Environnement et interactions",
+          "pages": "7"
+        },
+        {
+          "q": "Quel objectif est au premier plan en phase I ?",
+          "a": "Sécurité et tolérance",
+          "pages": "7"
+        },
+        {
+          "q": "Quel objectif est au premier plan en phase II ?",
+          "a": "Efficacité et détermination des doses",
+          "pages": "7"
+        },
+        {
+          "q": "Quel objectif caractérise la phase III dans ce CM ?",
+          "a": "Comparaison d’efficacité sur une population plus large",
+          "pages": "7"
         }
       ]
     }
