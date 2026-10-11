@@ -1,5 +1,294 @@
 {
   "schemaVersion": 1,
-  "notice": "Aucune modalité nouvelle communiquée à ce stade. Prévoir plusieurs formats et préserver l’historique des évaluations.",
-  "subjectModes": {}
+  "revision": "2026-10-11-v05-tableau-modalites-s1",
+  "source": {
+    "title": "Coefficients — MED2, semestre 1 2026/2027",
+    "page": 47,
+    "transcription": "Photographie du tableau fournie dans la conversation le 11/10/2026"
+  },
+  "totalPoints": 600,
+  "definitions": {
+    "QI": "Question à réponse unique (selon le glossaire transmis).",
+    "QRM": "Question à réponses multiples.",
+    "QRU": "Sigle présent dans le tableau, non explicité dans le glossaire transmis : préciser auprès de l’équipe pédagogique.",
+    "QROC": "Question à réponse ouverte courte.",
+    "QR": "Question rédactionnelle, réponse généralement plus développée.",
+    "DC": "Dossier clinique : questions à partir d’un cas clinique.",
+    "schema": "Schéma à annoter.",
+    "dissection": "Évaluation des dissections, contrôle continu.",
+    "CC": "Contrôle continu (format exact non précisé dans le tableau)."
+  },
+  "note": "La répartition en % est renseignée seulement lorsqu’elle est indiquée dans le tableau. Les QCM/QI pédagogiques déjà produits ne constituent pas à eux seuls des examens blancs conformes aux nouveaux formats. Le tableau renvoie à Moodle pour l’ECL.",
+  "subjectModes": {
+    "anatomie": {
+      "name": "Anatomie — première partie",
+      "duration": "0h30",
+      "ects": 2,
+      "coefficient": 2,
+      "points": 40,
+      "components": [
+        {
+          "label": "Schéma à annoter",
+          "percent": 60,
+          "type": "schema",
+          "context": "examen final"
+        },
+        {
+          "label": "Évaluation des dissections",
+          "percent": 40,
+          "type": "dissection",
+          "context": "contrôle continu"
+        }
+      ]
+    },
+    "semio": {
+      "name": "Sémiologie générale",
+      "duration": "0h50",
+      "ects": 2,
+      "coefficient": 2,
+      "points": 40,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 100,
+          "type": "QI",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "ssh": {
+      "name": "Santé – Société – Humanité",
+      "duration": "1h30",
+      "ects": 3,
+      "coefficient": 3,
+      "points": 60,
+      "components": [
+        {
+          "label": "QR",
+          "percent": 30,
+          "type": "QR",
+          "context": "épreuve"
+        },
+        {
+          "label": "QROC",
+          "percent": 70,
+          "type": "QROC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "anglais": {
+      "name": "Anglais — première partie",
+      "duration": "0h45",
+      "ects": 2,
+      "coefficient": 2,
+      "points": 40,
+      "components": [
+        {
+          "label": "QRM et QRU",
+          "percent": 50,
+          "type": [
+            "QRM",
+            "QRU"
+          ],
+          "context": "examen final"
+        },
+        {
+          "label": "Contrôle continu (format non précisé)",
+          "percent": 50,
+          "type": "CC",
+          "context": "contrôle continu"
+        }
+      ]
+    },
+    "quantitative": {
+      "name": "Biomédecine quantitative",
+      "duration": "1h00",
+      "ects": 3,
+      "coefficient": 3,
+      "points": 60,
+      "components": [
+        {
+          "label": "QRM et QRU",
+          "percent": null,
+          "type": [
+            "QRM",
+            "QRU"
+          ],
+          "context": "épreuve"
+        }
+      ]
+    },
+    "bmcp": {
+      "name": "Bases moléculaires et cellulaires des pathologies",
+      "duration": "2h00",
+      "ects": 3,
+      "coefficient": 3,
+      "points": 60,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 70,
+          "type": "QI",
+          "context": "épreuve"
+        },
+        {
+          "label": "DC",
+          "percent": 30,
+          "type": "DC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "bmct": {
+      "name": "Bases moléculaires, cellulaires et tissulaires des traitements médicamenteux",
+      "duration": "1h30",
+      "ects": 3,
+      "coefficient": 3,
+      "points": 60,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 50,
+          "type": "QI",
+          "context": "épreuve"
+        },
+        {
+          "label": "DC",
+          "percent": 50,
+          "type": "DC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "genetique": {
+      "name": "Génétique médicale",
+      "duration": "0h45",
+      "ects": 2,
+      "coefficient": 2,
+      "points": 40,
+      "components": [
+        {
+          "label": "QRM et QRU",
+          "percent": null,
+          "type": [
+            "QRM",
+            "QRU"
+          ],
+          "context": "épreuve"
+        }
+      ]
+    },
+    "sang": {
+      "name": "Tissu sanguin — bases générales",
+      "duration": "1h00",
+      "ects": 2,
+      "coefficient": 1.5,
+      "points": 30,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 50,
+          "type": "QI",
+          "context": "épreuve"
+        },
+        {
+          "label": "DC",
+          "percent": 50,
+          "type": "DC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "immuno": {
+      "name": "Système immunitaire — bases générales",
+      "duration": "1h00",
+      "ects": 2,
+      "coefficient": 1.5,
+      "points": 30,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 50,
+          "type": "QI",
+          "context": "épreuve"
+        },
+        {
+          "label": "DC",
+          "percent": 50,
+          "type": "DC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "parasito": {
+      "name": "Parasitologie-mycologie",
+      "duration": "0h45",
+      "ects": 1,
+      "coefficient": 1.5,
+      "points": 30,
+      "components": [
+        {
+          "label": "QRM et QRU",
+          "percent": 50,
+          "type": [
+            "QRM",
+            "QRU"
+          ],
+          "context": "épreuve"
+        },
+        {
+          "label": "QROC",
+          "percent": 50,
+          "type": "QROC",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "viro": {
+      "name": "Virologie",
+      "duration": "1h00",
+      "ects": 1,
+      "coefficient": 1.5,
+      "points": 30,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 100,
+          "type": "QI",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "informatique": {
+      "name": "Informatique médicale",
+      "duration": "0h30",
+      "ects": 1,
+      "coefficient": 1,
+      "points": 20,
+      "components": [
+        {
+          "label": "QI",
+          "percent": 100,
+          "type": "QI",
+          "context": "épreuve"
+        }
+      ]
+    },
+    "ecl": {
+      "name": "ECL n° 1",
+      "duration": null,
+      "ects": 3,
+      "coefficient": 3,
+      "points": 60,
+      "components": [
+        {
+          "label": "Modalités à consulter sur Moodle",
+          "percent": null,
+          "type": "pending",
+          "context": "non précisées"
+        }
+      ]
+    }
+  }
 }
