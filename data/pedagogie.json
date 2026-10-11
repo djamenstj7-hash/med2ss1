@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-10-11-v02-first-verified-module",
+  "lessons": {
+    "cm-de715b67886d4881": {
+      "id": "cm-de715b67886d4881",
+      "subject": "semio",
+      "title": "Abord et examen clinique du malade",
+      "courseName": "SÉMIOLOGIE ABORD DE L’EXAMEN.pdf",
+      "date": "2026-09-11",
+      "teacher": "Pr D. Launay",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, 9 pages",
+        "url": "https://drive.google.com/file/d/1OfrYxAE9x-QJYpcrjbXauBCF2UtC3Arm/view",
+        "pages": 9
+      },
+      "editorialNote": "Réécriture pédagogique à partir du CM, sans ajout de connaissance médicale extérieure. Les images et observations détaillées restent consultables dans le PDF original.",
+      "hook": "Une consultation ressemble à une enquête : chaque mot du patient est une piste, chaque signe observé est un indice. Mais le but n’est pas de jouer au détective solitaire : c’est de comprendre, examiner, décider et expliquer avec le patient.",
+      "summary": [
+        {
+          "name": "Le cap",
+          "detail": "L’examen clinique est central pour le diagnostic et la relation médecin–malade. Il doit être méthodique, respectueux et adapté à l’urgence.",
+          "pages": "2"
+        },
+        {
+          "name": "Le langage des signes",
+          "detail": "Sémiologie = science des signes. Signes cliniques : généraux, fonctionnels, physiques. Examens paracliniques : prise de sang, ECG, imagerie…",
+          "pages": "2–3"
+        },
+        {
+          "name": "Le raisonnement",
+          "detail": "Un syndrome regroupe plusieurs signes cohérents. Il ne suffit pas, à lui seul, à identifier une cause.",
+          "pages": "3"
+        },
+        {
+          "name": "Le déroulé",
+          "detail": "Premier contact → interrogatoire (motif, contexte, anamnèse) → examen physique → synthèse, décision, information.",
+          "pages": "3–9"
+        },
+        {
+          "name": "Le geste",
+          "detail": "IPPA = inspection, palpation, percussion, auscultation. Examen ciblé ou systématique selon la situation.",
+          "pages": "7"
+        },
+        {
+          "name": "La trace",
+          "detail": "Le dossier doit consigner date, heure, observateur, fonction, signature et validation médicale appropriée.",
+          "pages": "7"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Avant le diagnostic, il y a une rencontre",
+          "pages": "2, 4",
+          "paragraphs": [
+            "Imagine un patient qui entre dans ton cabinet. Avant même sa première phrase, vous échangez déjà des informations : son attitude, ton regard, votre façon de vous asseoir. Le cours insiste sur cette communication non verbale. On observe le patient ; mais lui aussi nous observe.",
+            "L’objectif du premier contact n’est pas de montrer que tu sais tout. C’est d’inspirer confiance. Présente-toi, reste poli, respecte sa pudeur, évite aussi bien la froideur que la familiarité. Place-toi à sa hauteur plutôt qu’en position dominante.",
+            "Le professeur propose une posture de « policier », au sens d’une enquête systématique et persévérante, jamais agressive. Si un élément ne colle pas au tableau, ne le balaie pas d’un revers de main. Il faut accepter l’incompréhensible et essayer de l’expliquer.",
+            "Enfin, adapte le rythme à la situation. Une consultation sans urgence et une situation aiguë ne se conduisent pas de la même manière. Le bon examen est celui réalisé au moment opportun."
+          ],
+          "memory": "Premier contact : confiance + respect + méthode + adaptation."
+        },
+        {
+          "heading": "Comprendre ce qu’on appelle un « signe »",
+          "pages": "2–3",
+          "paragraphs": [
+            "La sémiologie est la science des signes. Pour ne pas te perdre, imagine trois tiroirs dans lesquels ranger ce que tu apprends sur un malade.",
+            "Premier tiroir : les signes généraux. Dans ce cours, ils sont au nombre de quatre : fièvre, amaigrissement, asthénie (fatigue) et anorexie (perte d’appétit). L’association amaigrissement–asthénie–anorexie correspond ici à l’altération de l’état général, ou AEG.",
+            "Deuxième tiroir : les signes fonctionnels. Ce sont les sensations et troubles racontés par le patient : « j’ai mal », « je suis essoufflé ». Leur recueil repose sur la parole du malade.",
+            "Troisième tiroir : les signes physiques. Ils sont constatés lors de l’examen : un érythème, un souffle ou une hépatomégalie. Pour les rechercher, tu utilises notamment l’inspection, la palpation, la percussion et l’auscultation.",
+            "À côté de ces trois tiroirs existe une autre famille : les signes paracliniques, fournis par des examens complémentaires tels qu’une prise de sang, un ECG ou une radiographie. Attention : un marteau-réflexe, un diapason ou un tensiomètre sont des outils de l’examen clinique dans ce cours."
+          ],
+          "memory": "Généraux = état global ; fonctionnels = racontés ; physiques = constatés ; paracliniques = examens complémentaires."
+        },
+        {
+          "heading": "Un syndrome n’est pas encore une maladie",
+          "pages": "3",
+          "paragraphs": [
+            "Tu rassembles plusieurs indices et tu reconnais un motif répétitif. Voilà l’idée d’un syndrome : un ensemble cohérent et reproductible de signes.",
+            "Par exemple, le cours associe pâleur, dyspnée et asthénie au syndrome anémique. Il décrit aussi un syndrome sec avec sécheresse de plusieurs surfaces, et un syndrome néphritique associant notamment œdèmes des membres inférieurs et hypertension artérielle.",
+            "Mais attention au piège : identifier un syndrome permet un diagnostic sémiologique, pas forcément un diagnostic étiologique. Plusieurs maladies peuvent produire le même syndrome. Inversement, une même maladie peut provoquer plusieurs syndromes.",
+            "C’est comme reconnaître une fumée avant de savoir précisément ce qui brûle : tu as identifié un phénomène, pas nécessairement sa cause."
+          ],
+          "memory": "Syndrome = motif de signes ; étiologie = cause. Ne pas les confondre."
+        },
+        {
+          "heading": "L’interrogatoire : construire la carte avant d’explorer le territoire",
+          "pages": "4–6",
+          "paragraphs": [
+            "Tu commences par une question ouverte : « Qu’est-ce qui vous amène ? » Laisse le patient te raconter son histoire dans ses propres mots. Le cours insiste fortement sur l’écoute : un interrogatoire insuffisant peut conduire à des erreurs de diagnostic ou à des examens complémentaires mal orientés.",
+            "Ensuite, tu organises ce que tu entends en trois dossiers mentaux. D’abord, le motif de consultation : pourquoi est-il là aujourd’hui ? Puis le contexte : antécédents personnels et familiaux, métier, traitements, allergies, voyages, facteurs de risque. Enfin, l’anamnèse : comment le problème a-t-il commencé et évolué ?",
+            "Prenons une scène fictive construite seulement pour illustrer cette méthode : un patient dit « je suis essoufflé ». Tu notes le mot biomédical « dyspnée ». Mais tu ne t’arrêtes pas au mot : tu précises depuis quand, dans quelles circonstances, s’il s’agit d’un premier épisode et quelles autres manifestations sont présentes.",
+            "Les questions ouvertes permettent le récit ; les questions fermées servent ensuite à préciser. Certains patients parlent peu : sollicite-les. D’autres s’éloignent du sujet : recentre poliment. La qualité de ton interrogatoire dépend autant de l’écoute que des questions.",
+            "Avant de passer à la suite, reformule en langage compréhensible. Le but est de vérifier que vous parlez bien de la même chose et de ne pas imposer tes propres réponses. La prise de notes permet de retrouver les détails plus tard."
+          ],
+          "memory": "Interrogatoire = motif → contexte/ATCD → anamnèse ; ouvert d’abord, fermé pour préciser, reformulation pour vérifier."
+        },
+        {
+          "heading": "L’examen physique : regarder, toucher, écouter… avec méthode",
+          "pages": "3, 7–9",
+          "paragraphs": [
+            "Maintenant que tu as une carte du problème, tu passes au terrain : l’examen physique. Le cours distingue deux approches. La méthode ciblée explore en priorité le problème évoqué ; la méthode méthodique parcourt les appareils un par un, souvent dans un contexte hospitalier plus propice à l’exhaustivité.",
+            "Le fil rouge de l’examen physique est IPPA : Inspection, Palpation, Percussion, Auscultation. Le choix et la profondeur des gestes dépendent du contexte clinique. Prends le temps d’expliquer ce que tu vas faire et préserve la pudeur du patient.",
+            "En pneumologie, le cours recommande notamment de rechercher à l’interrogatoire la dyspnée, la toux, l’expectoration, l’hémoptysie et la douleur thoracique, puis de procéder à l’examen physique. En cardiologie, il mentionne dyspnée, douleur thoracique, lipothymie, syncope et palpitations, complétées par l’examen cardiovasculaire.",
+            "La première anecdote du CM montre une patiente avec des bouffées de chaleur, des troubles digestifs et un bilan hépatique perturbé. Plusieurs consultations n’avaient pas conduit à l’examen cutané complet ; l’observation de lésions profuses a finalement orienté vers une mastocytose. Le message n’est pas de deviner la maladie à la première minute : c’est d’oser regarder ce qui n’a pas encore été examiné.",
+            "Autre exemple rapporté par le professeur : des uvéites répétées associées à des lésions indurées au niveau de cicatrices font penser à une sarcoïdose. Chez une patiente jeune avec une phlébite spontanée, la constatation d’un livedo racemosa oriente vers un syndrome des antiphospholipides. Ce sont des associations de signes à reconnaître, pas une invitation à conclure sans contexte.",
+            "Le cours montre aussi le phénomène de Raynaud (doigts qui changent de couleur au froid), puis des myalgies avec déficit musculaire et lésions inflammatoires cutanées évoquant une dermatomyosite. Enfin, chez un patient avec cardiopathie hypertrophique, antécédent d’AVC et insuffisance rénale, des angiokératomes observés à l’aine sont présentés comme des signes précieux de maladie de Fabry.",
+            "Le dossier clinique doit garder une trace de l’examen : date, heure, identité et fonction de l’observateur, signature et validation par un médecin habilité selon le cadre rappelé dans le cours."
+          ],
+          "memory": "Deux méthodes : ciblée ou systématique. Dans les deux cas : IPPA et recherche de signes pertinents."
+        },
+        {
+          "heading": "Conclure : le patient doit connaître la suite de l’histoire",
+          "pages": "9",
+          "paragraphs": [
+            "Un mauvais scénario médical serait de poser beaucoup de questions, examiner longuement, puis sortir de la pièce sans expliquer la suite. Le cours demande de ne pas négliger la phase III : conclusion et décision.",
+            "Fais une synthèse. Propose un diagnostic ou plusieurs hypothèses si le tableau reste incertain. Décide, selon le contexte, d’une prise en charge, d’examens complémentaires, d’une prescription ou d’une orientation spécialisée.",
+            "Enfin, explique clairement au patient, avec des mots adaptés. Fais particulièrement attention aux termes anxiogènes quand tu n’es encore qu’au stade d’une hypothèse. Et consigne les constatations de la consultation.",
+            "L’idée maîtresse de ce chapitre tient en une phrase : un bon examen clinique est à la fois une méthode pour chercher des signes et une manière de construire une relation de soin."
+          ],
+          "memory": "Phase III = synthèse → hypothèses → décision → information claire → traçabilité."
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Définis la sémiologie.",
+          "a": "La science des signes.",
+          "pages": "2"
+        },
+        {
+          "q": "Cite les quatre signes généraux listés dans ce cours.",
+          "a": "Fièvre, amaigrissement, asthénie et anorexie.",
+          "pages": "2"
+        },
+        {
+          "q": "Quels trois éléments composent l’AEG selon ce cours ?",
+          "a": "Amaigrissement, asthénie et anorexie.",
+          "pages": "2"
+        },
+        {
+          "q": "Différence : signe fonctionnel versus signe physique ?",
+          "a": "Fonctionnel : rapporté par le patient. Physique : constaté lors de l’examen clinique.",
+          "pages": "2–3"
+        },
+        {
+          "q": "Donne deux exemples de signes paracliniques.",
+          "a": "Par exemple un résultat de prise de sang et un ECG (ou un examen d’imagerie).",
+          "pages": "2"
+        },
+        {
+          "q": "Un syndrome établit-il directement une étiologie ?",
+          "a": "Non. Il regroupe des signes cohérents, mais plusieurs maladies peuvent entraîner le même syndrome.",
+          "pages": "3"
+        },
+        {
+          "q": "Quelles sont les trois finalités de l’interrogatoire ?",
+          "a": "Comprendre le motif ; situer le contexte et les ATCD ; comprendre l’histoire de la maladie (anamnèse).",
+          "pages": "5–6"
+        },
+        {
+          "q": "Pourquoi commencer par des questions ouvertes ?",
+          "a": "Pour permettre au patient de formuler spontanément son motif et son récit. Les questions fermées viendront ensuite préciser.",
+          "pages": "4–6"
+        },
+        {
+          "q": "Que signifie IPPA ?",
+          "a": "Inspection, Palpation, Percussion, Auscultation.",
+          "pages": "7"
+        },
+        {
+          "q": "Deux méthodes d’examen clinique ?",
+          "a": "Une méthode ciblée sur le motif de consultation et une méthode systématique appareil par appareil.",
+          "pages": "7"
+        },
+        {
+          "q": "Quelles sont les quatre grandes phases de l’examen médical ?",
+          "a": "Phase initiale de contact, interrogatoire, examen physique, conclusion/décision avec information.",
+          "pages": "3–4, 9"
+        },
+        {
+          "q": "Que doit-on consigner dans le dossier à l’issue de l’examen ?",
+          "a": "Notamment date, heure, nom de l’observateur, fonction, signature et validation médicale selon le cours.",
+          "pages": "7"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Parmi les propositions suivantes, laquelle correspond à la définition de la sémiologie ?",
+          "choices": [
+            "Science des signes",
+            "Science du médicament",
+            "Analyse exclusive des examens complémentaires",
+            "Étude des seuls symptômes douloureux"
+          ],
+          "answer": 0,
+          "why": "Le cours définit explicitement la sémiologie comme la science des signes.",
+          "pages": "2"
+        },
+        {
+          "q": "Lequel des éléments suivants est classé comme un signe fonctionnel ?",
+          "choices": [
+            "Souffle perçu à l’auscultation",
+            "Douleur décrite par le patient",
+            "Érythème observé",
+            "Hépatomégalie palpée"
+          ],
+          "answer": 1,
+          "why": "Un signe fonctionnel est rapporté par le patient ; la douleur en est un exemple.",
+          "pages": "2–3"
+        },
+        {
+          "q": "Quel triplet correspond à l’AEG selon le cours ?",
+          "choices": [
+            "Fièvre, tachycardie, douleur",
+            "Fièvre, dyspnée, toux",
+            "Amaigrissement, asthénie, anorexie",
+            "Œdème, hypertension, pâleur"
+          ],
+          "answer": 2,
+          "why": "Le document distingue quatre signes généraux et précise que les trois derniers — amaigrissement, asthénie, anorexie — définissent l’AEG.",
+          "pages": "2"
+        },
+        {
+          "q": "Quel examen est cité parmi les examens paracliniques ?",
+          "choices": [
+            "Palpation",
+            "Inspection",
+            "Examen au marteau-réflexe",
+            "Électrocardiogramme"
+          ],
+          "answer": 3,
+          "why": "L’ECG figure dans la liste des examens paracliniques du cours. Le marteau-réflexe est présenté comme un outil clinique.",
+          "pages": "2"
+        },
+        {
+          "q": "Un syndrome est…",
+          "choices": [
+            "Un ensemble cohérent et reproductible de signes",
+            "Toujours synonyme d’une maladie unique",
+            "Uniquement un résultat biologique",
+            "Nécessairement lié à un seul organe"
+          ],
+          "answer": 0,
+          "why": "Un syndrome rassemble plusieurs signes ; il n’identifie pas automatiquement l’étiologie.",
+          "pages": "3"
+        },
+        {
+          "q": "Quelle question convient le mieux pour ouvrir l’interrogatoire ?",
+          "choices": [
+            "Vous avez forcément une infection, non ?",
+            "Qu’est-ce qui vous amène ?",
+            "Vous n’avez pas mal ailleurs ?",
+            "La douleur date-t-elle exactement de quatre jours ?"
+          ],
+          "answer": 1,
+          "why": "Le professeur recommande une question neutre et ouverte au premier contact ; les questions fermées servent ensuite à préciser.",
+          "pages": "4–6"
+        },
+        {
+          "q": "Quels sont les trois grands objectifs de l’interrogatoire ?",
+          "choices": [
+            "Imagerie, biologie, prescription",
+            "Auscultation, palpation, percussion",
+            "Motif, contexte/ATCD, anamnèse",
+            "Diagnostic définitif, traitement, sortie"
+          ],
+          "answer": 2,
+          "why": "Comprendre le motif, situer le contexte et reconstruire l’histoire de la maladie sont les trois objectifs explicitement énoncés.",
+          "pages": "5–6"
+        },
+        {
+          "q": "IPPA signifie :",
+          "choices": [
+            "Investigation, Prélèvement, Prescription, Analyse",
+            "Interrogatoire, Palpation, Prise de sang, Auscultation",
+            "Inspection, Pression, Percussion, Anamnèse",
+            "Inspection, Palpation, Percussion, Auscultation"
+          ],
+          "answer": 3,
+          "why": "Le sigle IPPA structure l’examen physique dans le CM.",
+          "pages": "7"
+        },
+        {
+          "q": "Concernant les deux méthodes d’examen physique, quelle affirmation est juste ?",
+          "choices": [
+            "L’une est ciblée, l’autre systématique appareil par appareil",
+            "La méthode systématique exclut l’interrogatoire",
+            "La méthode ciblée ne doit jamais être utilisée",
+            "Elles sont strictement identiques"
+          ],
+          "answer": 0,
+          "why": "Le cours distingue la méthode ciblée en consultation et l’examen méthodique, appareil par appareil.",
+          "pages": "7"
+        },
+        {
+          "q": "À propos de la conclusion de consultation, quel comportement est attendu ?",
+          "choices": [
+            "Éviter toute explication au patient",
+            "Faire une synthèse, exposer les hypothèses et informer clairement",
+            "Attendre nécessairement tous les examens avant d’émettre une hypothèse",
+            "Omettre les notes cliniques"
+          ],
+          "answer": 1,
+          "why": "La phase III comprend synthèse, hypothèses diagnostiques, décisions et information adaptée au patient.",
+          "pages": "9"
+        },
+        {
+          "q": "Lequel des éléments suivants figure dans les informations à documenter après l’examen ?",
+          "choices": [
+            "La couleur préférée du patient",
+            "L’adresse de chaque membre de sa famille",
+            "La date, l’heure, le nom et la fonction de l’observateur",
+            "Une hypothèse présentée obligatoirement comme une certitude"
+          ],
+          "answer": 2,
+          "why": "Le cours mentionne ces données de traçabilité ainsi que signature et validation médicale.",
+          "pages": "7"
+        },
+        {
+          "q": "Un patient raconte une gêne respiratoire ; comment le cours classe-t-il ce renseignement ?",
+          "choices": [
+            "Signe exclusivement paraclinique",
+            "Signe physique uniquement",
+            "Syndrome étiologique confirmé",
+            "Signe fonctionnel recueilli à l’interrogatoire"
+          ],
+          "answer": 3,
+          "why": "La dyspnée, rapportée par le malade, est l’un des exemples de signes fonctionnels du cours.",
+          "pages": "2, 7"
+        }
+      ]
+    }
+  }
+}
