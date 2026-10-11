@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "timezone": "Europe/Paris",
+  "revision": "2026-10-11-confirmed-in-chat",
+  "exams": [
+    {
+      "id": "nov-semio",
+      "date": "2026-11-04",
+      "start": "09:00",
+      "end": "09:50",
+      "subject": "semio",
+      "title": "Sémiologie générale"
+    },
+    {
+      "id": "nov-sang",
+      "date": "2026-11-04",
+      "start": "09:50",
+      "end": "10:50",
+      "subject": "sang",
+      "title": "Tissu sanguin — bases générales"
+    },
+    {
+      "id": "nov-immuno",
+      "date": "2026-11-04",
+      "start": "14:00",
+      "end": "15:00",
+      "subject": "immuno",
+      "title": "Système immunitaire — bases"
+    },
+    {
+      "id": "nov-bmct",
+      "date": "2026-11-04",
+      "start": "15:00",
+      "end": "16:30",
+      "subject": "bmct",
+      "title": "BMCT"
+    },
+    {
+      "id": "dec-ecl",
+      "date": "2026-12-15",
+      "start": null,
+      "end": null,
+      "subject": "ecl",
+      "title": "ECL Med-2"
+    },
+    {
+      "id": "dec-anglais",
+      "date": "2026-12-16",
+      "start": "09:00",
+      "end": "09:45",
+      "subject": "anglais",
+      "title": "Anglais"
+    },
+    {
+      "id": "dec-info",
+      "date": "2026-12-16",
+      "start": "09:45",
+      "end": "10:15",
+      "subject": "informatique",
+      "title": "Informatique médicale"
+    },
+    {
+      "id": "dec-gen",
+      "date": "2026-12-16",
+      "start": "10:15",
+      "end": "11:00",
+      "subject": "genetique",
+      "title": "Génétique médicale"
+    },
+    {
+      "id": "dec-bq",
+      "date": "2026-12-16",
+      "start": "14:00",
+      "end": "15:00",
+      "subject": "quantitative",
+      "title": "Biomédecine quantitative"
+    },
+    {
+      "id": "dec-anat",
+      "date": "2026-12-16",
+      "start": "15:10",
+      "end": "15:40",
+      "subject": "anatomie",
+      "title": "Anatomie — 1re partie"
+    },
+    {
+      "id": "jan-bmcp",
+      "date": "2027-01-07",
+      "start": "09:00",
+      "end": "11:00",
+      "subject": "bmcp",
+      "title": "BMCP"
+    },
+    {
+      "id": "jan-viro",
+      "date": "2027-01-07",
+      "start": "14:00",
+      "end": "15:00",
+      "subject": "viro",
+      "title": "Virologie"
+    },
+    {
+      "id": "jan-parasito",
+      "date": "2027-01-07",
+      "start": "15:00",
+      "end": "15:45",
+      "subject": "parasito",
+      "title": "Parasitologie-mycologie"
+    },
+    {
+      "id": "jan-ssh",
+      "date": "2027-01-08",
+      "start": "09:00",
+      "end": "10:30",
+      "subject": "ssh",
+      "title": "SSH (santé-société-humanité)"
+    }
+  ],
+  "notice": "Les dates de janvier 7 et 8 ont été confirmées par l’utilisateur; horaires selon la photographie du planning fournie."
+}
