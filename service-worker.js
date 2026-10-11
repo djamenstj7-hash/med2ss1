@@ -1,5 +1,5 @@
-/* MED2 S1 · V0.6 — light shell, navigation network-first, offline fallback */
-const CACHE='med2-s1-shell-20261011-v06';
+/* MED2 S1 · V0.7 — light shell, navigation network-first, offline fallback */
+const CACHE='med2-s1-shell-20261011-v07';
 const SHELL=new URL('./index.html',self.registration.scope).href;
 const ASSETS=['./index.html','./manifest.webmanifest','./data/catalogue.json','./data/examens.json','./data/modalites.json','./data/pedagogie.json','./data/entrainements.json','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
