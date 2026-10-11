@@ -1,0 +1,39 @@
+MED2 — Semestre 1 — fondations V0.1 (11/10/2026)
+
+IMPORTANT : créer un NOUVEAU dépôt GitHub (par exemple med2-semestre1).
+NE PAS remplacer le dépôt « semiomed2 » de l'ancienne application : ses résultats restent séparés.
+
+1. Créer le dépôt PUBLIC sur GitHub.
+2. Envoyer, en conservant les dossiers : index.html, service-worker.js, manifest.webmanifest,
+   icon-192.png, icon-512.png et le dossier data/ avec ses 3 fichiers JSON.
+3. Dans Settings > Pages : Deploy from a branch > main > /(root) > Save.
+4. Une fois GitHub Pages publié, ouvrir l'URL HTTPS depuis Safari / Chrome.
+5. Sur iPhone : Safari > Partager > Sur l'écran d'accueil > Ajouter.
+   Sur Android : Chrome > ⋮ > Installer l'application ou Ajouter à l'écran d'accueil.
+6. Sauvegarder souvent la progression : Suivi > Exporter mes résultats.
+
+CONTENU ACTUEL (V0.1)
+- 14 matières évaluées dans le calendrier : 8 avec un dossier CM à ce jour.
+- 57 cours magistraux PDF et 44 PDF d'annales répertoriés (noms, non pas leur contenu).
+- Calendrier officiel de novembre / décembre / janvier, avec dates janvier rectifiées.
+- Planificateur adaptatif prototype : rythme 7/14/21 jours ACTIFS, priorité examens,
+  autoévaluation et rappels J+1 / 3 / 7 / 14 / 30.
+- Suivi local et export/import sauvegarde.
+- Aucune leçon narrative ni banque multi-matières certifiée intégrée pour le moment.
+- Les PDF et liens Google Drive privés ne sont PAS intégrés au dépôt public.
+
+MISES À JOUR HEBDOMADAIRES
+- La synchronisation Google Drive n'est PAS automatique. Elle nécessite une étape
+  d'inventaire/validation des nouveaux cours en dehors de l'application.
+- Après vérification, remplacer data/catalogue.json par une nouvelle version.
+- Les nouvelles ressources à identifiant stable rejoindront les missions à la prochaine ouverture.
+- Pour les changements du calendrier, remplacer data/examens.json.
+- Pour les modalités d'évaluation nouvelles, renseigner data/modalites.json puis développer les exercices.
+- Ne pas utiliser de données privées ou de PDF sous droits sans autorisation de publication.
+
+LIMITATIONS
+- La « couverture en 7/14/21 jours » concerne un passage actif sur les CM recensés,
+  et non la maîtrise exhaustive de tous leurs détails.
+- La date de prochain rappel repose sur une autoévaluation : elle ne mesure pas une mémoire réelle.
+- Chaque navigateur/appareil conserve sa progression séparément.
+- Le site est une base initiale, PAS encore le remplaçant de Sémio MED2.
