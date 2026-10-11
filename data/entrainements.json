@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v07-enrichissement-sang-csh",
-  "disclaimer": "V0.7 : entraînements pédagogiques fictifs construits à partir des cours. Les dossiers cliniques sont des cas d’application ; ils ne correspondent pas à des annales authentiques. La banque de sémiologie reste exclusivement en QCM indépendants.",
+  "revision": "2026-10-11-v08-cellules-matures",
+  "disclaimer": "V0.8 : entraînements inventés à partir des CM ; aucun dossier n’est présenté comme une annale authentique. QI peut désigner QRU ou QRM. La sémiologie reste exclusivement en QCM indépendants.",
   "subjects": {
     "sang": {
       "qi": [
@@ -342,6 +342,361 @@
           "explanation": "Le myélogramme prélève de la moelle pour observation après coloration.",
           "page": "4",
           "format": "QRU"
+        },
+        {
+          "id": "sang-qi-21",
+          "question": "Quels composants font partie de l’hématie selon ce CM ?",
+          "options": [
+            "Membrane lipidique",
+            "Hémoglobine",
+            "Enzymes",
+            "Noyau polylobé"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le CM distingue trois composants : membrane, hémoglobine, enzymes.",
+          "page": "2",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-22",
+          "question": "Quelle association est exacte pour une maladie constitutionnelle du GR ?",
+          "options": [
+            "Déficit G6PD — enzymatique",
+            "Sphérocytose — anomalie de membrane",
+            "Drépanocytose — anomalie Hb",
+            "Vaquez — anomalie constitutionnelle de membrane"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "G6PD, sphérocytose et drépanocytose touchent respectivement enzyme, membrane et hémoglobine.",
+          "page": "2",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-23",
+          "question": "Sous hypoxie, le facteur HIF décrit dans le CM devient...",
+          "options": [
+            "Stable",
+            "Toujours immédiatement dégradé",
+            "Une enzyme plaquettaire",
+            "De l’hémoglobine S"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le support décrit sa stabilisation en hypoxie, permettant l’activation de la transcription EPO.",
+          "page": "3",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-24",
+          "question": "Quelles étapes appartiennent à l’axe EPO décrit ?",
+          "options": [
+            "Production rénale d’EPO",
+            "Liaison au récepteur de l’EPO",
+            "Activation de JAK2",
+            "Sécrétion obligatoire d’histamine"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "L’EPO est produite surtout par le rein, agit via son récepteur puis JAK2.",
+          "page": "3",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-25",
+          "question": "Quels éléments le CM relie à la polyglobulie de Vaquez ?",
+          "options": [
+            "Mutation acquise activatrice JAK2",
+            "Hématocrite augmenté",
+            "Risque thrombotique",
+            "Absence totale d’hématies"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "L’activation de JAK2 peut être indépendante de l’EPO et conduire à une élévation de l’hématocrite.",
+          "page": "4",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-26",
+          "question": "Quel profil suggère une carence en fer dans le support ?",
+          "options": [
+            "Microcytose et hypochromie",
+            "Macrocytose constante supérieure à 120",
+            "Hyperéosinophilie obligatoire",
+            "Hyperbasophilie obligatoire"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le déficit en fer limite la synthèse d’hémoglobine et produit des hématies petites et hypochromes.",
+          "page": "5",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-27",
+          "question": "Le CM associe les vitamines B9 et B12 à...",
+          "options": [
+            "La synthèse d’ADN",
+            "Une carence entraînant macrocytose",
+            "Une atteinte possible d’autres lignées si prolongée",
+            "Une activation directe de JAK2"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Les vitamines B9/B12 participent à la synthèse d’ADN des précurseurs.",
+          "page": "5",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-28",
+          "question": "Quels sont les signaux chimiotactiques cités pour les PNN ?",
+          "options": [
+            "IL-8",
+            "C5a",
+            "LPS",
+            "GPIIb/IIIa"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le CM cite IL-8, C5a et LPS comme attracteurs.",
+          "page": "7",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-29",
+          "question": "Le roulement du PNN sur l’endothélium est assuré principalement par...",
+          "options": [
+            "Sélectines",
+            "JAK2",
+            "Ferritine",
+            "Fibrinogène"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Les sélectines sont associées au roulement, avant l’adhérence et la diapédèse.",
+          "page": "7",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-30",
+          "question": "Quel couple est cité pour l’adhérence du PNN ?",
+          "options": [
+            "CD11b/CD18",
+            "GPIIb/IIIa",
+            "HbA/HbS",
+            "B9/B12"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le cours cite les intégrines CD11b/CD18.",
+          "page": "7",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-31",
+          "question": "Quels mécanismes du PNN sont associés à la destruction des microbes ?",
+          "options": [
+            "Phagocytose",
+            "ROS",
+            "Dégranulation",
+            "Polymérisation de l’HbS"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le CM décrit phagocytose, burst oxydatif et granules antimicrobiens.",
+          "page": "7",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-32",
+          "question": "Un défaut du burst oxydatif est associé au CM à...",
+          "options": [
+            "Granulomatose septique chronique",
+            "Sphérocytose",
+            "Vaquez",
+            "Carence en B9"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Défaut de la génération des ROS et infections graves ou récurrentes.",
+          "page": "7",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-33",
+          "question": "Quelles correspondances sont exactes ?",
+          "options": [
+            "Éosinophile — helminthes",
+            "Basophile — histamine",
+            "Monocyte — phagocytose",
+            "Plaquette — transport principal de l’O₂"
+          ],
+          "correct": [
+            0,
+            1,
+            2
+          ],
+          "explanation": "Le support présente ces fonctions distinctes.",
+          "page": "8",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-34",
+          "question": "Quel rôle du monocyte contribue à l’hémostase ?",
+          "options": [
+            "Production de facteur tissulaire",
+            "Transport de fibrinogène via HbS",
+            "Synthèse de GPIIb/IIIa sur les hématies",
+            "Production de vitamine B12"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le CM mentionne la production de facteur tissulaire.",
+          "page": "9",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-35",
+          "question": "Quelles étapes appartiennent à l’hémostase primaire ?",
+          "options": [
+            "Vasoconstriction",
+            "Adhésion des plaquettes",
+            "Activation plaquettaire",
+            "Agrégation plaquettaire"
+          ],
+          "correct": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "explanation": "Les quatre étapes sont décrites dans cet ordre.",
+          "page": "10",
+          "format": "QRM",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
+        },
+        {
+          "id": "sang-qi-36",
+          "question": "Quel élément permet les ponts entre les plaquettes activées ?",
+          "options": [
+            "Fibrinogène via GPIIb/IIIa",
+            "HIF via JAK2",
+            "Hémoglobine via CD18",
+            "MBP via la ferritine"
+          ],
+          "correct": [
+            0
+          ],
+          "explanation": "Le pont est GPIIb/IIIa–fibrinogène–GPIIb/IIIa.",
+          "page": "10",
+          "format": "QRU",
+          "source": {
+            "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+            "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+          },
+          "lessonId": "cm-22ef8ab1d84a9a4e"
         }
       ],
       "cases": [
@@ -597,13 +952,244 @@
               "format": "QRM"
             }
           ]
+        },
+        {
+          "id": "sang-dc-04",
+          "title": "Un hémogramme et une carence à comprendre",
+          "vignette": "Cas fictif de révision : une personne consulte pour fatigue. Le bilan fourni par l’enseignant montre une hémoglobine abaissée, un VGM de 72 fL et une ferritine basse. L’étudiant doit relier ces données aux notions du CM, sans prendre de décision thérapeutique.",
+          "questions": [
+            {
+              "id": "sang-dc-04-01",
+              "question": "Quel qualificatif décrit un VGM de 72 fL selon les repères du cours ?",
+              "options": [
+                "Microcytaire",
+                "Macrocytaire",
+                "Normocytaire supérieur à 100",
+                "Mégaloblastique par définition"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "VGM < 80 fL = microcytose selon le support.",
+              "page": "5",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-04-02",
+              "question": "La ferritine basse oriente d’abord vers...",
+              "options": [
+                "Un déficit des réserves de fer",
+                "Une mutation HbS obligatoire",
+                "Une production accrue d’histamine",
+                "Un déficit de GPIIb/IIIa"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "La ferritine est décrite comme le marqueur des réserves en fer.",
+              "page": "5",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-04-03",
+              "question": "Quel rôle physiologique du fer explique les hématies petites ?",
+              "options": [
+                "Synthèse d’hémoglobine",
+                "Production de sélectines",
+                "Fabrication d’histamine",
+                "Pont plaquettaire"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "Le fer est indispensable pour fabriquer l’hémoglobine.",
+              "page": "5",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-04-04",
+              "question": "Quelles caractéristiques du profil du CM sont compatibles avec une carence martiale ?",
+              "options": [
+                "Microcytose",
+                "Hypochromie",
+                "Ferritine basse",
+                "VGM > 120 fL obligatoire"
+              ],
+              "correct": [
+                0,
+                1,
+                2
+              ],
+              "explanation": "Le cours cite diminution VGM, CCMH et ferritine.",
+              "page": "5",
+              "format": "QRM",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-04-05",
+              "question": "Quels contextes de pertes chroniques sont cités comme étiologies fréquentes ?",
+              "options": [
+                "Digestives",
+                "Gynécologiques",
+                "Mutation JAK2 comme unique cause",
+                "Libération de NETs"
+              ],
+              "correct": [
+                0,
+                1
+              ],
+              "explanation": "Le CM cite les pertes digestives ou gynécologiques.",
+              "page": "5",
+              "format": "QRM",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            }
+          ]
+        },
+        {
+          "id": "sang-dc-05",
+          "title": "Du foyer infectieux au vaisseau réparé",
+          "vignette": "Cas fictif de révision : un foyer tissulaire endommagé attire des neutrophiles. Une petite lésion vasculaire voisine déclenche en parallèle une réponse plaquettaire. Les questions portent sur les étapes générales vues en cours, pas sur le diagnostic d’un patient.",
+          "questions": [
+            {
+              "id": "sang-dc-05-01",
+              "question": "Quel signal cité dans le CM peut guider le neutrophile ?",
+              "options": [
+                "IL-8",
+                "Ferritine",
+                "HbS",
+                "GPIIb/IIIa"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "IL-8 est un signal de chimiotactisme mentionné.",
+              "page": "7",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-05-02",
+              "question": "Quelle molécule intervient dans le roulement initial ?",
+              "options": [
+                "Sélectine",
+                "JAK2",
+                "HIF",
+                "HbA"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "Les sélectines sont responsables du roulement dans le cours.",
+              "page": "7",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-05-03",
+              "question": "Quelles armes du neutrophile sont citées ?",
+              "options": [
+                "Phagocytose",
+                "ROS",
+                "Granules antimicrobiens",
+                "NETs"
+              ],
+              "correct": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "explanation": "Le CM décrit quatre outils antimicrobiens.",
+              "page": "7",
+              "format": "QRM",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-05-04",
+              "question": "Quelle séquence suit la vasoconstriction lors de l’hémostase primaire ?",
+              "options": [
+                "Adhésion → activation → agrégation",
+                "Activation → macrocytose → NETose",
+                "Transcription EPO → adhésion → hémolyse",
+                "Granulopoïèse → agrégation → transport O₂"
+              ],
+              "correct": [
+                0
+              ],
+              "explanation": "Le support ordonne : adhésion, activation puis agrégation.",
+              "page": "10",
+              "format": "QRU",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            },
+            {
+              "id": "sang-dc-05-05",
+              "question": "Quelles molécules constituent le pont d’agrégation ?",
+              "options": [
+                "GPIIb/IIIa plaquettaire",
+                "Fibrinogène",
+                "HIF-1β",
+                "G6PD"
+              ],
+              "correct": [
+                0,
+                1
+              ],
+              "explanation": "L’agrégation utilise GPIIb/IIIa de deux plaquettes reliés au fibrinogène.",
+              "page": "10",
+              "format": "QRM",
+              "source": {
+                "title": "Les cellules matures du sang — Dr Duployez (CM 10 pages)",
+                "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view"
+              },
+              "lessonId": "cm-22ef8ab1d84a9a4e"
+            }
+          ]
         }
       ],
       "source": {
         "title": "Cellules souches et progéniteurs hématopoïétiques — Pr N. Duployez",
         "url": "https://drive.google.com/file/d/13xkGlNOkar2aegeSMA5rLHEJt_NeEHwn/view"
       },
-      "notice": "CM de Pr Duployez (9 pages). Exercices fictifs ; la simulation de tissu sanguin combine QI (QRU/QRM) et dossiers cliniques selon les modalités communiquées.",
+      "notice": "V0.8 : questions individuelles et dossiers fictifs liés aux CM cellules souches et cellules matures du sang. Les QI peuvent être QRU ou QRM. Dossiers cliniques pédagogiques, non issus d’annales.",
       "lessonId": "cm-25910e7347112e7a"
     },
     "immuno": {

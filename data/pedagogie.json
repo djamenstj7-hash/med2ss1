@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-11-v07-tissu-sanguin-csh",
+  "revision": "2026-10-11-v08-tissu-sanguin-cellules-matures",
   "lessons": {
     "cm-de715b67886d4881": {
       "id": "cm-de715b67886d4881",
@@ -7565,6 +7565,1555 @@
           "q": "L’IL-6 est liée à quoi dans ce cours ?",
           "a": "Inflammation et stimulation de production plaquettaire.",
           "pages": "8"
+        }
+      ]
+    },
+    "cm-22ef8ab1d84a9a4e": {
+      "id": "cm-22ef8ab1d84a9a4e",
+      "subject": "sang",
+      "title": "Les cellules matures du sang — les métiers de ta ville sanguine",
+      "courseName": "LES CELLULES MATURES DU SANG .pdf",
+      "date": "2026-09-18",
+      "teacher": "Dr Duployez",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027, Tissu sanguin, 10 pages",
+        "url": "https://drive.google.com/file/d/12_208_I2Dg_TKRp_SujyTVA4WE1VodJ0/view",
+        "pages": 10
+      },
+      "editorialNote": "Réécriture narrative fondée sur les dix pages du CM du Dr Duployez ; schémas originaux de synthèse intégrés dans l’application. Aucune illustration du PDF n’est reproduite dans ce pack. Exercices inédits, non issus des annales.",
+      "hook": "Bienvenue dans la ville sanguine : les hématies font les livraisons, les leucocytes assurent la défense et les plaquettes réparent les routes. Tu vas comprendre leurs missions, leurs outils et les pannes qui les touchent.",
+      "flow": [
+        "Transport de l’O₂",
+        "Signal EPO",
+        "Défense neutrophile",
+        "Spécialistes",
+        "Monocytes",
+        "Hémostase plaquettaire"
+      ],
+      "flags": [
+        "Page 2 : la formulation « se déformer sans se déformer » au sujet du globule rouge est contradictoire ; la leçon retient la nécessité d’une membrane déformable dans les petits vaisseaux.",
+        "Page 5 : le seuil de VGM > 120 fL est présenté comme caractéristique d’une anémie mégaloblastique ; cela ne suffit pas à lui seul à poser une cause clinique. Les valeurs reprises sont celles de la ronéo.",
+        "Page 4–5 : le traitement de la polyglobulie de Vaquez est résumé de façon trop générale dans le support ; aucune recommandation thérapeutique individuelle ne doit être déduite de cette phrase.",
+        "Page 7 : le passage sur PRR/opsonines et les mécanismes de NETose est simplifié ; nous conservons les fonctions décrites sans extrapoler."
+      ],
+      "sections": [
+        {
+          "heading": "Qui fait quoi dans le sang ?",
+          "pages": "2",
+          "paragraphs": [
+            "Imagine la circulation comme une ville dont les habitants ont des missions très différentes. Les hématies transportent l’oxygène ; les neutrophiles interviennent contre les micro-organismes ; les éosinophiles et basophiles portent des granules spécialisés ; les monocytes relient défense et communication ; les plaquettes s’occupent de colmater une brèche.",
+            "La leçon se concentre sur les cellules matures issues des lignées myéloïdes. La lymphopoïèse est annoncée, mais étudiée séparément en immunologie. Pour éviter les confusions, nous avancerons par métiers : transport, surveillance, intervention, puis réparation des vaisseaux.",
+            "Chaque métier possède une anatomie, une durée de vie et des mécanismes de régulation particuliers. Le bon réflexe en QCM sera toujours de relier une structure à une fonction, plutôt que de retenir une succession de noms."
+          ],
+          "memory": "Mémo des métiers : Hématie = Hémoglobine ; Neutrophile = Nettoyage infectieux ; Plaquette = Pansement vasculaire."
+        },
+        {
+          "heading": "Le globule rouge : un taxi souple chargé d’oxygène",
+          "pages": "2–3",
+          "paragraphs": [
+            "Le globule rouge est un disque biconcave, comme un petit coussin aplati au centre. Il doit se déformer pour traverser des microvaisseaux étroits. Sa membrane joue donc le rôle de carrosserie flexible. Au centre, l’hémoglobine transporte l’oxygène ; et les enzymes assurent les besoins énergétiques nécessaires à la cellule.",
+            "Trois grandes catégories d’anomalies constitutionnelles correspondent aux trois éléments de ce taxi. Une anomalie de l’hémoglobine : le CM donne la drépanocytose. Une anomalie de la membrane : la sphérocytose héréditaire, avec des globules rouges devenus sphériques et moins déformables. Une anomalie enzymatique : le déficit en G6PD, associé à une fragilité et à l’hémolyse dans certaines conditions.",
+            "Le cours donne une durée de vie d’environ 120 jours. Pour retenir ces trois familles, imagine que ton taxi puisse tomber en panne soit à cause de son chargement, soit de sa carrosserie, soit de son moteur."
+          ],
+          "memory": "Mémo MHE : Membrane (forme), Hémoglobine (O₂), Enzymes (énergie). Maladies = trois pièces susceptibles de défaillir.",
+          "visual": "rbc"
+        },
+        {
+          "heading": "Drépanocytose : quand le taxi se rigidifie",
+          "pages": "3",
+          "paragraphs": [
+            "Dans la drépanocytose, le cours décrit une mutation ponctuelle de la β-globine et la production d’hémoglobine S. Lorsque cette hémoglobine est désoxygénée, elle peut polymériser en fibres. Imagine des bâtons rigides apparaissant à l’intérieur d’un coussin : celui-ci perd sa souplesse et se déforme.",
+            "Les hématies devenues drépanocytes sont fragiles, ce qui participe à une anémie hémolytique chronique. Elles se déforment moins bien dans les petits vaisseaux et peuvent contribuer à des épisodes vaso-occlusifs douloureux.",
+            "Le CM cite comme régions particulièrement concernées la Méditerranée, l’Afrique, le Moyen-Orient et l’Inde. Le point causal à comprendre est surtout la chaîne : HbS désoxygénée → polymérisation → déformation et rigidification → hémolyse et vaso-occlusion."
+          ],
+          "memory": "Mémo causal : S = Structure en fibres → globule rouge Stiff (rigide). Les deux conséquences à distinguer : destruction des GR et obstacle microvasculaire."
+        },
+        {
+          "heading": "L’alarme oxygène : HIF appelle l’EPO",
+          "pages": "3–4",
+          "paragraphs": [
+            "Le rein joue le rôle de capteur de la disponibilité en oxygène. Dans la description du CM, lorsque l’oxygène est suffisant, le facteur HIF est oxydé puis dégradé. En situation d’hypoxie, il est stabilisé et peut s’associer à HIF-1β pour favoriser la transcription du gène de l’EPO.",
+            "L’érythropoïétine, essentiellement produite par le rein selon le cours, est le message envoyé aux cellules érythroïdes : la fabrication des globules rouges doit être stimulée. Mais ce message n’agit pas directement sur l’ADN : il se fixe sur un récepteur à l’EPO, qui déclenche une cascade intracellulaire impliquant JAK2.",
+            "Sépare bien deux étapes souvent mélangées en QCM. HIF intervient en amont sur la production de l’EPO. JAK2 intervient en aval, après la liaison de l’EPO à son récepteur sur la cellule cible. Le schéma reprend uniquement le trajet décrit dans les pages 3 et 4."
+          ],
+          "memory": "Deux étages : HIF = l’alarme du rein ; JAK2 = le relais du récepteur. Hypoxie → HIF stable → EPO → récepteur → JAK2.",
+          "visual": "epo"
+        },
+        {
+          "heading": "Polyglobulie de Vaquez : un interrupteur JAK2 coincé sur ON",
+          "pages": "4–5",
+          "paragraphs": [
+            "Imagine un récepteur qui attend normalement une hormone pour donner l’ordre de produire. Dans la polyglobulie de Vaquez présentée au CM, une mutation de JAK2 apparaît au cours de la vie et rend la signalisation active indépendamment de l’EPO. Ce n’est donc pas présenté comme une maladie héréditaire transmise à la naissance.",
+            "Le cours associe cette activation à une augmentation de l’hémoglobine et de l’hématocrite. Le sang devient plus visqueux, ce qui contribue à une augmentation du risque thrombotique. Il cite également l’érythrose faciale et des mains ainsi que des événements thrombotiques veineux ou artériels.",
+            "Le raisonnement à retenir : production d’hématies stimulée sans ordre hormonal nécessaire → hématocrite élevé → hyperviscosité. Le PDF mentionne des éléments de traitement ; ils ne sont pas repris ici comme recommandations thérapeutiques individuelles."
+          ],
+          "memory": "Vaquez = JAK2 bloquée sur ON. L’EPO n’a plus besoin d’appuyer sur le bouton pour que la voie s’active."
+        },
+        {
+          "heading": "Fabriquer une hématie exige du fer, de la B9 et de la B12",
+          "pages": "5",
+          "paragraphs": [
+            "Une usine peut recevoir les bons ordres mais manquer de matériaux. Le fer est nécessaire à la fabrication de l’hémoglobine. Dans le cours, une carence martiale est associée à une anémie microcytaire hypochrome : les globules rouges sont plus petits et moins riches en hémoglobine. La ferritine sert de marqueur des réserves en fer et diminue en cas de carence.",
+            "Pour multiplier et maturer les précurseurs, la fabrication d’ADN nécessite notamment les vitamines B9 et B12. Un défaut de ces vitamines est décrit comme responsable d’une anémie macrocytaire ou mégaloblastique ; si le trouble se prolonge, d’autres lignées peuvent également être touchées.",
+            "Le PDF fournit les repères VGM inférieur à 80 fL pour la microcytose, supérieur à 100 fL pour la macrocytose, et associe un VGM supérieur à 120 fL aux formes mégaloblastiques. Ce dernier raccourci est indiqué comme formulation du support, et ne doit pas être utilisé seul pour affirmer une étiologie.",
+            "Le CM cite principalement des pertes sanguines chroniques digestives ou gynécologiques pour le déficit martial, des difficultés d’absorption pour la B12 et un apport insuffisant pour la B9. L’objectif pédagogique est d’associer nutriment manquant, mécanisme et aspect des globules rouges."
+          ],
+          "memory": "Mémo FER = petits GR (manque de matière pour l’Hb) ; B9/B12 = grands GR (fabrication de l’ADN perturbée)."
+        },
+        {
+          "heading": "Neutrophile : le premier intervenant sur le site infectieux",
+          "pages": "6–7",
+          "paragraphs": [
+            "Le neutrophile est présenté comme une des premières cellules mobilisées lors d’une infection, notamment bactérienne. Le CM donne chez l’adulte une concentration de 2 à 7,5 G/L, une taille d’environ 10 à 14 µm et une durée de vie sanguine de 1 à 3 jours.",
+            "Il ne reste pas toujours dans la circulation. L’organisme dispose de réserves médullaires, d’un pool circulant, d’un pool marginé sur l’endothélium et d’un compartiment tissulaire. Cette organisation permet de mobiliser des neutrophiles selon les besoins.",
+            "Pour trouver la zone infectée, il suit des signaux de chimiotactisme cités dans le cours : IL-8, C5a et LPS. Puis il interagit avec l’endothélium : roulement grâce aux sélectines, adhérence plus ferme via les intégrines CD11b/CD18 et traversée de la paroi par diapédèse.",
+            "Imagine un pompier qui reçoit l’adresse d’un incendie, ralentit le long du trottoir, s’arrête puis franchit la porte. Voilà pourquoi il faut apprendre les étapes dans l’ordre, pas comme trois mots séparés."
+          ],
+          "memory": "Mémo en 4 gestes : Signal → Roulement → Adhérence → Diapédèse. Sélectines = roule ; intégrines = accroche.",
+          "visual": "neutro"
+        },
+        {
+          "heading": "Neutrophile : quatre armes contre le micro-organisme",
+          "pages": "7–8",
+          "paragraphs": [
+            "Arrivé sur place, le neutrophile doit reconnaître sa cible. Le cours mentionne des récepteurs de reconnaissance de motifs, ainsi que des opsonines telles que des anticorps fixés aux agents pathogènes. Il peut ensuite phagocyter la cible, comme un sac refermé autour d’un intrus.",
+            "Première arme : le « respiratory burst », production d’espèces réactives de l’oxygène (ROS) capables d’endommager lipides, protéines et acides nucléiques des micro-organismes. Le cours associe un défaut de ce système à la granulomatose septique chronique et à des infections bactériennes et fongiques graves ou répétées.",
+            "Deuxième arme : les granulations contenant diverses enzymes ou protéines antimicrobiennes, libérées dans les compartiments de digestion ou à l’extérieur. Le texte cite aussi la privation de fer pour les bactéries et des modifications du pH.",
+            "Troisième arme : les NETs, des réseaux extracellulaires d’ADN qui piègent les agents microbiens. La ronéo associe ce processus à la NETose et le présente sous une forme très simplifiée. Pour l’examen, retiens la fonction de filet antimicrobien plutôt qu’un mécanisme universel de mort cellulaire."
+          ],
+          "memory": "Les armes : Phagocytose, ROS, Granules, NETs = PRGN. Pense « attraper, oxyder, digérer, piéger »."
+        },
+        {
+          "heading": "Éosinophile et basophile : deux spécialistes à ne pas confondre",
+          "pages": "8–9",
+          "paragraphs": [
+            "L’éosinophile, décrit dans le CM comme présent à moins de 0,5 G/L chez l’adulte, gagne rapidement les tissus, notamment les muqueuses. Ses granulations renferment MBP, ECP, EDN et une peroxydase. Il participe à la lutte contre les parasites, particulièrement les helminthes. En quantité excessive, la libération de ces protéines peut aussi léser les tissus de l’hôte.",
+            "Le basophile est plus rare dans le sang : moins de 0,1 G/L selon le cours. Il contient de l’histamine et intervient dans les réactions d’hypersensibilité immédiate. Le CM cite le choc anaphylactique parmi les phénomènes associés.",
+            "Imagine deux unités spécialisées : l’une affronte les parasites avec des granules très puissants, l’autre porte des médiateurs de l’allergie immédiate. Les deux ont des granules, mais leurs situations-clés diffèrent."
+          ],
+          "memory": "Mémo ÉO = hElminthe (parasites) ; BASO = histamine, réaction immédiate."
+        },
+        {
+          "heading": "Monocyte : le nettoyeur qui transmet l’information",
+          "pages": "9",
+          "paragraphs": [
+            "Le monocyte est une grande cellule du sang, mesurant environ 20 à 25 µm selon le cours. Sa concentration normale adulte y est donnée entre 0,2 et 1 G/L.",
+            "Sa première mission est la phagocytose : il participe aux défenses anti-infectieuses et à l’élimination de cellules vieillissantes, notamment des globules rouges sénescents.",
+            "Mais ce n’est pas qu’un agent de nettoyage. Le CM décrit un rôle de présentation antigénique, de sécrétion de cytokines, de production de facteur tissulaire participant à la coagulation et d’adaptation fonctionnelle selon la localisation tissulaire.",
+            "Le moyen de ne pas oublier toutes ces fonctions : imagine un agent municipal qui ramasse les déchets, rédige le rapport pour les décideurs, déclenche les alarmes et aide à gérer un incident sur la route."
+          ],
+          "memory": "Mémo P–P–C–F–P : Phagocytose, Présentation, Cytokines, Facteur tissulaire, Plasticité."
+        },
+        {
+          "heading": "Plaquettes : transformer une brèche en clou hémostatique",
+          "pages": "10",
+          "paragraphs": [
+            "Les plaquettes sont de petits éléments anucléés discoïdes. Le cours donne 150 à 400 G/L, une taille de 2 à 4 µm et une durée de vie d’environ 7 jours. Elles possèdent une membrane lipidique asymétrique, des glycoprotéines comme GPIIb/IIIa et des granules denses, alpha et lysosomaux.",
+            "Lorsqu’un vaisseau se blesse, le premier temps est une vasoconstriction réflexe. Les plaquettes adhèrent ensuite aux structures sous-endothéliales, s’activent puis s’agrègent. L’agrégation fait intervenir des ponts entre GPIIb/IIIa de plaquettes voisines et fibrinogène.",
+            "Le cours mentionne des récepteurs à plusieurs agonistes primaires, parmi lesquels thrombine, ADP et thromboxane A2. Enfin, la membrane plaquettaire, notamment ses phosphatidylsérines, sert de support aux réactions de coagulation : l’hémostase secondaire vient stabiliser le clou plaquettaire.",
+            "Imagine une réparation de route : on resserre le trafic, des ouvriers s’accrochent aux bords, s’activent puis se relient par des câbles. Une deuxième équipe vient consolider la structure. C’est la logique des deux temps de l’hémostase."
+          ],
+          "memory": "Mémo V–A–A–A : Vasoconstriction → Adhésion → Activation → Agrégation. GPIIb/IIIa + fibrinogène = pont entre plaquettes.",
+          "visual": "hemostase"
+        },
+        {
+          "heading": "Rassembler les quatre grandes logiques du cours",
+          "pages": "2–10",
+          "paragraphs": [
+            "Relis mentalement les équipes de ta ville sanguine. Les hématies transportent l’oxygène et dépendent de leur membrane, de leur hémoglobine, de leurs enzymes, ainsi que de la disponibilité du fer et des vitamines nécessaires à la production.",
+            "Les neutrophiles arrivent vite sur les sites infectieux puis combinent reconnaissance, phagocytose, ROS, granulations et NETs. Les éosinophiles sont fortement associés à la défense antiparasitaire, les basophiles aux réactions immédiates et les monocytes à la phagocytose comme à la communication immunitaire.",
+            "Les plaquettes organisent la réparation initiale des vaisseaux, et leur agrégation GPIIb/IIIa–fibrinogène prépare la stabilisation par la coagulation. Pour réviser activement, ferme la leçon et restitue à haute voix : cellule → structure → fonction → pathologie/mécanisme."
+          ],
+          "memory": "Test de restitution : quel élément de structure rend possible la fonction, puis quel défaut explique la pathologie ?"
+        }
+      ],
+      "summary": [
+        {
+          "name": "Qui fait quoi dans le sang ?",
+          "detail": "Mémo des métiers : Hématie = Hémoglobine ; Neutrophile = Nettoyage infectieux ; Plaquette = Pansement vasculaire.",
+          "pages": "2"
+        },
+        {
+          "name": "Le globule rouge: un taxi souple chargé d’oxygène",
+          "detail": "Mémo MHE : Membrane (forme), Hémoglobine (O₂), Enzymes (énergie). Maladies = trois pièces susceptibles de défaillir.",
+          "pages": "2–3"
+        },
+        {
+          "name": "Drépanocytose: quand le taxi se rigidifie",
+          "detail": "Mémo causal : S = Structure en fibres → globule rouge Stiff (rigide). Les deux conséquences à distinguer : destruction des GR et obstacle microvasculaire.",
+          "pages": "3"
+        },
+        {
+          "name": "L’alarme oxygène: HIF appelle l’EPO",
+          "detail": "Deux étages : HIF = l’alarme du rein ; JAK2 = le relais du récepteur. Hypoxie → HIF stable → EPO → récepteur → JAK2.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Polyglobulie de Vaquez: un interrupteur JAK2 coincé sur ON",
+          "detail": "Vaquez = JAK2 bloquée sur ON. L’EPO n’a plus besoin d’appuyer sur le bouton pour que la voie s’active.",
+          "pages": "4–5"
+        },
+        {
+          "name": "Fabriquer une hématie exige du fer, de la B9 et de la B12",
+          "detail": "Mémo FER = petits GR (manque de matière pour l’Hb) ; B9/B12 = grands GR (fabrication de l’ADN perturbée).",
+          "pages": "5"
+        },
+        {
+          "name": "Neutrophile: le premier intervenant sur le site infectieux",
+          "detail": "Mémo en 4 gestes : Signal → Roulement → Adhérence → Diapédèse. Sélectines = roule ; intégrines = accroche.",
+          "pages": "6–7"
+        },
+        {
+          "name": "Neutrophile: quatre armes contre le micro-organisme",
+          "detail": "Les armes : Phagocytose, ROS, Granules, NETs = PRGN. Pense « attraper, oxyder, digérer, piéger ».",
+          "pages": "7–8"
+        },
+        {
+          "name": "Éosinophile et basophile: deux spécialistes à ne pas confondre",
+          "detail": "Mémo ÉO = hElminthe (parasites) ; BASO = histamine, réaction immédiate.",
+          "pages": "8–9"
+        },
+        {
+          "name": "Monocyte: le nettoyeur qui transmet l’information",
+          "detail": "Mémo P–P–C–F–P : Phagocytose, Présentation, Cytokines, Facteur tissulaire, Plasticité.",
+          "pages": "9"
+        },
+        {
+          "name": "Plaquettes: transformer une brèche en clou hémostatique",
+          "detail": "Mémo V–A–A–A : Vasoconstriction → Adhésion → Activation → Agrégation. GPIIb/IIIa + fibrinogène = pont entre plaquettes.",
+          "pages": "10"
+        },
+        {
+          "name": "Rassembler les quatre grandes logiques du cours",
+          "detail": "Test de restitution : quel élément de structure rend possible la fonction, puis quel défaut explique la pathologie ?",
+          "pages": "2–10"
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Quel élément permet principalement la grande déformabilité de l’hématie ?",
+          "choices": [
+            "Ses intégrines CD11b/CD18",
+            "Sa membrane lipidique",
+            "Ses granulations éosinophiles",
+            "Son noyau polylobé"
+          ],
+          "answer": 1,
+          "why": "Le cours associe la déformabilité des hématies à leur membrane et à leur forme biconcave.",
+          "pages": "2",
+          "topic": "Hématie"
+        },
+        {
+          "q": "Quelle forme décrit le globule rouge mature normal dans le CM ?",
+          "choices": [
+            "Disque biconcave",
+            "Sphère rigide",
+            "Bâtonnet allongé",
+            "Cellule nucléée multilobée"
+          ],
+          "answer": 0,
+          "why": "La forme biconcave aide le globule rouge à franchir les petits vaisseaux.",
+          "pages": "2",
+          "topic": "Hématie"
+        },
+        {
+          "q": "Quel composant de l’hématie assure le transport de l’oxygène ?",
+          "choices": [
+            "Le fibrinogène",
+            "L’histamine",
+            "Le CD11b",
+            "L’hémoglobine"
+          ],
+          "answer": 3,
+          "why": "L’hémoglobine est le support du transport de l’O₂.",
+          "pages": "2",
+          "topic": "Hématie"
+        },
+        {
+          "q": "Combien de grandes familles de constituants de l’hématie le CM distingue-t-il ?",
+          "choices": [
+            "Cinq",
+            "Sept",
+            "Trois",
+            "Deux"
+          ],
+          "answer": 2,
+          "why": "Le cours distingue membrane, hémoglobine et enzymes.",
+          "pages": "2",
+          "topic": "Hématie"
+        },
+        {
+          "q": "Quelle durée de vie des globules rouges est donnée dans le CM ?",
+          "choices": [
+            "6 jours",
+            "120 jours",
+            "7 jours",
+            "1 à 3 jours"
+          ],
+          "answer": 1,
+          "why": "Le cours cite 120 jours pour les hématies.",
+          "pages": "2",
+          "topic": "Hématie"
+        },
+        {
+          "q": "La sphérocytose héréditaire est rattachée dans ce CM à une anomalie...",
+          "choices": [
+            "De membrane",
+            "Des ROS neutrophiles",
+            "Du récepteur à l’EPO",
+            "Du fibrinogène"
+          ],
+          "answer": 0,
+          "why": "La membrane altérée donne des hématies sphériques peu déformables.",
+          "pages": "2",
+          "topic": "Pathologies du GR"
+        },
+        {
+          "q": "Le déficit en G6PD est classé parmi les anomalies...",
+          "choices": [
+            "De la production de basophiles",
+            "De l’agrégation plaquettaire",
+            "De l’adhérence neutrophile",
+            "Enzymatiques du globule rouge"
+          ],
+          "answer": 3,
+          "why": "Le déficit enzymatique rend les hématies plus fragiles dans certaines conditions.",
+          "pages": "2",
+          "topic": "Pathologies du GR"
+        },
+        {
+          "q": "Dans le CM, quel défaut est à l’origine de la drépanocytose ?",
+          "choices": [
+            "Un manque d’histamine",
+            "Une activation de CD18",
+            "Une anomalie de la β-globine",
+            "Un déficit en GPIIb/IIIa"
+          ],
+          "answer": 2,
+          "why": "La mutation ponctuelle de la β-globine conduit à l’HbS.",
+          "pages": "3",
+          "topic": "Drépanocytose"
+        },
+        {
+          "q": "Quelle hémoglobine est nommée dans la drépanocytose ?",
+          "choices": [
+            "MBP",
+            "HbS",
+            "HbF uniquement",
+            "EPO"
+          ],
+          "answer": 1,
+          "why": "Le support oppose HbA normale et HbS dans la drépanocytose.",
+          "pages": "3",
+          "topic": "Drépanocytose"
+        },
+        {
+          "q": "L’HbS a tendance à polymériser particulièrement lorsqu’elle est...",
+          "choices": [
+            "Désoxygénée",
+            "Fixée au fibrinogène",
+            "Produite par les neutrophiles",
+            "Libérée par les plaquettes"
+          ],
+          "answer": 0,
+          "why": "La polymérisation sous désoxygénation modifie la forme et la souplesse des hématies.",
+          "pages": "3",
+          "topic": "Drépanocytose"
+        },
+        {
+          "q": "Quelle conséquence de la drépanocytose est expliquée par la fragilité des GR ?",
+          "choices": [
+            "Thrombopoïèse excessive",
+            "Basophilie isolée",
+            "Production de réticulocytes par les plaquettes",
+            "Anémie hémolytique chronique"
+          ],
+          "answer": 3,
+          "why": "La fragilité des hématies contribue à leur destruction (hémolyse).",
+          "pages": "3",
+          "topic": "Drépanocytose"
+        },
+        {
+          "q": "Quelle conséquence est liée au défaut de déformabilité des drépanocytes ?",
+          "choices": [
+            "Absence de neutrophiles",
+            "Libération d’histamine par les hématies",
+            "Crise vaso-occlusive douloureuse",
+            "Déficit isolé en vitamine B9"
+          ],
+          "answer": 2,
+          "why": "La rigidité favorise l’obstruction microvasculaire décrite dans le support.",
+          "pages": "3",
+          "topic": "Drépanocytose"
+        },
+        {
+          "q": "Selon le CM, quel organe produit principalement l’EPO ?",
+          "choices": [
+            "La rate uniquement",
+            "Le rein",
+            "Le thymus",
+            "Les plaquettes"
+          ],
+          "answer": 1,
+          "why": "Le cours présente le rein comme principale source d’érythropoïétine.",
+          "pages": "3",
+          "topic": "Érythropoïèse"
+        },
+        {
+          "q": "Que devient HIF en condition normoxique dans la présentation du cours ?",
+          "choices": [
+            "Il est oxydé puis dégradé",
+            "Il s’accumule pour activer l’EPO",
+            "Il devient de l’hémoglobine",
+            "Il se transforme en JAK2"
+          ],
+          "answer": 0,
+          "why": "La disponibilité normale en O₂ conduit à la dégradation de HIF.",
+          "pages": "3",
+          "topic": "HIF"
+        },
+        {
+          "q": "En cas d’hypoxie, HIF est présenté comme...",
+          "choices": [
+            "Immédiatement détruit par manque de fer",
+            "Converti en neutrophile",
+            "Incapable d’entrer dans le noyau",
+            "Stable et disponible pour favoriser la transcription de l’EPO"
+          ],
+          "answer": 3,
+          "why": "En hypoxie, le complexe impliquant HIF stimule l’expression du gène de l’EPO.",
+          "pages": "3",
+          "topic": "HIF"
+        },
+        {
+          "q": "Avec quel partenaire HIF est-il décrit comme se dimérisant ?",
+          "choices": [
+            "ECP",
+            "CD11b",
+            "HIF-1β",
+            "GPIIb/IIIa"
+          ],
+          "answer": 2,
+          "why": "Le cours mentionne l’association de HIF avec HIF-1β.",
+          "pages": "3",
+          "topic": "HIF"
+        },
+        {
+          "q": "Quelle séquence reflète correctement la régulation décrite ?",
+          "choices": [
+            "Hypoxie → CD18 → histamine",
+            "Hypoxie → HIF stable → transcription EPO",
+            "Normoxie → HIF stable → disparition de l’EPO",
+            "Hypoxie → fibrinogène → NETose"
+          ],
+          "answer": 1,
+          "why": "L’activation transcriptionnelle en hypoxie intervient en amont de la production d’EPO.",
+          "pages": "3",
+          "topic": "HIF"
+        },
+        {
+          "q": "L’action de l’EPO commence sur la cellule cible par...",
+          "choices": [
+            "La liaison à son récepteur",
+            "La liaison directe à GPIIb/IIIa",
+            "La libération de NETs",
+            "La rupture du noyau neutrophile"
+          ],
+          "answer": 0,
+          "why": "L’EPO agit via un récepteur membranaire et sa cascade de signalisation.",
+          "pages": "4",
+          "topic": "EPO/JAK2"
+        },
+        {
+          "q": "Quelle protéine relaie l’activation du récepteur à l’EPO dans le CM ?",
+          "choices": [
+            "HIF-1β dans les plaquettes",
+            "MBP",
+            "GP IIb/IIIa",
+            "JAK2"
+          ],
+          "answer": 3,
+          "why": "JAK2 intervient dans la transmission intracellulaire du signal du récepteur à l’EPO.",
+          "pages": "4",
+          "topic": "EPO/JAK2"
+        },
+        {
+          "q": "Une activation de JAK2 indépendante de l’EPO est décrite dans...",
+          "choices": [
+            "Le déficit G6PD",
+            "L’anaphylaxie",
+            "La polyglobulie de Vaquez",
+            "La sphérocytose héréditaire"
+          ],
+          "answer": 2,
+          "why": "La maladie de Vaquez est associée dans ce CM à une mutation acquise activatrice de JAK2.",
+          "pages": "4",
+          "topic": "Vaquez"
+        },
+        {
+          "q": "La mutation JAK2 de la polyglobulie de Vaquez est présentée comme...",
+          "choices": [
+            "Une absence de récepteur à l’histamine",
+            "Acquise au cours de la vie",
+            "Transmise obligatoirement par les deux parents",
+            "Une mutation de la β-globine"
+          ],
+          "answer": 1,
+          "why": "Le cours distingue mutation acquise et maladie héréditaire.",
+          "pages": "4",
+          "topic": "Vaquez"
+        },
+        {
+          "q": "Quel paramètre sanguin augmente dans la polyglobulie de Vaquez selon le CM ?",
+          "choices": [
+            "Hématocrite",
+            "VGM nécessairement inférieur à 60",
+            "Plaquettes nécessairement absentes",
+            "Ferritine nécessairement nulle"
+          ],
+          "answer": 0,
+          "why": "Le cours mentionne une élévation de l’hémoglobine et de l’hématocrite.",
+          "pages": "4",
+          "topic": "Vaquez"
+        },
+        {
+          "q": "Le risque thrombotique décrit dans la maladie de Vaquez est relié notamment à...",
+          "choices": [
+            "La disparition de toutes les hématies",
+            "La NETose systématique",
+            "Une carence directe en MBP",
+            "L’hyperviscosité du sang"
+          ],
+          "answer": 3,
+          "why": "Le support met en relation hématocrite élevé, viscosité et thromboses.",
+          "pages": "4",
+          "topic": "Vaquez"
+        },
+        {
+          "q": "Quel aspect clinique est mentionné dans la polyglobulie de Vaquez ?",
+          "choices": [
+            "Hypersécrétion de larmes uniquement",
+            "Disparition complète de la pigmentation cutanée",
+            "Érythrose faciale et des mains",
+            "Paralysie isolée des muscles oculaires"
+          ],
+          "answer": 2,
+          "why": "Le CM cite l’érythrose et les accidents thrombotiques.",
+          "pages": "4",
+          "topic": "Vaquez"
+        },
+        {
+          "q": "Quelle substance est indispensable à la synthèse d’hémoglobine ?",
+          "choices": [
+            "Le CD18",
+            "Le fer",
+            "L’histamine",
+            "Le fibrinogène"
+          ],
+          "answer": 1,
+          "why": "Le cours relie carence en fer et défaut de production d’hémoglobine.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Une carence en fer provoque typiquement, dans ce CM, une anémie...",
+          "choices": [
+            "Microcytaire hypochrome",
+            "Macrocytaire avec VGM élevé",
+            "Liée exclusivement aux basophiles",
+            "Sans modification de l’hémoglobine"
+          ],
+          "answer": 0,
+          "why": "L’absence de fer aboutit à des GR petits, contenant moins d’Hb.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Quel dosage reflète les réserves en fer selon le cours ?",
+          "choices": [
+            "GPIIb/IIIa",
+            "IL-8",
+            "HIF-1β",
+            "Ferritine"
+          ],
+          "answer": 3,
+          "why": "Une ferritine abaissée est présentée comme témoin de l’appauvrissement des réserves en fer.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "À partir de quelle valeur le CM décrit-il une microcytose ?",
+          "choices": [
+            "Plaquettes sous 150 G/L",
+            "PNN supérieur à 2 G/L",
+            "VGM inférieur à 80 fL",
+            "VGM supérieur à 120 fL"
+          ],
+          "answer": 2,
+          "why": "Le repère de microcytose du PDF est VGM < 80 fL.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "La carence en vitamine B12 ou B9 perturbe prioritairement...",
+          "choices": [
+            "L’adhérence du fibrinogène aux neutrophiles",
+            "La synthèse de l’ADN",
+            "L’activation de CD11b",
+            "La synthèse d’histamine basophile"
+          ],
+          "answer": 1,
+          "why": "Ces vitamines sont nécessaires à la fabrication d’ADN dans les cellules en maturation.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Quel profil d’anémie est associé aux déficits en B9/B12 dans le CM ?",
+          "choices": [
+            "Macrocytaire ou mégaloblastique",
+            "Microcytaire hypochrome obligatoire",
+            "Hémolytique par HbS obligatoire",
+            "Thrombotique par CD18"
+          ],
+          "answer": 0,
+          "why": "Le défaut de synthèse d’ADN conduit au tableau macrocytaire décrit.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Un VGM supérieur à 100 fL est décrit comme...",
+          "choices": [
+            "Microcytaire",
+            "Normocytaire dans tous les cas",
+            "Propre aux plaquettes",
+            "Macrocytaire"
+          ],
+          "answer": 3,
+          "why": "Le cours donne VGM > 100 fL comme repère de macrocytose.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Quelle étiologie de déficit en B12 est principalement citée ?",
+          "choices": [
+            "Le roulement des neutrophiles",
+            "Le déficit en sélectines",
+            "Un problème d’absorption",
+            "La seule activation de JAK2"
+          ],
+          "answer": 2,
+          "why": "Le support cite surtout le défaut d’absorption pour la B12.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Quelle étiologie de carence en B9 est surtout évoquée ?",
+          "choices": [
+            "Une liaison du fibrinogène à GPIIb/IIIa",
+            "Un apport insuffisant",
+            "Une mutation de la β-globine",
+            "Une hémorragie des plaquettes"
+          ],
+          "answer": 1,
+          "why": "La ronéo associe la carence B9 principalement à une insuffisance des apports.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Si une carence prolongée en B9/B12 atteint d’autres lignées, le CM évoque...",
+          "choices": [
+            "Une pancytopénie",
+            "Une monocytose obligatoire",
+            "Une drépanocytose acquise",
+            "Une thrombose isolée"
+          ],
+          "answer": 0,
+          "why": "Une perturbation prolongée de l’ADN peut toucher d’autres lignées hématopoïétiques.",
+          "pages": "5",
+          "topic": "Carences"
+        },
+        {
+          "q": "Quelle concentration de PNN est donnée comme référence adulte ?",
+          "choices": [
+            "150 à 400 G/L",
+            "0,2 à 1 G/L",
+            "Moins de 0,1 G/L",
+            "2 à 7,5 G/L"
+          ],
+          "answer": 3,
+          "why": "Le support donne 2–7,5 G/L pour les PNN.",
+          "pages": "6",
+          "topic": "Neutrophiles"
+        },
+        {
+          "q": "Quelle durée de vie sanguine est rapportée pour les PNN ?",
+          "choices": [
+            "7 semaines",
+            "30 ans",
+            "1 à 3 jours",
+            "120 jours"
+          ],
+          "answer": 2,
+          "why": "Le CM cite 1 à 3 jours.",
+          "pages": "6",
+          "topic": "Neutrophiles"
+        },
+        {
+          "q": "Quel rôle principal est attribué aux neutrophiles ?",
+          "choices": [
+            "Transport d’histamine plaquettaire",
+            "Défense précoce contre les micro-organismes",
+            "Transport majoritaire de l’oxygène",
+            "Synthèse de fibrinogène uniquement"
+          ],
+          "answer": 1,
+          "why": "Les neutrophiles constituent une première défense, notamment antibactérienne.",
+          "pages": "6",
+          "topic": "Neutrophiles"
+        },
+        {
+          "q": "Le pool marginé des neutrophiles est décrit comme...",
+          "choices": [
+            "Des cellules associées à l’endothélium vasculaire",
+            "Des plaquettes au centre des hématies",
+            "Des cellules stockées dans les ganglions uniquement",
+            "Des érythrocytes en quiescence"
+          ],
+          "answer": 0,
+          "why": "Le support distingue pool circulant et pool marginé sur l’endothélium.",
+          "pages": "6",
+          "topic": "Neutrophiles"
+        },
+        {
+          "q": "Quel trio de signaux chimiotactiques est cité ?",
+          "choices": [
+            "EPO, ferritine et B12",
+            "Histamine, fibrinogène et GPIIb",
+            "HIF, JAK2 et G6PD",
+            "IL-8, C5a et LPS"
+          ],
+          "answer": 3,
+          "why": "Ces trois signaux sont cités pour attirer le PNN vers le site infectieux.",
+          "pages": "7",
+          "topic": "Migration PNN"
+        },
+        {
+          "q": "Le roulement initial du neutrophile sur l’endothélium repose surtout sur...",
+          "choices": [
+            "GPIIb/IIIa",
+            "L’hémoglobine",
+            "Les sélectines",
+            "Les récepteurs à l’EPO"
+          ],
+          "answer": 2,
+          "why": "Le cours associe roulement aux sélectines.",
+          "pages": "7",
+          "topic": "Migration PNN"
+        },
+        {
+          "q": "L’adhérence ferme des neutrophiles mobilise notamment...",
+          "choices": [
+            "La vitamine B9",
+            "Les intégrines CD11b/CD18",
+            "L’HbS",
+            "La ferritine seule"
+          ],
+          "answer": 1,
+          "why": "Le CM cite les intégrines CD11b/CD18 pour l’attachement à l’endothélium.",
+          "pages": "7",
+          "topic": "Migration PNN"
+        },
+        {
+          "q": "Quel terme désigne la traversée de l’endothélium par le PNN ?",
+          "choices": [
+            "Diapédèse",
+            "Érythropoïèse",
+            "Vasoconstriction",
+            "Agrégation plaquettaire"
+          ],
+          "answer": 0,
+          "why": "La migration trans-endothéliale est appelée diapédèse.",
+          "pages": "7",
+          "topic": "Migration PNN"
+        },
+        {
+          "q": "Après recrutement, quel mécanisme permet au neutrophile d’englober une bactérie ?",
+          "choices": [
+            "Polyglobulie",
+            "Biconcavité",
+            "Thrombopoïèse",
+            "Phagocytose"
+          ],
+          "answer": 3,
+          "why": "La reconnaissance de la cible peut être suivie de sa phagocytose.",
+          "pages": "7",
+          "topic": "Défense PNN"
+        },
+        {
+          "q": "Quel mécanisme correspond au « respiratory burst » ?",
+          "choices": [
+            "La fixation de fibrinogène entre plaquettes",
+            "La sécrétion d’hémoglobine",
+            "La production d’espèces réactives de l’oxygène",
+            "Une hausse directe de la ferritine"
+          ],
+          "answer": 2,
+          "why": "Le burst oxydatif produit des ROS antimicrobiens.",
+          "pages": "7",
+          "topic": "Défense PNN"
+        },
+        {
+          "q": "Quelle maladie est associée à un défaut de production de ROS dans le CM ?",
+          "choices": [
+            "La drépanocytose",
+            "La granulomatose septique chronique",
+            "La sphérocytose héréditaire",
+            "La polyglobulie de Vaquez"
+          ],
+          "answer": 1,
+          "why": "Le cours associe un défaut du système oxydatif à des infections graves ou répétées.",
+          "pages": "7",
+          "topic": "Défense PNN"
+        },
+        {
+          "q": "Les granulations des neutrophiles contribuent notamment à...",
+          "choices": [
+            "La destruction antimicrobienne enzymatique",
+            "La fabrication des plaquettes",
+            "La production des hématies par le rein",
+            "L’expression d’HbS"
+          ],
+          "answer": 0,
+          "why": "Les granulations apportent des enzymes et peptides bactéricides.",
+          "pages": "7",
+          "topic": "Défense PNN"
+        },
+        {
+          "q": "À quoi servent les NETs selon la ronéo ?",
+          "choices": [
+            "À rendre les globules rouges biconcaves",
+            "À transporter du fer vers l’hémoglobine",
+            "À fixer le fibrinogène aux plaquettes",
+            "À piéger des micro-organismes dans des filets extracellulaires"
+          ],
+          "answer": 3,
+          "why": "Les NETs sont présentés comme des réseaux extracellulaires qui piègent des agents microbiens.",
+          "pages": "8",
+          "topic": "Défense PNN"
+        },
+        {
+          "q": "Quel granulocyte est particulièrement associé à la défense contre les helminthes ?",
+          "choices": [
+            "Le réticulocyte",
+            "La plaquette",
+            "L’éosinophile",
+            "Le basophile"
+          ],
+          "answer": 2,
+          "why": "Le cours souligne le rôle antiparasitaire des éosinophiles.",
+          "pages": "8",
+          "topic": "Éosinophiles"
+        },
+        {
+          "q": "Quel seuil de concentration est cité pour les éosinophiles chez l’adulte ?",
+          "choices": [
+            "20 à 25 G/L",
+            "Moins de 0,5 G/L",
+            "2 à 7,5 G/L",
+            "150 à 400 G/L"
+          ],
+          "answer": 1,
+          "why": "Le repère du CM est < 0,5 G/L.",
+          "pages": "8",
+          "topic": "Éosinophiles"
+        },
+        {
+          "q": "Quelle protéine est citée dans les granules éosinophiles ?",
+          "choices": [
+            "MBP",
+            "JAK2 comme enzyme sécrétée",
+            "Ferritine plaquettaire",
+            "HIF-1β membranaire"
+          ],
+          "answer": 0,
+          "why": "La protéine basique majeure (MBP) figure parmi les protéines des granules éosinophiles.",
+          "pages": "8",
+          "topic": "Éosinophiles"
+        },
+        {
+          "q": "Quel risque est évoqué en cas de libération excessive de granules éosinophiles ?",
+          "choices": [
+            "Une fabrication accrue de fibrinogène par les globules rouges",
+            "Une disparition de la membrane plaquettaire",
+            "Un changement de groupe sanguin",
+            "Des lésions des tissus de l’hôte"
+          ],
+          "answer": 3,
+          "why": "Les granules éosinophiles sont présentés comme potentiellement délétères pour les tissus.",
+          "pages": "8",
+          "topic": "Éosinophiles"
+        },
+        {
+          "q": "Quel médiateur est caractéristique du basophile dans ce CM ?",
+          "choices": [
+            "La ferritine",
+            "La vitamine B12",
+            "L’histamine",
+            "L’hémoglobine"
+          ],
+          "answer": 2,
+          "why": "Le cours associe le basophile à l’histamine.",
+          "pages": "9",
+          "topic": "Basophiles"
+        },
+        {
+          "q": "Les basophiles jouent un rôle clé dans...",
+          "choices": [
+            "L’agrégation du fibrinogène à la place des plaquettes",
+            "L’hypersensibilité immédiate",
+            "La synthèse majoritaire de l’ADN des hématies",
+            "La production de neutrophiles médullaires"
+          ],
+          "answer": 1,
+          "why": "Le CM cite l’hypersensibilité immédiate et l’anaphylaxie.",
+          "pages": "9",
+          "topic": "Basophiles"
+        },
+        {
+          "q": "Quel seuil de référence est cité pour les basophiles ?",
+          "choices": [
+            "Moins de 0,1 G/L",
+            "2 à 7,5 G/L",
+            "150 à 400 G/L",
+            "Plus de 100 G/L"
+          ],
+          "answer": 0,
+          "why": "Le cours mentionne < 0,1 G/L.",
+          "pages": "9",
+          "topic": "Basophiles"
+        },
+        {
+          "q": "Quelle taille est rapportée pour les monocytes ?",
+          "choices": [
+            "2 à 4 µm",
+            "0,2 à 1 µm",
+            "100 à 120 µm",
+            "20 à 25 µm"
+          ],
+          "answer": 3,
+          "why": "Les monocytes sont décrits comme de grandes cellules de 20–25 µm.",
+          "pages": "9",
+          "topic": "Monocytes"
+        },
+        {
+          "q": "Quelle concentration adulte est donnée pour les monocytes ?",
+          "choices": [
+            "2 à 7,5 G/L",
+            "Moins de 0,1 G/L",
+            "0,2 à 1 G/L",
+            "150 à 400 G/L"
+          ],
+          "answer": 2,
+          "why": "Le support cite 0,2 à 1 G/L.",
+          "pages": "9",
+          "topic": "Monocytes"
+        },
+        {
+          "q": "Parmi les fonctions du monocyte, laquelle est décrite ?",
+          "choices": [
+            "Agrégation par GPIIb/IIIa",
+            "Présentation d’antigènes",
+            "Transport principal de l’oxygène",
+            "Synthèse d’HbS"
+          ],
+          "answer": 1,
+          "why": "Le cours présente la phagocytose, la présentation antigénique et la production de cytokines.",
+          "pages": "9",
+          "topic": "Monocytes"
+        },
+        {
+          "q": "Quelle fonction fait le lien entre monocyte et coagulation dans le CM ?",
+          "choices": [
+            "La production de facteur tissulaire",
+            "La synthèse de l’HbA",
+            "La production de GPIIb/IIIa",
+            "La conversion de B9 en B12"
+          ],
+          "answer": 0,
+          "why": "Le support mentionne le facteur tissulaire.",
+          "pages": "9",
+          "topic": "Monocytes"
+        },
+        {
+          "q": "Quel terme décrit la diversité des capacités du monocyte selon son tissu ?",
+          "choices": [
+            "Microcytose",
+            "Vaso-occlusion",
+            "Érythrose",
+            "Plasticité fonctionnelle"
+          ],
+          "answer": 3,
+          "why": "Le cours souligne l’adaptation des fonctions du monocyte à son environnement.",
+          "pages": "9",
+          "topic": "Monocytes"
+        },
+        {
+          "q": "Quelle concentration de plaquettes est donnée comme norme ?",
+          "choices": [
+            "0,2 à 1 G/L",
+            "Moins de 0,1 G/L",
+            "150 à 400 G/L",
+            "2 à 7,5 G/L"
+          ],
+          "answer": 2,
+          "why": "Le CM indique 150–400 G/L.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quelle durée de vie est rapportée pour les plaquettes ?",
+          "choices": [
+            "6 mois",
+            "7 jours",
+            "120 jours",
+            "1 à 3 heures"
+          ],
+          "answer": 1,
+          "why": "Le cours cite environ 7 jours.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quelle taille le CM attribue-t-il aux plaquettes ?",
+          "choices": [
+            "2 à 4 µm",
+            "20 à 25 µm",
+            "50 à 80 µm",
+            "120 à 150 µm"
+          ],
+          "answer": 0,
+          "why": "Le support mentionne 2–4 µm.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quelle structure plaquettaire est essentielle à l’agrégation selon le CM ?",
+          "choices": [
+            "CD11b/CD18",
+            "HIF-1β",
+            "G6PD",
+            "GPIIb/IIIa"
+          ],
+          "answer": 3,
+          "why": "Le complexe GPIIb/IIIa permet les ponts d’agrégation via le fibrinogène.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quel élément assure le pont entre deux complexes GPIIb/IIIa ?",
+          "choices": [
+            "L’HbS",
+            "La vitamine B9",
+            "Le fibrinogène",
+            "L’histamine"
+          ],
+          "answer": 2,
+          "why": "Le CM décrit le pont GPIIb/IIIa–fibrinogène–GPIIb/IIIa.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quelle est la première réaction citée après une lésion vasculaire ?",
+          "choices": [
+            "La migration des hématies par diapédèse",
+            "La vasoconstriction réflexe",
+            "La production d’HbS",
+            "La destruction de JAK2"
+          ],
+          "answer": 1,
+          "why": "L’ordre indiqué est lésion puis vasoconstriction réflexe.",
+          "pages": "10",
+          "topic": "Hémostase"
+        },
+        {
+          "q": "Après adhésion à la lésion, quelle étape plaquettaire précède l’agrégation ?",
+          "choices": [
+            "L’activation",
+            "La transcription HIF",
+            "La microcytose",
+            "La NETose obligatoire"
+          ],
+          "answer": 0,
+          "why": "Le cours donne : adhésion, activation, agrégation.",
+          "pages": "10",
+          "topic": "Hémostase"
+        },
+        {
+          "q": "Quel rôle des phosphatidylsérines est cité ?",
+          "choices": [
+            "Transporter l’oxygène",
+            "Activer directement HIF dans le rein",
+            "Former l’HbS",
+            "Fournir une surface support à la coagulation"
+          ],
+          "answer": 3,
+          "why": "Les phosphatidylsérines membranaires participent au support des réactions de coagulation.",
+          "pages": "10",
+          "topic": "Hémostase"
+        },
+        {
+          "q": "Quels granules sont décrits dans les plaquettes ?",
+          "choices": [
+            "Uniquement nucléaires",
+            "Seulement des NETs",
+            "Denses, alpha et lysosomaux",
+            "Uniquement éosinophiles"
+          ],
+          "answer": 2,
+          "why": "Le CM distingue trois types de granules plaquettaires.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quel agoniste primaire des plaquettes est cité dans le cours ?",
+          "choices": [
+            "Le HIF-1β",
+            "L’ADP",
+            "La vitamine B12",
+            "Le G-CSF"
+          ],
+          "answer": 1,
+          "why": "L’ADP figure parmi les agonistes primaires aux côtés de la thrombine et du TXA₂.",
+          "pages": "10",
+          "topic": "Plaquettes"
+        },
+        {
+          "q": "Quel processus stabilise le clou plaquettaire après l’hémostase primaire ?",
+          "choices": [
+            "L’hémostase secondaire/coagulation",
+            "La synthèse d’HbS",
+            "Le roulement par sélectines",
+            "La dégradation de HIF en hypoxie"
+          ],
+          "answer": 0,
+          "why": "Le cours indique une consolidation secondaire par la coagulation.",
+          "pages": "10",
+          "topic": "Hémostase"
+        },
+        {
+          "q": "Un sujet avec anémie microcytaire hypochrome doit faire évoquer d’abord quel mécanisme du CM ?",
+          "choices": [
+            "Une mutation JAK2 activatrice",
+            "Une libération d’histamine",
+            "Une agrégation excessive par GP IIb/IIIa",
+            "Une insuffisance de fer pour la synthèse d’hémoglobine"
+          ],
+          "answer": 3,
+          "why": "Le fer nécessaire à l’Hb relie carence martiale et microcytose.",
+          "pages": "5",
+          "topic": "Application"
+        },
+        {
+          "q": "Une augmentation de Hb et hématocrite avec hyperviscosité évoque quel exemple du cours ?",
+          "choices": [
+            "Un déficit G6PD isolé",
+            "Une neutropénie",
+            "La polyglobulie de Vaquez",
+            "Une carence B9 isolée"
+          ],
+          "answer": 2,
+          "why": "Ce sont les éléments de raisonnement présentés pour Vaquez.",
+          "pages": "4",
+          "topic": "Application"
+        },
+        {
+          "q": "Dans une infection, un PNN roule puis adhère à l’endothélium. Quel geste suit ?",
+          "choices": [
+            "La polymérisation d’HbS",
+            "La diapédèse",
+            "La production d’EPO",
+            "La biconcavité du GR"
+          ],
+          "answer": 1,
+          "why": "La migration trans-endothéliale suit le roulement et l’adhérence.",
+          "pages": "7",
+          "topic": "Application"
+        },
+        {
+          "q": "L’association neutrophiles + infections bactériennes répétées + défaut des ROS renvoie à...",
+          "choices": [
+            "Une granulomatose septique chronique",
+            "Une drépanocytose",
+            "Une carence B9",
+            "Une sphérocytose"
+          ],
+          "answer": 0,
+          "why": "Le support relie un défaut du complexe producteur de ROS à cette maladie.",
+          "pages": "7",
+          "topic": "Application"
+        },
+        {
+          "q": "Parmi ces associations, laquelle est cohérente avec les fonctions décrites ?",
+          "choices": [
+            "Éosinophile — transport de l’oxygène",
+            "Hématie — phagocytose des bactéries",
+            "Plaquette — transport de l’hémoglobine",
+            "Basophile — histamine"
+          ],
+          "answer": 3,
+          "why": "Le cours lie basophile à l’histamine et hypersensibilité immédiate.",
+          "pages": "9",
+          "topic": "Application"
+        },
+        {
+          "q": "Quelles cellules organisent le clou initial de l’hémostase primaire ?",
+          "choices": [
+            "Les éosinophiles seulement",
+            "Les réticulocytes seulement",
+            "Les plaquettes",
+            "Les hématies"
+          ],
+          "answer": 2,
+          "why": "L’adhésion et l’agrégation plaquettaires forment le clou hémostatique primaire.",
+          "pages": "10",
+          "topic": "Application"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Les trois composants majeurs d’une hématie ?",
+          "a": "Membrane, hémoglobine, enzymes.",
+          "pages": "2"
+        },
+        {
+          "q": "Forme normale d’une hématie ?",
+          "a": "Disque biconcave.",
+          "pages": "2"
+        },
+        {
+          "q": "Pourquoi la membrane du GR est-elle déformable ?",
+          "a": "Pour traverser les microvaisseaux.",
+          "pages": "2"
+        },
+        {
+          "q": "Durée de vie d’une hématie selon le CM ?",
+          "a": "Environ 120 jours.",
+          "pages": "2"
+        },
+        {
+          "q": "Membrane anormale : exemple de maladie ?",
+          "a": "Sphérocytose héréditaire.",
+          "pages": "2"
+        },
+        {
+          "q": "Hémoglobine anormale : exemple ?",
+          "a": "Drépanocytose.",
+          "pages": "2"
+        },
+        {
+          "q": "Enzyme déficiente : exemple ?",
+          "a": "Déficit en G6PD.",
+          "pages": "2"
+        },
+        {
+          "q": "G6PD : complication du GR évoquée ?",
+          "a": "Fragilité et hémolyse dans certaines conditions.",
+          "pages": "2"
+        },
+        {
+          "q": "Drépanocytose : mutation située sur quel gène ?",
+          "a": "Gène de la β-globine.",
+          "pages": "3"
+        },
+        {
+          "q": "Hémoglobine de la drépanocytose ?",
+          "a": "HbS.",
+          "pages": "3"
+        },
+        {
+          "q": "Que devient HbS sous désoxygénation ?",
+          "a": "Elle peut polymériser en fibres.",
+          "pages": "3"
+        },
+        {
+          "q": "Pourquoi HbS déformée favorise-t-elle les vaso-occlusions ?",
+          "a": "Le GR perd sa déformabilité dans les petits vaisseaux.",
+          "pages": "3"
+        },
+        {
+          "q": "Deux grandes conséquences de la drépanocytose ?",
+          "a": "Anémie hémolytique et crises vaso-occlusives.",
+          "pages": "3"
+        },
+        {
+          "q": "Principal organe producteur d’EPO ?",
+          "a": "Rein.",
+          "pages": "3"
+        },
+        {
+          "q": "Normoxie : destin de HIF ?",
+          "a": "Oxydation puis dégradation.",
+          "pages": "3"
+        },
+        {
+          "q": "Hypoxie : destin de HIF ?",
+          "a": "Stabilisation, association avec HIF-1β, induction transcriptionnelle de l’EPO.",
+          "pages": "3"
+        },
+        {
+          "q": "EPO : où agit-elle sur la cellule cible ?",
+          "a": "Récepteur membranaire à l’EPO.",
+          "pages": "4"
+        },
+        {
+          "q": "Protéine de signalisation liée au récepteur EPO ?",
+          "a": "JAK2.",
+          "pages": "4"
+        },
+        {
+          "q": "Vaquez : particularité de la mutation JAK2 ?",
+          "a": "Acquise et activatrice, indépendance du signal EPO.",
+          "pages": "4"
+        },
+        {
+          "q": "Vaquez : deux paramètres augmentés ?",
+          "a": "Hémoglobine et hématocrite.",
+          "pages": "4"
+        },
+        {
+          "q": "Vaquez : risque vasculaire cité ?",
+          "a": "Thromboses, notamment en contexte d’hyperviscosité.",
+          "pages": "4"
+        },
+        {
+          "q": "Vaquez : signe cutané cité ?",
+          "a": "Érythrose faciale et des mains.",
+          "pages": "4"
+        },
+        {
+          "q": "Quel nutriment est indispensable à l’hémoglobine ?",
+          "a": "Fer.",
+          "pages": "5"
+        },
+        {
+          "q": "Carence en fer : type d’anémie ?",
+          "a": "Microcytaire hypochrome.",
+          "pages": "5"
+        },
+        {
+          "q": "Quel marqueur de réserve diminue en carence martiale ?",
+          "a": "Ferritine.",
+          "pages": "5"
+        },
+        {
+          "q": "VGM microcytaire dans le CM ?",
+          "a": "Inférieur à 80 fL.",
+          "pages": "5"
+        },
+        {
+          "q": "Pourquoi B9 et B12 sont-elles nécessaires à l’érythropoïèse ?",
+          "a": "Elles sont nécessaires à la synthèse d’ADN.",
+          "pages": "5"
+        },
+        {
+          "q": "Carence B9/B12 : morphologie fréquente décrite ?",
+          "a": "Macrocytose / anémie mégaloblastique.",
+          "pages": "5"
+        },
+        {
+          "q": "Seuil de macrocytose du CM ?",
+          "a": "VGM supérieur à 100 fL.",
+          "pages": "5"
+        },
+        {
+          "q": "Carence B12 : problème causal souvent cité ?",
+          "a": "Défaut d’absorption.",
+          "pages": "5"
+        },
+        {
+          "q": "Carence B9 : problème causal souvent cité ?",
+          "a": "Insuffisance d’apport.",
+          "pages": "5"
+        },
+        {
+          "q": "Carence B9/B12 prolongée : atteinte d’autres lignées ?",
+          "a": "Possible pancytopénie.",
+          "pages": "5"
+        },
+        {
+          "q": "PNN adulte : référence sanguine du CM ?",
+          "a": "2 à 7,5 G/L.",
+          "pages": "6"
+        },
+        {
+          "q": "Taille des PNN selon le CM ?",
+          "a": "10 à 14 µm.",
+          "pages": "6"
+        },
+        {
+          "q": "Durée de vie sanguine PNN ?",
+          "a": "1 à 3 jours.",
+          "pages": "6"
+        },
+        {
+          "q": "PNN : trois compartiments de réserve évoqués ?",
+          "a": "Réserve médullaire ; pool vasculaire circulant/marginé ; compartiment tissulaire.",
+          "pages": "6"
+        },
+        {
+          "q": "Trois signaux attirant les PNN au foyer infectieux ?",
+          "a": "IL-8, C5a et LPS.",
+          "pages": "7"
+        },
+        {
+          "q": "Quel couple de molécules permet le roulement des PNN ?",
+          "a": "Sélectines.",
+          "pages": "7"
+        },
+        {
+          "q": "Quelle intégrine est mentionnée pour l’attachement des PNN ?",
+          "a": "CD11b/CD18.",
+          "pages": "7"
+        },
+        {
+          "q": "Traversée endothéliale PNN = ?",
+          "a": "Diapédèse.",
+          "pages": "7"
+        },
+        {
+          "q": "Comment le PNN englobe-t-il un micro-organisme ?",
+          "a": "Phagocytose.",
+          "pages": "7"
+        },
+        {
+          "q": "Burst respiratoire = ?",
+          "a": "Production d’espèces réactives de l’oxygène (ROS).",
+          "pages": "7"
+        },
+        {
+          "q": "Défaut du burst oxydatif : maladie du CM ?",
+          "a": "Granulomatose septique chronique.",
+          "pages": "7"
+        },
+        {
+          "q": "Deux actions des granulations neutrophiles ?",
+          "a": "Enzymes/protéines bactéricides et autres mécanismes antimicrobiens.",
+          "pages": "7"
+        },
+        {
+          "q": "NETs : signification et fonction ?",
+          "a": "Neutrophil Extracellular Traps : filets extracellulaires piègeant des microbes.",
+          "pages": "8"
+        },
+        {
+          "q": "Éosinophile : référence chez l’adulte ?",
+          "a": "Moins de 0,5 G/L.",
+          "pages": "8"
+        },
+        {
+          "q": "Éosinophile : cible infectieuse privilégiée ?",
+          "a": "Parasites, notamment helminthes.",
+          "pages": "8"
+        },
+        {
+          "q": "Deux protéines des granules éosinophiles ?",
+          "a": "MBP et ECP (également EDN, peroxydase).",
+          "pages": "8"
+        },
+        {
+          "q": "Pourquoi les éosinophiles peuvent-ils léser les tissus ?",
+          "a": "Libération excessive de protéines granulaires toxiques.",
+          "pages": "8"
+        },
+        {
+          "q": "Basophile : référence adulte du CM ?",
+          "a": "Moins de 0,1 G/L.",
+          "pages": "9"
+        },
+        {
+          "q": "Basophile : médiateur cité ?",
+          "a": "Histamine.",
+          "pages": "9"
+        },
+        {
+          "q": "Basophile : réaction immunitaire associée ?",
+          "a": "Hypersensibilité immédiate/anaphylaxie.",
+          "pages": "9"
+        },
+        {
+          "q": "Monocyte : taille du CM ?",
+          "a": "20 à 25 µm.",
+          "pages": "9"
+        },
+        {
+          "q": "Monocyte : référence adulte du CM ?",
+          "a": "0,2 à 1 G/L.",
+          "pages": "9"
+        },
+        {
+          "q": "Monocyte : trois fonctions majeures ?",
+          "a": "Phagocytose, présentation d’antigènes, sécrétion de cytokines.",
+          "pages": "9"
+        },
+        {
+          "q": "Monocyte : implication dans la coagulation ?",
+          "a": "Production de facteur tissulaire.",
+          "pages": "9"
+        },
+        {
+          "q": "Monocyte : que signifie plasticité fonctionnelle ?",
+          "a": "Fonctions adaptées au tissu ou au contexte.",
+          "pages": "9"
+        },
+        {
+          "q": "Plaquettes : concentration de référence ?",
+          "a": "150 à 400 G/L.",
+          "pages": "10"
+        },
+        {
+          "q": "Plaquettes : taille ?",
+          "a": "2 à 4 µm.",
+          "pages": "10"
+        },
+        {
+          "q": "Plaquettes : durée de vie ?",
+          "a": "7 jours.",
+          "pages": "10"
+        },
+        {
+          "q": "Plaquettes : noyau ?",
+          "a": "Éléments anucléés.",
+          "pages": "10"
+        },
+        {
+          "q": "Trois granulations plaquettaires ?",
+          "a": "Denses, alpha, lysosomes.",
+          "pages": "10"
+        },
+        {
+          "q": "Plaquettes : trois agonistes primaires cités ?",
+          "a": "Thrombine, ADP, thromboxane A2.",
+          "pages": "10"
+        },
+        {
+          "q": "Étapes de l’hémostase primaire selon le CM ?",
+          "a": "Vasoconstriction, adhésion, activation, agrégation.",
+          "pages": "10"
+        },
+        {
+          "q": "Pont moléculaire d’agrégation ?",
+          "a": "GPIIb/IIIa — fibrinogène — GPIIb/IIIa.",
+          "pages": "10"
+        },
+        {
+          "q": "Hémostase secondaire : rôle ?",
+          "a": "Stabiliser le clou plaquettaire par la coagulation.",
+          "pages": "10"
+        },
+        {
+          "q": "Phosphatidylsérines plaquettaires : rôle ?",
+          "a": "Support aux réactions de coagulation.",
+          "pages": "10"
         }
       ]
     }
