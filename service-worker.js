@@ -1,5 +1,5 @@
 /* MED2 S1 · V0.19 — light shell, navigation network-first, offline fallback */
-const CACHE='med2-s1-shell-20261012-v019-newcourses-qrm';
+const CACHE='med2-s1-shell-20261012-v0192-complete-six-modules';
 const SHELL=new URL('./index.html',self.registration.scope).href;
 const ASSETS=['./index.html','./manifest.webmanifest','./data/catalogue.json','./data/examens.json','./data/modalites.json','./data/pedagogie.json','./data/entrainements.json','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
