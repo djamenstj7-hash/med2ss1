@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "2026-10-12-v019-lot2-5cours-ssh-redaction",
+  "revision": "2026-10-12-v019-lot3-ssh-9sur9-badge-dynamique",
   "lessons": {
     "cm-de715b67886d4881": {
       "id": "cm-de715b67886d4881",
@@ -44844,6 +44844,2437 @@
         {
           "title": "Terminologie entre les deux ronéos",
           "detail": "La partie 2 utilise les graphies « INOS » et « Rottman ». La partie 1 donne les formes « INUS » (Mackie) et « Rothman » ; ces dernières sont reprises dans les exercices. Conserver cette différence de rédaction à l’esprit."
+        }
+      ]
+    },
+    "cm-805e80053cdb437d": {
+      "id": "cm-805e80053cdb437d",
+      "subject": "ssh",
+      "title": "Causalité en médecine 3",
+      "courseName": "Causalité en médecine 3",
+      "date": "2026-09-30",
+      "teacher": "Pr Devinant",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 : Causalité en médecine 3, 2026-2027",
+        "url": "https://drive.google.com/file/d/1g-4sRZMt1W9HVP2C8MOuGa5HgOzd-nPJ/view",
+        "pages": 6
+      },
+      "editorialNote": "Sources du programme : ronéos 2026–2027 ; questions QCM originales, non sujets authentiques ; annales reprises uniquement si la notion est présente dans les ronéos actuelles. Les rédactions sont autoévaluées. ",
+      "hook": "Une association statistique suffit-elle à dire qu’une maladie a une cause ? Trois conceptions de la preuve nous feront passer du scorbut aux controverses sur le tabac.",
+      "flow": [
+        "Inférence causale",
+        "Boîte noire",
+        "Mécanisme",
+        "Combiner les preuves",
+        "Fisher et Hill",
+        "Passage vers l’éthique"
+      ],
+      "sections": [
+        {
+          "heading": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "pages": "2",
+          "paragraphs": [
+            "Dans les volets précédents, nous avons appris qu’une corrélation n’est pas automatiquement une causalité. Mais comment passer de A et B observés ensemble à l’affirmation « A produit B » ? C’est précisément l’inférence causale : toute la démarche qui vise à identifier une ou plusieurs causes.",
+            "La difficulté n’est pas simplement de disposer de nombreuses observations : il faut décider quel type de preuve est pertinent. Trois thèses vont s’affronter : la statistique seule, le mécanisme seul, ou une combinaison raisonnée des deux. Le professeur ne cherche donc pas à faire apprendre trois étiquettes, mais trois manières d’argumenter."
+          ],
+          "memory": "Inférence causale = démarche pour découvrir la ou les causes."
+        },
+        {
+          "heading": "La thèse statistique radicale : la boîte noire",
+          "pages": "2–3",
+          "paragraphs": [
+            "Dans la thèse radicale statistique, on ne demande pas nécessairement de connaître le chemin entre A et B. Des études bien construites peuvent établir une régularité suffisamment solide pour soutenir une inférence causale : l’intérieur de la « boîte noire » reste inconnu. Essais et cohortes fournissent alors les outils centraux.",
+            "Le cours donne l’exemple de James Lind : au XVIIIe siècle, la comparaison de régimes chez des marins atteints de scorbut met en avant les agrumes avant même que l’on comprenne la vitamine C. Autrement dit, il est possible de constater qu’une intervention fonctionne avant de savoir expliquer son mécanisme. L’étude citée est présentée par la ronéo comme un exemple historique d’essai comparatif ; retenir l’idée, pas la date erronée « 1947 » relevée dans un passage."
+          ],
+          "memory": "L’exemple Lind montre observation d’efficacité avant explication biochimique."
+        },
+        {
+          "heading": "La thèse mécaniste : ouvrir la boîte noire",
+          "pages": "3",
+          "paragraphs": [
+            "L’approche mécaniste défend une intuition opposée : pour attribuer une cause, il faudrait comprendre le mécanisme par lequel A produit B. La connaissance des rouages internes prend alors plus de poids que la seule concordance statistique. Des biais de sélection ou des causes confondantes peuvent en effet produire de fortes associations trompeuses.",
+            "Mais les mécanismes supposés peuvent aussi nous induire en erreur. Le cours cite le couchage des nourrissons : des recommandations inspirées par une explication jugée plausible peuvent entrer en conflit avec les observations. Connaître un mécanisme imaginé n’est pas toujours connaître le mécanisme réel. Ni le « tout statistique » ni le « tout mécanisme » ne règle tous les problèmes."
+          ],
+          "memory": "La thèse mécaniste privilégie le pourquoi plutôt que la seule covariation."
+        },
+        {
+          "heading": "La thèse intermédiaire : réunir les indices",
+          "pages": "3–4",
+          "paragraphs": [
+            "La troisième conception ne considère ni les seules statistiques ni le seul mécanisme comme une recette universelle. On peut examiner conjointement les associations, la plausibilité physiopathologique, les possibilités d’expérimentation et les alternatives explicatives. C’est l’approche privilégiée dans le cours.",
+            "Imagine une enquête où les images de vidéosurveillance montrent une présence répétée, tandis que la reconstitution matérielle explique comment les faits se sont produits. Les deux familles d’indices se complètent et permettent de mieux discuter les hypothèses concurrentes. Attention : les analogies pédagogiques ne doivent pas être confondues avec une preuve juridique ou clinique définitive."
+          ],
+          "memory": "La thèse intermédiaire ne rejette aucune famille de preuves par principe."
+        },
+        {
+          "heading": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "pages": "4–5",
+          "paragraphs": [
+            "À la fin des années 1950, l’association tabac–cancer du poumon suscite une controverse. Ronald Fisher reconnaît la corrélation mais évoque une cause commune possible, par exemple un facteur prédisposant à la fois à fumer et à développer un cancer. C’est l’argument du facteur tiers : si C influence A et B, leur association ne prouve pas que A cause B. Un essai imposant le tabagisme serait pourtant inacceptable sur le plan éthique.",
+            "Austin Bradford Hill propose neuf considérations pour apprécier une relation causale : force, constance, spécificité, temporalité, gradient biologique, plausibilité, cohérence, expérimentation et analogie. Ce ne sont pas neuf conditions toutes indispensables ni neuf preuves absolues : elles guident un jugement. La temporalité est particulièrement importante, car une cause ne peut survenir après son effet. Dans la ronéo, le professeur insiste sur ce pouvoir d’exclusion."
+          ],
+          "memory": "Ne pas écrire « tous les critères de Hill sont obligatoires » : ce sont des considérations."
+        },
+        {
+          "heading": "Du raisonnement causal au dilemme éthique du tramway",
+          "pages": "5–6",
+          "paragraphs": [
+            "La fin du cours change de territoire : une question de savoir devient une question de devoir. Dans le dilemme du tramway, un véhicule menace cinq personnes ; actionner un levier détournerait la trajectoire vers une autre personne. Une variante consiste à pousser une personne pour arrêter le véhicule. Les réactions spontanées diffèrent souvent, alors que le bilan numérique paraît semblable.",
+            "Pourquoi ? Le professeur veut montrer que nos intuitions morales peuvent dépendre de la distance psychologique, de l’intervention directe et du rôle joué par la victime. C’est une entrée dans les deux grands raisonnements du cours d’éthique : évaluer les conséquences (utilitarisme) ou respecter certains devoirs et interdits (déontologie). La suite est enseignée dans « Éthique : Donner la mort »."
+          ],
+          "memory": "Le tramway est une expérience de pensée, pas une consigne clinique."
+        }
+      ],
+      "summary": [
+        {
+          "name": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "detail": "Comprendre l’enjeu du statut de preuve dans l’inférence causale. Toujours distinguer « j’observe une association » et « je sais pourquoi elle est causale ».",
+          "pages": "2"
+        },
+        {
+          "name": "La thèse statistique radicale : la boîte noire",
+          "detail": "Comprendre la valeur d’une démonstration empirique sans mécanisme identifié. Boîte noire : on voit l’entrée et la sortie, pas forcément les engrenages.",
+          "pages": "2–3"
+        },
+        {
+          "name": "La thèse mécaniste : ouvrir la boîte noire",
+          "detail": "Évaluer les forces et limites d’une preuve exclusivement mécanistique. Un mécanisme séduisant ne remplace pas automatiquement une observation solide.",
+          "pages": "3"
+        },
+        {
+          "name": "La thèse intermédiaire : réunir les indices",
+          "detail": "Comprendre pourquoi une combinaison critique de preuves est souvent préférable. Vérifier en deux colonnes : « association observée ? » et « mécanisme plausible ? ».",
+          "pages": "3–4"
+        },
+        {
+          "name": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "detail": "Distinguer facteur de confusion et faisceau de considérations causales. Pour Hill, retenir F-C-S-T-G-P-C-E-A ; seule la temporalité peut directement exclure une direction causale impossible.",
+          "pages": "4–5"
+        },
+        {
+          "name": "Du raisonnement causal au dilemme éthique du tramway",
+          "detail": "Faire le lien entre décision, intuition morale et justification argumentée. Toujours demander si ton argument invoque les conséquences, le devoir ou simplement ton ressenti.",
+          "pages": "5–6"
+        }
+      ],
+      "essenceSections": [
+        {
+          "heading": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "pages": "2",
+          "goal": "Comprendre l’enjeu du statut de preuve dans l’inférence causale.",
+          "logic": "Association observée → interrogations sur la validité de la preuve → confrontation de trois conceptions.",
+          "heuristic": "Toujours distinguer « j’observe une association » et « je sais pourquoi elle est causale ».",
+          "examAnchor": "Comprendre l’enjeu du statut de preuve dans l’inférence causale."
+        },
+        {
+          "heading": "La thèse statistique radicale : la boîte noire",
+          "pages": "2–3",
+          "goal": "Comprendre la valeur d’une démonstration empirique sans mécanisme identifié.",
+          "logic": "Intervention A → différence régulière observée sur B → inférence statistique sans expliquer tout l’entre-deux.",
+          "heuristic": "Boîte noire : on voit l’entrée et la sortie, pas forcément les engrenages.",
+          "examAnchor": "Comprendre la valeur d’une démonstration empirique sans mécanisme identifié."
+        },
+        {
+          "heading": "La thèse mécaniste : ouvrir la boîte noire",
+          "pages": "3",
+          "goal": "Évaluer les forces et limites d’une preuve exclusivement mécanistique.",
+          "logic": "Hypothèse de mécanisme → explication causale proposée → risque si modèle erroné et désaccord empirique.",
+          "heuristic": "Un mécanisme séduisant ne remplace pas automatiquement une observation solide.",
+          "examAnchor": "Évaluer les forces et limites d’une preuve exclusivement mécanistique."
+        },
+        {
+          "heading": "La thèse intermédiaire : réunir les indices",
+          "pages": "3–4",
+          "goal": "Comprendre pourquoi une combinaison critique de preuves est souvent préférable.",
+          "logic": "Indices statistiques + indices mécanistiques + examen des alternatives → jugement causal plus solide.",
+          "heuristic": "Vérifier en deux colonnes : « association observée ? » et « mécanisme plausible ? ».",
+          "examAnchor": "Comprendre pourquoi une combinaison critique de preuves est souvent préférable."
+        },
+        {
+          "heading": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "pages": "4–5",
+          "goal": "Distinguer facteur de confusion et faisceau de considérations causales.",
+          "logic": "Association tabac–cancer → hypothèse de facteur tiers → faisceau de neuf considérations → appréciation argumentée.",
+          "heuristic": "Pour Hill, retenir F-C-S-T-G-P-C-E-A ; seule la temporalité peut directement exclure une direction causale impossible.",
+          "examAnchor": "Distinguer facteur de confusion et faisceau de considérations causales."
+        },
+        {
+          "heading": "Du raisonnement causal au dilemme éthique du tramway",
+          "pages": "5–6",
+          "goal": "Faire le lien entre décision, intuition morale et justification argumentée.",
+          "logic": "Même bilan apparent → réactions morales différentes → examen des conséquences, règles et intentions.",
+          "heuristic": "Toujours demander si ton argument invoque les conséquences, le devoir ou simplement ton ressenti.",
+          "examAnchor": "Faire le lien entre décision, intuition morale et justification argumentée."
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Que désigne l’inférence causale ?",
+          "choices": [
+            "La procédure visant à découvrir une ou des causes",
+            "Une simple description de deux courbes",
+            "Une technique de classement des symptômes",
+            "Une loi imposant une cause unique"
+          ],
+          "answer": 0,
+          "why": "On cherche à justifier une relation causale.",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Sur quoi portent les trois thèses du cours ?",
+          "choices": [
+            "La définition de la douleur seule",
+            "La valeur relative des preuves statistiques et mécanistiques",
+            "La vitesse de reproduction des bactéries",
+            "La différence entre QROC et QR"
+          ],
+          "answer": 1,
+          "why": "Elles proposent des critères différents pour établir une cause.",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que faut-il éviter de conclure à partir d’une corrélation ?",
+          "choices": [
+            "Que les deux phénomènes covarient",
+            "Qu’une enquête est nécessaire",
+            "Que l’association démontre d’emblée une cause",
+            "Que des causes tierces sont possibles"
+          ],
+          "answer": 2,
+          "why": "L’association peut avoir plusieurs explications.",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Dans le modèle de la boîte noire, que peut-on ignorer ?",
+          "choices": [
+            "La présence d’un effet mesuré",
+            "La comparaison entre groupes",
+            "L’existence d’une association répétée",
+            "Le mécanisme précis reliant A à B"
+          ],
+          "answer": 3,
+          "why": "Le modèle mise sur la régularité des observations.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que montre l’exemple historique de James Lind ?",
+          "choices": [
+            "Une intervention peut sembler efficace avant que son mécanisme soit compris",
+            "La vitamine C était déjà chimiquement caractérisée",
+            "Une corrélation est toujours suffisante sans contrôle",
+            "Les bactéries sont nécessaires au scorbut"
+          ],
+          "answer": 0,
+          "why": "Le lien entre agrumes et scorbut était observé avant l’explication moléculaire.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles données sont privilégiées par cette thèse ?",
+          "choices": [
+            "Seulement l’introspection philosophique",
+            "Des résultats d’études statistiques bien construites",
+            "Les suppositions sans observation",
+            "L’autorité de Galien"
+          ],
+          "answer": 1,
+          "why": "Les comparaisons empiriques sont essentielles.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que réclame prioritairement la thèse mécaniste ?",
+          "choices": [
+            "La seule augmentation de probabilité",
+            "Une succession sans aucun lien biologique",
+            "Une compréhension du mécanisme reliant la cause à l’effet",
+            "Une démarche sans explication"
+          ],
+          "answer": 2,
+          "why": "Il faut ouvrir la « boîte noire ».",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel risque affaiblit le mécanisme seul ?",
+          "choices": [
+            "Toute preuve expérimentale est forcément impossible",
+            "Le hasard ne joue jamais aucun rôle",
+            "Aucune maladie ne possède de mécanisme",
+            "Un mécanisme plausible peut être faux malgré son apparente cohérence"
+          ],
+          "answer": 3,
+          "why": "La plausibilité interne ne suffit pas.",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi les mécanistes critiquent-ils parfois les statistiques ?",
+          "choices": [
+            "Les biais et facteurs de confusion peuvent tromper",
+            "Les chiffres sont absents de toute étude",
+            "Les essais prouvent toujours les mécanismes",
+            "La randomisation est identique à une autopsie"
+          ],
+          "answer": 0,
+          "why": "Les observations demandent une interprétation causale.",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que propose la thèse intermédiaire ?",
+          "choices": [
+            "Interdire toute expérimentation",
+            "Examiner ensemble les indices statistiques et mécanistiques",
+            "Accepter les mécanismes sans confrontation aux faits",
+            "Exiger toujours une seule observation"
+          ],
+          "answer": 1,
+          "why": "Le raisonnement est pluraliste.",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle attitude reflète cette approche ?",
+          "choices": [
+            "Conclure à partir d’une seule corrélation",
+            "Refuser les mécanismes connus",
+            "Confronter les données et les explications possibles",
+            "Ignorer toute étude épidémiologique"
+          ],
+          "answer": 2,
+          "why": "Aucune source de preuve ne suffit automatiquement.",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel contraste est central dans ce chapitre ?",
+          "choices": [
+            "Veines versus artères pulmonaires",
+            "Rein versus glande thyroïde",
+            "QI versus dossier clinique",
+            "Boîte noire observée versus mécanisme interne expliqué"
+          ],
+          "answer": 3,
+          "why": "L’analyse causale combine plusieurs types d’indices.",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel argument Fisher oppose-t-il à la lecture causale du tabac ?",
+          "choices": [
+            "Une cause tierce pourrait contribuer à la fois au tabagisme et au cancer",
+            "Une corrélation ne peut jamais être forte",
+            "Il aurait démontré que le tabac protège du cancer",
+            "Les statistiques étaient absentes du débat"
+          ],
+          "answer": 0,
+          "why": "L’existence d’un facteur confondant demeure une hypothèse alternative.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Combien de considérations Bradford Hill sont-elles présentées ?",
+          "choices": [
+            "Quatre",
+            "Neuf",
+            "Deux",
+            "Douze"
+          ],
+          "answer": 1,
+          "why": "Force, constance, spécificité, temporalité, gradient, plausibilité, cohérence, expérimentation, analogie.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel critère est indispensable à toute direction causale ?",
+          "choices": [
+            "L’analogie seule",
+            "La spécificité parfaite",
+            "La temporalité : la cause précède son effet",
+            "Un mécanisme déjà entièrement connu"
+          ],
+          "answer": 2,
+          "why": "Une cause postérieure à l’effet ne peut le produire.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est l’objectif pédagogique du dilemme du tramway ?",
+          "choices": [
+            "Déterminer une loi de la circulation ferroviaire",
+            "Calculer une fréquence d’accidents",
+            "Prouver que tous les individus répondent de la même façon",
+            "Interroger les raisons de nos intuitions morales"
+          ],
+          "answer": 3,
+          "why": "Les variantes font apparaître les ressorts moraux.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel raisonnement compte surtout les conséquences sur les personnes ?",
+          "choices": [
+            "L’utilitarisme",
+            "La théorie des pores de Galien",
+            "Le modèle de Henle-Koch",
+            "L’inférence par placebo"
+          ],
+          "answer": 0,
+          "why": "L’utilitarisme compare les effets des actes.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel raisonnement se fonde sur le respect d’une règle morale ?",
+          "choices": [
+            "L’épidémiologie descriptive",
+            "La déontologie",
+            "La seule corrélation",
+            "Le modèle de la boîte noire"
+          ],
+          "answer": 1,
+          "why": "Certaines règles sont jugées contraignantes même contre un bilan favorable.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Que désigne l’inférence causale ?",
+          "a": "La procédure visant à découvrir une ou des causes. On cherche à justifier une relation causale.",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « La vraie question : qu’est-ce qu’une preuve de causalité ? ».",
+          "a": "Association observée → interrogations sur la validité de la preuve → confrontation de trois conceptions.",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « La vraie question : qu’est-ce qu’une preuve de causalité ? » ?",
+          "a": "Inférence causale = démarche pour découvrir la ou les causes. Toujours distinguer « j’observe une association » et « je sais pourquoi elle est causale ».",
+          "pages": "2",
+          "topic": "La vraie question : qu’est-ce qu’une preuve de causalité ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Dans le modèle de la boîte noire, que peut-on ignorer ?",
+          "a": "Le mécanisme précis reliant A à B. Le modèle mise sur la régularité des observations.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « La thèse statistique radicale : la boîte noire ».",
+          "a": "Intervention A → différence régulière observée sur B → inférence statistique sans expliquer tout l’entre-deux.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « La thèse statistique radicale : la boîte noire » ?",
+          "a": "L’exemple Lind montre observation d’efficacité avant explication biochimique. Boîte noire : on voit l’entrée et la sortie, pas forcément les engrenages.",
+          "pages": "2–3",
+          "topic": "La thèse statistique radicale : la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que réclame prioritairement la thèse mécaniste ?",
+          "a": "Une compréhension du mécanisme reliant la cause à l’effet. Il faut ouvrir la « boîte noire ».",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « La thèse mécaniste : ouvrir la boîte noire ».",
+          "a": "Hypothèse de mécanisme → explication causale proposée → risque si modèle erroné et désaccord empirique.",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « La thèse mécaniste : ouvrir la boîte noire » ?",
+          "a": "La thèse mécaniste privilégie le pourquoi plutôt que la seule covariation. Un mécanisme séduisant ne remplace pas automatiquement une observation solide.",
+          "pages": "3",
+          "topic": "La thèse mécaniste : ouvrir la boîte noire",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que propose la thèse intermédiaire ?",
+          "a": "Examiner ensemble les indices statistiques et mécanistiques. Le raisonnement est pluraliste.",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « La thèse intermédiaire : réunir les indices ».",
+          "a": "Indices statistiques + indices mécanistiques + examen des alternatives → jugement causal plus solide.",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « La thèse intermédiaire : réunir les indices » ?",
+          "a": "La thèse intermédiaire ne rejette aucune famille de preuves par principe. Vérifier en deux colonnes : « association observée ? » et « mécanisme plausible ? ».",
+          "pages": "3–4",
+          "topic": "La thèse intermédiaire : réunir les indices",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel argument Fisher oppose-t-il à la lecture causale du tabac ?",
+          "a": "Une cause tierce pourrait contribuer à la fois au tabagisme et au cancer. L’existence d’un facteur confondant demeure une hypothèse alternative.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Tabac et cancer : Fisher, Bradford Hill et les neuf considérations ».",
+          "a": "Association tabac–cancer → hypothèse de facteur tiers → faisceau de neuf considérations → appréciation argumentée.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Tabac et cancer : Fisher, Bradford Hill et les neuf considérations » ?",
+          "a": "Ne pas écrire « tous les critères de Hill sont obligatoires » : ce sont des considérations. Pour Hill, retenir F-C-S-T-G-P-C-E-A ; seule la temporalité peut directement exclure une direction causale impossible.",
+          "pages": "4–5",
+          "topic": "Tabac et cancer : Fisher, Bradford Hill et les neuf considérations",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est l’objectif pédagogique du dilemme du tramway ?",
+          "a": "Interroger les raisons de nos intuitions morales. Les variantes font apparaître les ressorts moraux.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Du raisonnement causal au dilemme éthique du tramway ».",
+          "a": "Même bilan apparent → réactions morales différentes → examen des conséquences, règles et intentions.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Du raisonnement causal au dilemme éthique du tramway » ?",
+          "a": "Le tramway est une expérience de pensée, pas une consigne clinique. Toujours demander si ton argument invoque les conséquences, le devoir ou simplement ton ressenti.",
+          "pages": "5–6",
+          "topic": "Du raisonnement causal au dilemme éthique du tramway",
+          "origin": "rappel_original_ronéo_2026_2027"
+        }
+      ],
+      "chapterPractice": [
+        {
+          "qcm": [
+            0,
+            1,
+            2
+          ],
+          "cards": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "qcm": [
+            3,
+            4,
+            5
+          ],
+          "cards": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "qcm": [
+            6,
+            7,
+            8
+          ],
+          "cards": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "qcm": [
+            9,
+            10,
+            11
+          ],
+          "cards": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "qcm": [
+            12,
+            13,
+            14
+          ],
+          "cards": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "qcm": [
+            15,
+            16,
+            17
+          ],
+          "cards": [
+            15,
+            16,
+            17
+          ]
+        }
+      ],
+      "writing": [
+        {
+          "chapter": 4,
+          "format": "QROC",
+          "q": "Parmi les considérations de Bradford Hill, quelle propriété des études menées dans différents pays renforce l’hypothèse causale, et laquelle n’est pas établie par une simple corrélation ?",
+          "model": "La constance (ou stabilité) de l’association dans des populations et contextes différents renforce le raisonnement causal. En revanche, la seule corrélation entre deux facteurs ne suffit pas à prouver le sens causal ou le mécanisme, même en présence d’une association chiffrée. La temporalité doit aussi être établie.",
+          "criteria": [
+            "constance/stabilité",
+            "réplication dans des contextes variés",
+            "association ≠ preuve causale",
+            "question de la temporalité"
+          ],
+          "pages": "4–5",
+          "origin": "annale_adaptee_2023_2024",
+          "annaleUrl": "https://drive.google.com/file/d/1kr7BYAa6k22WPz8CLlxGClMvZ6cKTsOu/view",
+          "id": "cm-805e80053cdb437d-redaction-01"
+        },
+        {
+          "chapter": 1,
+          "format": "QROC",
+          "q": "Expliquez pourquoi l’exemple de James Lind illustre l’approche statistique dite « boîte noire ».",
+          "model": "Une intervention comparant des régimes de marins a permis de constater l’intérêt des agrumes sur le scorbut alors que la biochimie de la vitamine C était inconnue. On peut donc constater un effet par comparaison de groupes sans connaître les mécanismes intermédiaires.",
+          "criteria": [
+            "comparaison empirique",
+            "agrumes et scorbut",
+            "mécanisme inconnu à l’époque",
+            "boîte noire"
+          ],
+          "pages": "2–3",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-805e80053cdb437d-redaction-02"
+        },
+        {
+          "chapter": 4,
+          "format": "QROC",
+          "q": "Donnez trois considérations de Bradford Hill et précisez leur signification.",
+          "model": "La temporalité exige que la cause précède l’effet. La constance concerne la reproductibilité d’une association dans plusieurs lieux ou contextes. Le gradient biologique décrit une relation dose–réponse. Elles orientent une inférence sans constituer chacune une preuve absolue.",
+          "criteria": [
+            "trois critères nommés",
+            "signification correcte",
+            "différence entre indice et preuve",
+            "temporalité"
+          ],
+          "pages": "4–5",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-805e80053cdb437d-redaction-03"
+        },
+        {
+          "chapter": 3,
+          "format": "QR",
+          "q": "Comparez la thèse statistique radicale, la thèse mécaniste et la thèse intermédiaire de l’inférence causale.",
+          "model": "La thèse radicale admet qu’une association empirique robuste puisse établir la causalité même sans connaissance du mécanisme (boîte noire). La thèse mécaniste exige d’expliquer les rouages internes et insiste sur les biais pouvant affecter les corrélations. La thèse intermédiaire recherche une convergence des indices statistiques et des explications mécanistiques, en discutant les causes tierces et les limites de chaque méthode.",
+          "criteria": [
+            "définition statistique",
+            "définition mécaniste",
+            "limites des deux",
+            "thèse intermédiaire",
+            "un exemple"
+          ],
+          "pages": "2–4",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-805e80053cdb437d-redaction-04"
+        }
+      ]
+    },
+    "cm-d6955def610bfbd1": {
+      "id": "cm-d6955def610bfbd1",
+      "subject": "ssh",
+      "title": "Littérature 1",
+      "courseName": "Littérature 1",
+      "date": "2026-09-28",
+      "teacher": "Pr Aubert-Baillot",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 : Littérature 1 : Le Lambeau, 2026-2027",
+        "url": "https://drive.google.com/file/d/1MRaDo1KeUytHbr4yciit4mQJ4tWwqvAR/view",
+        "pages": 14
+      },
+      "editorialNote": "Sources du programme : ronéos 2026–2027 ; questions QCM originales, non sujets authentiques ; annales reprises uniquement si la notion est présente dans les ronéos actuelles. Les rédactions sont autoévaluées. Le cours 2026-2027 traite du Lambeau (Philippe Lançon). Les anciennes annales portant sur Réparer les vivants ne sont PAS reprises comme sujet authentique de ce module, car le livre au programme est différent.",
+      "hook": "Et si raconter une maladie changeait la façon de la vivre et de la soigner ? Avec Le Lambeau, nous découvrirons pourquoi écouter et écrire peuvent devenir des compétences médicales.",
+      "flow": [
+        "Le Lambeau",
+        "Littérature du réel",
+        "Médecine narrative",
+        "Récit et expérience",
+        "Éthique du récit",
+        "Compétences narratives",
+        "Suture et intertextualité"
+      ],
+      "sections": [
+        {
+          "heading": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "pages": "2–3",
+          "paragraphs": [
+            "Philippe Lançon est journaliste et écrivain, rescapé de l’attentat contre Charlie Hebdo du 7 janvier 2015. Son livre Le Lambeau, paru en 2018 et récompensé par le prix Renaudot, décrit moins l’attentat lui-même que la longue expérience hospitalière après une grave blessure du visage. Il raconte un avant, puis les mois de soins, notamment à la Pitié-Salpêtrière et aux Invalides.",
+            "Le livre commence avant la catastrophe et fait une grande place aux soignants, notamment à la chirurgienne Chloé Bertolus. C’est précisément ce qui intéresse le cours : le malade ne se réduit ni à un événement ni à un diagnostic. Son histoire médicale mêle souvenirs, relations, pertes, reconstructions, gratitude et tentatives de retrouver un sens."
+          ],
+          "memory": "Le Lambeau, 2018, Philippe Lançon, attentat et reconstruction."
+        },
+        {
+          "heading": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "pages": "2–4",
+          "paragraphs": [
+            "Le Lambeau ne se laisse pas ranger facilement dans une case. L’auteur refuse l’étiquette de roman au sens d’une fiction inventée, mais son expérience est nécessairement mise en forme : choix des épisodes, descriptions, souvenirs, scènes et rythme. Lançon se veut chroniqueur de sa propre expérience, à la rencontre du regard journalistique et de l’écriture littéraire.",
+            "La distinction à comprendre est simple : un texte peut relater des événements vrais tout en étant un récit construit. L’écriture n’ajoute pas forcément des événements imaginaires ; elle agence ce qui est vécu pour le rendre partageable. L’auteur commence à communiquer sur des tableaux effaçables, puis retrouve peu à peu l’écriture journalistique et le travail littéraire. Dans ce mouvement, il regagne une prise sur son histoire."
+          ],
+          "memory": "Le récit peut être façonné sans être une invention pure."
+        },
+        {
+          "heading": "Rita Charon et les principes de la médecine narrative",
+          "pages": "3–4",
+          "paragraphs": [
+            "Rita Charon, médecin et spécialiste de littérature, a contribué à définir la médecine narrative. Son point de départ est que le malade ne vit pas sa maladie comme une liste de symptômes. Il la raconte avec des images, des ruptures, des peurs et parfois des silences. Le soignant doit pouvoir entendre cette langue personnelle, non seulement la traduire en catégories médicales.",
+            "L’entretien réunit donc deux savoirs complémentaires : le médecin dispose d’un langage technique et des connaissances diagnostiques ; le patient connaît de l’intérieur la façon dont il souffre et ce que la maladie transforme dans sa vie. Lire attentivement et apprendre à écrire peuvent exercer l’écoute, l’attention aux détails et l’interprétation sans effacer la singularité de la personne."
+          ],
+          "memory": "Médecine narrative : Rita Charon, écouter, lire, écrire, interpréter."
+        },
+        {
+          "heading": "Cinq ponts entre littérature et médecine",
+          "pages": "4–9",
+          "paragraphs": [
+            "Le cours détaille cinq caractéristiques : temporalité, singularité, causalité et contingence, intersubjectivité, éthique. La temporalité oppose le temps orienté du médecin (anamnèse, diagnostic, décision) à l’impression d’éternel présent que peut ressentir un malade douloureux. La singularité rappelle que deux individus ayant la même maladie ne vivent pas la même expérience.",
+            "La causalité cherche à relier des événements ; la contingence rappelle que le hasard existe, parfois insupportable à vivre. L’intersubjectivité naît de la rencontre entre le regard du malade et celui du médecin, chacun devant comprendre les mots de l’autre. Enfin, l’éthique engage celui qui raconte et celui qui écoute : un récit ne s’écrit ni ne se reçoit sans responsabilité envers autrui."
+          ],
+          "memory": "Les cinq caractéristiques constituent une architecture du chapitre."
+        },
+        {
+          "heading": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "pages": "7–9",
+          "paragraphs": [
+            "Après un traumatisme, l’esprit cherche souvent à faire tenir ensemble les événements. Lançon raconte comment un échange autour d’une photographie de jazz a modifié sa position au moment de l’attentat. Ce détail donne un relief immense à la contingence : la part de hasard de sa survie échappe à une explication entièrement maîtrisée.",
+            "Le récit sert à donner une direction et des liens à cette expérience. Dans le soin, le médecin et le patient créent aussi un espace de compréhension mutuelle. Le patient aide le médecin à discerner ce qui compte et le médecin propose une interprétation clinique qui peut transformer ce que le patient raconte. Ce dialogue n’est pas simplement un médecin qui parle et un patient qui reçoit."
+          ],
+          "memory": "Intersubjectivité = compréhension construite entre deux sujets."
+        },
+        {
+          "heading": "Trois compétences narratives : attention, représentation, affiliation",
+          "pages": "10–12",
+          "paragraphs": [
+            "La médecine narrative ne se limite pas à lire de beaux textes. Le cours distingue trois compétences utiles au soin. L’attention consiste à se rendre réellement disponible et à percevoir ce que l’autre dit, y compris les détails. La représentation consiste à donner forme à l’expérience en la racontant, en la reliant et en la rendant partageable.",
+            "L’affiliation est le passage à une relation qui produit des effets : reconnaissance, confiance, sentiment de sécurité et possibilité d’agir ensemble. En pratique, écouter attentivement, reformuler l’expérience du patient et construire une alliance thérapeutique ne sont pas trois actions isolées : elles se renforcent. La médecine narrative cherche ainsi à faire du récit un outil relationnel, et pas une simple décoration de consultation."
+          ],
+          "memory": "L’affiliation touche à l’action et à la relation thérapeutique."
+        },
+        {
+          "heading": "Victime, suture, intertextualité : réparer sans effacer",
+          "pages": "12–14",
+          "paragraphs": [
+            "Le mot « victime » a changé de sens : d’un être sacrifié dans l’Antiquité à un statut moderne associé au préjudice, à la reconnaissance et parfois à la réparation. Lançon se méfie d’une identité enfermée dans ce statut. Sa reconstruction passe à la fois par les gestes de sa chirurgienne et par le langage.",
+            "La suture est donc double : suture des tissus et suture du récit. L’intertextualité, c’est le dialogue entre son livre et d’autres textes, notamment Proust, Thomas Mann et Kafka. En assemblant des fragments littéraires, l’auteur recrée un tissu de significations sans faire disparaître la cicatrice. Le médecin peut y voir un rappel essentiel : réparer n’équivaut pas à effacer ce qui a été vécu."
+          ],
+          "memory": "Les références littéraires relient des fragments d’existence."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "detail": "Comprendre pourquoi cette œuvre est étudiée dans une formation médicale. Quand le professeur parle du Lambeau, penser d’abord à la vie hospitalière racontée par le patient.",
+          "pages": "2–3"
+        },
+        {
+          "name": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "detail": "Distinguer vérité de l’expérience et construction narrative. « Réel » ne signifie pas « récit brut sans choix ».",
+          "pages": "2–4"
+        },
+        {
+          "name": "Rita Charon et les principes de la médecine narrative",
+          "detail": "Expliquer le principe de la médecine narrative et son intérêt clinique. Devant un patient, entendre à la fois un symptôme médical et une histoire vécue.",
+          "pages": "3–4"
+        },
+        {
+          "name": "Cinq ponts entre littérature et médecine",
+          "detail": "Savoir identifier les cinq dimensions communes à l’expérience médicale et au récit. Mémo T-S-C-I-É : Temps, Singularité, Causalité/contingence, Intersubjectivité, Éthique.",
+          "pages": "4–9"
+        },
+        {
+          "name": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "detail": "Articuler contingence et intersubjectivité dans la relation soignant-soigné. Ne jamais ramener le patient au diagnostic : faire place à son récit.",
+          "pages": "7–9"
+        },
+        {
+          "name": "Trois compétences narratives : attention, représentation, affiliation",
+          "detail": "Nommer et distinguer les trois compétences narratives selon le cours. A-R-A : Attention, Représentation, Affiliation.",
+          "pages": "10–12"
+        },
+        {
+          "name": "Victime, suture, intertextualité : réparer sans effacer",
+          "detail": "Comprendre la fonction des métaphores de suture et d’intertextualité. Suture des tissus et suture des textes : deux formes de reconstruction.",
+          "pages": "12–14"
+        }
+      ],
+      "essenceSections": [
+        {
+          "heading": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "pages": "2–3",
+          "goal": "Comprendre pourquoi cette œuvre est étudiée dans une formation médicale.",
+          "logic": "Événement traumatique → longue expérience des soins → récit singulier du patient et des soignants.",
+          "heuristic": "Quand le professeur parle du Lambeau, penser d’abord à la vie hospitalière racontée par le patient.",
+          "examAnchor": "Comprendre pourquoi cette œuvre est étudiée dans une formation médicale."
+        },
+        {
+          "heading": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "pages": "2–4",
+          "goal": "Distinguer vérité de l’expérience et construction narrative.",
+          "logic": "Événements vécus → sélection et mise en récit → sens nouveau sans obligation de fiction factuelle.",
+          "heuristic": "« Réel » ne signifie pas « récit brut sans choix ».",
+          "examAnchor": "Distinguer vérité de l’expérience et construction narrative."
+        },
+        {
+          "heading": "Rita Charon et les principes de la médecine narrative",
+          "pages": "3–4",
+          "goal": "Expliquer le principe de la médecine narrative et son intérêt clinique.",
+          "logic": "Savoir biomédical + récit singulier du patient → compréhension plus fine de la situation de soins.",
+          "heuristic": "Devant un patient, entendre à la fois un symptôme médical et une histoire vécue.",
+          "examAnchor": "Expliquer le principe de la médecine narrative et son intérêt clinique."
+        },
+        {
+          "heading": "Cinq ponts entre littérature et médecine",
+          "pages": "4–9",
+          "goal": "Savoir identifier les cinq dimensions communes à l’expérience médicale et au récit.",
+          "logic": "Temps + singularité + sens causal + relation entre sujets + responsabilité → rencontre médicale narrative.",
+          "heuristic": "Mémo T-S-C-I-É : Temps, Singularité, Causalité/contingence, Intersubjectivité, Éthique.",
+          "examAnchor": "Savoir identifier les cinq dimensions communes à l’expérience médicale et au récit."
+        },
+        {
+          "heading": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "pages": "7–9",
+          "goal": "Articuler contingence et intersubjectivité dans la relation soignant-soigné.",
+          "logic": "Hasard vécu → besoin de mise en récit → dialogue des interprétations → meilleure compréhension partagée.",
+          "heuristic": "Ne jamais ramener le patient au diagnostic : faire place à son récit.",
+          "examAnchor": "Articuler contingence et intersubjectivité dans la relation soignant-soigné."
+        },
+        {
+          "heading": "Trois compétences narratives : attention, représentation, affiliation",
+          "pages": "10–12",
+          "goal": "Nommer et distinguer les trois compétences narratives selon le cours.",
+          "logic": "Attention → représentation du vécu → affiliation/confiance → meilleure coopération thérapeutique.",
+          "heuristic": "A-R-A : Attention, Représentation, Affiliation.",
+          "examAnchor": "Nommer et distinguer les trois compétences narratives selon le cours."
+        },
+        {
+          "heading": "Victime, suture, intertextualité : réparer sans effacer",
+          "pages": "12–14",
+          "goal": "Comprendre la fonction des métaphores de suture et d’intertextualité.",
+          "logic": "Lésion du corps et rupture biographique → soins reconstructeurs + liens entre textes → reconstruction d’un sens.",
+          "heuristic": "Suture des tissus et suture des textes : deux formes de reconstruction.",
+          "examAnchor": "Comprendre la fonction des métaphores de suture et d’intertextualité."
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Qui est l’auteur du Lambeau ?",
+          "choices": [
+            "Maylis de Kerangal",
+            "Rita Charon",
+            "Thomas Mann",
+            "Philippe Lançon"
+          ],
+          "answer": 3,
+          "why": "Lançon y raconte son expérience après Charlie Hebdo.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel aspect occupe une grande place dans le livre ?",
+          "choices": [
+            "L’hospitalisation et la reconstruction après l’attentat",
+            "Une enquête uniquement sur la police",
+            "La découverte de la circulation sanguine",
+            "Une fiction intégralement inventée"
+          ],
+          "answer": 0,
+          "why": "Le récit s’attarde surtout sur le soin et ses acteurs.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle chirurgienne est particulièrement présente dans le cours ?",
+          "choices": [
+            "Florence Nightingale",
+            "Chloé Bertolus",
+            "Marie Curie",
+            "Hildegarde de Bingen"
+          ],
+          "answer": 1,
+          "why": "La chirurgienne maxillo-faciale joue un rôle central dans le récit.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Comment le cours qualifie-t-il le genre du Lambeau ?",
+          "choices": [
+            "Un roman policier de pure fiction",
+            "Un ouvrage de physiologie expérimental",
+            "Une littérature du réel difficile à réduire à une étiquette unique",
+            "Une tragédie antique intégralement fictive"
+          ],
+          "answer": 2,
+          "why": "L’auteur rapporte des faits vécus en les mettant en récit.",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi un texte autobiographique reste-t-il construit ?",
+          "choices": [
+            "Tous les événements racontés deviennent faux",
+            "Les souvenirs n’existent pas dans la littérature",
+            "Un récit impose l’absence d’images",
+            "L’auteur choisit et agence les épisodes, le langage et la temporalité"
+          ],
+          "answer": 3,
+          "why": "La mise en forme n’équivaut pas à une falsification.",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel usage de l’écriture permet à Lançon de reprendre prise sur son expérience ?",
+          "choices": [
+            "Des tableaux de communication puis des chroniques et un livre",
+            "Un registre anatomique sans narration",
+            "Une liste de chiffres de laboratoire",
+            "Une méthode excluant les soignants"
+          ],
+          "answer": 0,
+          "why": "L’écriture redevient un moyen de communication et de représentation.",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle chercheuse est associée à la médecine narrative dans ce cours ?",
+          "choices": [
+            "Philippa Foot",
+            "Rita Charon",
+            "Hannah Arendt",
+            "Chloé Bertolus"
+          ],
+          "answer": 1,
+          "why": "Charon associe médecine et travail littéraire.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel apport central du récit du patient intéresse le médecin ?",
+          "choices": [
+            "Une substitution à tous les examens",
+            "Une preuve que les traitements sont inutiles",
+            "La manière singulière dont la maladie est vécue et formulée",
+            "Une justification pour interrompre tout dialogue"
+          ],
+          "answer": 2,
+          "why": "Il enrichit le diagnostic par la compréhension du vécu.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "La médecine narrative vise-t-elle à supprimer le langage technique ?",
+          "choices": [
+            "Oui, le diagnostic devient uniquement poétique",
+            "Oui, toute catégorie clinique est interdite",
+            "Elle se limite à écrire des romans",
+            "Non, à le compléter par l’écoute du récit personnel"
+          ],
+          "answer": 3,
+          "why": "Deux formes de compréhension doivent se rencontrer.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles caractéristiques font partie des cinq ponts décrits ?",
+          "choices": [
+            "Temporalité, singularité, causalité/contingence, intersubjectivité, éthique",
+            "Pression, saturation, température, volume, débit",
+            "Inoculation, culture, autopsie, examen, réisolement",
+            "Force, analogie et exclusivement statistique"
+          ],
+          "answer": 0,
+          "why": "Ce sont les cinq dimensions explicitement développées.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi le malade douloureux peut-il éprouver une temporalité différente ?",
+          "choices": [
+            "Le malade ne possède aucun souvenir par définition",
+            "La souffrance peut donner l’impression d’un présent qui se répète",
+            "Le temps biologique disparaît",
+            "Le médecin ne travaille jamais avec le temps"
+          ],
+          "answer": 1,
+          "why": "Le récit réintroduit du sens et une direction.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que désigne la singularité ?",
+          "choices": [
+            "La présence obligatoire d’une seule maladie rare",
+            "Une même réaction identique de tous les patients",
+            "L’expérience irréductiblement personnelle d’un patient",
+            "Une catégorie d’examen clinique"
+          ],
+          "answer": 2,
+          "why": "Le diagnostic commun n’efface pas l’individu.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie contingence dans le cours ?",
+          "choices": [
+            "Une obligation légale de raconter",
+            "Une maladie de cause unique certaine",
+            "Un pronostic toujours favorable",
+            "La part de hasard dans la survenue d’un événement"
+          ],
+          "answer": 3,
+          "why": "Lançon montre combien les circonstances comptent.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie ici intersubjectivité ?",
+          "choices": [
+            "Construction d’une compréhension entre soignant et soigné",
+            "Imposition d’un récit médical unilatéral",
+            "Absence totale de langage dans le soin",
+            "Séparation définitive des expériences"
+          ],
+          "answer": 0,
+          "why": "Les deux interlocuteurs participent à la compréhension.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi le patient participe-t-il au diagnostic dans cette approche ?",
+          "choices": [
+            "Il doit remplacer le médecin dans toutes ses décisions",
+            "Son récit ajoute le vécu, les détails et le sens qu’il attribue à ses symptômes",
+            "Il supprime tout besoin d’examen",
+            "Il fournit automatiquement une preuve statistique"
+          ],
+          "answer": 1,
+          "why": "L’échange enrichit l’intelligence de la situation.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles sont les trois compétences narratives selon ce cours ?",
+          "choices": [
+            "Sensation, audition, percussion",
+            "Écoute, saturation, ventilation",
+            "Attention, représentation, affiliation",
+            "Intention, inoculation, incubation"
+          ],
+          "answer": 2,
+          "why": "Cette triade résume le développement pédagogique.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "La représentation consiste notamment à…",
+          "choices": [
+            "Nier la singularité du malade",
+            "Ne retenir que les examens biologiques",
+            "Remplacer toute discussion par des chiffres",
+            "Mettre l’expérience en forme dans le récit"
+          ],
+          "answer": 3,
+          "why": "Le récit rend l’expérience partageable.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Qu’apporte l’affiliation à la relation soignante ?",
+          "choices": [
+            "Un lien de confiance facilitant l’action thérapeutique",
+            "La suppression du consentement",
+            "Une liste d’instruments médicaux",
+            "Une pure classification littéraire"
+          ],
+          "answer": 0,
+          "why": "Reconnaître l’autre permet une meilleure coopération.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie intertextualité ?",
+          "choices": [
+            "La disparition de toutes les références",
+            "Le dialogue d’une œuvre avec d’autres textes",
+            "Un geste chirurgical isolé",
+            "Une lecture sans aucune citation"
+          ],
+          "answer": 1,
+          "why": "Lançon construit des correspondances avec d’autres auteurs.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles deux formes de suture le cours rapproche-t-il ?",
+          "choices": [
+            "La fermeture vasculaire et l’anesthésie",
+            "La guérison infectieuse et le dosage sanguin",
+            "La reconstruction des tissus et le réassemblage du récit",
+            "La syntaxe et la réanimation cardio-pulmonaire"
+          ],
+          "answer": 2,
+          "why": "Le mot possède une dimension corporelle et narrative.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel trio d’auteurs revient dans les références du Lambeau ?",
+          "choices": [
+            "Harvey, Galien et Vésale",
+            "Popper, Kuhn et Rothman",
+            "Koch, Henle et Semmelweis",
+            "Proust, Thomas Mann et Kafka"
+          ],
+          "answer": 3,
+          "why": "Ces textes forment une trame intertextuelle.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Qui est l’auteur du Lambeau ?",
+          "a": "Philippe Lançon. Lançon y raconte son expérience après Charlie Hebdo.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Le Lambeau : un témoignage qui déborde le témoignage ».",
+          "a": "Événement traumatique → longue expérience des soins → récit singulier du patient et des soignants.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Le Lambeau : un témoignage qui déborde le témoignage » ?",
+          "a": "Le Lambeau, 2018, Philippe Lançon, attentat et reconstruction. Quand le professeur parle du Lambeau, penser d’abord à la vie hospitalière racontée par le patient.",
+          "pages": "2–3",
+          "topic": "Le Lambeau : un témoignage qui déborde le témoignage",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Comment le cours qualifie-t-il le genre du Lambeau ?",
+          "a": "Une littérature du réel difficile à réduire à une étiquette unique. L’auteur rapporte des faits vécus en les mettant en récit.",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Roman, témoignage, autobiographie : comment qualifier Le Lambeau ? ».",
+          "a": "Événements vécus → sélection et mise en récit → sens nouveau sans obligation de fiction factuelle.",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Roman, témoignage, autobiographie : comment qualifier Le Lambeau ? » ?",
+          "a": "Le récit peut être façonné sans être une invention pure. « Réel » ne signifie pas « récit brut sans choix ».",
+          "pages": "2–4",
+          "topic": "Roman, témoignage, autobiographie : comment qualifier Le Lambeau ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle chercheuse est associée à la médecine narrative dans ce cours ?",
+          "a": "Rita Charon. Charon associe médecine et travail littéraire.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Rita Charon et les principes de la médecine narrative ».",
+          "a": "Savoir biomédical + récit singulier du patient → compréhension plus fine de la situation de soins.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Rita Charon et les principes de la médecine narrative » ?",
+          "a": "Médecine narrative : Rita Charon, écouter, lire, écrire, interpréter. Devant un patient, entendre à la fois un symptôme médical et une histoire vécue.",
+          "pages": "3–4",
+          "topic": "Rita Charon et les principes de la médecine narrative",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles caractéristiques font partie des cinq ponts décrits ?",
+          "a": "Temporalité, singularité, causalité/contingence, intersubjectivité, éthique. Ce sont les cinq dimensions explicitement développées.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Cinq ponts entre littérature et médecine ».",
+          "a": "Temps + singularité + sens causal + relation entre sujets + responsabilité → rencontre médicale narrative.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Cinq ponts entre littérature et médecine » ?",
+          "a": "Les cinq caractéristiques constituent une architecture du chapitre. Mémo T-S-C-I-É : Temps, Singularité, Causalité/contingence, Intersubjectivité, Éthique.",
+          "pages": "4–9",
+          "topic": "Cinq ponts entre littérature et médecine",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie contingence dans le cours ?",
+          "a": "La part de hasard dans la survenue d’un événement. Lançon montre combien les circonstances comptent.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Une relation à deux voix : causalité, hasard et intersubjectivité ».",
+          "a": "Hasard vécu → besoin de mise en récit → dialogue des interprétations → meilleure compréhension partagée.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Une relation à deux voix : causalité, hasard et intersubjectivité » ?",
+          "a": "Intersubjectivité = compréhension construite entre deux sujets. Ne jamais ramener le patient au diagnostic : faire place à son récit.",
+          "pages": "7–9",
+          "topic": "Une relation à deux voix : causalité, hasard et intersubjectivité",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelles sont les trois compétences narratives selon ce cours ?",
+          "a": "Attention, représentation, affiliation. Cette triade résume le développement pédagogique.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Trois compétences narratives : attention, représentation, affiliation ».",
+          "a": "Attention → représentation du vécu → affiliation/confiance → meilleure coopération thérapeutique.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Trois compétences narratives : attention, représentation, affiliation » ?",
+          "a": "L’affiliation touche à l’action et à la relation thérapeutique. A-R-A : Attention, Représentation, Affiliation.",
+          "pages": "10–12",
+          "topic": "Trois compétences narratives : attention, représentation, affiliation",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie intertextualité ?",
+          "a": "Le dialogue d’une œuvre avec d’autres textes. Lançon construit des correspondances avec d’autres auteurs.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Victime, suture, intertextualité : réparer sans effacer ».",
+          "a": "Lésion du corps et rupture biographique → soins reconstructeurs + liens entre textes → reconstruction d’un sens.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Victime, suture, intertextualité : réparer sans effacer » ?",
+          "a": "Les références littéraires relient des fragments d’existence. Suture des tissus et suture des textes : deux formes de reconstruction.",
+          "pages": "12–14",
+          "topic": "Victime, suture, intertextualité : réparer sans effacer",
+          "origin": "rappel_original_ronéo_2026_2027"
+        }
+      ],
+      "chapterPractice": [
+        {
+          "qcm": [
+            0,
+            1,
+            2
+          ],
+          "cards": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "qcm": [
+            3,
+            4,
+            5
+          ],
+          "cards": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "qcm": [
+            6,
+            7,
+            8
+          ],
+          "cards": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "qcm": [
+            9,
+            10,
+            11
+          ],
+          "cards": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "qcm": [
+            12,
+            13,
+            14
+          ],
+          "cards": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "qcm": [
+            15,
+            16,
+            17
+          ],
+          "cards": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "qcm": [
+            18,
+            19,
+            20
+          ],
+          "cards": [
+            18,
+            19,
+            20
+          ]
+        }
+      ],
+      "writing": [
+        {
+          "chapter": 0,
+          "format": "QROC",
+          "q": "Présentez Le Lambeau et justifiez son intérêt pour la formation médicale.",
+          "model": "Le Lambeau est une œuvre de Philippe Lançon publiée en 2018, relatant son expérience après l’attentat contre Charlie Hebdo. Le récit consacre une place majeure aux mois de soins et aux soignants. Il permet d’appréhender l’expérience vécue du patient, sa reconstruction et l’apport du récit dans la relation médicale.",
+          "criteria": [
+            "auteur et ouvrage",
+            "contexte 2015",
+            "expérience hospitalière",
+            "intérêt pour la médecine narrative"
+          ],
+          "pages": "2–3",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-d6955def610bfbd1-redaction-01"
+        },
+        {
+          "chapter": 3,
+          "format": "QROC",
+          "q": "Citez et expliquez les cinq caractéristiques communes à la médecine et à la littérature étudiées dans le cours.",
+          "model": "La temporalité décrit l’organisation du vécu dans le temps ; la singularité, l’expérience propre à chaque sujet ; la causalité et la contingence, le besoin de donner du sens aux événements et la place du hasard ; l’intersubjectivité, la construction d’une compréhension entre les personnes ; l’éthique, la responsabilité engagée par les récits et leur réception.",
+          "criteria": [
+            "temporalité",
+            "singularité",
+            "causalité/contingence",
+            "intersubjectivité",
+            "éthique"
+          ],
+          "pages": "4–9",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-d6955def610bfbd1-redaction-02"
+        },
+        {
+          "chapter": 5,
+          "format": "QROC",
+          "q": "Quelles sont les trois compétences narratives du médecin selon Rita Charon et à quoi servent-elles ?",
+          "model": "Attention : écouter et percevoir les détails du vécu. Représentation : mettre l’expérience en récit et en forme. Affiliation : tisser un lien de confiance qui facilite la coopération dans la prise en charge. Elles permettent une meilleure compréhension de la singularité du patient.",
+          "criteria": [
+            "attention",
+            "représentation",
+            "affiliation",
+            "intérêt clinique"
+          ],
+          "pages": "10–12",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-d6955def610bfbd1-redaction-03"
+        },
+        {
+          "chapter": 6,
+          "format": "QR",
+          "q": "Analysez comment la suture corporelle et la suture littéraire s’articulent dans Le Lambeau et ce que cela apporte à une médecine narrative.",
+          "model": "Après l’attentat, Chloé Bertolus participe à la reconstruction physique du visage de Lançon, mais réparer le corps ne suffit pas à retrouver une continuité d’existence. L’écriture, l’intertextualité et les œuvres convoquées (Proust, Mann, Kafka) permettent de relier des fragments de vécu, de donner une forme au temps traumatique et de reconstruire un espace commun avec les autres. Cette double suture illustre l’intérêt clinique de la représentation et de l’affiliation : réparer sans prétendre effacer la cicatrice.",
+          "criteria": [
+            "suture corporelle",
+            "suture narrative",
+            "intertextualité",
+            "exemples d’auteurs",
+            "reconstruction du sens",
+            "implications soignantes"
+          ],
+          "pages": "12–14",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-d6955def610bfbd1-redaction-04"
+        }
+      ]
+    },
+    "cm-b2a4b7eaf1ac2b06": {
+      "id": "cm-b2a4b7eaf1ac2b06",
+      "subject": "ssh",
+      "title": "Éthique : Donner la mort",
+      "courseName": "Éthique : Donner la mort",
+      "date": "2026-09-29",
+      "teacher": "Pr Devinant",
+      "source": {
+        "label": "Ronéo & Juliette 2026–2027 : Éthique : Donner la mort, 2026-09-29 ; Donner la mort 2, 2026-10-09",
+        "url": "https://drive.google.com/file/d/1QfZ0naNvx3-hLAsujjjAh1zdol-pSAyF/view",
+        "pages": 6
+      },
+      "editorialNote": "Sources du programme : ronéos 2026–2027 ; questions QCM originales, non sujets authentiques ; annales reprises uniquement si la notion est présente dans les ronéos actuelles. Les rédactions sont autoévaluées. Regroupe les deux ronéos 2026-2027 (« Donner la mort » des 29 septembre et 9 octobre) dans UN SEUL module correspondant à l’identifiant SSH existant. La comparaison avec Swan et Ronéo 2025-2026 (FC 5 et 7) a servi de contrôle sans imposer son ancien programme. Point juridique : la loi française n°2026-794 du 18 août 2026 est bien promulguée (Légifrance). La ronéo peut simplifier les procédures : pour une application réelle, se reporter au texte officiel, pas à une question de QCM. Les affirmations normatives de certains philosophes sont leurs arguments, non des vérités cliniques ou juridiques.",
+      "hook": "Pourquoi choisit-on souvent d’actionner un aiguillage mais pas de pousser une personne ? Derrière la fin de vie se trouvent des visions différentes de la dignité, de la liberté et de la responsabilité.",
+      "flow": [
+        "Intuitions morales",
+        "Définir les actes",
+        "Autonomie et dignité",
+        "Désaccords et pressions",
+        "Personne et vie biologique",
+        "Tuer / laisser mourir",
+        "L’obstination déraisonnable",
+        "Conséquences et intention"
+      ],
+      "sections": [
+        {
+          "heading": "Le tramway : interroger nos intuitions morales",
+          "pages": "2–3 (partie 1)",
+          "paragraphs": [
+            "Un tramway fonce sur cinq personnes ; l’action d’un aiguillage peut en sauver cinq au prix d’une autre vie. La variante du pont demande de pousser un individu pour arrêter le véhicule. Beaucoup de personnes acceptent le levier mais refusent de pousser. Pourtant, si on ne compte que les morts, les deux scénarios semblent comparables. Pourquoi nos intuitions diffèrent-elles ?",
+            "La distance psychologique compte : un mécanisme nous éloigne des conséquences physiques de l’action. Mais un ressenti n’est pas à lui seul une justification morale. Le cours distingue l’évaluation des conséquences (éthique utilitariste) et le respect d’interdits ou de règles (éthique déontologique). En pratique médicale, ce travail de clarification permet de ne pas décider uniquement à partir d’une intuition immédiate."
+          ],
+          "memory": "Le problème du tramway est une expérience de pensée, pas un protocole médical."
+        },
+        {
+          "heading": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "pages": "3–4 (partie 1)",
+          "paragraphs": [
+            "Le cours souligne qu’un débat moral tourne vite à vide si des mots différents sont confondus. L’euthanasie est présentée philosophiquement comme un acte visant à mettre fin volontairement à la vie d’une personne dans l’intention de son bien, dans une situation perçue comme insoutenable et irrémédiable, selon la caractérisation discutée par le professeur. Cela se distingue d’une mort accidentelle ou d’un acte qui poursuit une autre finalité.",
+            "La différence entre euthanasie et aide au suicide porte notamment sur la personne qui réalise l’acte final. L’abstention ou la limitation thérapeutique consiste à ne pas entreprendre ou à arrêter des traitements jugés inappropriés, sans cesser les soins de confort. L’expression « euthanasie passive » est parfois employée dans certaines traditions mais elle est problématique : elle mélange des décisions de soin et un acte visant à provoquer la mort."
+          ],
+          "memory": "Ne pas faire du « laisser mourir » une simple variante identique de l’euthanasie."
+        },
+        {
+          "heading": "Dignité, autonomie et évolution sociale du débat",
+          "pages": "4–6 (partie 1)",
+          "paragraphs": [
+            "Les débats contemporains sur l’aide à mourir sont liés à une transformation des normes sociales. Historiquement, certaines conceptions morales accordaient une valeur sacrée ou absolue à toute vie biologique. D’autres courants donnent une place centrale à l’autonomie : pouvoir participer aux décisions concernant sa propre existence. Le mot dignité lui-même se prête à plusieurs lectures : liée à la possibilité d’agir et décider, ou attachée à toute personne indépendamment de ses capacités.",
+            "La médecine peut aujourd’hui maintenir plus longtemps certaines fonctions vitales ; parallèlement, le vieillissement et l’hospitalisation de la fin de vie transforment les questions pratiques et collectives. Le cours aborde aussi la France de 2026 : la loi n°2026-794 relative au droit à l’aide à mourir a été promulguée en août. Ce fait légal ne suffit pas à résoudre les désaccords éthiques ; il les encadre dans une procédure distincte du débat philosophique."
+          ],
+          "memory": "Ne pas présenter dignité et autonomie comme des synonymes absolus."
+        },
+        {
+          "heading": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "pages": "1–3 (partie 2)",
+          "paragraphs": [
+            "Le second cours ne traite pas la légalisation comme la fin du débat. Certaines personnes défendent l’autonomie, la fin de souffrances réfractaires et l’égalité d’accès. Ruwen Ogien formule une position minimaliste : une interdiction de l’aide à mourir peut selon lui porter atteinte à celui qui demande librement cette aide. Cette défense est un argument philosophique, non une preuve que toutes les demandes seraient entièrement libres.",
+            "Les objections concernent le retentissement pour les soignants, la possibilité d’erreurs de pronostic, les influences familiales, la fragilité des personnes dépendantes et le risque de sous-développer les soins palliatifs. Le cours évoque aussi une société « validiste » : ce que l’on présente comme une décision purement individuelle est parfois influencé par le regard social, l’accessibilité réelle des soins et le sentiment de constituer une charge."
+          ],
+          "memory": "Ogien, soins palliatifs, pronostic, pression implicite, vulnérabilité."
+        },
+        {
+          "heading": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "pages": "3–4 (partie 2)",
+          "paragraphs": [
+            "Le cours distingue la persistance biologique d’un organisme et les critères philosophiques parfois retenus pour parler d’une personne : conscience de soi, volonté, sentience (capacité à ressentir douleur et plaisir). Ce sont des catégories discutées en philosophie morale, et elles ne permettent pas de déduire à elles seules le statut juridique ou les droits d’un patient.",
+            "Les états prolongés d’altération de la conscience servent d’exemples difficiles. Le cours montre le problème théorique de la perte durable de capacités, mais souligne aussi les incertitudes médicales de l’évaluation. Il faut être très vigilant : un état végétatif ou un état d’éveil non répondant ne signifie pas une mort cérébrale ; ne pas confondre ces situations ou considérer une personne comme juridiquement décédée sur une conclusion philosophique."
+          ],
+          "memory": "Sentience = capacité d’éprouver des expériences positives et négatives."
+        },
+        {
+          "heading": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "pages": "4–5 (partie 2)",
+          "paragraphs": [
+            "Une distinction fréquente oppose commission (agir pour produire un effet) et omission (ne pas intervenir). Le philosophe James Rachels propose une expérience avec Smith et Jones : tous deux souhaitent la mort d’un enfant ; l’un agit directement, l’autre laisse délibérément mourir. Le cas cherche à montrer que la seule distinction physique entre faire et ne pas faire ne suffit pas toujours à rendre un jugement moral.",
+            "Cela ne signifie pas que commission et omission soient juridiquement identiques dans toutes les situations ni que tout arrêt de traitement soit un homicide. Il faut examiner l’intention, les circonstances, les devoirs envers la personne, la proportionnalité des soins et les règles de droit. L’expérience de pensée sert à éprouver un argument, pas à autoriser un geste."
+          ],
+          "memory": "Commission = action ; omission = absence d’action."
+        },
+        {
+          "heading": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "pages": "5–6 (partie 2)",
+          "paragraphs": [
+            "La réflexion sur l’arrêt de traitements devient concrète avec l’obstination déraisonnable : poursuivre des actes inutiles, disproportionnés ou ayant pour seul effet le maintien artificiel de la vie. Le cours rappelle la loi Claeys-Leonetti de 2016 et la nécessité de prendre en compte la volonté du patient ; quand elle ne peut être exprimée, la décision appelle un cadre collégial. L’arrêt de certains traitements n’interrompt pas les soins de confort.",
+            "Le cas de Vincent Lambert illustre notamment les controverses sur la nutrition et l’hydratation artificielles, considérées juridiquement comme des traitements dans le cadre évoqué. Le cours souligne que les soignants peuvent ressentir plus fortement l’arrêt d’un traitement que sa non-introduction, bien que l’évaluation éthique ne se réduise pas à cette impression. Il insiste sur l’utilité d’une délibération médicale et humaine."
+          ],
+          "memory": "Critères objectifs et jugement de valeur doivent être explicités."
+        },
+        {
+          "heading": "Utilitarisme, regret de l’agent et intention morale",
+          "pages": "6–8 (partie 2)",
+          "paragraphs": [
+            "Pour juger un acte, une approche conséquentialiste examine ses résultats. Parmi les objections à l’aide à mourir figure le retentissement psychologique pour le soignant. Le cours fait remarquer qu’invoquer automatiquement sa « culpabilité » pour conclure que l’acte est mauvais peut être une pétition de principe : l’argument présuppose ce qu’il voulait démontrer.",
+            "Bernard Williams invite toutefois à distinguer le regret de l’agent d’une faute morale réelle : quelqu’un peut souffrir psychologiquement après un événement malgré l’absence de comportement reprochable. Ces effets doivent être pris au sérieux sans être assimilés à eux seuls à une preuve de l’immoralité de l’acte. Le débat entre éthique des conséquences, devoirs et intentions reste ouvert."
+          ],
+          "memory": "Pétition de principe et regret de l’agent sont deux notions distinctes."
+        }
+      ],
+      "summary": [
+        {
+          "name": "Le tramway : interroger nos intuitions morales",
+          "detail": "Comprendre pourquoi des jugements spontanés doivent être examinés et justifiés. Avant de juger, classer l’argument : conséquences, règle ou réaction psychologique.",
+          "pages": "2–3 (partie 1)"
+        },
+        {
+          "name": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "detail": "Savoir définir et surtout différencier plusieurs situations de fin de vie. Question-reflexe : qui accomplit l’acte, dans quelle intention et que fait-on des soins ?.",
+          "pages": "3–4 (partie 1)"
+        },
+        {
+          "name": "Dignité, autonomie et évolution sociale du débat",
+          "detail": "Distinguer les conceptions concurrentes de dignité et d’autonomie. Le droit fixe une procédure ; la philosophie interroge les justifications de l’acte.",
+          "pages": "4–6 (partie 1)"
+        },
+        {
+          "name": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "detail": "Savoir opposer sans caricature arguments d’autonomie et préoccupations de vulnérabilité. Toujours distinguer l’argument éthique, la pression sociale et le statut légal.",
+          "pages": "1–3 (partie 2)"
+        },
+        {
+          "name": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "detail": "Comprendre la distinction philosophique personne/organisme et ses limites cliniques. Distinguer théorie morale, diagnostic neurologique et statut légal.",
+          "pages": "3–4 (partie 2)"
+        },
+        {
+          "name": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "detail": "Comprendre pourquoi agir/ne pas agir ne clôt pas à lui seul un raisonnement éthique. Dans Smith/Jones, l’intention commune rend la simple opposition agir/ne pas agir insuffisante.",
+          "pages": "4–5 (partie 2)"
+        },
+        {
+          "name": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "detail": "Définir l’obstination déraisonnable et la logique d’une limitation thérapeutique. Limiter des traitements non bénéfiques n’est pas abandonner les soins.",
+          "pages": "5–6 (partie 2)"
+        },
+        {
+          "name": "Utilitarisme, regret de l’agent et intention morale",
+          "detail": "Distinguer argument sur les conséquences, cercle logique et regret psychologique. Regret psychologique n’égale pas nécessairement faute.",
+          "pages": "6–8 (partie 2)"
+        }
+      ],
+      "essenceSections": [
+        {
+          "heading": "Le tramway : interroger nos intuitions morales",
+          "pages": "2–3 (partie 1)",
+          "goal": "Comprendre pourquoi des jugements spontanés doivent être examinés et justifiés.",
+          "logic": "Même bilan numérique apparent → intuitions différentes → explicitation des valeurs et devoirs.",
+          "heuristic": "Avant de juger, classer l’argument : conséquences, règle ou réaction psychologique.",
+          "examAnchor": "Comprendre pourquoi des jugements spontanés doivent être examinés et justifiés."
+        },
+        {
+          "heading": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "pages": "3–4 (partie 1)",
+          "goal": "Savoir définir et surtout différencier plusieurs situations de fin de vie.",
+          "logic": "Acte létal intentionnel ≠ auto-administration accompagnée ≠ limitation de traitements et poursuite des soins.",
+          "heuristic": "Question-reflexe : qui accomplit l’acte, dans quelle intention et que fait-on des soins ?.",
+          "examAnchor": "Savoir définir et surtout différencier plusieurs situations de fin de vie."
+        },
+        {
+          "heading": "Dignité, autonomie et évolution sociale du débat",
+          "pages": "4–6 (partie 1)",
+          "goal": "Distinguer les conceptions concurrentes de dignité et d’autonomie.",
+          "logic": "Transformation des capacités médicales et des valeurs sociales → tension entre protection de la vie et autonomie.",
+          "heuristic": "Le droit fixe une procédure ; la philosophie interroge les justifications de l’acte.",
+          "examAnchor": "Distinguer les conceptions concurrentes de dignité et d’autonomie."
+        },
+        {
+          "heading": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "pages": "1–3 (partie 2)",
+          "goal": "Savoir opposer sans caricature arguments d’autonomie et préoccupations de vulnérabilité.",
+          "logic": "Liberté revendiquée + contexte social réel → débat sur le caractère libre et protégé de la décision.",
+          "heuristic": "Toujours distinguer l’argument éthique, la pression sociale et le statut légal.",
+          "examAnchor": "Savoir opposer sans caricature arguments d’autonomie et préoccupations de vulnérabilité."
+        },
+        {
+          "heading": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "pages": "3–4 (partie 2)",
+          "goal": "Comprendre la distinction philosophique personne/organisme et ses limites cliniques.",
+          "logic": "Valeur morale attribuée aux capacités personnelles → difficulté d’évaluation dans certaines atteintes neurologiques.",
+          "heuristic": "Distinguer théorie morale, diagnostic neurologique et statut légal.",
+          "examAnchor": "Comprendre la distinction philosophique personne/organisme et ses limites cliniques."
+        },
+        {
+          "heading": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "pages": "4–5 (partie 2)",
+          "goal": "Comprendre pourquoi agir/ne pas agir ne clôt pas à lui seul un raisonnement éthique.",
+          "logic": "Commission ou omission → intentions et contextes à examiner → jugement éthique argumenté.",
+          "heuristic": "Dans Smith/Jones, l’intention commune rend la simple opposition agir/ne pas agir insuffisante.",
+          "examAnchor": "Comprendre pourquoi agir/ne pas agir ne clôt pas à lui seul un raisonnement éthique."
+        },
+        {
+          "heading": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "pages": "5–6 (partie 2)",
+          "goal": "Définir l’obstination déraisonnable et la logique d’une limitation thérapeutique.",
+          "logic": "Évaluation du bénéfice thérapeutique + volonté du malade + cadre collégial pertinent → adaptation des traitements.",
+          "heuristic": "Limiter des traitements non bénéfiques n’est pas abandonner les soins.",
+          "examAnchor": "Définir l’obstination déraisonnable et la logique d’une limitation thérapeutique."
+        },
+        {
+          "heading": "Utilitarisme, regret de l’agent et intention morale",
+          "pages": "6–8 (partie 2)",
+          "goal": "Distinguer argument sur les conséquences, cercle logique et regret psychologique.",
+          "logic": "Retentissement possible → question de responsabilité morale → ne pas présupposer la conclusion.",
+          "heuristic": "Regret psychologique n’égale pas nécessairement faute.",
+          "examAnchor": "Distinguer argument sur les conséquences, cercle logique et regret psychologique."
+        }
+      ],
+      "qcm": [
+        {
+          "q": "Quel est l’objectif du trolley problem ?",
+          "choices": [
+            "Déterminer le meilleur freinage technique",
+            "Établir une statistique des transports",
+            "Examiner nos intuitions morales et leurs justifications",
+            "Remplacer le consentement médical"
+          ],
+          "answer": 2,
+          "why": "Il met en lumière des réactions parfois contradictoires.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Qu’est-ce qui distingue utilitarisme et déontologie ?",
+          "choices": [
+            "Circulation artérielle contre veineuse",
+            "Diagnostic clinique contre biologique",
+            "Induction contre expérimentation",
+            "Conséquences de l’acte contre respect des devoirs et règles"
+          ],
+          "answer": 3,
+          "why": "Les deux approches ne prennent pas le même critère pour juger.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi le levier peut-il être psychologiquement différent du geste direct ?",
+          "choices": [
+            "Il met une distance entre l’action et son effet",
+            "Il ne cause jamais de mort",
+            "Il constitue toujours une décision médicale",
+            "Il abolit toute responsabilité morale"
+          ],
+          "answer": 0,
+          "why": "Le cours parle de distanciation psychologique.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel élément distingue l’aide au suicide d’une euthanasie administrée par autrui ?",
+          "choices": [
+            "Aucun moyen technique ne peut être fourni",
+            "La personne concernée réalise elle-même l’acte final",
+            "Le patient n’exprime jamais de volonté",
+            "La mort ne survient pas dans l’aide au suicide"
+          ],
+          "answer": 1,
+          "why": "Le cours distingue qui accomplit l’acte.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que prévoit une limitation thérapeutique correctement comprise ?",
+          "choices": [
+            "L’arrêt de toute attention portée au malade",
+            "Une injection létale obligatoire",
+            "Le maintien des soins de confort malgré la limitation de traitements",
+            "La suppression de toute discussion avec le patient"
+          ],
+          "answer": 2,
+          "why": "Ne plus entreprendre un traitement ne signifie pas ne plus soigner.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Pourquoi l’expression « euthanasie passive » est-elle discutée ?",
+          "choices": [
+            "Elle est synonyme de chirurgie palliative",
+            "Elle décrit une voie métabolique",
+            "Elle est le seul terme disponible en français",
+            "Elle confond des catégories ayant des intentions et des finalités différentes"
+          ],
+          "answer": 3,
+          "why": "La terminologie engage déjà une conception morale.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quels deux principes peuvent entrer en tension dans ce débat ?",
+          "choices": [
+            "Respect de la vie et autonomie de la personne",
+            "Causalité et spécificité microbienne",
+            "Systole et diastole",
+            "Catabolisme et anabolisme"
+          ],
+          "answer": 0,
+          "why": "Les conceptions morales mettent l’accent sur des valeurs différentes.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "La dignité est-elle définie unanimement dans le débat présenté ?",
+          "choices": [
+            "Oui, uniquement à la capacité de travailler",
+            "Non, certains la lient à l’autonomie, d’autres à la valeur humaine intrinsèque",
+            "Oui, uniquement à l’absence de douleur",
+            "Non, car le terme n’existe pas en éthique"
+          ],
+          "answer": 1,
+          "why": "Le cours présente explicitement plusieurs conceptions.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle situation juridique générale est évoquée dans la ronéo 2026 ?",
+          "choices": [
+            "L’absence totale de législation sur la fin de vie depuis 2016",
+            "Une légalisation française datant de 2001",
+            "La promulgation en août 2026 d’une loi française relative au droit à l’aide à mourir",
+            "Une loi limitée à la santé vétérinaire"
+          ],
+          "answer": 2,
+          "why": "La loi n° 2026-794 est vérifiée par les sources officielles.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que défend Ruwen Ogien dans l’argument étudié ?",
+          "choices": [
+            "L’obligation de poursuivre tous les traitements",
+            "Le retrait automatique des soins palliatifs",
+            "Une argumentation reposant uniquement sur des analyses du sang",
+            "Une approche minimaliste accordant une place centrale au choix individuel"
+          ],
+          "answer": 3,
+          "why": "Sa position nourrit le pôle favorable à l’autonomie.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle réserve est soulevée au sujet de l’autonomie ?",
+          "choices": [
+            "Une pression sociale implicite peut influencer la décision de personnes vulnérables",
+            "Toute demande est nécessairement manipulée",
+            "Seuls les proches décident des soins",
+            "La liberté n’a jamais de contexte"
+          ],
+          "answer": 0,
+          "why": "Le choix s’inscrit dans des situations sociales concrètes.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quels enjeux sont invoqués par des opposants à l’euthanasie ?",
+          "choices": [
+            "La disparition des fonctions cardiaques au repos chez tout patient",
+            "Erreurs pronostiques, effets sur les soignants et accès aux soins palliatifs",
+            "L’impossibilité de définir un argument éthique",
+            "La certitude absolue de tous les pronostics"
+          ],
+          "answer": 1,
+          "why": "Ces arguments sont exposés sans trancher par principe.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que désigne la sentience ?",
+          "choices": [
+            "La simple présence de tous les organes",
+            "L’arrêt électrique de tout l’encéphale",
+            "La capacité à ressentir douleur ou plaisir",
+            "Une grille d’essai statistique"
+          ],
+          "answer": 2,
+          "why": "Le cours l’inclut parmi les critères philosophiques discutés.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "À quoi renvoie la distinction personne/organisme ?",
+          "choices": [
+            "À deux noms strictement équivalents de mort cérébrale",
+            "À un indicateur unique de capacité respiratoire",
+            "À une procédure de prélèvement",
+            "À une distinction philosophique entre propriétés morales et vie biologique"
+          ],
+          "answer": 3,
+          "why": "Ces catégories soulèvent des controverses éthiques.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle conclusion faut-il éviter sur un état d’éveil non répondant ?",
+          "choices": [
+            "L’assimiler automatiquement à une mort cérébrale",
+            "Reconnaître une incertitude d’évaluation",
+            "Distinguer le diagnostic des réflexions philosophiques",
+            "S’interroger sur les capacités conservées"
+          ],
+          "answer": 0,
+          "why": "Il ne s’agit pas du diagnostic de mort cérébrale.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie commission en éthique ?",
+          "choices": [
+            "Une révision en groupe",
+            "Une action accomplie",
+            "Une omission de décision",
+            "Une sanction administrative"
+          ],
+          "answer": 1,
+          "why": "Le terme s’oppose à l’omission.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel argument est testé par l’expérience de Rachels ?",
+          "choices": [
+            "L’existence du rete mirabile",
+            "L’obligation de traiter sans consentement",
+            "L’idée qu’agir et laisser faire seraient toujours moralement très différents",
+            "La loi sur le secret médical"
+          ],
+          "answer": 2,
+          "why": "Il compare une intention et un résultat dans deux situations.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quelle précaution faut-il conserver ?",
+          "choices": [
+            "Toute omission constitue une euthanasie",
+            "Le diagnostic suffit à déduire toute décision",
+            "Tous les arrêts de traitement sont identiques",
+            "Une analogie philosophique ne détermine pas seule le régime juridique d’un soin"
+          ],
+          "answer": 3,
+          "why": "L’éthique distingue catégories et contextes.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que recouvre l’obstination déraisonnable ?",
+          "choices": [
+            "Des traitements inutiles, disproportionnés ou ne maintenant qu’artificiellement la vie",
+            "Tout recours aux soins palliatifs",
+            "Toute décision collégiale",
+            "L’administration normale d’antalgiques"
+          ],
+          "answer": 0,
+          "why": "La disproportion et l’absence de bénéfice sont centrales.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel principe reste essentiel lors d’une limitation de traitements ?",
+          "choices": [
+            "Cesser tout accompagnement humain",
+            "Continuer les soins de confort adaptés",
+            "Supprimer toute discussion collégiale",
+            "Interdire la prise en compte de la volonté"
+          ],
+          "answer": 1,
+          "why": "Limiter n’équivaut pas à abandonner.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel cas illustre le débat sur nutrition et hydratation artificielles ?",
+          "choices": [
+            "L’expérience d’Eddington",
+            "Les expériences de James Lind",
+            "L’affaire Vincent Lambert",
+            "La découverte de Koch"
+          ],
+          "answer": 2,
+          "why": "Le cours utilise cette controverse de fin de vie.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Qu’est-ce qu’une pétition de principe ?",
+          "choices": [
+            "Un formulaire de demande de soins",
+            "Une étude de cohorte randomisée",
+            "Un raisonnement fondé sur un mécanisme physiologique",
+            "Un raisonnement qui présuppose la conclusion qu’il doit démontrer"
+          ],
+          "answer": 3,
+          "why": "Le reproche moral ne peut être sa propre preuve.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "difficulty": "fondamental",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que désigne le regret de l’agent chez Bernard Williams ?",
+          "choices": [
+            "Un regret pouvant exister même sans faute morale",
+            "Un diagnostic obligatoire après chirurgie",
+            "Une incapacité à consentir",
+            "Une obligation de compensation automatique"
+          ],
+          "answer": 0,
+          "why": "L’émotion et la culpabilité morale ne coïncident pas toujours.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        },
+        {
+          "q": "Sur quoi se centre l’approche conséquentialiste ?",
+          "choices": [
+            "L’anatomie des valvules",
+            "Les conséquences des actes",
+            "L’autorité d’un livre ancien",
+            "La définition d’un microorganisme"
+          ],
+          "answer": 1,
+          "why": "Elle évalue les résultats et leurs effets.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "difficulty": "application",
+          "origin": "original_ronéo_2026_2027"
+        }
+      ],
+      "flashcards": [
+        {
+          "q": "Quel est l’objectif du trolley problem ?",
+          "a": "Examiner nos intuitions morales et leurs justifications. Il met en lumière des réactions parfois contradictoires.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Le tramway : interroger nos intuitions morales ».",
+          "a": "Même bilan numérique apparent → intuitions différentes → explicitation des valeurs et devoirs.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Le tramway : interroger nos intuitions morales » ?",
+          "a": "Le problème du tramway est une expérience de pensée, pas un protocole médical. Avant de juger, classer l’argument : conséquences, règle ou réaction psychologique.",
+          "pages": "2–3 (partie 1)",
+          "topic": "Le tramway : interroger nos intuitions morales",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel élément distingue l’aide au suicide d’une euthanasie administrée par autrui ?",
+          "a": "La personne concernée réalise elle-même l’acte final. Le cours distingue qui accomplit l’acte.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Définir euthanasie, aide au suicide et abstention thérapeutique ».",
+          "a": "Acte létal intentionnel ≠ auto-administration accompagnée ≠ limitation de traitements et poursuite des soins.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Définir euthanasie, aide au suicide et abstention thérapeutique » ?",
+          "a": "Ne pas faire du « laisser mourir » une simple variante identique de l’euthanasie. Question-reflexe : qui accomplit l’acte, dans quelle intention et que fait-on des soins ?.",
+          "pages": "3–4 (partie 1)",
+          "topic": "Définir euthanasie, aide au suicide et abstention thérapeutique",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quels deux principes peuvent entrer en tension dans ce débat ?",
+          "a": "Respect de la vie et autonomie de la personne. Les conceptions morales mettent l’accent sur des valeurs différentes.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Dignité, autonomie et évolution sociale du débat ».",
+          "a": "Transformation des capacités médicales et des valeurs sociales → tension entre protection de la vie et autonomie.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Dignité, autonomie et évolution sociale du débat » ?",
+          "a": "Ne pas présenter dignité et autonomie comme des synonymes absolus. Le droit fixe une procédure ; la philosophie interroge les justifications de l’acte.",
+          "pages": "4–6 (partie 1)",
+          "topic": "Dignité, autonomie et évolution sociale du débat",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que défend Ruwen Ogien dans l’argument étudié ?",
+          "a": "Une approche minimaliste accordant une place centrale au choix individuel. Sa position nourrit le pôle favorable à l’autonomie.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Arguments opposés et vulnérabilité : Ogien, soignants et société ».",
+          "a": "Liberté revendiquée + contexte social réel → débat sur le caractère libre et protégé de la décision.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Arguments opposés et vulnérabilité : Ogien, soignants et société » ?",
+          "a": "Ogien, soins palliatifs, pronostic, pression implicite, vulnérabilité. Toujours distinguer l’argument éthique, la pression sociale et le statut légal.",
+          "pages": "1–3 (partie 2)",
+          "topic": "Arguments opposés et vulnérabilité : Ogien, soignants et société",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que désigne la sentience ?",
+          "a": "La capacité à ressentir douleur ou plaisir. Le cours l’inclut parmi les critères philosophiques discutés.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Qu’est-ce qu’une personne ? Organisme, conscience, sentience ».",
+          "a": "Valeur morale attribuée aux capacités personnelles → difficulté d’évaluation dans certaines atteintes neurologiques.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Qu’est-ce qu’une personne ? Organisme, conscience, sentience » ?",
+          "a": "Sentience = capacité d’éprouver des expériences positives et négatives. Distinguer théorie morale, diagnostic neurologique et statut légal.",
+          "pages": "3–4 (partie 2)",
+          "topic": "Qu’est-ce qu’une personne ? Organisme, conscience, sentience",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que signifie commission en éthique ?",
+          "a": "Une action accomplie. Le terme s’oppose à l’omission.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Tuer ou laisser mourir : la différence suffit-elle ? ».",
+          "a": "Commission ou omission → intentions et contextes à examiner → jugement éthique argumenté.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Tuer ou laisser mourir : la différence suffit-elle ? » ?",
+          "a": "Commission = action ; omission = absence d’action. Dans Smith/Jones, l’intention commune rend la simple opposition agir/ne pas agir insuffisante.",
+          "pages": "4–5 (partie 2)",
+          "topic": "Tuer ou laisser mourir : la différence suffit-elle ?",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Que recouvre l’obstination déraisonnable ?",
+          "a": "Des traitements inutiles, disproportionnés ou ne maintenant qu’artificiellement la vie. La disproportion et l’absence de bénéfice sont centrales.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « L’obstination déraisonnable et la décision de limitation des traitements ».",
+          "a": "Évaluation du bénéfice thérapeutique + volonté du malade + cadre collégial pertinent → adaptation des traitements.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « L’obstination déraisonnable et la décision de limitation des traitements » ?",
+          "a": "Critères objectifs et jugement de valeur doivent être explicités. Limiter des traitements non bénéfiques n’est pas abandonner les soins.",
+          "pages": "5–6 (partie 2)",
+          "topic": "L’obstination déraisonnable et la décision de limitation des traitements",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Qu’est-ce qu’une pétition de principe ?",
+          "a": "Un raisonnement qui présuppose la conclusion qu’il doit démontrer. Le reproche moral ne peut être sa propre preuve.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Explique le raisonnement central de « Utilitarisme, regret de l’agent et intention morale ».",
+          "a": "Retentissement possible → question de responsabilité morale → ne pas présupposer la conclusion.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "origin": "rappel_original_ronéo_2026_2027"
+        },
+        {
+          "q": "Quel est le mémo associé à « Utilitarisme, regret de l’agent et intention morale » ?",
+          "a": "Pétition de principe et regret de l’agent sont deux notions distinctes. Regret psychologique n’égale pas nécessairement faute.",
+          "pages": "6–8 (partie 2)",
+          "topic": "Utilitarisme, regret de l’agent et intention morale",
+          "origin": "rappel_original_ronéo_2026_2027"
+        }
+      ],
+      "chapterPractice": [
+        {
+          "qcm": [
+            0,
+            1,
+            2
+          ],
+          "cards": [
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "qcm": [
+            3,
+            4,
+            5
+          ],
+          "cards": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "qcm": [
+            6,
+            7,
+            8
+          ],
+          "cards": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "qcm": [
+            9,
+            10,
+            11
+          ],
+          "cards": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "qcm": [
+            12,
+            13,
+            14
+          ],
+          "cards": [
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "qcm": [
+            15,
+            16,
+            17
+          ],
+          "cards": [
+            15,
+            16,
+            17
+          ]
+        },
+        {
+          "qcm": [
+            18,
+            19,
+            20
+          ],
+          "cards": [
+            18,
+            19,
+            20
+          ]
+        },
+        {
+          "qcm": [
+            21,
+            22,
+            23
+          ],
+          "cards": [
+            21,
+            22,
+            23
+          ]
+        }
+      ],
+      "writing": [
+        {
+          "chapter": 1,
+          "format": "QROC",
+          "q": "Quels éléments fondamentaux permettent de distinguer l’euthanasie de l’aide au suicide et de l’abstention thérapeutique ?",
+          "model": "L’euthanasie, dans la définition éthique du cours, comporte un acte intentionnel visant à mettre fin à la vie au bénéfice présumé de la personne dans une situation jugée insoutenable et irrémédiable. L’aide au suicide se distingue par la personne qui réalise l’acte final. L’abstention ou limitation thérapeutique consiste à ne pas instaurer ou poursuivre des traitements inappropriés, en maintenant l’accompagnement et les soins de confort.",
+          "criteria": [
+            "définition éthique",
+            "acte final",
+            "intention",
+            "limitation des traitements",
+            "soins de confort"
+          ],
+          "pages": "3–4 (partie 1)",
+          "origin": "annale_adaptee_2023_2024",
+          "annaleUrl": "https://drive.google.com/file/d/1kr7BYAa6k22WPz8CLlxGClMvZ6cKTsOu/view",
+          "id": "cm-b2a4b7eaf1ac2b06-redaction-01"
+        },
+        {
+          "chapter": 0,
+          "format": "QROC",
+          "q": "Distinguez les raisonnements utilitariste et déontologique à partir des deux versions du dilemme du tramway.",
+          "model": "Le raisonnement utilitariste compare le bilan des conséquences, notamment les vies sauvées et sacrifiées. Le raisonnement déontologique accorde une place aux devoirs et interdits, dont celui de ne pas tuer directement. Les variantes du levier et de la poussée mettent en évidence un décalage entre bilan numérique et intuition morale, auquel la distance psychologique peut contribuer.",
+          "criteria": [
+            "utilitarisme",
+            "déontologie",
+            "comparaison des variantes",
+            "distance psychologique"
+          ],
+          "pages": "2–3 (partie 1)",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-b2a4b7eaf1ac2b06-redaction-02"
+        },
+        {
+          "chapter": 7,
+          "format": "QROC",
+          "q": "Expliquez la pétition de principe à propos de l’argument de la culpabilité des soignants, puis définissez le regret de l’agent.",
+          "model": "La pétition de principe consiste à tenir pour acquise la conclusion qu’il faudrait justifier. Dire qu’un geste est condamnable parce que celui qui le pratique devrait se sentir coupable peut présupposer le caractère mauvais du geste. Bernard Williams distingue le regret de l’agent : il est possible d’éprouver une peine profonde après une action alors même qu’aucune faute morale ne peut être retenue.",
+          "criteria": [
+            "pétition de principe",
+            "conclusion présupposée",
+            "argument de culpabilité",
+            "regret de l’agent",
+            "absence de faute nécessaire"
+          ],
+          "pages": "7 (partie 2)",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-b2a4b7eaf1ac2b06-redaction-03"
+        },
+        {
+          "chapter": 3,
+          "format": "QR",
+          "q": "Présentez les principaux arguments favorables et défavorables à l’aide à mourir étudiés dans les deux ronéos, en distinguant clairement les plans moral, social et juridique.",
+          "model": "Les arguments favorables soulignent l’autonomie, la volonté de soulager une souffrance réfractaire et la possibilité d’un choix respectueux de la dignité. Des objections rappellent l’incertitude des pronostics, les pressions économiques ou familiales, la vulnérabilité sociale, les effets pour les soignants et l’accès aux soins palliatifs. Le droit organise un cadre de décision, mais sa promulgation ne résout pas ces désaccords philosophiques. Une réponse solide ne confond pas statut légal, argument utilitariste et argument déontologique.",
+          "criteria": [
+            "autonomie et dignité",
+            "souffrance",
+            "vulnérabilité",
+            "soins palliatifs",
+            "incertitude clinique",
+            "différence morale/droit"
+          ],
+          "pages": "1–6 (partie 1 et 2)",
+          "origin": "original_ronéo",
+          "annaleUrl": null,
+          "id": "cm-b2a4b7eaf1ac2b06-redaction-04"
+        }
+      ],
+      "relatedSources": [
+        {
+          "label": "Donner la mort 2, 2026-10-09",
+          "url": "https://drive.google.com/file/d/15XP3gHyHpkt1ACm_aYzBqKkcCYDAWifF/view",
+          "pages": 8
+        }
+      ],
+      "flags": [
+        {
+          "title": "Deux ronéos récentes, une seule entrée du catalogue",
+          "detail": "La partie 1 du 29 septembre et la partie 2 du 9 octobre 2026 sont réunies sous le module historique Éthique : Donner la mort. Les références de pages précisent « partie 1 » ou « partie 2 ». Les sources de l’année 2025-2026 servent uniquement de contrôle."
+        },
+        {
+          "title": "État du droit français (vérification officielle)",
+          "detail": "La loi n° 2026-794 du 18 août 2026 relative au droit à l’aide à mourir a été promulguée. Pour toute décision clinique, consulter le texte officiel sur Légifrance ; le présent cours traite surtout des raisonnements éthiques."
         }
       ]
     }
