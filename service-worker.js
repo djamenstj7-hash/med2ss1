@@ -1,5 +1,5 @@
 /* MED2 S1 · V0.21 — light shell, navigation network-first, offline fallback */
-const CACHE='med2-s1-shell-20261013-v022-bmcp1';
+const CACHE='med2-s1-shell-20261013-v023-bmcp2';
 const SHELL=new URL('./index.html',self.registration.scope).href;
 const ASSETS=['./index.html','./manifest.webmanifest','./data/catalogue.json','./data/examens.json','./data/modalites.json','./data/pedagogie.json','./data/entrainements.json','./icon-192.png','./icon-512.png','./Assets/lb-centre-germinatif.svg','./Assets/lb-maturation.svg','./Assets/snv-circuits.svg','./Assets/snv-pupille.svg','./Assets/snv-synapse.svg','./Assets/variabilite-facteurs.svg','./Assets/variabilite-grossesse-interactions.svg','./Assets/viro-trois-cycles.svg','./Assets/viro-virion-structure.svg','./Assets/dm-superiorite-noninferiorite.svg','./Assets/dm-parcours-ce.svg','./Assets/info-echange-partage.svg','./Assets/info-donnee-sens.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()));});
