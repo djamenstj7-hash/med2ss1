@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <rect width="1200" height="760" rx="24" fill="#fbfaf7"/>
+  <text x="600" y="58" text-anchor="middle" font-size="34" font-weight="700" fill="#1d2a3a">Modèle de Bouchon : 1 + 2 + 3</text>
+  <!-- axes -->
+  <line x1="140" y1="110" x2="140" y2="640" stroke="#4a5563" stroke-width="3"/>
+  <line x1="140" y1="640" x2="1110" y2="640" stroke="#4a5563" stroke-width="3"/>
+  <polygon points="140,98 132,116 148,116" fill="#4a5563"/>
+  <polygon points="1122,640 1104,632 1104,648" fill="#4a5563"/>
+  <text x="70" y="380" text-anchor="middle" font-size="24" fill="#4a5563" transform="rotate(-90 70 380)">Fonction de l’organe</text>
+  <text x="1100" y="682" text-anchor="end" font-size="24" fill="#4a5563">Âge / temps →</text>
+  <!-- threshold -->
+  <rect x="142" y="520" width="966" height="118" fill="#e4572e" opacity="0.10"/>
+  <line x1="142" y1="520" x2="1108" y2="520" stroke="#c0392b" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="160" y="508" font-size="24" font-weight="700" fill="#c0392b">Seuil de décompensation</text>
+  <!-- curve I : vieillissement -->
+  <path d="M150 150 C 400 175, 700 230, 1100 330" fill="none" stroke="#2e86de" stroke-width="7" stroke-linecap="round"/>
+  <!-- curve II : + maladie chronique -->
+  <path d="M520 214 C 650 300, 800 360, 1100 420" fill="none" stroke="#f39c12" stroke-width="7" stroke-linecap="round"/>
+  <!-- curve III : + maladie aiguë -->
+  <path d="M800 355 C 840 360, 860 470, 890 590" fill="none" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="890" cy="590" r="11" fill="#c0392b"/>
+  <!-- labels -->
+  <g font-size="24" font-weight="700">
+    <circle cx="1040" cy="282" r="20" fill="#2e86de"/><text x="1040" y="290" text-anchor="middle" fill="#fff">I</text>
+    <circle cx="1040" cy="372" r="20" fill="#f39c12"/><text x="1040" y="380" text-anchor="middle" fill="#fff">II</text>
+    <circle cx="930" cy="470" r="22" fill="#c0392b"/><text x="930" y="478" text-anchor="middle" fill="#fff">III</text>
+  </g>
+  <!-- reserve arrow -->
+  <line x1="680" y1="300" x2="680" y2="512" stroke="#1d2a3a" stroke-width="3"/>
+  <polygon points="680,292 672,308 688,308" fill="#1d2a3a"/>
+  <polygon points="680,520 672,504 688,504" fill="#1d2a3a"/>
+  <text x="666" y="400" text-anchor="end" font-size="22" fill="#1d2a3a" font-weight="700">Réserves</text>
+  <text x="666" y="427" text-anchor="end" font-size="22" fill="#1d2a3a">fonctionnelles</text>
+  <text x="666" y="454" text-anchor="end" font-size="19" fill="#4a5563">(distance au seuil)</text>
+  <!-- legend -->
+  <g font-size="22" fill="#1d2a3a">
+    <rect x="150" y="690" width="22" height="22" rx="4" fill="#2e86de"/><text x="182" y="709"><tspan font-weight="700">I</tspan> Vieillissement : seul, ne franchit pas le seuil</text>
+    <rect x="150" y="722" width="22" height="22" rx="4" fill="#f39c12"/><text x="182" y="741"><tspan font-weight="700">II</tspan> Maladie chronique</text>
+    <rect x="540" y="722" width="22" height="22" rx="4" fill="#c0392b"/><text x="572" y="741"><tspan font-weight="700">III</tspan> Maladie aiguë = facteur précipitant → décompensation</text>
+  </g>
+</svg>

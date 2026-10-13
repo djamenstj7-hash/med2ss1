@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <rect width="1200" height="760" rx="24" fill="#fbfaf7"/>
+  <text x="600" y="56" text-anchor="middle" font-size="34" font-weight="700" fill="#1d2a3a">Deux autoroutes de la sensibilité</text>
+  <!-- brain -->
+  <ellipse cx="600" cy="150" rx="150" ry="62" fill="#f3d9d2" stroke="#b9877a" stroke-width="3"/>
+  <text x="600" y="158" text-anchor="middle" font-size="24" font-weight="700" fill="#7a4a3e">Cerveau</text>
+  <!-- spinal cord -->
+  <rect x="520" y="212" width="160" height="430" rx="70" fill="#efe6d8" stroke="#b9a68a" stroke-width="3"/>
+  <text x="600" y="672" text-anchor="middle" font-size="22" fill="#6b5b45">Moelle épinière</text>
+  <!-- lanes -->
+  <rect x="548" y="225" width="44" height="405" rx="22" fill="#2e86de" opacity="0.9"/>
+  <rect x="608" y="225" width="44" height="405" rx="22" fill="#d35400" opacity="0.9"/>
+  <g fill="#fff"><polygon points="570,240 556,268 584,268"/><polygon points="570,400 556,428 584,428"/><polygon points="570,560 556,588 584,588"/>
+  <polygon points="630,240 616,268 644,268"/><polygon points="630,400 616,428 644,428"/><polygon points="630,560 616,588 644,588"/></g>
+  <!-- left card lemniscale -->
+  <rect x="40" y="250" width="440" height="330" rx="20" fill="#e8f1fb" stroke="#2e86de" stroke-width="3"/>
+  <text x="62" y="296" font-size="28" font-weight="700" fill="#1a5fa8">Voie lemniscale</text>
+  <text x="62" y="328" font-size="21" fill="#1a5fa8" font-style="italic">« L comme Luxe » : la finesse</text>
+  <g font-size="22" fill="#1d2a3a">
+    <text x="62" y="375">• Tact fin (épicritique)</text>
+    <text x="62" y="412">• Position des segments</text>
+    <text x="84" y="440" font-size="19" fill="#4a5563">proprioception, arthrokinesthésie</text>
+    <text x="62" y="480">• Vibration (pallesthésie)</text>
+    <text x="84" y="508" font-size="19" fill="#4a5563">diapason sur les reliefs osseux</text>
+    <text x="62" y="552" font-size="20" fill="#4a5563">Sensibilité « profonde »</text>
+  </g>
+  <line x1="480" y1="420" x2="546" y2="420" stroke="#2e86de" stroke-width="4"/>
+  <!-- right card spinothalamique -->
+  <rect x="720" y="250" width="440" height="330" rx="20" fill="#fdeee4" stroke="#d35400" stroke-width="3"/>
+  <text x="742" y="296" font-size="28" font-weight="700" fill="#a84300">Voie spinothalamique</text>
+  <text x="742" y="328" font-size="21" fill="#a84300" font-style="italic">(extra-lemniscale) « S comme Survie »</text>
+  <g font-size="22" fill="#1d2a3a">
+    <text x="742" y="375">• Tact grossier (protopathique)</text>
+    <text x="742" y="412">• Douleur</text>
+    <text x="742" y="449">• Température (chaud, froid)</text>
+    <text x="764" y="477" font-size="19" fill="#4a5563">sensibilité thermo-algique</text>
+    <text x="742" y="525" font-size="20" fill="#4a5563">Interroger : sent-il l’eau chaude ?</text>
+  </g>
+  <line x1="654" y1="420" x2="720" y2="420" stroke="#d35400" stroke-width="4"/>
+  <text x="600" y="725" text-anchor="middle" font-size="22" fill="#1d2a3a">Toujours comparer droite et gauche.</text>
+</svg>
