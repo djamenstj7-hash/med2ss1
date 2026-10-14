@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
-<meta name="theme-color" content="#f3f5f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#f8fbfd" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e141e" media="(prefers-color-scheme: dark)">
 <meta name="description" content="MED2 · Semestre 1 — cours réécrits, QCM, QROC, cartes mémoire et entraînement au format d’examen.">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -5107,6 +5107,372 @@ kbd.hint {
     break-after: avoid;
   }
 }
+
+
+/* =====================================================================
+   95 · Refonte UI uniquement — style médical pastel
+   Objectif : embellir l'interface sans modifier le contenu ni les parcours.
+   ===================================================================== */
+:root {
+  --canvas: #f8fbfd;
+  --surface: #ffffff;
+  --surface-2: #fbfdff;
+  --sunken: #f2f6fb;
+  --line: #dce8f0;
+  --line-2: #c7d8e7;
+  --ink: #173150;
+  --ink-2: #35506d;
+  --muted: #687c91;
+  --brand: #173b63;
+  --brand-2: #4b86c6;
+  --primary: #2c5ea9;
+  --primary-hover: #244f90;
+  --accent: #4e8dcb;
+  --accent-ink: #285c97;
+  --accent-soft: #e9f3ff;
+  --accent-line: #bfd6f2;
+  --ok-soft: #e8f6f0;
+  --warn-soft: #fff4df;
+  --ko-soft: #fdebed;
+  --violet-soft: #f2edff;
+  --r: 14px;
+  --r-lg: 22px;
+  --r-xl: 28px;
+  --sh-1: 0 6px 18px rgba(32, 69, 110, 0.06);
+  --sh-2: 0 14px 40px rgba(32, 69, 110, 0.10);
+  --sh-pop: 0 24px 60px rgba(19, 49, 80, 0.18);
+}
+body {
+  background:
+    radial-gradient(900px 420px at -10% -10%, rgba(201, 233, 247, 0.55), transparent 60%),
+    radial-gradient(760px 340px at 110% 8%, rgba(255, 225, 235, 0.45), transparent 58%),
+    linear-gradient(180deg, #f9fcfe 0%, #f5f9fc 40%, #f7fbfd 100%);
+}
+.appbar {
+  background: color-mix(in srgb, var(--canvas) 82%, rgba(255,255,255,0.75));
+  border-bottom-color: rgba(191, 214, 242, 0.75);
+  box-shadow: 0 2px 18px rgba(27, 56, 95, 0.05);
+}
+.brand,
+.nav-brand {
+  gap: 10px;
+}
+.brand-logo {
+  letter-spacing: -0.05em;
+}
+.brand-sub {
+  color: color-mix(in srgb, var(--muted) 92%, white);
+}
+.countdown {
+  background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(242,247,252,0.96));
+  border-color: rgba(191, 214, 242, 0.9);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 6px 16px rgba(27, 56, 95, 0.06);
+}
+.page-head h1,
+.subject-head h1 {
+  color: var(--brand);
+  letter-spacing: -0.03em;
+}
+.section-head h2,
+.section-head h3 {
+  color: var(--brand);
+}
+.card,
+.group,
+.resume-row,
+.task-list,
+.course-list,
+.annales,
+.empty-state,
+.notice,
+.mod-card,
+.exam-item,
+.mastery-row,
+.weak-row {
+  border-radius: var(--r-lg);
+  border-color: rgba(191, 214, 242, 0.95);
+  box-shadow: var(--sh-1);
+}
+.card,
+.group,
+.annales,
+.empty-state {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(248,251,254,0.98));
+}
+.btn {
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(44, 94, 169, 0.14);
+}
+.btn.secondary,
+.btn.ghost,
+.btn.quiet,
+.chip-btn {
+  box-shadow: none;
+}
+.btn.secondary {
+  background: linear-gradient(180deg, #f3f8ff 0%, #e7f1ff 100%);
+  border: 1px solid rgba(191, 214, 242, 0.92);
+}
+.btn.ghost {
+  background: linear-gradient(180deg, #ffffff 0%, #f6f9fd 100%);
+}
+.icon-btn,
+.row-ico,
+.subject-ico,
+.focus-ico,
+.course-num,
+.chap-num,
+.act-ico,
+.empty-ico {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.95);
+}
+.focus-card {
+  padding: 22px 22px 22px 24px;
+  border: 1px solid color-mix(in srgb, var(--t3, var(--accent)) 28%, #d7e7f4);
+  background:
+    radial-gradient(180px 120px at 100% 0%, color-mix(in srgb, var(--t1) 80%, white) 0%, transparent 80%),
+    linear-gradient(180deg, color-mix(in srgb, var(--t1) 52%, white) 0%, #ffffff 76%);
+  box-shadow: var(--sh-2);
+}
+.focus-card::before {
+  left: 16px;
+  right: 16px;
+  top: 0;
+  bottom: auto;
+  width: auto;
+  height: 6px;
+  border-radius: 0 0 999px 999px;
+  background: linear-gradient(90deg, var(--t3, var(--accent)) 0%, color-mix(in srgb, var(--t3, var(--accent)) 50%, white) 100%);
+}
+.focus-card::after {
+  content: "";
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  right: -24px;
+  bottom: -24px;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--t1) 90%, white) 0%, transparent 70%);
+  pointer-events: none;
+}
+.focus-kicker {
+  letter-spacing: 0.01em;
+}
+.resume-row,
+.list-row,
+.subject-row,
+.course-row,
+.task-main {
+  border-radius: 18px;
+}
+.list-row,
+.subject-row,
+.course-row,
+.resume-row {
+  transition: transform var(--t-fast) var(--ease), box-shadow var(--t-fast), background-color var(--t-fast);
+}
+button.list-row:hover:not(:disabled),
+.subject-row:hover,
+.course-row:hover,
+.resume-row:hover,
+.task-main:hover {
+  background: color-mix(in srgb, var(--t1, var(--accent-soft)) 42%, white);
+  transform: translateY(-1px);
+}
+.subject-row {
+  position: relative;
+  min-height: 88px;
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border: 1px solid color-mix(in srgb, var(--t3, var(--accent)) 18%, #dce8f0);
+  border-radius: 24px;
+  box-shadow: var(--sh-1);
+  background:
+    radial-gradient(140px 90px at 100% 100%, color-mix(in srgb, var(--t1) 85%, white) 0%, transparent 75%),
+    linear-gradient(180deg, color-mix(in srgb, var(--t1) 40%, white) 0%, white 78%);
+}
+.subject-row::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(135deg, rgba(255,255,255,0.65) 0%, transparent 40%);
+}
+.subject-row .chev,
+.list-row .chev,
+.resume-row .chev {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.72);
+  color: var(--t4, var(--accent-ink));
+  opacity: 1;
+}
+.subject-ico {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffffff 0%, color-mix(in srgb, var(--t1) 92%, white) 100%);
+  border: 1px solid color-mix(in srgb, var(--t3, var(--accent)) 20%, #dce8f0);
+}
+.subject-pct {
+  width: 82px;
+  padding: 8px 10px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.86);
+  border: 1px solid rgba(191, 214, 242, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+.subject-detail {
+  padding-top: 6px;
+}
+.subject-head {
+  padding: 18px;
+  border-radius: 26px;
+  border: 1px solid color-mix(in srgb, var(--t3, var(--accent)) 16%, #dce8f0);
+  background:
+    radial-gradient(200px 120px at 100% 0%, color-mix(in srgb, var(--t1) 82%, white) 0%, transparent 75%),
+    linear-gradient(180deg, color-mix(in srgb, var(--t1) 38%, white) 0%, #ffffff 78%);
+  box-shadow: var(--sh-1);
+}
+.course-list {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+.course-item + .course-item {
+  border-top: 0;
+}
+.course-item {
+  margin-bottom: 12px;
+}
+.course-row {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid rgba(191, 214, 242, 0.9);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(247,250,253,0.98));
+  box-shadow: var(--sh-1);
+}
+.course-num {
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: linear-gradient(180deg, #ffffff 0%, #eef4fb 100%);
+  border: 1px solid rgba(191,214,242,0.7);
+}
+.annales {
+  padding: 4px 16px;
+}
+.annales > summary {
+  min-height: 56px;
+}
+.nav {
+  left: 12px;
+  right: 12px;
+  bottom: calc(10px + env(safe-area-inset-bottom));
+  border: 1px solid rgba(191, 214, 242, 0.92);
+  border-radius: 26px;
+  background: color-mix(in srgb, #ffffff 88%, rgba(233,243,255,0.78));
+  box-shadow: 0 18px 40px rgba(25, 54, 95, 0.14);
+}
+.navinner {
+  height: calc(var(--tab-h) + 4px);
+  padding: 6px max(6px, env(safe-area-inset-left)) 4px max(6px, env(safe-area-inset-right));
+}
+.nav button[data-action="nav"]:not(.nav-brand) {
+  gap: 5px;
+  border-radius: 18px;
+  color: var(--ink-2);
+}
+.nav .symbol {
+  width: 48px;
+  height: 32px;
+  background: transparent;
+}
+.nav button[aria-current="page"] {
+  color: var(--brand);
+}
+.nav button[aria-current="page"] .symbol {
+  background: linear-gradient(180deg, #f6f9ff 0%, #e7f0ff 100%);
+  color: var(--accent-ink);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 6px 14px rgba(78, 141, 203, 0.18);
+}
+.nav-label {
+  font-size: 11.5px;
+  font-weight: 700;
+}
+.seg {
+  padding: 5px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #f1f5fa 0%, #edf2f8 100%);
+  border: 1px solid rgba(191, 214, 242, 0.7);
+}
+.seg button {
+  border-radius: 13px;
+}
+.seg button.active {
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  color: var(--brand);
+  box-shadow: 0 4px 12px rgba(27, 56, 95, 0.08);
+}
+.badge,
+.tag,
+.count {
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.75);
+}
+.notice,
+.empty-state {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(247,250,253,0.98));
+}
+.reader-bar,
+.reader-body,
+.reader-toc,
+.modal.reader,
+.sheet {
+  border-color: rgba(191, 214, 242, 0.9);
+}
+.reader-bar {
+  background: linear-gradient(180deg, rgba(250,252,255,0.98), rgba(243,248,252,0.98));
+}
+.reader-body {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(249,252,255,0.98));
+}
+.callout,
+.retenir-box,
+.lesson-memory,
+.figure-card,
+.qitem,
+.qroc-card,
+.breakdown li {
+  border-radius: 20px;
+  border-color: rgba(191, 214, 242, 0.9);
+  box-shadow: var(--sh-1);
+}
+@media (max-width: 899px) {
+  #app {
+    padding-bottom: calc(var(--tab-h) + 42px + env(safe-area-inset-bottom));
+  }
+  .shell {
+    padding: 0 14px;
+  }
+  .page-head {
+    margin-top: 18px;
+  }
+}
+@media (min-width: 900px) {
+  .nav {
+    left: 18px;
+    right: 18px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
 </style>
 </head>
 <body>
