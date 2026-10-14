@@ -5108,161 +5108,35 @@ kbd.hint {
   }
 }
 
-
-/* ========================================================================
-   UI uniquement · MED2 Pastel — correctif PWA/iPhone
-   Aucun contenu, bouton, gestionnaire, taille ni position n'est modifié.
-   Les couleurs suivent le thème clair/sombre de l'appareil ou du lecteur.
-   ======================================================================== */
-:root {
-  --canvas: #f7fafc;
-  --surface: #ffffff;
-  --surface-2: #fafdff;
-  --sunken: #edf3f8;
-  --line: #dce7f0;
-  --line-2: #c9d7e4;
-  --ink: #173150;
-  --ink-2: #354e68;
-  --muted: #62778b;
-  --brand: #16385e;
-  --brand-2: #4382bb;
-  --primary: #245b9e;
-  --primary-hover: #1c4a82;
-  --accent: #387ebd;
-  --accent-ink: #245b97;
-  --accent-soft: #e6f2fe;
-  --accent-line: #b8d7ef;
-  --ok-soft: #e5f5ed;
-  --ko-soft: #fce9ed;
-  --warn-soft: #fff3dc;
-  --violet-soft: #f1ecff;
-  --sh-1: 0 3px 12px rgba(23, 56, 94, .06);
-  --sh-2: 0 6px 22px rgba(23, 56, 94, .09);
-  --sh-pop: 0 18px 44px rgba(14, 40, 74, .22);
-}
-:root[data-theme="dark"] {
-  --canvas: #0d1420;
-  --surface: #172233;
-  --surface-2: #1b293a;
-  --sunken: #213246;
-  --line: #2c4055;
-  --line-2: #39516c;
-  --ink: #e8f2f8;
-  --ink-2: #c5d6e3;
-  --muted: #a5b8c9;
-  --brand: #e8f2f8;
-  --brand-2: #8dc3f2;
-  --primary: #397cbb;
-  --primary-hover: #488ccc;
-  --accent: #8bc3f5;
-  --accent-ink: #b0d7fc;
-  --accent-soft: #20364f;
-  --accent-line: #385978;
-  --ok-soft: #193c35;
-  --ko-soft: #432733;
-  --warn-soft: #473b28;
-  --violet-soft: #332d4f;
-  --sh-1: 0 3px 12px rgba(0, 0, 0, .18);
-  --sh-2: 0 6px 22px rgba(0, 0, 0, .23);
-  --sh-pop: 0 18px 44px rgba(0, 0, 0, .52);
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --canvas: #0d1420;
-    --surface: #172233;
-    --surface-2: #1b293a;
-    --sunken: #213246;
-    --line: #2c4055;
-    --line-2: #39516c;
-    --ink: #e8f2f8;
-    --ink-2: #c5d6e3;
-    --muted: #a5b8c9;
-    --brand: #e8f2f8;
-    --brand-2: #8dc3f2;
-    --primary: #397cbb;
-    --primary-hover: #488ccc;
-    --accent: #8bc3f5;
-    --accent-ink: #b0d7fc;
-    --accent-soft: #20364f;
-    --accent-line: #385978;
-    --ok-soft: #193c35;
-    --ko-soft: #432733;
-    --warn-soft: #473b28;
-    --violet-soft: #332d4f;
-    --sh-1: 0 3px 12px rgba(0, 0, 0, .18);
-    --sh-2: 0 6px 22px rgba(0, 0, 0, .23);
-    --sh-pop: 0 18px 44px rgba(0, 0, 0, .52);
-  }
-}
-/* Toutes les surfaces sont construites exclusivement à partir des jetons
-   de thème : aucun fond blanc forcé en mode sombre. */
-body {
-  background: var(--canvas);
-  background-image:
-    radial-gradient(ellipse at 4% -8%, color-mix(in srgb, var(--accent-soft) 55%, transparent), transparent 42%),
-    radial-gradient(ellipse at 100% 18%, color-mix(in srgb, var(--violet-soft) 42%, transparent), transparent 38%);
-}
-.appbar {
-  background: color-mix(in srgb, var(--canvas) 91%, transparent);
-  border-bottom-color: var(--line);
-  box-shadow: 0 2px 15px rgba(29, 64, 104, .045);
-}
-.brand-logo, .page-head h1, .section-head h2, .subject-head h1 {
-  color: var(--brand);
-}
-.card, .group, .focus-card, .subject-row, .course-list, .annales, .task-list,
-.exam-item, .mod-card, .notice, .empty-state, .resume-row {
-  border-color: var(--line);
-  box-shadow: var(--sh-1);
-}
-.card, .group, .annales, .course-list, .task-list, .empty-state {
+/* Fiches d'exhaustivité utile : mise en forme isolée du nouvel onglet. */
+.fiches-exhaustivite { max-width: 1020px; margin: 0 auto; }
+.fiches-exhaustivite .learning-head { margin-bottom: 18px; }
+.fiches-exhaustivite-pages { display: grid; gap: 18px; }
+.fiche-exhaustivite-page {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-xl);
   background: var(--surface);
-}
-.focus-card {
-  background: linear-gradient(145deg,
-    color-mix(in srgb, var(--t1, var(--accent-soft)) 50%, var(--surface)),
-    var(--surface) 80%);
-  border-color: color-mix(in srgb, var(--t3, var(--accent)) 22%, var(--line));
-  box-shadow: var(--sh-2);
-}
-.subject-row {
-  border: 1px solid color-mix(in srgb, var(--t3, var(--accent)) 18%, var(--line));
-  border-radius: var(--r-lg);
-  background: linear-gradient(115deg,
-    color-mix(in srgb, var(--t1, var(--accent-soft)) 55%, var(--surface)),
-    var(--surface) 78%);
   box-shadow: var(--sh-1);
 }
-.subject-row:hover {
-  background: linear-gradient(115deg,
-    color-mix(in srgb, var(--t1, var(--accent-soft)) 72%, var(--surface)),
-    var(--surface) 78%);
+.fiche-exhaustivite-page .fiche-open { background: #fff; border-radius: var(--r-lg); }
+.fiche-exhaustivite-page .fiche-open img { display:block; width: 100%; height: auto; max-height: none; object-fit: contain; }
+.fiche-exhaustivite-page figcaption { margin: 10px 4px 4px; color: var(--ink-2); font-weight: 650; }
+.figure-overlay.fiche-exhaustivite-zoom .fo-stage {
+  display: block;
+  overflow: auto;
+  text-align: center;
+  touch-action: pan-x pan-y;
+  -webkit-overflow-scrolling: touch;
 }
-.subject-head {
-  background: linear-gradient(125deg,
-    color-mix(in srgb, var(--t1, var(--accent-soft)) 30%, var(--canvas)),
-    var(--canvas) 85%);
+.figure-overlay.fiche-exhaustivite-zoom .fo-stage img { display: block; width: 100%; height: auto; max-height: none; margin: auto; }
+.figure-overlay.fiche-exhaustivite-zoom .fo-stage img.zoomed { max-width: none; max-height: none; margin: 0; }
+@media (max-width: 560px) {
+  .fiche-exhaustivite-page { padding: 5px; border-radius: 16px; }
+  .fiche-exhaustivite-page .fiche-open { border-radius: 11px; }
+  .fiches-exhaustivite-pages { gap: 14px; }
 }
-.subject-ico, .focus-ico, .row-ico, .course-num {
-  border-radius: var(--r);
-}
-.nav {
-  background: color-mix(in srgb, var(--surface) 96%, transparent);
-  border-color: var(--line);
-  box-shadow: 0 -5px 25px rgba(29, 64, 104, .06);
-}
-.nav button[aria-current="page"] .symbol {
-  background: var(--accent-soft);
-  color: var(--accent-ink);
-}
-.btn { box-shadow: 0 3px 10px rgba(30, 76, 131, .08); }
-.btn.secondary, .btn.ghost, .btn.quiet, .btn.danger { box-shadow: none; }
-.btn.secondary { border-color: color-mix(in srgb, var(--accent-line) 45%, transparent); }
-.seg { background: var(--sunken); border: 1px solid var(--line); }
-.seg button.active { background: var(--surface); color: var(--brand); }
-.annales, .task-list, .course-list { border-color: var(--line); }
-/* Les surfaces du lecteur sont respectées : pas de changement de couleur de
-   thème propre au lecteur, ni de position/taille/navigation. */
 
 </style>
 </head>
@@ -6879,7 +6753,7 @@ body {
     closeFigure();
     figureOpener = opener || document.activeElement;
     const over = document.createElement("div");
-    over.className = "figure-overlay";
+    over.className = /^Assets\/fiches\/(immuno|sang)-/.test(path) ? "figure-overlay fiche-exhaustivite-zoom" : "figure-overlay";
     over.setAttribute("role", "dialog");
     over.setAttribute("aria-modal", "true");
     over.setAttribute("aria-label", caption ? `Illustration agrandie : ${caption}` : "Illustration agrandie");
@@ -6905,6 +6779,23 @@ body {
       note.textContent = "Illustration indisponible : le fichier n’est pas encore en ligne (vérifie le dossier Assets du dépôt, avec un A majuscule) ou tu es hors connexion.";
       over.querySelector(".fo-stage").appendChild(note);
     });
+    if (over.classList.contains("fiche-exhaustivite-zoom")) {
+      const stage = over.querySelector(".fo-stage");
+      let pinch = null;
+      const dist = (a, b) => Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+      stage.addEventListener("touchstart", (ev) => {
+        if (ev.touches.length === 2) pinch = { distance: dist(ev.touches[0], ev.touches[1]), scale: Number(over.dataset.scale || 1) };
+      }, { passive: true });
+      stage.addEventListener("touchmove", (ev) => {
+        if (!pinch || ev.touches.length !== 2) return;
+        ev.preventDefault();
+        const z = Math.max(1, Math.min(3, pinch.scale * dist(ev.touches[0], ev.touches[1]) / Math.max(1, pinch.distance)));
+        over.dataset.scale = String(z);
+        img.style.width = (z * 100) + "%";
+        img.classList.toggle("zoomed", z > 1.01);
+      }, { passive: false });
+      stage.addEventListener("touchend", (ev) => { if (ev.touches.length < 2) pinch = null; }, { passive: true });
+    }
     over.querySelector('[data-action="figure-close"]').focus();
   }
   function v10Fiche(name) {
@@ -7875,6 +7766,52 @@ body {
       .join("");
     return `${summarySwitch()}<div class="learning-head"><h2>Essentiel et pièges</h2><p class="muted">La version courte du cours, pour une révision rapide : pour chaque chapitre, son essentiel, ses encadrés « À retenir »${traps ? " et les pièges d’examen signalés dans le texte" : ""}. Tout vient du cours, dans le même ordre.</p><p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ${plural(boxes, "encadré")} · ${plural(traps, "piège")}</p></div>${secs}`;
   }
+  /* Fiches d'exhaustivité utile : association stricte aux ID des SIX cours concernés.
+     Aucune donnée de cours/QCM/progression n'est modifiée. */
+  const FICHES_PAR_COURS = Object.freeze({
+  "cm-2cec17e525fe9ab8": [
+    "Assets/fiches/immuno-lb1-01.webp",
+    "Assets/fiches/immuno-lb1-02.webp",
+    "Assets/fiches/immuno-lb1-03.webp",
+    "Assets/fiches/immuno-lb1-04.webp"
+  ],
+  "cm-941317b5505f7438": [
+    "Assets/fiches/immuno-lb2-01.webp",
+    "Assets/fiches/immuno-lb2-02.webp",
+    "Assets/fiches/immuno-lb2-03.webp",
+    "Assets/fiches/immuno-lb2-04.webp"
+  ],
+  "cm-47ea29e3cdab8578": [
+    "Assets/fiches/immuno-tcr-01.webp",
+    "Assets/fiches/immuno-tcr-02.webp",
+    "Assets/fiches/immuno-tcr-03.webp",
+    "Assets/fiches/immuno-tcr-04.webp"
+  ],
+  "cm-f7f97bb68302c0fd": [
+    "Assets/fiches/sang-heme-01.webp",
+    "Assets/fiches/sang-heme-02.webp",
+    "Assets/fiches/sang-heme-03.webp",
+    "Assets/fiches/sang-heme-04.webp"
+  ],
+  "cm-74ff7292f56d7fa1": [
+    "Assets/fiches/sang-anemie1-01.webp",
+    "Assets/fiches/sang-anemie1-02.webp",
+    "Assets/fiches/sang-anemie1-03.webp",
+    "Assets/fiches/sang-anemie1-04.webp"
+  ],
+  "cm-0e4e5f61963a1ce1": [
+    "Assets/fiches/sang-anemie2-01.webp",
+    "Assets/fiches/sang-anemie2-02.webp",
+    "Assets/fiches/sang-anemie2-03.webp",
+    "Assets/fiches/sang-anemie2-04.webp"
+  ]
+});
+  function fichesExhaustiviteHtml(l) {
+    const pages = FICHES_PAR_COURS[l.id];
+    if (!pages?.length) return "";
+    return `<section class="fiches-exhaustivite" aria-label="Fiches d'exhaustivité utile du cours"><div class="learning-head"><h2>Fiches d’exhaustivité utile</h2><p class="muted">${pages.length} pages illustrées propres à ce cours. Touche une page pour l’agrandir, puis zoome avec les boutons + / −, un double-toucher ou en écartant deux doigts.</p></div><div class="fiches-exhaustivite-pages">${pages.map((src, i) => `<figure class="fiche-figure fiche-exhaustivite-page"><button class="fiche-open" type="button" data-action="figure-open" data-id="${esc(src)}" aria-label="Agrandir la fiche page ${i+1} sur ${pages.length}"><img loading="lazy" decoding="async" src="${esc(src)}" alt="Fiche d’exhaustivité utile de ${esc(l.title)}, page ${i+1} sur ${pages.length}" width="1448" height="1086"><span class="fiche-zoom-hint">${svgI(I.search,14)} Agrandir / zoomer</span></button><figcaption>Page ${i+1} sur ${pages.length}</figcaption></figure>`).join("")}</div></section>`;
+  }
+
   function drawLesson(reset = false) {
     const l = lesson(learning.id);
     if (!l) return;
@@ -7883,6 +7820,7 @@ body {
     const tabs = [
       ["story", "Cours", I.book, ""],
       ["summary", "Synthèse", I.spark, ""],
+      ...(FICHES_PAR_COURS[l.id]?.length ? [["fiches", "Fiches", I.file, FICHES_PAR_COURS[l.id].length]] : []),
       ...(learning.tab === "chapter" ? [["chapter", `Chapitre ${learning.chapterIndex + 1}`, I.target, ""]] : []),
       ["qcm", "QCM", I.quiz, qcmN],
       ...(l.qroc?.length ? [["qroc", "QROC", I.pen, l.qroc.length]] : []),
@@ -7933,6 +7871,7 @@ body {
             `<section class="essence-section" data-essence-section="${i}" aria-labelledby="es-${i}"><p class="chapter-kicker">Chapitre ${i + 1} sur ${l.essenceSections.length} <span class="page-ref">PDF p. ${esc(s.pages)}</span></p><h3 id="es-${i}">${esc(s.heading)}</h3><div class="essence-goal"><span>${svgI(I.target, 16)} Pourquoi ce chapitre ?</span><p>${esc(s.goal)}</p></div><div class="essence-reason"><span>${svgI(I.bulb, 16)} Le raisonnement</span><p>${esc(s.logic)}</p></div><div class="essence-reflex"><span>${svgI(I.check, 16)} Le réflexe à garder</span><p>${esc(s.heuristic)}</p></div>${s.examAnchor ? `<div class="essence-anchor"><span>${svgI(I.exam, 16)} Ce que tu dois savoir expliquer</span><p>${esc(s.examAnchor)}</p></div>` : ""}<div class="chapter-action-row"><button class="btn secondary small" data-action="chapter-read" data-id="${i}">${svgI(I.book, 16)} Lire ce chapitre</button><button class="btn small" data-action="chapter-practice" data-id="${i}">${svgI(I.quiz, 16)} Vérifier ma compréhension</button></div></section>`,
         )
         .join("")}`;
+    if (learning.tab === "fiches") body = fichesExhaustiviteHtml(l);
     if (learning.tab === "qcm") {
       const act = activeQcm(l);
       const done = act.filter((i) => learning.quizSession?.[`${l.id}#${i}`] !== undefined).length;
@@ -8231,8 +8170,10 @@ body {
         z = Math.max(1, Math.min(3, id === "plus" ? z + 0.5 : z - 0.5));
         ov.dataset.scale = String(z);
         const im = ov.querySelector("img");
-        im.style.width = z * 100 + "%";
-        im.classList.toggle("zoomed", z > 1);
+        if (im) {
+          im.style.width = z * 100 + "%";
+          im.classList.toggle("zoomed", z > 1);
+        }
       }
       return;
     }
