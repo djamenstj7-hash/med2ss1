@@ -1,39 +1,68 @@
-MED2 — Semestre 1 — fondations V0.1 (11/10/2026)
+MED2 — Semestre 1 — V0.30 (14/10/2026) — refonte de l'interface
 
-IMPORTANT : créer un NOUVEAU dépôt GitHub (par exemple med2-semestre1).
-NE PAS remplacer le dépôt « semiomed2 » de l'ancienne application : ses résultats restent séparés.
+========================================================================
+1. INSTALLATION (nouveau dépôt)
+========================================================================
+1. Créer un dépôt PUBLIC sur GitHub.
+2. Envoyer tous les fichiers EN CONSERVANT LES DOSSIERS :
+   index.html, service-worker.js, manifest.webmanifest, icon-192.png, icon-512.png,
+   README.md, INSTALLATION_ET_LIMITES.txt, le dossier data/ et le dossier Assets/
+   (A majuscule) avec ses sous-dossiers fiches/, fonts/ et photos/.
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Ouvrir l'adresse HTTPS une première fois CONNECTÉ (le mode hors ligne s'installe à ce moment-là).
+5. iPhone : Safari > Partager > Sur l'écran d'accueil. Android : Chrome > ⋮ > Installer l'application.
+6. Sauvegarder régulièrement : Réglages > Mes données > Exporter.
 
-1. Créer le dépôt PUBLIC sur GitHub.
-2. Envoyer, en conservant les dossiers : index.html, service-worker.js, manifest.webmanifest,
-   icon-192.png, icon-512.png et le dossier data/ avec ses 3 fichiers JSON.
-3. Dans Settings > Pages : Deploy from a branch > main > /(root) > Save.
-4. Une fois GitHub Pages publié, ouvrir l'URL HTTPS depuis Safari / Chrome.
-5. Sur iPhone : Safari > Partager > Sur l'écran d'accueil > Ajouter.
-   Sur Android : Chrome > ⋮ > Installer l'application ou Ajouter à l'écran d'accueil.
-6. Sauvegarder souvent la progression : Suivi > Exporter mes résultats.
+========================================================================
+2. METTRE À JOUR UN DÉPÔT EXISTANT
+========================================================================
+- Envoyer les fichiers du paquet de mise à jour en UN SEUL envoi (Add file > Upload files),
+  en glissant les dossiers tels quels : GitHub ajoute ou remplace les fichiers, il n'efface rien.
+- Attendre la fin de la publication (onglet Actions, 1 à 2 minutes), puis rouvrir l'application connecté.
+- Vérifier : Réglages > Installation et hors ligne (fichiers essentiels en cache) et
+  « Vérifier toutes les images des cours » (images absentes du dépôt).
+- La progression n'est pas touchée par une mise à jour (même clé de stockage, même format).
 
-CONTENU ACTUEL (V0.1)
-- 14 matières évaluées dans le calendrier : 8 avec un dossier CM à ce jour.
-- 57 cours magistraux PDF et 44 PDF d'annales répertoriés (noms, non pas leur contenu).
-- Calendrier officiel de novembre / décembre / janvier, avec dates janvier rectifiées.
-- Planificateur adaptatif prototype : rythme 7/14/21 jours ACTIFS, priorité examens,
-  autoévaluation et rappels J+1 / 3 / 7 / 14 / 30.
-- Suivi local et export/import sauvegarde.
-- Aucune leçon narrative ni banque multi-matières certifiée intégrée pour le moment.
-- Les PDF et liens Google Drive privés ne sont PAS intégrés au dépôt public.
+========================================================================
+3. CONTENU ACTUEL
+========================================================================
+- 14 matières au calendrier, 115 ressources recensées.
+- 69 cours rédigés (Sémiologie 15, BMCP 15, BMCT 11, SSH 9, Immunologie 7, Tissu sanguin 6,
+  Informatique médicale 2, Biomédecine quantitative 2, Virologie 2), 484 chapitres.
+- Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
+  évaluation de fin de cours. Au total 3 964 QCM, 897 QROC, 1 764 cartes.
+- Entraînement au format de l'examen : 1 629 QI et 105 dossiers.
+- Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
-MISES À JOUR HEBDOMADAIRES
-- La synchronisation Google Drive n'est PAS automatique. Elle nécessite une étape
-  d'inventaire/validation des nouveaux cours en dehors de l'application.
-- Après vérification, remplacer data/catalogue.json par une nouvelle version.
-- Les nouvelles ressources à identifiant stable rejoindront les missions à la prochaine ouverture.
-- Pour les changements du calendrier, remplacer data/examens.json.
-- Pour les modalités d'évaluation nouvelles, renseigner data/modalites.json puis développer les exercices.
-- Ne pas utiliser de données privées ou de PDF sous droits sans autorisation de publication.
+========================================================================
+4. NOUVEAUTÉS V0.30 (interface uniquement — contenu des cours inchangé)
+========================================================================
+- Ouverture beaucoup plus rapide : index.html passe de plus de 11 Mo à ≈ 370 Ko ; les cours sont lus
+  dans data/ et ne sont plus retéléchargés tant qu'ils n'ont pas changé.
+- Mode hors ligne fiabilisé (un fichier manquant ne bloque plus son installation), espace de
+  stockage stable au lieu de grossir à chaque ouverture.
+- Nouvelle interface : barre d'onglets sur téléphone, barre latérale sur ordinateur, accueil
+  centré sur « la prochaine chose à faire », recherche par cours / chapitre / notion,
+  fiche matière avec modalités d'épreuve, mode sombre.
+- Lecteur : sommaire latéral (ordinateur) ou en feuille (téléphone), reprise au bon chapitre,
+  thèmes de lecture, onglets Cours / Synthèse / QCM / QROC / Cartes / Évaluation / Source.
+- Exercices au clavier (A–E, Entrée, flèches, Espace, 1/2 pour les cartes), corrections
+  annoncées aux lecteurs d'écran, focus conservé.
+- Suivi honnête : uniquement des données réellement enregistrées (activité des 14 derniers
+  jours, chapitres à retravailler, « travaillé » et « réussite » par matière).
+- Accessibilité WCAG 2.2 AA vérifiée automatiquement (axe-core) sur 36 écrans, en clair et en sombre.
 
-LIMITATIONS
-- La « couverture en 7/14/21 jours » concerne un passage actif sur les CM recensés,
-  et non la maîtrise exhaustive de tous leurs détails.
-- La date de prochain rappel repose sur une autoévaluation : elle ne mesure pas une mémoire réelle.
-- Chaque navigateur/appareil conserve sa progression séparément.
-- Le site est une base initiale, PAS encore le remplaçant de Sémio MED2.
+========================================================================
+5. LIMITES
+========================================================================
+- Chaque navigateur et chaque appareil garde sa propre progression : pas de synchronisation
+  (il faudrait un serveur et un compte). Utiliser Exporter / Importer pour passer d'un appareil à l'autre.
+- Le navigateur peut effacer les données d'un site peu utilisé, surtout sur iPhone : installer
+  l'application sur l'écran d'accueil, utiliser « Protéger mes données » dans Réglages et exporter souvent.
+- La première ouverture nécessite une connexion. Les photos de sémiologie (≈ 16 Mo) ne sont pas
+  téléchargées d'avance : chacune reste disponible hors ligne une fois affichée.
+- Les dates de rappel reposent sur l'autoévaluation et les résultats aux exercices : elles
+  n'évaluent pas une mémoire réelle à long terme.
+- La synchronisation avec Google Drive n'est pas automatique : chaque nouveau cours est rédigé,
+  vérifié puis ajouté dans data/ à la main.
+- Les PDF et les liens Google Drive privés ne sont pas publiés dans le dépôt public.
