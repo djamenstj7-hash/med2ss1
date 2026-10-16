@@ -1,15 +1,15 @@
-MED2 — Semestre 1 — V0.30 (14/10/2026) — refonte de l'interface
+MED2 — Semestre 1 — V0.42 (16/10/2026) — hors ligne, séries et PDF
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
 ========================================================================
 1. Créer un dépôt PUBLIC sur GitHub.
 2. Envoyer tous les fichiers EN CONSERVANT LES DOSSIERS :
-   index.html, service-worker.js, manifest.webmanifest, icon-192.png, icon-512.png,
+   index.html, pdf-library.js, service-worker.js, manifest.webmanifest, icon-192.png, icon-512.png,
    README.md, INSTALLATION_ET_LIMITES.txt, le dossier data/ et le dossier Assets/
    (A majuscule) avec ses sous-dossiers fiches/, fonts/ et photos/.
 3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
-4. Ouvrir l'adresse HTTPS une première fois CONNECTÉ (le mode hors ligne s'installe à ce moment-là).
+4. Ouvrir l'adresse HTTPS CONNECTÉ, puis attendre dans Réglages que les cours et images soient téléchargés.
 5. iPhone : Safari > Partager > Sur l'écran d'accueil. Android : Chrome > ⋮ > Installer l'application.
 6. Sauvegarder régulièrement : Réglages > Mes données > Exporter.
 
@@ -20,7 +20,7 @@ MED2 — Semestre 1 — V0.30 (14/10/2026) — refonte de l'interface
   en glissant les dossiers tels quels : GitHub ajoute ou remplace les fichiers, il n'efface rien.
 - Attendre la fin de la publication (onglet Actions, 1 à 2 minutes), puis rouvrir l'application connecté.
 - Vérifier : Réglages > Installation et hors ligne (fichiers essentiels en cache) et
-  « Vérifier toutes les images des cours » (images absentes du dépôt).
+  le téléchargement complet des images ; relancer les fichiers manquants si nécessaire.
 - La progression n'est pas touchée par une mise à jour (même clé de stockage, même format).
 
 ========================================================================
@@ -35,7 +35,16 @@ MED2 — Semestre 1 — V0.30 (14/10/2026) — refonte de l'interface
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.30 (interface uniquement — contenu des cours inchangé)
+4. NOUVEAUTÉS V0.42 (contenu des cours inchangé)
+========================================================================
+- Images : téléchargement préalable des photos, schémas et nouvelles fiches. Rapport d’avancement
+  et reprise depuis Réglages, conservation des anciennes copies en cas de mise à jour incomplète.
+- Choix du nombre de questions avant une évaluation de cours ou une série d’examen.
+- PDF personnels : dans Mes PDF / Source, importer, ouvrir hors ligne, télécharger ou supprimer
+  les documents associés à ce cours sur cet appareil (IndexedDB).
+- Cours suivant ouvre le cours suivant de la même matière.
+
+HISTORIQUE V0.30 (refonte de l’interface)
 ========================================================================
 - Ouverture beaucoup plus rapide : index.html passe de plus de 11 Mo à ≈ 370 Ko ; les cours sont lus
   dans data/ et ne sont plus retéléchargés tant qu'ils n'ont pas changé.
@@ -59,10 +68,13 @@ MED2 — Semestre 1 — V0.30 (14/10/2026) — refonte de l'interface
   (il faudrait un serveur et un compte). Utiliser Exporter / Importer pour passer d'un appareil à l'autre.
 - Le navigateur peut effacer les données d'un site peu utilisé, surtout sur iPhone : installer
   l'application sur l'écran d'accueil, utiliser « Protéger mes données » dans Réglages et exporter souvent.
-- La première ouverture nécessite une connexion. Les photos de sémiologie (≈ 16 Mo) ne sont pas
-  téléchargées d'avance : chacune reste disponible hors ligne une fois affichée.
+- Le premier téléchargement nécessite une connexion. Vérifier sa fin dans Réglages avant
+  de passer hors ligne. Des fichiers manquants sont signalés et peuvent être retéléchargés.
 - Les dates de rappel reposent sur l'autoévaluation et les résultats aux exercices : elles
   n'évaluent pas une mémoire réelle à long terme.
 - La synchronisation avec Google Drive n'est pas automatique : chaque nouveau cours est rédigé,
   vérifié puis ajouté dans data/ à la main.
+- Les PDF importés restent sur cet appareil et ne sont pas inclus dans la sauvegarde JSON des
+  résultats. Conserver les originaux pour les importer sur un autre appareil. Le lecteur PDF dépend
+  du navigateur ; le téléchargement du fichier reste proposé. Les liens Drive nécessitent Internet.
 - Les PDF et les liens Google Drive privés ne sont pas publiés dans le dépôt public.

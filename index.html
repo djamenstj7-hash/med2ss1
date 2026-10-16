@@ -5138,6 +5138,15 @@ kbd.hint {
   .fiches-exhaustivite-pages { gap: 14px; }
 }
 
+/* Préparation des séries : choix libre du nombre de questions, adapté au tactile. */
+.question-count { border: 1px solid var(--line); border-radius: 16px; padding: 18px; margin: 22px 0; min-width: 0; }
+.question-count legend { padding: 0 6px; font-weight: 700; }
+.question-count label { display: block; margin-bottom: 8px; }
+.question-count input { display: block; width: min(100%, 180px); min-height: 46px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; color: inherit; background: var(--surface); font: inherit; }
+.question-count input:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.question-count-presets { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.question-count-presets .chip-btn { min-height: 44px; }
+.question-count .small { margin-bottom: 0; }
 </style>
 </head>
 <body>
@@ -5148,6 +5157,7 @@ kbd.hint {
 <script id="default-catalogue" type="application/json">{"schemaVersion":1,"revision":"2026-10-12-v0192-6modules-complets-qrm","scope":"Supports S1 Ronéo & Juliette au 12 octobre 2026, 69 modules pédagogiques ; anatomie non enrichie.","subjects":[{"id":"semio","name":"Sémiologie","date":"2026-11-04","group":"Examen de novembre","cmCount":15,"annaleCount":14,"contentStatus":"sources_indexees"},{"id":"sang","name":"Tissu sanguin","date":"2026-11-04","group":"Examen de novembre","cmCount":6,"annaleCount":8,"contentStatus":"sources_indexees"},{"id":"immuno","name":"Immunologie","date":"2026-11-04","group":"Examen de novembre","cmCount":7,"annaleCount":10,"contentStatus":"sources_indexees"},{"id":"bmct","name":"BMCT","date":"2026-11-04","group":"Examen de novembre","cmCount":11,"annaleCount":9,"contentStatus":"sources_indexees"},{"id":"anatomie","name":"Anatomie","date":"2026-12-16","group":"Examen de décembre","cmCount":2,"annaleCount":3,"contentStatus":"sources_indexees"},{"id":"bmcp","name":"BMCP","date":"2027-01-05","group":"Examen de janvier","cmCount":15,"annaleCount":0,"contentStatus":"sources_indexees"},{"id":"ssh","name":"SSH","date":"2027-01-06","group":"Examen de janvier","cmCount":9,"annaleCount":0,"contentStatus":"sources_indexees"},{"id":"viro","name":"Virologie","date":"2027-01-05","group":"Examen de janvier","cmCount":2,"annaleCount":0,"contentStatus":"sources_indexees"},{"id":"anglais","name":"Anglais médical","date":"2026-12-16","group":"Examen de décembre","cmCount":0,"annaleCount":0,"contentStatus":"sources_a_completer"},{"id":"informatique","name":"Informatique médicale","date":"2026-12-16","group":"Examen de décembre","cmCount":2,"annaleCount":0,"contentStatus":"sources_indexees"},{"id":"genetique","name":"Génétique médicale","date":"2026-12-16","group":"Examen de décembre","cmCount":0,"annaleCount":0,"contentStatus":"sources_a_completer"},{"id":"quantitative","name":"Biomédecine quantitative","date":"2026-12-16","group":"Examen de décembre","cmCount":2,"annaleCount":0,"contentStatus":"sources_indexees"},{"id":"ecl","name":"ECL Med-2","date":"2026-12-15","group":"Examen de décembre","cmCount":0,"annaleCount":0,"contentStatus":"sources_a_completer"},{"id":"parasito","name":"Parasitologie-mycologie","date":"2027-01-05","group":"Examen de janvier","cmCount":0,"annaleCount":0,"contentStatus":"sources_a_completer"}],"resources":[{"id":"cm-de715b67886d4881","subject":"semio","title":"SÉMIOLOGIE ABORD DE L’EXAMEN.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-f3c1f87a603ee97a","subject":"semio","title":"SÉMIOLOGIE SEMANTIQUE 1 (version définitive).pdf","kind":"cm","status":"source_indexee"},{"id":"cm-9b2dde96a5767cb5","subject":"semio","title":"SÉMIOLOGIE SEMANTIQUE 2 (version définitive).pdf","kind":"cm","status":"source_indexee"},{"id":"cm-0d0e1066fbb95dc7","subject":"semio","title":"SÉMIOLOGIE EXAMEN NEUROLOGIQUE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-4bad03044b50d97a","subject":"semio","title":"SÉMIOLOGIE CARDIOVASCULAIRE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-140d94062b181d01","subject":"semio","title":"SÉMIOLOGIE EXAMEN PNEUMOLOGIQUE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-09299a7d780980fb","subject":"semio","title":"SÉMIOLOGIE DIGESTIVE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-00ad902cbbcfc9ee","subject":"semio","title":"SÉMIOLOGIE UROLOGIQUE NORMALE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-f0b2974154b1b4e7","subject":"semio","title":"SEMIOLOGIE GYNECOLOGIQUE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-4ef5997c951820a2","subject":"semio","title":"SEMIOLOGIE RHUMATO.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-d4b0e96ef7a8b1a7","subject":"semio","title":"SÉMIOLOGIE DE L’ENFANT.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-902a16006f1cb7d3","subject":"semio","title":"SÉMIOLOGIE PERSONNE ÂGÉE .pdf","kind":"cm","status":"source_indexee"},{"id":"cm-16323bb6df6e6573","subject":"semio","title":"SÉMIOLOGIE MÉDICO-LÉGALE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-ef1a54f93d5a2366","subject":"semio","title":"SÉMIOLOGIE DE LA FIN DE VIE.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-67af8b3da656c367","subject":"semio","title":"EXAMEN D'UN TRAUMA DE LA ROUTE","kind":"cm","status":"source_indexee"},{"id":"annale-43bcfdbaf65c4db0","subject":"semio","title":"Sémiologie médico-légale du cadavre.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-9f0a7866c32c12f4","subject":"semio","title":"SÉMIOLOGIE - Particularités sémiologiques du sujet âgé.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-d26e040fb83abe94","subject":"semio","title":"Sémiologie des blessures.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-62d14b9f640e6a31","subject":"semio","title":"Sémiologie ostéo-articulaire.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-27d44223ce51b29f","subject":"semio","title":"Sémiologie digestive normale.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-98fa610eb584e7e9","subject":"semio","title":"SÉMIOLOGIE - Spécificités sémiologiques chez l_enfant.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-cf9756465946a23b","subject":"semio","title":"Sémiologie cardiovasculaire normale.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-c0b12e2fccec1031","subject":"semio","title":"SÉMIOLOGIE - Examen d_un traumatisé de la route et premiers secours.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-697e3f3942724486","subject":"semio","title":"Sémiologie de l_appareil urinaire.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-55ac4ce5a7b581a8","subject":"semio","title":"SÉMIOLOGIE - Sémantique.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-21b10acdc5aea128","subject":"semio","title":"SÉMIOLOGIE - Abord et examen clinique du maladie.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-3ead7a4c4e109e52","subject":"semio","title":"SÉMIOLOGIE - Examen pneumologique du sujet normal.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-7a0947358332ea17","subject":"semio","title":"Sémiologie clinique en gynécologie.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-a262b881ba60f410","subject":"semio","title":"Sémiologie examen clinique du système nerveux.pdf","kind":"annale","status":"source_indexee"},{"id":"cm-22ef8ab1d84a9a4e","subject":"sang","title":"LES CELLULES MATURES DU SANG .pdf","kind":"cm","status":"source_indexee"},{"id":"cm-b60fb75949097685","subject":"sang","title":"MYÉLOGRAMME ET HÉMOGRAMME NORMAUX.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-25910e7347112e7a","subject":"sang","title":"CELLULES SOUCHES ET PROGENITEURS HEMATOPOÏETIQUES.pdf","kind":"cm","status":"source_indexee"},{"id":"annale-c650b97f265ba823","subject":"sang","title":"HÉMATO n°7_8- Principes d’exploration et sémiologie des syndromes hématologiques.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-c8c849138f133f99","subject":"sang","title":"HÉMATO n°6 - Physiologie de l’hémostase primaire et coagulation.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-378921d6be14d646","subject":"sang","title":"HÉMATO n°1 - Cellules souches et progéniteurs hématopoÏétiques.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-38d45f5663ada597","subject":"sang","title":"HÉMATO n°5 - Grands types d’anémie et Arbres décisionnels et cas cliniques.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-8499525c0d32d220","subject":"sang","title":"HEMATO n°10 - Produits sanguins.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-a1796be05287b756","subject":"sang","title":"HEMATO n°9 - Groupes sanguins.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-e149cbe3f63ae2c1","subject":"sang","title":"HÉMATO n°3 - Myélogramme et hémogramme.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-49eb234b2b22d665","subject":"sang","title":"HEMATO n°11 - Principes de base et réglementation de la transfusion.pdf","kind":"annale","status":"source_indexee"},{"id":"cm-47ea29e3cdab8578","subject":"immuno","title":"TCR ET LYMPHOIESE T","kind":"cm","status":"source_indexee"},{"id":"cm-2cec17e525fe9ab8","subject":"immuno","title":"ONTOGENÈSE DES LYMPHOCYTES B","kind":"cm","status":"source_indexee"},{"id":"cm-d61a54f0b33ea533","subject":"immuno","title":"LES CELLULES DENDRITIQUES 2","kind":"cm","status":"source_indexee"},{"id":"cm-9abcbb99036af1b2","subject":"immuno","title":"CELLULES DENDRITIQUES 1","kind":"cm","status":"source_indexee"},{"id":"cm-626b16e1414a733b","subject":"immuno","title":"ORGANES ET CIRCULATION DES CELLULES","kind":"cm","status":"source_indexee"},{"id":"cm-db33f80d6c1658c7","subject":"immuno","title":"ORGANISATION TEMPORELLE DES ACTEURS DE LA RÉPONSE IMMUNITAIRE","kind":"cm","status":"source_indexee"},{"id":"annale-5d076eed63f5b721","subject":"immuno","title":"IMMUNO n°9 - Réponse adaptative T et mémoire.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-055a25e6edafa6b8","subject":"immuno","title":"IMMUNO n°8- Activation et différenciation des cellules B par l’antigène.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-601823d3ffbb380d","subject":"immuno","title":"IMMUNO n°7 - Immunité innée et réponses inflammatoires.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-92a6f64805c888f8","subject":"immuno","title":"IMMUNO n°10- Modification de structure de BCR.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-6ba915d1e009cccb","subject":"immuno","title":"IMMUNO n°11- Réponse immunitaire aux agents infectieux-2.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-39acd31fee96d74b","subject":"immuno","title":"IMMUNO n°3 - Le CMH.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-cd02d19769769fa9","subject":"immuno","title":"IMMUNO n°4 - Ontogenèse des lymphocytes B.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-29d90851ed598398","subject":"immuno","title":"IMMUNO n°5- Thymus et lymphopoïèse T.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-24d2d434ee987ce7","subject":"immuno","title":"IMMUNO n°2 - Organes et structures lymphoïdes du système immunitaire.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-1bf7dddd4c6fcd75","subject":"immuno","title":"IMMUNO n°1 - Organisation temporelle des acteurs de la réponse immunitaire.pdf","kind":"annale","status":"source_indexee"},{"id":"cm-83d3532e68142895","subject":"bmct","title":"SUIVI THÉRAPEUTIQUE PHARMACOLOGIQUE","kind":"cm","status":"cours_pedagogique_disponible"},{"id":"cm-8a0d6c767da975e0","subject":"bmct","title":"PRINCIPES PHARMACOCINETIQUES ET PRESCRIPTION","kind":"cm","status":"cours_pedagogique_disponible"},{"id":"cm-df6d07888f9de364","subject":"bmct","title":"PHARMACOCINÉTIQUE 2","kind":"cm","status":"cours_pedagogique_disponible"},{"id":"cm-cd99ee336ad4170e","subject":"bmct","title":"PHARMACOCINÉTIQUE","kind":"cm","status":"cours_pedagogique_disponible"},{"id":"cm-5577fdfabb1f4a4f","subject":"bmct","title":"PHARAMCODYNAMIE GÉNÉRALE 3","kind":"cm","status":"cours_pedagogique_disponible"},{"id":"cm-ba8ff30e33bd44a2","subject":"bmct","title":"PHARMACODYNAMIE GENREALE 2","kind":"cm","status":"source_indexee"},{"id":"cm-a1455c22b6155e9e","subject":"bmct","title":"PHARMACODYNAMIE GÉNÉRALE 1","kind":"cm","status":"source_indexee"},{"id":"annale-94c6d53f7bb61cee","subject":"bmct","title":"BMCT - Risque médicamenteux, rapport bénéfice-risque.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-1ca9fd9fedf26617","subject":"bmct","title":"BMCT - Principes pharmacocinétiques.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-d685f7faa11d7ddc","subject":"bmct","title":"BMCT - Pharmacologie du métabolisme.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-97b2faa88f42068b","subject":"bmct","title":"BMCT - Facteurs de variabilité de la réponse du médicament.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-6c95c53fa8294bd4","subject":"bmct","title":"BMCT - Pharmacodynamie du SNV.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-b9e444368a3d060a","subject":"bmct","title":"BMCT - Suivi thérapeutique pharmacologique.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-9011b5f97de88261","subject":"bmct","title":"BMCT - Pharmacodynamie générale.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-35c2b9a11b3ff15c","subject":"bmct","title":"BMCT - Pharmacologie du système immunitaire.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-ea7cc5f445dd2f28","subject":"bmct","title":"BMCT - Pharmacologie de la neurotransmission.pdf","kind":"annale","status":"source_indexee"},{"id":"cm-3b630800019865f4","subject":"anatomie","title":"TOPOGRAPHIE MEMBRE SUP 2","kind":"cm","status":"source_indexee"},{"id":"cm-aab7a1d05b72e0a6","subject":"anatomie","title":"TOPOGRAPHIE DU MEMBRE SUP","kind":"cm","status":"source_indexee"},{"id":"annale-d9294722a43cba55","subject":"anatomie","title":"Anatomie du membre INF et SUP.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-c9705a6aa77ef631","subject":"anatomie","title":"Anatomie du membre INF.pdf","kind":"annale","status":"source_indexee"},{"id":"annale-ca4ca9afe87e2260","subject":"anatomie","title":"Anatomie du membre SUP.pdf","kind":"annale","status":"source_indexee"},{"id":"cm-6d627e77c7f9c3c6","subject":"bmcp","title":"THÉRAPIE CIBLÉE, MORT CELLULAIRE ET SÉNESCENCE CELLULAIRE","kind":"cm","status":"source_indexee"},{"id":"cm-7d3b5df322bdd61e","subject":"bmcp","title":"MORT CELLULAIRE 2","kind":"cm","status":"source_indexee"},{"id":"cm-a7015f26c0d0ba15","subject":"bmcp","title":"MORT CELLULAIRE 1","kind":"cm","status":"source_indexee"},{"id":"cm-14ade23d6eed80bc","subject":"bmcp","title":"MÉTABOLISME DES PROTÉINES","kind":"cm","status":"source_indexee"},{"id":"cm-33784883ba375f64","subject":"bmcp","title":"MÉTABOLISME GLUCIDIQUE","kind":"cm","status":"source_indexee"},{"id":"cm-7cdd116892e98be9","subject":"bmcp","title":"MÉTABOLISME ÉNERGÉTIQUE","kind":"cm","status":"source_indexee"},{"id":"cm-f4f93c08df6bbb46","subject":"bmcp","title":"MÉTABOLISME LIPIDIQUE","kind":"cm","status":"source_indexee"},{"id":"cm-1bb435518266383a","subject":"bmcp","title":"DEPISTAGE BIOCHIMIQUE MALADIE MÉTABOLIQUE","kind":"cm","status":"source_indexee"},{"id":"cm-46985393d93043f1","subject":"bmcp","title":"INSULINE : RÉCEPTEUR, SIGNALISATION ET PATHOLOGIE 2","kind":"cm","status":"source_indexee"},{"id":"cm-da7ac6c64fd7c13a","subject":"bmcp","title":"INSULINE: RÉCEPTEUR, SIGNALISATION ET PATHOLOGIE","kind":"cm","status":"source_indexee"},{"id":"cm-17d937af59a76936","subject":"bmcp","title":"MÉTABOLISME GÉNÉRAL CELLULAIRE 1","kind":"cm","status":"source_indexee"},{"id":"cm-5d88827ca74b8467","subject":"bmcp","title":"MÉTABOLISME GÉNÉRAL CELLULAIRE 2","kind":"cm","status":"source_indexee"},{"id":"cm-b30aafe19bfb6e8b","subject":"bmcp","title":"RÔLE DU STRESS OXYDANT EN PATHOLOGIE 1","kind":"cm","status":"source_indexee"},{"id":"cm-386e94efc8f29819","subject":"bmcp","title":"RÔLE DU STRESS OXYDANT EN PATHOLOGIE 2","kind":"cm","status":"source_indexee"},{"id":"cm-e10df979bd70a41b","subject":"bmcp","title":"LA CELLULE UN CARREFOUR DU MÉTABOLISME","kind":"cm","status":"source_indexee"},{"id":"cm-b2a4b7eaf1ac2b06","subject":"ssh","title":"ÉTHIQUE: DONNER LA MORT","kind":"cm","status":"source_indexee"},{"id":"cm-805e80053cdb437d","subject":"ssh","title":"CAUSALITÉ EN MÉDECINE 3","kind":"cm","status":"source_indexee"},{"id":"cm-d6955def610bfbd1","subject":"ssh","title":"LITTÉRATURE 1","kind":"cm","status":"source_indexee"},{"id":"cm-76303527bdaf2375","subject":"ssh","title":"ÉPISTÉMOLOGIE : CAUSALITÉ EN MÉDECINE 2","kind":"cm","status":"source_indexee"},{"id":"cm-ccaf38a1efdb9bd3","subject":"ssh","title":"ÉPISTÉMOLOGIE : CAUSALITÉ EN MÉDECINE 1","kind":"cm","status":"source_indexee"},{"id":"cm-155b6628607c7570","subject":"ssh","title":"HISTOIRE DE LA MÉDECINE 4.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-6a225f1ff1a57109","subject":"ssh","title":"HISTOIRE DE LA MÉDECINE 3.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-92e51fcb0663ec84","subject":"ssh","title":"HISTOIRE DE LA MÉDECINE 2.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-2aa6612fb797e2ce","subject":"ssh","title":"HISTOIRE DE LA MÉDECINE 1.pdf","kind":"cm","status":"source_indexee"},{"id":"cm-f7f97bb68302c0fd","subject":"sang","title":"MÉTABOLISME DE L’HEME","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1oYhVkZeMT2FUAuZKM8I1Zw3SAk1W8TCV/view"},{"id":"cm-74ff7292f56d7fa1","subject":"sang","title":"ANÉMIES ET ARBRE DÉCISIONNEL 1","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1qsCLFRVK0csrtgkesk08kdFJpRpR-xo6/view"},{"id":"cm-0e4e5f61963a1ce1","subject":"sang","title":"(ANÉMIE) ET ARBRE DÉCISIONNEL 2","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1G0CEtX8HWHOqXcS-vBuuopTJWQiXYSu8/view"},{"id":"cm-941317b5505f7438","subject":"immuno","title":"ONTOGENÈSE DES LYMPHOCYTE B 2","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1EksLCASaxgQ1vZkcvxLVSlhGCQBIvdcV/view"},{"id":"cm-3f5628e6652b3bc3","subject":"bmct","title":"PHARMACOLOGIE DU SYSTÈME NERVEUX VÉGÉTATIFS","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/19fejHiXzKB8Tn0z2UjtI9puB6zkjXBZ4/view"},{"id":"cm-d6a1dda4aa3812f2","subject":"bmct","title":"PHARMACOLOGIE DU SYSTÈME NERVEUX VÉGÉTATIFS 2","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1ge2aw5SnKxJk__QL69t4NxDB-RpzsdSs/view"},{"id":"cm-490c633d40d3412c","subject":"bmct","title":"FACTEURS ET VARIABILITÉS DE RÉPONSES AUX MÉDICAMENTS 1","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1dyGP2svDqN_3rZQ5LD95w6qAyfbC8Mto/view"},{"id":"cm-6c28b05fb0c96e9f","subject":"bmct","title":"FACTEURS DE VARIABILITÉS DE RÉPONSES AUX MÉDICAMENTS 2","kind":"cm","status":"source_indexee","url":"https://drive.google.com/file/d/1j8VGkfComRGkXRm-d9-aYxwJ9eHb7-lN/view"},{"id":"cm-48e271641f0f9332","subject":"informatique","title":"INFORMATIQUE EN SANTÉ 1","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/1kid7qeOc59zsfFdqiA_EG4XqhetvPH_R/view"},{"id":"cm-4f9953d4bf538343","subject":"informatique","title":"INFORMATIQUE EN SANTÉ 2","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/1eIlPWKmXBvCaSMBGpWpF9a_9Z7mBa1Dh/view"},{"id":"cm-1d28074cb495b152","subject":"quantitative","title":"ÉVALUATION DES DISPOSITIFS MÉDICAUX 1","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/1DykdTfrcYa9h0NlUYemxNo6CXtjRpdT8/view"},{"id":"cm-b13a2ce7fad39733","subject":"quantitative","title":"ÉVALUATION DES DISPOSITIFS MÉDICAUX 2","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/1ESUjhbxfrwGLDbHya1xSCLS2JgRQDN3b/view"},{"id":"cm-5137e49eca158d11","subject":"viro","title":"STRUCTURE ET COMPORTEMENT 1","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/1wG2YZFdUeP_qFqI0OcCKR1eQBsBe5yrd/view"},{"id":"cm-c2f72ff1470696b9","subject":"viro","title":"STRUCTURE ET COMPORTEMENT 2","kind":"cm","status":"module_complet","url":"https://drive.google.com/file/d/172Y2VIbzWY6EUe3FnDKrpO-E1Svo6cGX/view"}],"sourceNotice":"Les PDF restent hébergés sur Drive. Les 69 cours pédagogiques comprennent des exercices originaux et leurs sources ; les ressources simplement indexées ne sont pas présentées comme des modules complets."}</script>
 <script id="default-examens" type="application/json">{"schemaVersion":1,"timezone":"Europe/Paris","revision":"2026-10-11-v06-retour-5-6-janvier","exams":[{"id":"nov-semio","date":"2026-11-04","start":"09:00","end":"09:50","subject":"semio","title":"Sémiologie générale"},{"id":"nov-sang","date":"2026-11-04","start":"09:50","end":"10:50","subject":"sang","title":"Tissu sanguin — bases générales"},{"id":"nov-immuno","date":"2026-11-04","start":"14:00","end":"15:00","subject":"immuno","title":"Système immunitaire — bases"},{"id":"nov-bmct","date":"2026-11-04","start":"15:00","end":"16:30","subject":"bmct","title":"BMCT"},{"id":"dec-ecl","date":"2026-12-15","start":null,"end":null,"subject":"ecl","title":"ECL Med-2"},{"id":"dec-anglais","date":"2026-12-16","start":"09:00","end":"09:45","subject":"anglais","title":"Anglais"},{"id":"dec-info","date":"2026-12-16","start":"09:45","end":"10:15","subject":"informatique","title":"Informatique médicale"},{"id":"dec-gen","date":"2026-12-16","start":"10:15","end":"11:00","subject":"genetique","title":"Génétique médicale"},{"id":"dec-bq","date":"2026-12-16","start":"14:00","end":"15:00","subject":"quantitative","title":"Biomédecine quantitative"},{"id":"dec-anat","date":"2026-12-16","start":"15:10","end":"15:40","subject":"anatomie","title":"Anatomie — 1re partie"},{"id":"jan-bmcp","date":"2027-01-05","start":"09:00","end":"11:00","subject":"bmcp","title":"BMCP"},{"id":"jan-viro","date":"2027-01-05","start":"14:00","end":"15:00","subject":"viro","title":"Virologie"},{"id":"jan-parasito","date":"2027-01-05","start":"15:00","end":"15:45","subject":"parasito","title":"Parasitologie-mycologie"},{"id":"jan-ssh","date":"2027-01-06","start":"09:00","end":"10:30","subject":"ssh","title":"SSH (santé-société-humanité)"}],"notice":"Dates de janvier confirmées de nouveau par l’utilisateur le 11 octobre 2026 : mardi 5 et mercredi 6 janvier."}</script>
 <script id="default-modalites" type="application/json">{"schemaVersion":1,"revision":"2026-10-11-v06-clarifications-QI-QCM-semiologie","source":{"title":"Coefficients — MED2, semestre 1 2026/2027","page":47,"transcription":"Photographie du tableau fournie dans la conversation le 11/10/2026"},"totalPoints":600,"definitions":{"QI":"Question individuelle : indépendante d’un dossier ; peut être au format QRU, QRM, QROC, etc. selon la discipline.","QRM":"Question à réponses multiples : plusieurs propositions peuvent être correctes.","QRU":"Question à réponse unique : une seule proposition correcte.","QROC":"Question à réponse ouverte courte.","QR":"Question rédactionnelle, réponse généralement plus développée.","DC":"Dossier clinique : une situation commune reliée à plusieurs questions, potentiellement de formats différents.","schema":"Schéma à annoter.","dissection":"Évaluation des dissections, contrôle continu.","CC":"Contrôle continu (format exact non précisé dans le tableau)."},"note":"QI désigne la structure de la question, pas une réponse unique. Sémiologie : uniquement des QCM individuels selon les précisions de l’étudiant ; la répartition QRU/QRM n’est pas précisée. Les autres formats restent définis matière par matière.","subjectModes":{"anatomie":{"name":"Anatomie — première partie","duration":"0h30","ects":2,"coefficient":2,"points":40,"components":[{"label":"Schéma à annoter","percent":60,"type":"schema","context":"examen final"},{"label":"Évaluation des dissections","percent":40,"type":"dissection","context":"contrôle continu"}]},"semio":{"name":"Sémiologie générale","duration":"0h50","ects":2,"coefficient":2,"points":40,"components":[{"label":"QI · QCM uniquement (répartition QRU/QRM non précisée)","percent":100,"type":"QI","context":"épreuve","responseFormats":["QCM"]}]},"ssh":{"name":"Santé – Société – Humanité","duration":"1h30","ects":3,"coefficient":3,"points":60,"components":[{"label":"QR","percent":30,"type":"QR","context":"épreuve"},{"label":"QROC","percent":70,"type":"QROC","context":"épreuve"}]},"anglais":{"name":"Anglais — première partie","duration":"0h45","ects":2,"coefficient":2,"points":40,"components":[{"label":"QRM et QRU","percent":50,"type":["QRM","QRU"],"context":"examen final"},{"label":"Contrôle continu (format non précisé)","percent":50,"type":"CC","context":"contrôle continu"}]},"quantitative":{"name":"Biomédecine quantitative","duration":"1h00","ects":3,"coefficient":3,"points":60,"components":[{"label":"QRM et QRU","percent":null,"type":["QRM","QRU"],"context":"épreuve"}]},"bmcp":{"name":"Bases moléculaires et cellulaires des pathologies","duration":"2h00","ects":3,"coefficient":3,"points":60,"components":[{"label":"QI","percent":70,"type":"QI","context":"épreuve"},{"label":"DC","percent":30,"type":"DC","context":"épreuve"}]},"bmct":{"name":"Bases moléculaires, cellulaires et tissulaires des traitements médicamenteux","duration":"1h30","ects":3,"coefficient":3,"points":60,"components":[{"label":"QI","percent":50,"type":"QI","context":"épreuve"},{"label":"DC","percent":50,"type":"DC","context":"épreuve"}]},"genetique":{"name":"Génétique médicale","duration":"0h45","ects":2,"coefficient":2,"points":40,"components":[{"label":"QRM et QRU","percent":null,"type":["QRM","QRU"],"context":"épreuve"}]},"sang":{"name":"Tissu sanguin — bases générales","duration":"1h00","ects":2,"coefficient":1.5,"points":30,"components":[{"label":"QI","percent":50,"type":"QI","context":"épreuve"},{"label":"DC","percent":50,"type":"DC","context":"épreuve"}]},"immuno":{"name":"Système immunitaire — bases générales","duration":"1h00","ects":2,"coefficient":1.5,"points":30,"components":[{"label":"QI","percent":50,"type":"QI","context":"épreuve"},{"label":"DC","percent":50,"type":"DC","context":"épreuve"}]},"parasito":{"name":"Parasitologie-mycologie","duration":"0h45","ects":1,"coefficient":1.5,"points":30,"components":[{"label":"QRM et QRU","percent":50,"type":["QRM","QRU"],"context":"épreuve"},{"label":"QROC","percent":50,"type":"QROC","context":"épreuve"}]},"viro":{"name":"Virologie","duration":"1h00","ects":1,"coefficient":1.5,"points":30,"components":[{"label":"QI","percent":100,"type":"QI","context":"épreuve"}]},"informatique":{"name":"Informatique médicale","duration":"0h30","ects":1,"coefficient":1,"points":20,"components":[{"label":"QI","percent":100,"type":"QI","context":"épreuve"}]},"ecl":{"name":"ECL n° 1","duration":null,"ects":3,"coefficient":3,"points":60,"components":[{"label":"Modalités à consulter sur Moodle","percent":null,"type":"pending","context":"non précisées"}]}}}</script>
+<script src="./pdf-library.js"></script>
 <script>(() => {
   "use strict";
   const basePath = "./";
@@ -5194,7 +5204,7 @@ kbd.hint {
     writingIndex: 0,
     writingReveal: false,
   };
-  const APP_VERSION = "V0.30";
+  const APP_VERSION = "V0.42";
   const lesson = (id) => pedagogie.lessons?.[id];
   const defaultState = {
     pace: 14,
@@ -5526,6 +5536,22 @@ kbd.hint {
     const perDay = days ? Math.ceil(W / days) : W;
     return { W, days, avail, onTrack: W <= avail, possible: Math.min(TOUR_CAP, Math.max(minTours, TOUR_TARGET) + extra), eta, perDay, counts, minTours };
   }
+  function courseExamIsComplete(id, result) {
+    if (!result || result.total <= 0) return false;
+    // Les sauvegardes antérieures à la sélection du nombre gardent leur interprétation.
+    if (Number.isFinite(result.available) && result.total < result.available) return false;
+    const l = lesson(id);
+    if (l && Number.isFinite(result.chaptersCovered) && result.chaptersCovered < l.sections.length) return false;
+    return true;
+  }
+  function lastCompleteCourseExam(id) {
+    const current = st.courseExamResults?.[id];
+    if (courseExamIsComplete(id, current)) return current;
+    const history = st.courseExamHistory?.[id] || [];
+    for (let i = history.length - 1; i >= 0; i--)
+      if (courseExamIsComplete(id, history[i])) return history[i];
+    return null;
+  }
   function evidence(id) {
     const t = today();
     let qa = 0, qok = 0, cards = 0, cgood = 0;
@@ -5536,7 +5562,9 @@ kbd.hint {
     const fin = (st.courseExamResults || {})[id];
     const final = fin && fin.date === t ? fin : null;
     let pct = null, basis = "";
-    if (final) (pct = Math.round((100 * final.score) / Math.max(1, final.total))), (basis = "évaluation du cours");
+    if (final) {
+      if (courseExamIsComplete(id, final)) (pct = Math.round((100 * final.score) / Math.max(1, final.total))), (basis = "évaluation complète du cours");
+    }
     else if (qa >= 3) (pct = Math.round((100 * qok) / qa)), (basis = `${qa} QCM faits aujourd’hui`);
     else if (cards >= 5) (pct = Math.round((100 * cgood) / cards)), (basis = `${cards} cartes revues aujourd’hui`);
     const suggest = pct === null ? null : pct >= 75 ? "maitrise" : pct >= 50 ? "moyen" : "revoir";
@@ -6008,12 +6036,12 @@ kbd.hint {
   }
   function courseStatus(r) {
     const m = gradeOf(r.id),
-      ex = (st.courseExamResults || {})[r.id];
-    if ((ex && ex.score / Math.max(1, ex.total) >= 0.7) || (m.step || 0) >= 2)
+      ex = lastCompleteCourseExam(r.id);
+    if ((courseExamIsComplete(r.id, ex) && ex.score / Math.max(1, ex.total) >= 0.7) || (m.step || 0) >= 2)
       return "done";
     const started =
       m.count > 0 ||
-      ex ||
+      st.courseExamResults?.[r.id] ||
       Object.keys(st.quizAnswers || {}).some((k) =>
         k.startsWith(r.id + "#"),
       ) ||
@@ -6297,7 +6325,7 @@ kbd.hint {
         k = courseStatus(r),
         fin = st.courseExamResults?.[r.id];
       const parts = l ? [plural(l.sections.length, "chapitre"), `${lessonMinutes(r)} min`, `${activeQcm(l).length} QCM`] : ["Leçon à venir · source sur Drive"];
-      return `<li class="course-item status-${k}"><button class="course-row" data-action="${l ? "open-lesson" : "open-mission"}" data-id="${r.id}"><span class="course-num num" aria-hidden="true">${i + 1}</span><span class="course-main"><b>${esc(l?.title || r.title)}</b><small>${parts.join(" · ")}</small></span><span class="course-state">${statusBadge(k)}${fin ? `<span class="score num" title="Dernière évaluation du cours">${Math.round(((20 * fin.score) / Math.max(1, fin.total)) * 10) / 10}/20</span>` : ""}${l ? tourPips(r.id) : ""}</span></button>${l ? `<button class="icon-btn course-recall" data-action="open-mission" data-id="${r.id}" aria-label="Rappel actif : ${esc(l.title)}" title="Rappel actif et autoévaluation">${svgI(I.bulb, 19)}</button>` : ""}</li>`;
+      return `<li class="course-item status-${k}"><button class="course-row" data-action="${l ? "open-lesson" : "open-mission"}" data-id="${r.id}"><span class="course-num num" aria-hidden="true">${i + 1}</span><span class="course-main"><b>${esc(l?.title || r.title)}</b><small>${parts.join(" · ")}</small></span><span class="course-state">${statusBadge(k)}${fin ? `<span class="score num" title="${courseExamIsComplete(r.id, fin) ? "Dernière évaluation du cours" : `Série de ${plural(fin.total, "question")}`}">${Math.round(((20 * fin.score) / Math.max(1, fin.total)) * 10) / 10}/20${courseExamIsComplete(r.id, fin) ? "" : ` · ${fin.total} q.`}</span>` : ""}${l ? tourPips(r.id) : ""}</span></button>${l ? `<button class="icon-btn course-recall" data-action="open-mission" data-id="${r.id}" aria-label="Rappel actif : ${esc(l.title)}" title="Rappel actif et autoévaluation">${svgI(I.bulb, 19)}</button>` : ""}</li>`;
     };
     return `<section class="subject-detail tone-${tone}" id="subject-detail"><button class="back-link" data-action="close-subject">${svgI(I.back, 18)} Cours</button><header class="subject-head"><span class="subject-ico lg">${icon(s.id, 28)}</span><div class="subject-head-txt"><h1>${esc(s.name)}</h1><p>${ex ? `Examen ${esc(shortDate(ex.date))}${diff(ex.date) >= 0 ? ` · J−${diff(ex.date)}` : ""}` : "Date d’examen à préciser"}</p></div>${x.total ? `<div class="ring" style="--p:${x.pct}" role="img" aria-label="Progression ${x.pct} %"><span class="num">${x.pct}<small>%</small></span></div>` : ""}</header><div class="subject-format"><p><span class="muted">Épreuve :</span> ${esc(m ? examFormats(s.id) : "modalités à préciser")}</p><ul class="facts" aria-label="Modalités d’examen">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>${next || train ? `<div class="subject-actions">${next ? `<button class="btn" data-action="open-lesson" data-id="${next.id}">${svgI(I.play, 15)} ${courseStatus(next) === "doing" ? "Continuer" : "Commencer"} : ${esc(shorten(lesson(next.id).title, 44))}</button>` : ""}${train ? `<button class="btn secondary" data-action="training-open" data-id="${s.id}">${svgI(I.exam, 18)} S’entraîner au format examen</button>` : ""}</div>` : ""}${x.total ? `<p class="subject-counts"><span><i class="dot done"></i>${plural(x.done, "maîtrisé")}</span><span><i class="dot doing"></i>${x.doing} en cours</span><span><i class="dot todo"></i>${x.todo} à découvrir</span>${x.due ? `<span class="due">${plural(x.due, "rappel")} à faire</span>` : ""}</p>` : ""}<div class="section-head"><h2>Cours</h2><span class="muted num">${courses.length}</span></div>${courses.length ? `<ol class="course-list">${courses.map(row).join("")}</ol>` : `<div class="empty-state"><p><b>Aucun cours indexé pour cette matière.</b></p><p class="muted">Les cours apparaîtront ici dès leur ajout au catalogue de la ronéo.</p></div>`}<p class="legend-line muted">${tourPips("__none__")} Les pastilles indiquent les tours validés dans le plan (comprendre, consolider, s’évaluer). ${svgI(I.bulb, 14)} ouvre le rappel actif du cours.</p><details class="annales"><summary>Annales repérées <span class="muted num">${annales.length}</span></summary><p class="muted">Les questions d’entraînement au format examen s’appuient sur l’analyse de ces annales ; les fichiers eux-mêmes restent sur ton Drive.</p><ul class="file-list">${annales.map((r) => `<li>${svgI(I.file, 16)}<span>${esc(r.title)}</span></li>`).join("") || "<li>Aucun fichier d’annales ici.</li>"}</ul></details></section>`;
   }
@@ -6354,14 +6382,14 @@ kbd.hint {
           }
         const fins = cms()
           .filter((r) => r.subject === s.id)
-          .map((r) => st.courseExamResults?.[r.id])
+          .map((r) => lastCompleteCourseExam(r.id))
           .filter(Boolean);
         const avg = fins.length ? Math.round((fins.reduce((a, f) => a + (20 * f.score) / Math.max(1, f.total), 0) / fins.length) * 10) / 10 : null;
         return { s, total, done, ok, fins: fins.length, avg };
       });
     const rowHtml = (x) => {
       const rate = x.done ? pctOf(x.ok, x.done) : null;
-      return `<div class="mastery-row tone-${TONE[x.s.id] || "sky"}"><span class="subject-ico sm">${icon(x.s.id, 18)}</span><div class="mastery-main"><div class="mastery-top"><b>${esc(x.s.name)}</b>${x.avg !== null ? `<span class="badge">${String(x.avg).replace(".", ",")}/20 · ${plural(x.fins, "évaluation")}</span>` : ""}</div><div class="mastery-cols"><div><span class="mini-label">Travaillé</span>${meterA(pctOf(x.done, x.total), `Questions travaillées en ${x.s.name}`)}<span class="num muted">${x.done}/${x.total}</span></div><div><span class="mini-label">Réussite</span><span class="rate ${rate === null ? "" : tonePct(rate)} num">${rate === null ? "—" : rate + " %"}</span></div></div></div></div>`;
+      return `<div class="mastery-row tone-${TONE[x.s.id] || "sky"}"><span class="subject-ico sm">${icon(x.s.id, 18)}</span><div class="mastery-main"><div class="mastery-top"><b>${esc(x.s.name)}</b>${x.avg !== null ? `<span class="badge">${String(x.avg).replace(".", ",")}/20 · ${plural(x.fins, "évaluation complète", "évaluations complètes")}</span>` : ""}</div><div class="mastery-cols"><div><span class="mini-label">Travaillé</span>${meterA(pctOf(x.done, x.total), `Questions travaillées en ${x.s.name}`)}<span class="num muted">${x.done}/${x.total}</span></div><div><span class="mini-label">Réussite</span><span class="rate ${rate === null ? "" : tonePct(rate)} num">${rate === null ? "—" : rate + " %"}</span></div></div></div></div>`;
     };
     const weak = weakChapters(mm);
     const weakHtml = weak.length
@@ -6384,9 +6412,9 @@ kbd.hint {
       .map(([id, r]) => {
         const l = lesson(id),
           n20 = Math.round(((20 * r.score) / Math.max(1, r.total)) * 10) / 10;
-        return `<button class="list-row tone-${TONE[l?.subject] || "sky"}" ${l ? `data-action="plan-open" data-id="${id}|final"` : "disabled"}><span class="dot-tone" aria-hidden="true"></span><span class="list-txt"><b>${esc(l?.title || id)}</b><small>${esc(relDay(r.date))} · ${plural((st.courseExamHistory?.[id] || []).length, "tentative")}</small></span><span class="rate ${tonePct((100 * r.score) / Math.max(1, r.total))} num">${String(n20).replace(".", ",")}/20</span></button>`;
+        return `<button class="list-row tone-${TONE[l?.subject] || "sky"}" ${l ? `data-action="plan-open" data-id="${id}|final"` : "disabled"}><span class="dot-tone" aria-hidden="true"></span><span class="list-txt"><b>${esc(l?.title || id)}</b><small>${esc(relDay(r.date))} · ${plural((st.courseExamHistory?.[id] || []).length, "tentative")} · ${courseExamIsComplete(id, r) ? "Évaluation complète" : `Série de ${plural(r.total, "question")}`}</small></span><span class="rate ${tonePct((100 * r.score) / Math.max(1, r.total))} num">${String(n20).replace(".", ",")}/20</span></button>`;
       })
-      .join("")}</div>` : `<div class="empty-state small"><p class="muted">Aucune évaluation enregistrée. Dans un cours, l’onglet « Évaluation » propose une épreuve sur l’ensemble des chapitres.</p></div>`}</section><section class="section" aria-labelledby="save-h"><div class="section-head"><h2 id="save-h">Sauvegarde</h2></div><div class="card"><p class="muted">Ta progression est enregistrée <b>uniquement dans ce navigateur, sur cet appareil</b>. Exporte une sauvegarde régulièrement, et avant de changer de téléphone ou de navigateur.</p><div class="actions"><button class="btn" data-action="export">${svgI(I.download, 18)} Exporter mes résultats</button><button class="btn secondary" data-action="import-state">${svgI(I.upload, 18)} Importer une sauvegarde</button></div></div></section></main>`;
+      .join("")}</div>` : `<div class="empty-state small"><p class="muted">Aucune évaluation enregistrée. Dans un cours, l’onglet « Évaluation » permet de choisir le nombre de questions tirées dans le cours.</p></div>`}</section><section class="section" aria-labelledby="save-h"><div class="section-head"><h2 id="save-h">Sauvegarde</h2></div><div class="card"><p class="muted">Ta progression est enregistrée <b>uniquement dans ce navigateur, sur cet appareil</b>. Exporte une sauvegarde régulièrement, et avant de changer de téléphone ou de navigateur.</p><div class="actions"><button class="btn" data-action="export">${svgI(I.download, 18)} Exporter mes résultats</button><button class="btn secondary" data-action="import-state">${svgI(I.upload, 18)} Importer une sauvegarde</button></div></div></section></main>`;
   }
   function settings() {
     const ap = (id, label, ico) => `<button type="button" class="${appearance === id ? "active" : ""}" aria-pressed="${appearance === id}" data-action="appearance" data-id="${id}">${svgI(ico, 18)}<span>${label}</span></button>`;
@@ -6394,19 +6422,86 @@ kbd.hint {
       .map(([id, m]) => `<div class="mod-item"><b>${esc(m.name)}</b>${evalInfo(id)}</div>`)
       .join("")}</div></details></div></section><section class="section" aria-labelledby="old-h"><div class="section-head"><h2 id="old-h">Sémio MED2</h2></div><div class="card"><p class="muted">L’ancienne application de sémiologie reste accessible séparément. MED2 S1 utilise une autre clé de stockage, sans toucher à ses sauvegardes.</p><button class="btn ghost" data-action="open-semio">${svgI(I.external, 17)} Ouvrir Sémio MED2</button></div></section><p class="footnote center">MED2 · Semestre 1 · ${APP_VERSION}</p></main>`;
   }
+  let offlineProgress = null;
+  let offlineDownload = null;
+  async function offlineWorkerMessage(type, onProgress) {
+    if (!("serviceWorker" in navigator)) throw new Error("Ce navigateur ne propose pas le stockage hors ligne.");
+    let registration = await navigator.serviceWorker.getRegistration();
+    if (!registration) {
+      registerWorker();
+      registration = await Promise.race([
+        navigator.serviceWorker.ready,
+        new Promise((_, reject) => setTimeout(() => reject(new Error("L’installation est encore en cours. Réessaie dans un instant.")), 60000)),
+      ]);
+    }
+    const worker = navigator.serviceWorker.controller || registration?.active;
+    if (!worker) throw new Error("Le téléchargement initial est en cours. Garde cette page ouverte et reste connecté.");
+    return new Promise((resolve, reject) => {
+      const channel = new MessageChannel();
+      let timer;
+      const finish = (error, value) => {
+        clearTimeout(timer);
+        channel.port1.close();
+        if (error) reject(error);
+        else resolve(value);
+      };
+      const arm = () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => finish(new Error("Le téléchargement n’a pas répondu. Recharge l’application en ligne puis réessaie.")), type === "OFFLINE_STATUS" ? 1800 : 30000);
+      };
+      channel.port1.onmessage = ({ data }) => {
+        if (data.type === "OFFLINE_PROGRESS") {
+          arm();
+          onProgress?.(data);
+        } else if (data.type === "OFFLINE_ERROR") finish(new Error(data.message || "Téléchargement interrompu."));
+        else if (data.type === "OFFLINE_STATUS" || data.type === "OFFLINE_COMPLETE") finish(null, data);
+      };
+      arm();
+      worker.postMessage({ type }, [channel.port2]);
+    });
+  }
+  function showOfflineProgress(message) {
+    offlineProgress = message;
+    const text = `Téléchargement hors ligne : ${message.done} / ${message.total} fichiers vérifiés. Garde cette page ouverte et reste connecté.`;
+    const out = document.getElementById("files-check") || document.getElementById("offline-download-status");
+    if (out) {
+      out.setAttribute("role", "status");
+      out.textContent = text;
+    }
+    document.querySelectorAll('[data-action="check-files"]').forEach((button) => { button.disabled = true; });
+  }
+  async function latestOfflineReport() {
+    try {
+      const status = await offlineWorkerMessage("OFFLINE_STATUS");
+      if (status.progress?.type === "OFFLINE_PROGRESS") offlineProgress = status.progress;
+      return status.report;
+    } catch {}
+    /* Ancien worker pendant sa mise à jour : lire le rapport le plus récent, pas un cache arbitraire. */
+    try {
+      const reports = await Promise.all((await caches.keys()).filter((name) => name.startsWith("med2-s1-")).map(async (name) => {
+        const response = await (await caches.open(name)).match(new URL("./__installation.json", location.href).href);
+        return response ? response.json() : null;
+      }));
+      return reports.filter(Boolean).sort((a, b) => String(b.at).localeCompare(String(a.at)))[0] || null;
+    } catch { return null; }
+  }
   async function settingsStatus() {
     const box = document.getElementById("install-status");
     if (!box) return;
     const sw = "serviceWorker" in navigator ? await navigator.serviceWorker.getRegistration().catch(() => null) : null;
-    let report = null;
-    try {
-      const r = await caches.match(new URL("./__installation.json", location.href).href);
-      if (r) report = await r.json();
-    } catch {}
-    const offline = !!(sw && sw.active && navigator.serviceWorker.controller);
-    const missing = report?.missing || [];
+    const report = await latestOfflineReport();
+    if (!box.isConnected) return;
+    const active = !!(sw?.active && navigator.serviceWorker.controller);
+    const verified = report?.schemaVersion === 2;
+    const missing = verified ? report.missing || [] : [];
+    const pending = new Map((report?.failed || []).map((item) => [item.path, item.reason]));
+    missing.forEach((path) => { if (!pending.has(path)) pending.set(path, "À télécharger"); });
     const line = (ok, txt) => `<li class="${ok ? "ok" : "ko"}">${svgI(ok ? I.checkCircle : I.alert, 18)}<span>${txt}</span></li>`;
-    box.innerHTML = `<ul class="check-list">${line(offline, offline ? "Mode hors ligne actif : l’application et les cours s’ouvrent sans connexion." : "Mode hors ligne inactif pour l’instant. Il s’active après un premier chargement complet en ligne (site publié en HTTPS).")}${report ? line(!missing.length, missing.length ? `${plural(missing.length, "fichier")} attendu${missing.length > 1 ? "s" : ""} absent${missing.length > 1 ? "s" : ""} du site publié :` : `${report.total} fichiers essentiels disponibles hors ligne.`) : ""}</ul>${missing.length ? `<ul class="missing-list">${missing.map((m) => `<li><code>${esc(m.replace(/^\.\//, ""))}</code></li>`).join("")}</ul><p class="muted">Dépose ces fichiers dans le dépôt GitHub, en respectant les dossiers (le « A » d’Assets est en majuscule).</p>` : ""}<div class="actions"><button class="btn secondary small" data-action="check-files">${svgI(I.search, 16)} Vérifier toutes les images des cours</button></div><div id="files-check"></div><p class="footnote">Version ${APP_VERSION}${report ? ` · installée le ${esc(new Date(report.at).toLocaleDateString("fr-FR"))}` : ""}</p>`;
+    const availability = verified
+      ? missing.length ? `${plural(missing.length, "fichier")} ne ${missing.length > 1 ? "sont" : "est"} pas encore disponible${missing.length > 1 ? "s" : ""} hors ligne.`
+        : `${report.available ?? report.total} fichiers de l’application, cours et illustrations disponibles hors ligne.`
+      : "Le téléchargement complet des cours et des images n’a pas encore été vérifié.";
+    box.innerHTML = `<ul class="check-list">${line(active, active ? "Le mode hors ligne est activé sur cet appareil." : sw?.installing ? "Installation en cours. Garde cette page ouverte et reste connecté." : "La première installation nécessite une connexion et un site en HTTPS.")}${line(verified && !missing.length, availability)}</ul>${pending.size ? `<p class="muted">${plural(pending.size, "fichier")} à télécharger ou à actualiser. Les copies déjà présentes sont conservées. Reconnecte-toi puis relance le téléchargement.</p><details><summary>Voir les fichiers concernés</summary><ul class="missing-list">${[...pending].map(([path, reason]) => `<li><code>${esc(path.replace(/^\.\//, ""))}</code> — ${esc(reason)}</li>`).join("")}</ul></details>` : ""}<p class="muted" id="offline-download-status" role="status">${offlineProgress ? `Téléchargement hors ligne : ${offlineProgress.done} / ${offlineProgress.total} fichiers vérifiés…` : "Télécharge les cours et toutes leurs images avant de couper la connexion. Tes PDF importés sont conservés séparément sur cet appareil."}</p><div class="actions"><button class="btn secondary small" data-action="check-files" ${offlineDownload || offlineProgress ? "disabled" : ""}>${svgI(I.download, 16)} ${verified && !pending.size ? "Vérifier les fichiers hors ligne" : "Télécharger / réessayer le hors ligne"}</button></div><div id="files-check" aria-live="polite"></div><p class="footnote">Version ${APP_VERSION}${report?.at ? ` · dernière vérification le ${esc(new Date(report.at).toLocaleDateString("fr-FR"))}` : ""}</p>`;
     const sbox = document.getElementById("storage-status");
     if (sbox && navigator.storage?.estimate) {
       const est = await navigator.storage.estimate().catch(() => null);
@@ -6414,33 +6509,30 @@ kbd.hint {
       sbox.innerHTML = `<p class="muted">${est ? `Espace utilisé par le site : ${(est.usage / 1e6).toFixed(1).replace(".", ",")} Mo. ` : ""}${persisted ? "Stockage protégé : le navigateur ne l’effacera pas pour libérer de la place." : "Le navigateur peut effacer ces données s’il manque de place."}</p>${persisted || !navigator.storage.persist ? "" : `<button class="btn ghost small" data-action="persist">${svgI(I.shield, 16)} Protéger mes données sur cet appareil</button>`}`;
     }
   }
-  async function checkFiles() {
-    const out = document.getElementById("files-check");
-    if (!out) return;
-    const paths = new Set();
-    for (const l of Object.values(pedagogie.lessons || {}))
-      for (const s of l.sections || []) for (const f of s.figures || []) if (f.src) paths.add(f.src);
-    for (const v of Object.values(V10_VISUALS)) paths.add(v.src);
-    const list = [...paths];
-    const missing = [];
-    let n = 0;
-    out.innerHTML = `<p class="muted" role="status">Vérification de ${list.length} images…</p>`;
-    const worker = async () => {
-      while (list.length) {
-        const p = list.shift();
-        try {
-          const r = await fetch(p, { method: "HEAD", cache: "no-store" });
-          if (!r.ok) missing.push(p);
-        } catch {
-          missing.push(p);
-        }
-        n++;
+  async function startOfflineDownload(silent = false) {
+    if (offlineDownload) return offlineDownload;
+    if (navigator.onLine === false) {
+      if (!silent) toast("Reconnecte-toi pour télécharger les fichiers manquants. Les fichiers déjà enregistrés restent accessibles.");
+      return;
+    }
+    offlineDownload = (async () => {
+      try {
+        showOfflineProgress({ type: "OFFLINE_PROGRESS", done: 0, total: 0 });
+        const result = await offlineWorkerMessage("CACHE_COURSES", showOfflineProgress);
+        if (!silent) toast(result.report.complete ? "Cours et images disponibles hors ligne." : "Téléchargement partiel : tu peux réessayer dans les réglages.");
+        return result.report;
+      } catch (error) {
+        if (!silent) toast(error.message);
+      } finally {
+        offlineProgress = null;
+        offlineDownload = null;
+        settingsStatus();
       }
-    };
-    await Promise.all([worker(), worker(), worker(), worker()]);
-    out.innerHTML = missing.length
-      ? `<p class="status-line ko" role="status">${svgI(I.alert, 16)} ${plural(missing.length, "image")} introuvable${missing.length > 1 ? "s" : ""} sur ${n} :</p><ul class="missing-list">${missing.map((m) => `<li><code>${esc(m)}</code></li>`).join("")}</ul>`
-      : `<p class="status-line ok" role="status">${svgI(I.checkCircle, 16)} Les ${n} images des cours sont bien en ligne.</p>`;
+    })();
+    return offlineDownload;
+  }
+  async function checkFiles() {
+    return startOfflineDownload();
   }
 
   /* V0.6 — structure d'épreuve indépendante du format de réponse */
@@ -6455,7 +6547,7 @@ kbd.hint {
       });
     return s._active;
   }
-  function trainItems() {
+  function trainAvailableItems() {
     const set = trainSet();
     if (!set) return [];
     /* V0.23 · ordre de probabilité (★ possible → ★★★ très probable), tri stable */
@@ -6469,10 +6561,10 @@ kbd.hint {
         .map((x, i) => [x, i])
         .sort((a, b) => (ord === "cours" ? lessonPos(a[0]) - lessonPos(b[0]) : key(a[0]) - key(b[0])) || a[1] - b[1])
         .map((x) => x[0]);
-    return training.mode === "qi"
+    const items = training.mode === "qi"
       ? sortBy(set.qi)
       : sortBy(set.cases).flatMap((c) =>
-          c.questions.map((q) => ({
+          c.questions.filter((q) => !q.retired).map((q) => ({
             ...q,
             prob: c.prob || q.prob,
             caseTitle: c.title,
@@ -6480,6 +6572,11 @@ kbd.hint {
             caseId: c.id,
           })),
         );
+    return [...new Map(items.map((q) => [q.id, q])).values()];
+  }
+  function trainItems() {
+    const selected = new Set(training.itemIds || []);
+    return trainAvailableItems().filter((q) => selected.has(q.id));
   }
   function openTraining(subj, mode = "qi") {
     uiGrid = false;
@@ -6490,6 +6587,8 @@ kbd.hint {
       selected: [],
       sessionAnswers: {},
       order: training.order || "cours",
+      count: training.count || 20,
+      itemIds: null,
     };
     drawTraining(true);
   }
@@ -6513,6 +6612,16 @@ kbd.hint {
       const l = Object.values(pedagogie.lessons || {}).filter((x) => x.subject === key);
       const total = l.reduce((n, x) => n + activeQcm(x).length, 0);
       modal.innerHTML = `<div class="modalbg" data-action="close-modal"><div class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="ts-h" tabindex="-1"><div class="sheet-grabber" aria-hidden="true"></div><div class="row between"><span class="badge">${esc(subject(key).name)}</span><button class="icon-btn" data-action="close-modal" aria-label="Fermer">${svgI(I.close, 20)}</button></div><h2 id="ts-h">Entraînement de ${esc(subject(key).name)}</h2>${boot.trainingError ? `<div class="notice warn">${svgI(I.offline, 18)}<p>La banque d’entraînement n’a pas pu être chargée (${esc(boot.trainingError)}). Reconnecte-toi puis rouvre l’application.</p></div>` : ""}<p class="muted">${total} QCM sont disponibles dans les cours de cette matière.</p><div class="group">${l.map((x) => `<button class="list-row" data-action="training-semio-lesson" data-id="${esc(x.id)}"><span class="list-txt"><b>${esc(x.title)}</b><small>${activeQcm(x).length} QCM</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`).join("")}</div></div></div>`;
+      return;
+    }
+    if (!training.itemIds) {
+      const available = trainAvailableItems().length;
+      const activeCases = (set.cases || []).length;
+      keepFocus(() => {
+        modal.innerHTML = `<div class="modalbg exam-bg" data-action="close-modal"><div class="modal exam" role="dialog" aria-modal="true" aria-labelledby="train-setup-h" tabindex="-1">${examTop(subject(key).name, "Préparer ma série")}<div class="exam-body"><h2 id="train-setup-h">Entraînement au format d’examen</h2><div class="seg" role="group" aria-label="Type de questions"><button type="button" class="${training.mode === "qi" ? "active" : ""}" aria-pressed="${training.mode === "qi"}" data-action="train-mode" data-id="qi">Questions indépendantes <span class="count num">${set.qi.length}</span></button>${activeCases ? `<button type="button" class="${training.mode === "dc" ? "active" : ""}" aria-pressed="${training.mode === "dc"}" data-action="train-mode" data-id="dc">Dossiers <span class="count num">${activeCases}</span></button>` : ""}</div><p class="muted">Choisis la longueur de ta série. Les questions sont tirées sans doublon ; la correction apparaît après chaque réponse.${training.mode === "dc" ? " Pour les dossiers, le nombre porte sur les questions ; chaque question conserve sa vignette clinique." : ""}</p>${available ? questionCountHtml("train", available, training.count) : `<p class="muted">Aucune question disponible pour ce format.</p>`}</div><div class="exam-footer"><button type="button" class="btn primary-cta" data-action="train-start" ${available ? "" : "disabled"}>${svgI(I.exam, 18)} Démarrer la série</button></div></div></div>`;
+      });
+      const el = modal.querySelector(".modal");
+      if (el) el.scrollTop = reset ? 0 : before;
       return;
     }
     const items = trainItems(),
@@ -6583,14 +6692,16 @@ kbd.hint {
     if (r.bottom > limit) el.scrollBy({ top: Math.min(r.bottom - limit, r.top - 120), behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   }
   function missionDialog(r) {
+    window.Med2Pdf?.unmount?.();
     st.currentMission = r.id;
     const m = gradeOf(r.id);
     const l = lesson(r.id);
     modal.innerHTML = `<div class="modalbg" data-action="close-modal"><div class="modal sheet" role="dialog" aria-modal="true" aria-labelledby="md-h" tabindex="-1"><div class="sheet-grabber" aria-hidden="true"></div><div class="row between"><span class="badge">${stage(r)}</span><button class="icon-btn" data-action="close-modal" aria-label="Fermer">${svgI(I.close, 20)}</button></div><h2 id="md-h">${esc(l?.title || r.title)}</h2><p class="muted">${esc(subject(r.subject).name)}</p>${
       l
         ? `<div class="action-grid"><button class="btn" data-action="open-lesson" data-id="${r.id}">${svgI(I.book, 18)} Lire le cours</button><button class="btn secondary" data-action="quick-quiz" data-id="${r.id}">${svgI(I.quiz, 18)} QCM</button><button class="btn secondary" data-action="quick-cards" data-id="${r.id}">${svgI(I.cards, 18)} Cartes</button></div>`
-        : `<div class="notice">${svgI(I.info, 18)}<p><strong>Source indexée, leçon à venir.</strong> Pour étudier ce cours, ouvre pour l’instant le document dans ta ronéo Google Drive : il n’est pas reproduit dans ce site.</p></div>`
+        : `<div class="notice">${svgI(I.info, 18)}<p><strong>Source indexée, leçon à venir.</strong> Pour étudier ce cours, ouvre pour l’instant le document dans ta ronéo Google Drive : il n’est pas reproduit dans ce site.</p></div><section id="mission-pdfs" class="card section" aria-label="PDF joints au cours"></section>`
     }${l?.qroc?.length ? `<div class="recall-box"><h3>${svgI(I.pen, 18)} Rappel actif en QROC</h3><p>Réponds aux ${l.qroc.length} QROC du cours par mots-clés, sans relire, puis autoévalue-toi ci-dessous.</p><button class="btn secondary" data-action="plan-open" data-id="${r.id}|qroc">Ouvrir les QROC du cours</button></div>` : `<div class="recall-box"><h3>${svgI(I.bulb, 18)} Mini-défi de restitution</h3><ol><li>Sans relire, cite trois idées majeures de ce cours.</li><li>Explique une relation, une définition ou un mécanisme avec tes propres mots.</li><li>Repère une notion incertaine, puis vérifie-la dans la source.</li></ol></div>`}<p class="muted">Autoévalue ce que tu as réellement restitué, pas le temps passé à lire :</p><div class="choice-list"><button class="choicebtn" data-action="grade" data-id="good">${svgI(I.checkCircle, 20)}<span>Restitué sans aide<small>prochain rappel plus espacé</small></span></button><button class="choicebtn" data-action="grade" data-id="partial">${svgI(I.alert, 20)}<span>Partiellement restitué<small>même intervalle</small></span></button><button class="choicebtn" data-action="grade" data-id="forgot">${svgI(I.refresh, 20)}<span>Oublié, à revoir bientôt<small>rappel dès demain</small></span></button></div><p class="muted small">${m.nextDue ? "Prochain rappel actuellement prévu : " + esc(fmtDay(m.nextDue)) : "Aucune date de rappel enregistrée."}</p></div></div>`;
+    if (!l) window.Med2Pdf?.mount(document.getElementById("mission-pdfs"), { courseId: r.id, courseTitle: r.title });
   }
   function planValidateSheet(key) {
     const [id, tour, mode] = key.split("|");
@@ -6598,7 +6709,7 @@ kbd.hint {
     if (!r) return;
     const ev = evidence(id);
     const facts = [
-      ev.final ? `Évaluation du cours : <strong>${ev.final.score}/${ev.final.total}</strong>` : "",
+      ev.final ? `${courseExamIsComplete(id, ev.final) ? "Évaluation du cours" : `Série de ${plural(ev.final.total, "question")}`} : <strong>${ev.final.score}/${ev.final.total}</strong>${courseExamIsComplete(id, ev.final) ? "" : " · résultat limité à cette série, sans suggestion de maîtrise du cours"}` : "",
       ev.qa ? `QCM aujourd’hui : <strong>${ev.qok}/${ev.qa}</strong> justes` : "",
       ev.cards ? `Cartes aujourd’hui : <strong>${ev.cgood}/${ev.cards}</strong> sues` : "",
     ].filter(Boolean);
@@ -6707,8 +6818,23 @@ kbd.hint {
   function registerWorker() {
     if (workerRegistered || !("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;
     workerRegistered = true;
-    /* Enregistré après le chargement des cours : l'installation réutilise les fichiers déjà téléchargés. */
-    navigator.serviceWorker.register("./service-worker.js").catch(() => {});
+    navigator.serviceWorker.addEventListener("message", ({ data }) => {
+      if (data?.type === "OFFLINE_PROGRESS") showOfflineProgress(data);
+      if (data?.type === "OFFLINE_COMPLETE") {
+        offlineProgress = null;
+        settingsStatus();
+      }
+    });
+    navigator.serviceWorker.addEventListener("controllerchange", () => { settingsStatus(); });
+    window.addEventListener("online", () => { startOfflineDownload(true); });
+    /* Chaque ouverture connectée découvre aussi les nouvelles illustrations ajoutées aux JSON. */
+    navigator.serviceWorker.register("./service-worker.js").then(() => navigator.serviceWorker.ready).then(() => {
+      startOfflineDownload(true);
+      settingsStatus();
+    }).catch(() => {
+      workerRegistered = false;
+      settingsStatus();
+    });
   }
   function toast(message) {
     const root = document.getElementById("toast-root") || document.body;
@@ -6776,7 +6902,7 @@ kbd.hint {
       const note = document.createElement("p");
       note.className = "fo-error";
       note.setAttribute("role", "alert");
-      note.textContent = "Illustration indisponible : le fichier n’est pas encore en ligne (vérifie le dossier Assets du dépôt, avec un A majuscule) ou tu es hors connexion.";
+      note.textContent = "Cette illustration n’est pas disponible sur cet appareil. Reconnecte-toi, puis télécharge les images dans Réglages › Installation et hors ligne.";
       over.querySelector(".fo-stage").appendChild(note);
     });
     if (over.classList.contains("fiche-exhaustivite-zoom")) {
@@ -6809,6 +6935,7 @@ kbd.hint {
   }
   window.v10OpenImage = v10OpenImage;
   const closeModal = () => {
+    window.Med2Pdf?.unmount?.();
     modal.innerHTML = "";
     st.currentMission = null;
     uiGrid = false;
@@ -6833,6 +6960,8 @@ kbd.hint {
       quizDraft: {},
       quizPage: 0,
       finalDraft: {},
+      finalItems: null,
+      finalCount: 20,
       finalSubmitted: false,
       finalPage: 0,
       chapterIndex: 0,
@@ -7298,32 +7427,45 @@ kbd.hint {
     }${result ? `<p class="status-line ${result.result === "good" ? "ok" : "warn"}">${svgI(result.result === "good" ? I.checkCircle : I.refresh, 16)} Dernière autoévaluation : ${result.result === "good" ? "maîtrisé" : "à retravailler"} · ${esc(relDay(result.date))}</p>` : ""}<div class="quiz-pagination"><button class="btn secondary" data-action="writing-prev" ${n === 0 ? "disabled" : ""}>${svgI(I.back, 16)} Précédente</button><span class="muted num">${n + 1} / ${list.length}</span><button class="btn" data-action="writing-next" ${n === list.length - 1 ? "disabled" : ""}>Suivante ${svgI(I.next, 16)}</button></div></article>`;
   }
 
-  // V0.19.5 : évaluation transversale distincte des QCM et des exercices par chapitre.
-  function finalCourseItems(l) {
-    const groups = (l.sections || []).map((s, c) =>
-      lessonChapter(l, c).qcm.filter((i) => l.qcm?.[i]),
-    );
-    /* V0.24 · toutes les questions au format d'examen (bankId) sont incluses en premier,
-       puis le tour des chapitres complète avec les QCM du cours */
-    const bankIdx = groups.flat().filter((i) => l.qcm[i].bankId);
-    const bankN = bankIdx.length;
-    const target = bankN
-      ? Math.min(36 + bankN, bankN + Math.max(l.sections.length, Math.min(12, activeQcm(l).length - bankN)))
-      : Math.min(36, Math.max(l.sections.length * 2, Math.min(24, l.qcm.length)));
-    const selected = [...bankIdx],
-      used = new Set(bankIdx);
-    // Round-robin guarantees coverage of every chapter before adding another question to any chapter.
-    const slots = groups.map((g, c) => {
-      const rest = g.filter((i) => !l.qcm[i].bankId),
-        off = rest.length ? (c * 7 + l.id.length) % rest.length : 0;
-      return [...rest.slice(off), ...rest.slice(0, off)];
-    });
-    let round = 0;
-    while (selected.length < target && round < l.qcm.length + 1) {
+  function questionLimit(requested, total) {
+    if (!total) return 0;
+    if (requested === "all") return total;
+    const n = Number(requested);
+    return Math.min(total, Math.max(1, Number.isFinite(n) ? Math.floor(n) : Math.min(20, total)));
+  }
+  function shuffledQuestions(items, random = Math.random) {
+    const out = items.slice();
+    for (let i = out.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [out[i], out[j]] = [out[j], out[i]];
+    }
+    return out;
+  }
+  function questionCountHtml(scope, total, requested) {
+    const count = questionLimit(requested, total);
+    return `<fieldset class="question-count"><legend>Nombre de questions</legend><label for="${scope}-question-count">Choisir entre 1 et ${total}</label><input id="${scope}-question-count" data-question-count="${scope}" type="number" inputmode="numeric" min="1" max="${total}" step="1" required value="${count}" aria-describedby="${scope}-question-help"><div class="question-count-presets" role="group" aria-label="Choix rapide du nombre de questions">${[5, 10, 20].filter((n) => n < total).map((n) => `<button type="button" class="chip-btn" data-action="question-count" data-id="${scope}|${n}">${n}</button>`).join("")}<button type="button" class="chip-btn" data-action="question-count" data-id="${scope}|all">Toutes (${total})</button></div><p class="muted small" id="${scope}-question-help">${plural(total, "question")} disponible${total > 1 ? "s" : ""}. Le tirage reste le même pendant toute la tentative.</p></fieldset>`;
+  }
+  function readQuestionCount(scope, total) {
+    const input = modal.querySelector(`#${scope}-question-count`);
+    if (!input || !input.reportValidity()) return null;
+    return questionLimit(input.value, total);
+  }
+  // Une liste de session stable, répartie entre chapitres et sans questions retirées ni doublons.
+  function finalCourseItems(l, requested = "all", random = Math.random) {
+    const available = activeQcm(l),
+      map = chapterOfQcm(l),
+      target = questionLimit(requested, available.length),
+      selected = [],
+      used = new Set();
+    const slots = shuffledQuestions((l.sections || []).map((s, c) =>
+      shuffledQuestions(available.filter((i) => map[i] === c), random),
+    ), random);
+    while (selected.length < target) {
       let changed = false;
-      for (const g of slots) {
-        const i = g[round];
-        if (i !== undefined && !used.has(i)) {
+      for (const group of slots) {
+        while (group.length && used.has(group[0])) group.shift();
+        if (group.length) {
+          const i = group.shift();
           selected.push(i);
           used.add(i);
           changed = true;
@@ -7331,14 +7473,10 @@ kbd.hint {
         }
       }
       if (!changed) break;
-      round++;
     }
-    // Fallback for lessons with a partial or empty chapter mapping.
-    for (let i = 0; i < l.qcm.length && selected.length < target; i++) {
-      if (!used.has(i) && !l.qcm[i].retired) {
-        selected.push(i);
-        used.add(i);
-      }
+    for (const i of shuffledQuestions(available, random)) {
+      if (selected.length >= target) break;
+      if (!used.has(i)) { selected.push(i); used.add(i); }
     }
     return selected;
   }
@@ -7640,7 +7778,12 @@ kbd.hint {
     return `<div class="learning-head"><h2>QROC à mots-clés</h2><p class="muted">${plural(all.length, "question")} sur l’ensemble du cours, dans l’ordre des chapitres.</p></div>${qrocBlock(l, all.slice(start, start + per), "course", start, all)}${total > 1 ? `<div class="quiz-pagination"><button class="btn secondary" data-action="qroc-page" data-id="${learning.qrocPage - 1}" ${learning.qrocPage === 0 ? "disabled" : ""}>${svgI(I.back, 16)} Précédentes</button><span class="muted num">${learning.qrocPage + 1} / ${total}</span><button class="btn" data-action="qroc-page" data-id="${learning.qrocPage + 1}" ${learning.qrocPage >= total - 1 ? "disabled" : ""}>Suivantes ${svgI(I.next, 16)}</button></div>` : ""}`;
   }
   function finalCourseHtml(l) {
-    const items = finalCourseItems(l),
+    const available = activeQcm(l).length;
+    if (!learning.finalItems) {
+      const previous = (st.courseExamResults || {})[l.id];
+      return `<div class="learning-head"><h2>Évaluation du cours</h2><p class="muted">Choisis le nombre de questions avant de commencer. Le tirage répartit les questions entre les chapitres du cours ; une série courte peut ne pas couvrir tous les chapitres. Les corrections apparaissent une fois toutes les réponses validées.</p></div>${available ? questionCountHtml("final", available, learning.finalCount || 20) : `<p class="muted">Aucune question disponible pour ce cours.</p>`}${previous ? `<p class="muted small">Dernière évaluation : <b class="num">${previous.score}/${previous.total}</b> · ${esc(relDay(previous.date))}</p>` : ""}<div class="actions"><button type="button" class="btn primary-cta" data-action="final-start" ${available ? "" : "disabled"}>${svgI(I.flag, 18)} Démarrer l’évaluation</button></div>`;
+    }
+    const items = learning.finalItems,
       draft = learning.finalDraft || {},
       done = !!learning.finalSubmitted;
     const answered = items.filter((i) => (draft[i] || []).length).length,
@@ -7672,7 +7815,10 @@ kbd.hint {
         })
         .join("")}</ul></details>`;
     }
-    const title = `<div class="final-head"><div class="row between"><span class="badge ok">Épreuve transversale · ${plural(l.sections.length, "chapitre")}</span><button class="chip-btn" data-action="exam-grid" aria-label="Voir toutes les questions">${svgI(I.grid, 16)} <span class="num">${answered}/${items.length}</span></button></div><h2>Évaluation du cours</h2>${done ? `<p class="final-score"><b class="num">${score}/${items.length}</b> réponses justes · <span class="num">${String(Math.round(((20 * score) / total) * 10) / 10).replace(".", ",")}/20</span></p>` : `<p class="muted">${items.length} questions sur l’ensemble du cours, QRU et QRM. Réponds sans consulter le cours : les corrections s’affichent quand toute l’épreuve est validée.</p>`}${segProgress(cells)}</div>${breakdown}`;
+    const map = chapterOfQcm(l),
+      covered = new Set(items.map((i) => map[i]).filter((c) => c !== undefined)).size,
+      partial = items.length < available;
+    const title = `<div class="final-head"><div class="row between"><span class="badge ${partial ? "info" : "ok"}">${partial ? "Série personnalisée" : "Toutes les questions"} · ${covered}/${l.sections.length} chapitres</span><button class="chip-btn" data-action="exam-grid" aria-label="Voir toutes les questions">${svgI(I.grid, 16)} <span class="num">${answered}/${items.length}</span></button></div><h2>Évaluation du cours</h2>${done ? `<p class="final-score"><b class="num">${score}/${items.length}</b> réponses justes · <span class="num">${String(Math.round(((20 * score) / total) * 10) / 10).replace(".", ",")}/20</span></p>` : `<p class="muted">${items.length} questions tirées dans le cours, QRU et QRM.${covered < l.sections.length ? " Cette série ne couvre pas tous les chapitres." : ""} Réponds sans consulter le cours : les corrections s’affichent quand toute l’épreuve est validée.</p>`}${done && partial ? `<p class="muted small">Bilan de cette série de ${items.length} questions sur ${available} disponibles ; il porte uniquement sur les questions posées.</p>` : ""}${segProgress(cells)}</div>${breakdown}`;
     const questions = items
       .slice(start, start + 1)
       .map((idx, j) => {
@@ -7813,6 +7959,7 @@ kbd.hint {
   }
 
   function drawLesson(reset = false) {
+    window.Med2Pdf?.unmount?.();
     const l = lesson(learning.id);
     if (!l) return;
     const before = modal.querySelector(".modal")?.scrollTop || 0;
@@ -7835,6 +7982,7 @@ kbd.hint {
           `<button type="button" role="tab" id="tab-${id}" aria-selected="${learning.tab === id}" tabindex="${learning.tab === id ? 0 : -1}" class="${learning.tab === id ? "active" : ""}" data-action="lesson-tab" data-id="${id}">${svgI(ico, 16)}<span>${label}</span>${count !== "" ? `<span class="count num">${count}</span>` : ""}</button>`,
       )
       .join("");
+    const pdfSection = `<section id="course-pdfs" class="card section" aria-label="PDF joints au cours"><p class="muted" role="status">Chargement des PDF de ce cours…</p></section>`;
     const sourceLine = `<p class="note">Source : ${esc(l.source.label)} · Pr ${esc(l.teacher.replace(/^Pr\s*/, ""))}. Les pages indiquées renvoient au PDF.</p>`;
     const n = courseNeighbors(l);
     const flags = l.flags?.length
@@ -7847,7 +7995,7 @@ kbd.hint {
     let body = "";
     if (learning.tab === "story") {
       const r = cms().find((x) => x.id === l.id) || { id: l.id };
-      body = `<header class="lesson-intro"><span class="badge tone">${icon(l.subject, 14)} ${esc(subject(l.subject).name)}</span><h1 class="lesson-title" id="reader-h">${esc(l.title)}</h1><p class="lesson-hook">${esc(l.hook)}</p><p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ~${lessonMinutes(r)} min de lecture · ${qcmN} QCM · ${plural(l.flashcards.length, "carte")}${l.qroc?.length ? ` · ${l.qroc.length} QROC` : ""}</p><div class="intro-actions">${rs.id === l.id && curChapter > 0 ? `<button class="btn small" data-action="chapter-read" data-id="${curChapter}">${svgI(I.play, 14)} Reprendre au chapitre ${curChapter + 1}</button>` : ""}<button class="btn ghost small toc-inline" data-action="reader-toc">${svgI(I.list, 17)} Sommaire</button></div></header>${flow}${flags}${l.sections
+      body = `<header class="lesson-intro"><span class="badge tone">${icon(l.subject, 14)} ${esc(subject(l.subject).name)}</span><h1 class="lesson-title" id="reader-h">${esc(l.title)}</h1><p class="lesson-hook">${esc(l.hook)}</p><p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ~${lessonMinutes(r)} min de lecture · ${qcmN} QCM · ${plural(l.flashcards.length, "carte")}${l.qroc?.length ? ` · ${l.qroc.length} QROC` : ""}</p><div class="intro-actions"><button class="btn ghost small" data-action="lesson-tab" data-id="source">${svgI(I.file, 17)} Mes PDF</button>${rs.id === l.id && curChapter > 0 ? `<button class="btn small" data-action="chapter-read" data-id="${curChapter}">${svgI(I.play, 14)} Reprendre au chapitre ${curChapter + 1}</button>` : ""}<button class="btn ghost small toc-inline" data-action="reader-toc">${svgI(I.list, 17)} Sommaire</button></div></header>${flow}${flags}${l.sections
         .map((sect, i) => {
           const g = lessonChapter(l, i),
             done = g.qcm.filter((j) => st.quizAnswers?.[`${l.id}#${j}`] !== undefined).length,
@@ -7857,7 +8005,7 @@ kbd.hint {
               (p, j) =>
                 `${para(p)}${j === 1 && sect.figures?.length ? sect.figures.map((f) => `<figure class="med-figure"><button class="med-figure-hit" type="button" data-action="figure-open" data-id="${esc(f.src)}" aria-label="Agrandir le schéma : ${esc(f.caption)}"><img loading="lazy" decoding="async" src="${esc(f.src)}" alt="${esc(f.caption)}"><span class="med-figure-zoom">${svgI(I.search, 14)} Agrandir</span></button><figcaption>${esc(f.caption)}</figcaption></figure>`).join("") : ""}`,
             )
-            .join("")}${sect.visual ? v10Fiche(sect.visual) : ""}<div class="lesson-memory callout-key"><span class="mk mk-key">${MK.key.ico}L’essentiel du chapitre</span><p>${fmt(sect.memory)}</p></div><div class="chapter-end"><p><b>Chapitre terminé ?</b> Vérifie-le tout de suite : ${plural(g.qcm.length, "QCM", "QCM")}${nq ? `, ${nq} QROC` : ""} et ${plural(g.cards.length, "carte")}${done ? ` · ${done} QCM déjà faits` : ""}.</p><div class="chapter-action-row"><button class="btn" data-action="chapter-practice" data-id="${i}">${svgI(I.quiz, 18)} S’entraîner sur ce chapitre</button>${nq ? `<button class="btn secondary" data-action="chapter-qroc" data-id="${i}">${svgI(I.pen, 18)} ${nq} QROC</button>` : ""}${l.subject === "ssh" && l.writing?.some((w) => w.chapter === i) ? `<button class="btn secondary" data-action="writing-chapter" data-id="${i}">${svgI(I.pen, 18)} Rédiger</button>` : ""}${i < l.sections.length - 1 ? `<button class="btn quiet" data-action="chapter-read" data-id="${i + 1}">Chapitre suivant ${svgI(I.next, 18)}</button>` : `<button class="btn quiet" data-action="lesson-tab" data-id="final">${svgI(I.flag, 18)} Évaluation du cours</button>`}</div></div></section>`;
+            .join("")}${sect.visual ? v10Fiche(sect.visual) : ""}<div class="lesson-memory callout-key"><span class="mk mk-key">${MK.key.ico}L’essentiel du chapitre</span><p>${fmt(sect.memory)}</p></div><div class="chapter-end"><p><b>Chapitre terminé ?</b> Vérifie-le tout de suite : ${plural(g.qcm.length, "QCM", "QCM")}${nq ? `, ${nq} QROC` : ""} et ${plural(g.cards.length, "carte")}${done ? ` · ${done} QCM déjà faits` : ""}.</p><div class="chapter-action-row"><button class="btn" data-action="chapter-practice" data-id="${i}">${svgI(I.quiz, 18)} S’entraîner sur ce chapitre</button>${nq ? `<button class="btn secondary" data-action="chapter-qroc" data-id="${i}">${svgI(I.pen, 18)} ${nq} QROC</button>` : ""}${l.subject === "ssh" && l.writing?.some((w) => w.chapter === i) ? `<button class="btn secondary" data-action="writing-chapter" data-id="${i}">${svgI(I.pen, 18)} Rédiger</button>` : ""}${n.next ? `<button class="btn quiet" data-action="course-neighbor" data-id="${esc(n.next)}" title="${esc(lesson(n.next)?.title || "")}">Cours suivant ${svgI(I.next, 18)}</button>` : `<button class="btn quiet" data-action="course-return">${svgI(I.library, 18)} Tous les cours</button>`}${i === l.sections.length - 1 ? `<button class="btn quiet" data-action="lesson-tab" data-id="final">${svgI(I.flag, 18)} Évaluation du cours</button>` : ""}</div></div></section>`;
         })
         .join("")}`;
     }
@@ -7897,7 +8045,7 @@ kbd.hint {
     if (learning.tab === "writing") body = writingHtml(l);
     if (learning.tab === "qroc") body = qrocCourseHtml(l);
     if (learning.tab === "source")
-      body = `<div class="learning-head"><h2>Retrouver le cours original</h2><p class="muted">${esc(l.editorialNote)}</p></div>${flags}${sourceLine}<p>Les descriptions complètes, les illustrations cliniques et le texte original se trouvent dans la ronéo.</p><div class="actions"><a href="${esc(l.source.url)}" class="btn" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} Ouvrir le PDF sur Drive</a>${(l.relatedSources || []).map((src) => `<a href="${esc(src.url)}" class="btn secondary" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} ${esc(src.label)}</a>`).join("")}</div><p class="note">La réécriture et les exercices sont des supports pédagogiques nouveaux, fondés exclusivement sur le chapitre cité. Ils ne remplacent pas le document original.</p>`;
+      body = `${pdfSection}<div class="learning-head"><h2>Retrouver le cours original</h2><p class="muted">${esc(l.editorialNote)}</p></div>${flags}${sourceLine}<p>Les descriptions complètes, les illustrations cliniques et le texte original se trouvent dans la ronéo.</p><div class="actions"><a href="${esc(l.source.url)}" class="btn" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} Ouvrir le PDF sur Drive</a>${(l.relatedSources || []).map((src) => `<a href="${esc(src.url)}" class="btn secondary" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} ${esc(src.label)}</a>`).join("")}</div><p class="note">La réécriture et les exercices sont des supports pédagogiques nouveaux, fondés exclusivement sur le chapitre cité. Ils ne remplacent pas le document original.</p>`;
     if (learning.tab === "story" || (learning.tab === "final" && learning.finalSubmitted)) body += courseSwitch(l);
     const legend =
       learning.tab === "story"
@@ -7909,6 +8057,11 @@ kbd.hint {
     keepFocus(() => {
       modal.innerHTML = `<div class="modalbg reader-bg" data-action="close-modal"><div class="modal reader tone-${TONE[l.subject] || "sky"}" data-theme="${esc(reader.theme)}" data-font="${esc(reader.font)}" style="--rs:${reader.size}px;--rlh:${reader.lh}" role="dialog" aria-modal="true" aria-label="Cours : ${esc(l.title)}" tabindex="-1"><div class="reader-bar"><button class="icon-btn" data-action="close-modal" aria-label="Fermer le cours">${svgI(I.back, 24)}</button><div class="reader-title"><span>${esc(subject(l.subject).name)} · cours ${n.index + 1}/${n.total}</span><b id="reader-where">${esc(where)}</b></div><button class="icon-btn toc-btn" data-action="reader-toc" aria-label="Sommaire du cours">${svgI(I.list, 22)}</button><button class="icon-btn aa-btn" data-action="reader-settings" aria-label="Réglages de lecture">Aa</button><div class="reader-progress" aria-hidden="true"><span id="reader-progress"></span></div></div><div class="reader-layout"><nav class="reader-toc" aria-label="Sommaire du cours">${tocHtml(l, curChapter)}</nav><div class="reader-col"><div class="lesson-tabs" role="tablist" aria-label="Parties du cours">${tabsHtml}</div><div class="reader-body ${tabChanged ? "fade-in" : ""}" role="tabpanel" aria-labelledby="tab-${esc(learning.tab)}">${legend}${body}<footer class="reader-source">${sourceLine}</footer></div></div></div></div></div>`;
     });
+    if (learning.tab === "source") {
+      const box = document.getElementById("course-pdfs");
+      if (window.Med2Pdf) window.Med2Pdf.mount(box, { courseId: l.id, courseTitle: l.title });
+      else if (box) box.innerHTML = `<p class="status-line ko" role="alert">L’import PDF n’a pas pu être chargé. Reconnecte-toi et recharge l’application.</p>`;
+    } else window.Med2Pdf?.unmount?.();
     readerSync();
     const el = modal.querySelector(".modal");
     if (el) {
@@ -8023,6 +8176,8 @@ kbd.hint {
   });
   let draftTimer = 0;
   document.addEventListener("input", (e) => {
+    if (e.target.dataset.questionCount === "final") learning.finalCount = e.target.value;
+    if (e.target.dataset.questionCount === "train") training.count = e.target.value;
     if (e.target.classList?.contains("qroc-input")) {
       learning.qrocDraft ??= {};
       learning.qrocDraft[e.target.dataset.qroc] = e.target.value;
@@ -8210,6 +8365,27 @@ kbd.hint {
       training.selected = [];
       drawTraining(true);
     }
+    if (act === "question-count") {
+      const [scope, requested] = id.split("|");
+      const input = modal.querySelector(`#${scope}-question-count`);
+      if (input) {
+        input.value = questionLimit(requested, Number(input.max));
+        if (scope === "final") learning.finalCount = input.value;
+        else if (scope === "train") training.count = input.value;
+      }
+    }
+    if (act === "train-start" && !training.itemIds) {
+      const pool = trainAvailableItems(),
+        count = readQuestionCount("train", pool.length);
+      if (count === null || !count) return;
+      training.count = count;
+      training.itemIds = shuffledQuestions(pool).slice(0, count).map((q) => q.id);
+      training.index = 0;
+      training.selected = [];
+      training.sessionAnswers = {};
+      uiGrid = false;
+      drawTraining(true);
+    }
     if (act === "plan-open") {
       const [pid, what] = String(id).split("|");
       planOpen(pid, what);
@@ -8233,16 +8409,21 @@ kbd.hint {
     if (act === "training-semio-lesson") beginLesson(id, "qcm");
     if (act === "train-open-lesson" && lesson(id)) beginLesson(id, "story");
     if (act === "train-mode") {
+      if (training.mode === id) return;
       training.mode = id;
       training.index = 0;
       training.selected = [];
       training.sessionAnswers = {};
+      training.itemIds = null;
+      uiGrid = false;
       drawTraining(true);
     }
     if (act === "train-reset") {
       training.index = 0;
       training.selected = [];
       training.sessionAnswers = {};
+      training.itemIds = null;
+      uiGrid = false;
       drawTraining(true);
     }
     if (act === "train-prev") trainMove(-1);
@@ -8456,11 +8637,23 @@ kbd.hint {
         toast("Autoévaluation de la rédaction enregistrée");
       }
     }
+    if (act === "final-start" && learning.id && !learning.finalItems) {
+      const l = lesson(learning.id),
+        count = readQuestionCount("final", activeQcm(l).length);
+      if (count === null || !count) return;
+      learning.finalCount = count;
+      learning.finalItems = finalCourseItems(l, count);
+      learning.finalDraft = {};
+      learning.finalSubmitted = false;
+      learning.finalPage = 0;
+      uiGrid = false;
+      drawLesson(true);
+    }
     if (act === "final-choice" && learning.id && !learning.finalSubmitted) {
       const [i, j] = id.split(":").map(Number);
       const l = lesson(learning.id),
         q = l?.qcm?.[i];
-      if (q?.choices?.[j] !== undefined) {
+      if (q?.choices?.[j] !== undefined && learning.finalItems?.includes(i)) {
         learning.finalDraft ??= {};
         let old = learning.finalDraft[i] || [];
         learning.finalDraft[i] = Array.isArray(q.answer)
@@ -8477,7 +8670,7 @@ kbd.hint {
     }
     if (act === "final-submit" && learning.id && !learning.finalSubmitted) {
       const l = lesson(learning.id),
-        items = finalCourseItems(l);
+        items = learning.finalItems || [];
       if (
         items.length &&
         items.every((i) => (learning.finalDraft?.[i] || []).length)
@@ -8488,9 +8681,12 @@ kbd.hint {
         ).length;
         st.courseExamResults ??= {};
         st.courseExamHistory ??= {};
+        const map = chapterOfQcm(l);
         const rec = {
           score,
           total: items.length,
+          available: activeQcm(l).length,
+          chaptersCovered: new Set(items.map((i) => map[i]).filter((c) => c !== undefined)).size,
           date: today(),
           answers: items.map((i) => ({
             question: i,
@@ -8509,16 +8705,12 @@ kbd.hint {
     }
     if (act === "final-restart" && learning.id) {
       learning.finalDraft = {};
+      learning.finalItems = null;
       learning.finalSubmitted = false;
       learning.finalPage = 0;
       drawLesson(true);
     }
     if (act === "lesson-tab") {
-      if (id === "final" && learning.tab !== "final") {
-        learning.finalDraft = {};
-        learning.finalSubmitted = false;
-        learning.finalPage = 0;
-      }
       if (id === "writing" && learning.tab !== "writing") {
         learning.writingReveal = false;
         learning.writingIndex = 0;
