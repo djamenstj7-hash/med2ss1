@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.42 (16/10/2026) — hors ligne, séries et PDF
+MED2 — Semestre 1 — V0.43 (16/10/2026) — identité visuelle d’origine et nouvelle icône
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -6,6 +6,7 @@ MED2 — Semestre 1 — V0.42 (16/10/2026) — hors ligne, séries et PDF
 1. Créer un dépôt PUBLIC sur GitHub.
 2. Envoyer tous les fichiers EN CONSERVANT LES DOSSIERS :
    index.html, pdf-library.js, service-worker.js, manifest.webmanifest, icon-192.png, icon-512.png,
+   apple-touch-icon.png,
    README.md, INSTALLATION_ET_LIMITES.txt, le dossier data/ et le dossier Assets/
    (A majuscule) avec ses sous-dossiers fiches/, fonts/ et photos/.
 3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
@@ -35,7 +36,18 @@ MED2 — Semestre 1 — V0.42 (16/10/2026) — hors ligne, séries et PDF
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.42 (contenu des cours inchangé)
+4. NOUVEAUTÉS V0.43 (interface seulement : contenu, données et progression inchangés)
+========================================================================
+- Retour de l’identité visuelle d’origine sur la nouvelle organisation : fond à halo lavande,
+  cartes blanches à grands rayons et ombres douces, titres en SF Pro Rounded, dégradés pastel
+  par matière, grandes cartes colorées dans Cours, tuiles colorées dans le Suivi, barre d’onglets flottante.
+- Police du système (SF Pro sur iPhone) : plus aucun fichier de police à télécharger.
+- Apparence claire par défaut, comme avant la V0.30 ; le mode sombre reste dans Réglages.
+- Nouvelle icône : un stéthoscope sur une blouse. Sur iPhone, une icône déjà posée sur l’écran
+  d’accueil ne change pas toute seule : exporter sa progression, supprimer l’icône, rajouter le site
+  à l’écran d’accueil depuis Safari, puis importer la sauvegarde si elle n’apparaît plus.
+
+HISTORIQUE V0.42 (contenu des cours inchangé)
 ========================================================================
 - Images : téléchargement préalable des photos, schémas et nouvelles fiches. Rapport d’avancement
   et reprise depuis Réglages, conservation des anciennes copies en cas de mise à jour incomplète.

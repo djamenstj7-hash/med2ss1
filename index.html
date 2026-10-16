@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
-<meta name="theme-color" content="#f3f5f9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#f3f6fb" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e141e" media="(prefers-color-scheme: dark)">
 <meta name="description" content="MED2 · Semestre 1 — cours réécrits, QCM, QROC, cartes mémoire et entraînement au format d’examen.">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -13,10 +13,9 @@
 <meta name="format-detection" content="telephone=no">
 <link rel="manifest" href="./manifest.webmanifest">
 <link rel="icon" type="image/png" href="./icon-192.png">
-<link rel="apple-touch-icon" href="./icon-192.png">
-<link rel="preload" href="./Assets/fonts/atkinson-next-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
 <title>MED2 · Semestre 1</title>
-<script>try{var t=localStorage.getItem("med2.semestre1.apparence.v1");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>try{var t=localStorage.getItem("med2.semestre1.apparence.v1")||"light";if(t==="light"||t==="dark")document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme="light"}</script>
 <style>/* =====================================================================
    MED2 · Semestre 1 — design system V0.30
    Une seule feuille de style, découpée en couches :
@@ -24,81 +23,69 @@
    50 exercices · 90 adaptations (écrans, impression, mouvements réduits)
    ===================================================================== */
 
-/* Police d'interface : Atkinson Hyperlegible Next (Braille Institute, licence OFL).
-   Choisie pour la lisibilité sur de longues sessions : chiffres et lettres proches (1 l I, 0 O, rn m)
-   bien différenciés, utile pour les valeurs biologiques, les doses et les sigles médicaux. */
-@font-face {
-  font-family: "Atkinson Next";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 200 800;
-  src: url(./Assets/fonts/atkinson-next-latin.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-@font-face {
-  font-family: "Atkinson Next";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 200 800;
-  src: url(./Assets/fonts/atkinson-next-latin-ext.woff2) format("woff2");
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+/* Police : celle du système (SF Pro sur iPhone et Mac), titres et chiffres en SF Pro Rounded —
+   l'identité visuelle d'origine de MED2. Aucun fichier de police à télécharger. */
 
 /* ---------- Jetons : thème clair ---------- */
 :root {
   color-scheme: light;
-  /* Surfaces : un fond bleu-gris froid, des feuilles blanches, un niveau « creusé » pour les champs */
-  --canvas: #f3f5f9;
+  /* Couleurs d'origine de MED2 (V0.21) — ajustées seulement là où un texte passait sous 4,5:1 */
+  --canvas: #f3f6fb;
   --surface: #ffffff;
-  --surface-2: #f8fafc;
-  --sunken: #edf1f6;
-  --line: #e1e7ef;
-  --line-2: #cdd6e2;
-  /* Encre : marine de la marque MED2 ; gris secondaires tous ≥ 4,5:1 sur blanc */
-  --ink: #142038;
-  --ink-2: #36445c;
-  --muted: #586579;
+  --surface-2: #f6f8fc;
+  --sunken: #eef2f8;
+  --line: #e3e9f2;
+  --line-2: #d6deea;
+  --glow: #e9e6ff;
+  --ink: #16294a;
+  --ink-2: #3a4d6b;
+  --muted: #5f6e87;
   --brand: #16305c;
-  --brand-2: #2559c9;
-  /* Interaction : un seul accent bleu, réservé à ce qui se clique ou se sélectionne */
-  --primary: #1c3f7c;
-  --primary-hover: #17346a;
+  --brand-2: #2f6fe4;
+  --navy: #16305c;
+  --primary: #1e4a8c;
+  --primary-hover: #183f78;
   --on-primary: #ffffff;
-  --accent: #2559c9;
-  --accent-ink: #1d4aa8;
-  --accent-soft: #e8eefc;
-  --accent-line: #b9cbf5;
-  --focus: #2563eb;
-  /* Sens : juste / erreur / à revoir / plusieurs réponses */
-  --ok: #11795a;
-  --ok-soft: #e4f4ec;
-  --ok-line: #9ed4bc;
-  --ko: #c42f3a;
-  --ko-soft: #fceced;
-  --ko-line: #f0b1b5;
-  --warn: #95580a;
-  --warn-soft: #fdf1dc;
-  --warn-line: #ecc98f;
-  --violet: #5b3fc4;
-  --violet-soft: #efebfd;
+  --accent: #2a64d6;
+  --accent-ink: #1e4a8c;
+  --accent-soft: #e8f0fd;
+  --accent-line: #bcd0f7;
+  --nav-active: #dce9ff;
+  --focus: #2f6fe4;
+  /* Sens : couleur de texte (≥ 4,5:1) et couleur vive pour les aplats, barres et contours */
+  --ok: #127c5a;
+  --ok-fill: #17996f;
+  --ok-soft: #e6f7ef;
+  --ok-line: #9fdcc2;
+  --ko: #c63039;
+  --ko-fill: #e0484f;
+  --ko-soft: #fdeeee;
+  --ko-line: #f2b3b5;
+  --warn: #9a5c08;
+  --warn-fill: #d9902a;
+  --warn-soft: #fff4e0;
+  --warn-line: #f3cf95;
+  --violet: #6b47e0;
+  --violet-soft: #f1edff;
   /* Repères du lecteur (exemple, mécanisme, piège, à retenir) */
-  --mk-ex: #a35d07;
-  --mk-ex-bg: rgba(232, 155, 35, 0.09);
-  --mk-ex-line: rgba(220, 145, 30, 0.34);
+  --mk-ex: #9a5c08;
+  --mk-ex-bg: rgba(232, 155, 35, 0.1);
+  --mk-ex-line: rgba(232, 155, 35, 0.3);
   --mk-mech: #2155b8;
-  --mk-mech-bg: rgba(59, 120, 240, 0.075);
-  --mk-mech-line: rgba(59, 120, 240, 0.28);
+  --mk-mech-bg: rgba(59, 120, 240, 0.08);
+  --mk-mech-line: rgba(59, 120, 240, 0.26);
   --mk-trap: #b52a35;
-  --mk-trap-bg: rgba(224, 72, 79, 0.075);
-  --mk-trap-line: rgba(224, 72, 79, 0.32);
+  --mk-trap-bg: rgba(224, 72, 79, 0.08);
+  --mk-trap-line: rgba(224, 72, 79, 0.3);
   --mk-key: #0f6e51;
   --mk-key-bg: rgba(23, 153, 111, 0.08);
-  --mk-key-line: rgba(23, 153, 111, 0.32);
+  --mk-key-line: rgba(23, 153, 111, 0.3);
   /* Typographie */
-  --font: "Atkinson Next", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, "Palatino Linotype", Georgia, serif;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+  --round: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --serif: "Iowan Old Style", "New York", "Charter", "Sitka Text", Cambria, "Palatino Linotype", Georgia, serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  /* Échelle d'espacement (4 px) et rayons */
+  /* Échelle d'espacement (4 px) et rayons généreux */
   --s1: 4px;
   --s2: 8px;
   --s3: 12px;
@@ -107,16 +94,16 @@
   --s6: 24px;
   --s7: 32px;
   --s8: 40px;
-  --r-sm: 8px;
-  --r: 12px;
-  --r-lg: 16px;
-  --r-xl: 20px;
+  --r-sm: 10px;
+  --r: 14px;
+  --r-lg: 20px;
+  --r-xl: 24px;
   --pill: 999px;
-  /* Élévation : discrète, la structure vient des bordures */
-  --sh-1: 0 1px 2px rgba(16, 32, 64, 0.05);
-  --sh-2: 0 1px 2px rgba(16, 32, 64, 0.04), 0 6px 18px rgba(16, 32, 64, 0.07);
+  /* Ombres douces : les cartes flottent sur le fond */
+  --sh-1: 0 1px 2px rgba(16, 40, 80, 0.04), 0 8px 24px rgba(16, 40, 80, 0.07);
+  --sh-2: 0 1px 2px rgba(16, 40, 80, 0.05), 0 12px 32px rgba(16, 40, 80, 0.1);
   --sh-pop: 0 18px 48px rgba(12, 26, 52, 0.22), 0 2px 8px rgba(12, 26, 52, 0.08);
-  --scrim: rgba(9, 20, 40, 0.46);
+  --scrim: rgba(10, 24, 46, 0.42);
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
   --t-fast: 0.14s;
   --t: 0.22s;
@@ -175,6 +162,14 @@
     --sh-2: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.28);
     --sh-pop: 0 18px 48px rgba(0, 0, 0, 0.55);
     --scrim: rgba(0, 0, 0, 0.6);
+    --glow: rgba(124, 92, 240, 0.14);
+  --navy: #2b4a85;
+    --navy: #2b4a85;
+    --nav-active: rgba(110, 150, 250, 0.2);
+    --ok-fill: #3cc492;
+    --ko-fill: #ff7a82;
+    --warn-fill: #f0b04c;
+    --round: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   }
 }
 :root[data-theme="dark"] {
@@ -224,28 +219,36 @@
   --sh-2: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.28);
   --sh-pop: 0 18px 48px rgba(0, 0, 0, 0.55);
   --scrim: rgba(0, 0, 0, 0.6);
+  --glow: rgba(124, 92, 240, 0.14);
+  --nav-active: rgba(110, 150, 250, 0.2);
+  --ok-fill: #3cc492;
+  --ko-fill: #ff7a82;
+  --warn-fill: #f0b04c;
+  --round: ui-rounded, "SF Pro Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 }
 
-/* ---------- Couleurs des matières : un repère constant (icône, liseré), jamais un aplat décoratif ---------- */
-.tone-sky { --t1: #eaf3ff; --t3: #3b82f6; --t4: #1e4f9a; }
-.tone-rose { --t1: #ffeef2; --t3: #e5486a; --t4: #9c2445; }
-.tone-violet { --t1: #f1edff; --t3: #7c5cf0; --t4: #4b32a8; }
-.tone-mint { --t1: #e6f8f1; --t3: #18a077; --t4: #0f6a4f; }
-.tone-amber { --t1: #fff5e3; --t3: #e0952b; --t4: #8f5a12; }
-.tone-sand { --t1: #f7f1e7; --t3: #a8793c; --t4: #6e4c1f; }
-.tone-coral { --t1: #ffefe8; --t3: #e2683f; --t4: #9a3c1c; }
-.tone-teal { --t1: #e5f7f8; --t3: #139aa4; --t4: #0d6369; }
-.tone-slate { --t1: #eff2f7; --t3: #5a6b85; --t4: #36445a; }
-.tone-indigo { --t1: #ecefff; --t3: #4b5bd6; --t4: #2d3a99; }
-.tone-lime { --t1: #f0f8e3; --t3: #6a9c1f; --t4: #41620f; }
+/* ---------- Couleurs des matières : t1 pâle, t2 clair, t3 vif, t4 foncé (texte) ---------- */
+.tone-sky { --t1: #eaf3ff; --t2: #cfe2ff; --t3: #3b82f6; --t4: #1e4f9a; }
+.tone-rose { --t1: #ffeef2; --t2: #ffd3de; --t3: #e5486a; --t4: #9c2445; }
+.tone-violet { --t1: #f1edff; --t2: #ddd3ff; --t3: #7c5cf0; --t4: #4b32a8; }
+.tone-mint { --t1: #e6f8f1; --t2: #c4ecdc; --t3: #18a077; --t4: #0f6a4f; }
+.tone-amber { --t1: #fff5e3; --t2: #ffe2b0; --t3: #e0952b; --t4: #8f5a12; }
+.tone-sand { --t1: #f7f1e7; --t2: #eadcc4; --t3: #a8793c; --t4: #6e4c1f; }
+.tone-coral { --t1: #ffefe8; --t2: #ffd6c6; --t3: #e2683f; --t4: #9a3c1c; }
+.tone-teal { --t1: #e5f7f8; --t2: #c2ebee; --t3: #139aa4; --t4: #0d6369; }
+.tone-slate { --t1: #eff2f7; --t2: #dbe2ec; --t3: #5a6b85; --t4: #36445a; }
+.tone-indigo { --t1: #ecefff; --t2: #d4daff; --t3: #4b5bd6; --t4: #2d3a99; }
+.tone-lime { --t1: #f0f8e3; --t2: #dcefbd; --t3: #6a9c1f; --t4: #41620f; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) [class*="tone-"] {
     --t1: color-mix(in srgb, var(--t3) 17%, var(--surface));
+    --t2: color-mix(in srgb, var(--t3) 32%, var(--surface));
     --t4: color-mix(in srgb, var(--t3) 55%, #ffffff);
   }
 }
 :root[data-theme="dark"] [class*="tone-"] {
   --t1: color-mix(in srgb, var(--t3) 17%, var(--surface));
+  --t2: color-mix(in srgb, var(--t3) 32%, var(--surface));
   --t4: color-mix(in srgb, var(--t3) 55%, #ffffff);
 }
 
@@ -4677,6 +4680,959 @@ kbd.hint {
 }
 
 /* =====================================================================
+   60 · Identité visuelle MED2 (V0.31)
+   Retour de l'identité d'origine (V0.21 → V0.29) sur la nouvelle organisation :
+   fond à halo lavande, cartes blanches flottantes à grands rayons, titres en SF Pro Rounded,
+   dégradés pastel par matière, tuiles colorées, barre d'onglets flottante, accents vifs.
+   Les textes gardent un contraste ≥ 4,5:1 ; les couleurs vives servent aux aplats, barres et contours.
+   ===================================================================== */
+
+/* ---------- Fond, titres ---------- */
+body {
+  background: var(--canvas) radial-gradient(1200px 500px at 85% -120px, var(--glow) 0, transparent 60%) no-repeat;
+}
+h1,
+h2,
+h3,
+.brand-logo,
+.countdown b,
+.countdown-lg,
+.ring .num,
+.detail-stats b,
+.act-cell b,
+.act-kpis b,
+.sc-name {
+  font-family: var(--round);
+}
+.page-head {
+  margin: 22px 0 16px;
+}
+.page-head h1 {
+  font-size: 31px;
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--brand);
+}
+.page-head p {
+  font-size: 15px;
+}
+.section-head h2,
+.card-title {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--brand);
+}
+.section-head h3 {
+  color: var(--brand);
+}
+.kicker,
+.focus-kicker,
+.mini-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---------- Cartes, groupes, boutons ---------- */
+.card,
+.group {
+  border: 0;
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-1);
+}
+.card {
+  padding: 18px;
+}
+.btn {
+  border-radius: 14px;
+  font-weight: 700;
+  min-height: 46px;
+  letter-spacing: -0.005em;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 4px 14px rgba(30, 74, 140, 0.18);
+}
+.btn.secondary,
+.btn.ghost,
+.btn.quiet,
+.btn.danger,
+.btn:disabled {
+  box-shadow: none;
+}
+.btn.ghost {
+  border-color: var(--line-2);
+}
+.btn.small {
+  min-height: 38px;
+  border-radius: 12px;
+  font-size: 13.5px;
+}
+.btn.quiet {
+  color: var(--accent);
+  font-weight: 700;
+}
+.badge,
+.tag {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.005em;
+}
+.notice {
+  border-radius: 16px;
+}
+.empty-state {
+  border: 0;
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-1);
+}
+.card .empty-state,
+.section .card .empty-state {
+  box-shadow: none;
+  background: var(--surface-2);
+}
+
+/* Jauges : dégradé de la couleur de la matière, comme avant */
+.meter {
+  height: 8px;
+  background: var(--sunken);
+}
+.meter > span {
+  background: var(--t3, var(--brand-2));
+  background: linear-gradient(90deg, var(--t3, var(--brand-2)), color-mix(in srgb, var(--t3, var(--brand-2)) 70%, #fff));
+}
+.meter.green > span {
+  background: linear-gradient(90deg, #18a077, #4fcf9f);
+}
+
+/* Segments : conteneur clair, choix actif blanc et surélevé */
+.seg {
+  border-radius: 14px;
+  background: var(--sunken);
+}
+.seg button {
+  border-radius: 11px;
+  font-weight: 700;
+}
+.seg button.active {
+  background: var(--surface);
+  color: var(--brand);
+  box-shadow: 0 2px 8px rgba(16, 40, 80, 0.12);
+}
+/* Filtres et modes principaux : pilule blanche, choix actif marine */
+.lib-tools .seg,
+.exam-controls .seg {
+  background: var(--surface);
+  border-radius: var(--pill);
+  padding: 4px;
+  box-shadow: var(--sh-1);
+}
+.lib-tools .seg button,
+.exam-controls .seg button {
+  border-radius: var(--pill);
+}
+.lib-tools .seg button.active,
+.exam-controls .seg button.active {
+  background: var(--navy);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(22, 48, 92, 0.25);
+}
+.lib-tools .seg button.active .count,
+.exam-controls .seg button.active .count {
+  background: rgba(255, 255, 255, 0.2);
+  color: inherit;
+}
+
+/* Tuiles d'icônes : carré blanc, icône de la couleur de la matière */
+.row-ico {
+  background: var(--t1, var(--accent-soft));
+  color: var(--t3, var(--brand-2));
+  border-radius: 12px;
+}
+
+/* ---------- Barre du haut ---------- */
+.appbar {
+  background: rgba(243, 246, 251, 0.82);
+  background: color-mix(in srgb, var(--canvas) 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--line-2) 55%, transparent);
+}
+.brand {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  line-height: 1.05;
+}
+.brand-logo {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+}
+.brand-sub {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+.countdown {
+  background: var(--navy);
+  border: 0;
+  color: rgba(255, 255, 255, 0.82);
+  padding: 7px 12px;
+  font-weight: 700;
+  font-size: 12.5px;
+}
+.countdown b {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* ---------- Barre d'onglets flottante (téléphone, tablette portrait) ---------- */
+@media (max-width: 899px) {
+  #app {
+    padding-bottom: calc(var(--tab-h) + 44px + env(safe-area-inset-bottom));
+  }
+  .nav {
+    left: 12px;
+    right: 12px;
+    bottom: calc(10px + env(safe-area-inset-bottom));
+    padding-bottom: 0;
+    background: transparent;
+    border: 0;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .navinner {
+    max-width: 560px;
+    height: auto;
+    padding: 6px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.92);
+    background: color-mix(in srgb, var(--surface) 92%, transparent);
+    border: 1px solid color-mix(in srgb, var(--line-2) 80%, transparent);
+    box-shadow: 0 14px 40px rgba(16, 40, 80, 0.16), 0 2px 6px rgba(16, 40, 80, 0.06);
+    -webkit-backdrop-filter: saturate(1.6) blur(18px);
+    backdrop-filter: saturate(1.6) blur(18px);
+  }
+  .nav button[data-action="nav"]:not(.nav-brand) {
+    min-height: 56px;
+    border-radius: 24px;
+  }
+  .nav .symbol {
+    width: 46px;
+    height: 32px;
+  }
+}
+.nav button[aria-current="page"] {
+  color: var(--accent);
+}
+.nav button[aria-current="page"] .symbol {
+  background: var(--nav-active);
+  color: var(--brand-2);
+}
+
+/* ---------- Accueil ---------- */
+.focus-card {
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  border-radius: 26px;
+  padding: 22px 20px 20px;
+  background: var(--t1, #eaf3ff);
+  background:
+    radial-gradient(260px 200px at 92% 30%, color-mix(in srgb, var(--t2, #cfe2ff) 85%, #ffd9e7) 0, transparent 70%),
+    radial-gradient(300px 220px at 70% 115%, var(--t2, #cfe2ff) 0, transparent 70%),
+    linear-gradient(135deg, var(--t1, #eaf3ff), color-mix(in srgb, var(--t1, #eaf3ff) 40%, #fbf3ff));
+  box-shadow: var(--sh-1);
+}
+.focus-card::before {
+  display: none;
+}
+.focus-art {
+  position: absolute;
+  right: -18px;
+  top: 4px;
+  color: var(--t3, var(--brand-2));
+  opacity: 0.22;
+  transform: rotate(-10deg);
+  pointer-events: none;
+}
+.focus-art .ico {
+  width: 128px;
+  height: 128px;
+}
+.focus-top,
+.focus-card h2,
+.focus-meta,
+.focus-card .meter,
+.focus-card .btn {
+  position: relative;
+}
+.focus-ico {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--t3, var(--brand-2));
+  box-shadow: 0 4px 12px rgba(16, 40, 80, 0.08);
+}
+.focus-kicker {
+  color: var(--t4, var(--accent-ink));
+}
+.focus-card h2 {
+  max-width: 88%;
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+  color: var(--brand);
+}
+.focus-meta {
+  color: var(--ink-2);
+}
+.focus-card .meter {
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+}
+.focus-card .btn {
+  min-height: 50px;
+  border-radius: 16px;
+  background: var(--navy);
+  color: #fff;
+}
+.focus-card .btn.secondary {
+  background: var(--surface);
+  color: var(--brand);
+  box-shadow: 0 4px 14px rgba(16, 40, 80, 0.1);
+}
+
+/* Tâches du jour : une carte par tâche, liseré de la couleur de la matière (comme les missions) */
+.task-list {
+  display: grid;
+  gap: 10px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  overflow: visible;
+}
+.task {
+  overflow: hidden;
+  border-radius: 18px;
+  border-left: 5px solid var(--t3, var(--brand-2));
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+.task + .task {
+  border-top: 0;
+}
+.task.is-done {
+  border-left-color: var(--ok-fill);
+}
+.task-check {
+  border-width: 2px;
+}
+
+/* Prochaine échéance : compte à rebours dans une pastille, comme avant */
+.countdown-lg {
+  min-width: 76px;
+  padding: 8px 12px;
+  border-radius: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  color: var(--brand);
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+}
+.exam-focus h2 {
+  font-size: 19px;
+  color: var(--brand);
+}
+
+/* Activité : tuiles pastel */
+.activity-mini {
+  gap: 10px;
+}
+.act-cell {
+  align-items: center;
+  border-radius: 20px;
+  padding: 14px 12px;
+  background: var(--t1);
+  color: var(--t4);
+}
+.act-ico,
+.act-cell.today .act-ico {
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: var(--surface);
+  color: var(--t3);
+  box-shadow: 0 2px 8px rgba(16, 40, 80, 0.06);
+}
+.act-cell b {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--t4);
+}
+.activity-mini .btn.quiet {
+  color: var(--accent);
+}
+
+/* ---------- Bibliothèque ---------- */
+.search-wrap {
+  border: 0;
+  border-radius: 16px;
+  box-shadow: var(--sh-1);
+}
+.subject-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 760px) {
+  .subject-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.subject-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 138px;
+  padding: 0;
+  text-align: left;
+  border: 1px solid var(--t2);
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--t1);
+  color: var(--ink);
+  box-shadow: 0 6px 20px rgba(16, 40, 80, 0.06);
+  transition: transform var(--t-fast) var(--ease), box-shadow var(--t) var(--ease);
+}
+.subject-card:hover {
+  box-shadow: 0 10px 28px rgba(16, 40, 80, 0.1);
+}
+.subject-card:active {
+  transform: scale(0.985);
+}
+.sc-art {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(120px 100px at 30% 30%, color-mix(in srgb, var(--surface) 90%, transparent) 0, transparent 70%),
+    radial-gradient(160px 140px at 80% 90%, var(--t2) 0, transparent 75%),
+    var(--t1);
+}
+.sc-art-ico {
+  color: var(--t3);
+  opacity: 0.55;
+}
+.sc-art-ico .ico {
+  width: 64px;
+  height: 64px;
+}
+.sc-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  margin: 8px 8px 8px 34%;
+  padding: 14px 14px 13px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.86);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+}
+.sc-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--t3);
+}
+.sc-badge {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background: var(--t1);
+  color: var(--t3);
+}
+.sc-name {
+  flex: 1;
+  min-width: 0;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--brand);
+}
+.sc-head .chev {
+  color: var(--t3);
+  opacity: 1;
+}
+.sc-count {
+  font-size: 13px;
+  color: var(--muted);
+}
+.sc-count .due {
+  color: var(--warn);
+  font-weight: 800;
+}
+.sc-meter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sc-meter .meter {
+  flex: 1;
+}
+.sc-meter b {
+  font-size: 12.5px;
+  color: var(--t4);
+}
+.sc-next {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12.5px;
+  font-weight: 650;
+  line-height: 1.35;
+  color: var(--t4);
+}
+.subject-card.is-empty {
+  min-height: 0;
+}
+.lib-group .section-head h2 {
+  font-size: 18px;
+}
+
+/* ---------- Fiche matière ---------- */
+.back-link {
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 16px;
+}
+.subject-head {
+  position: relative;
+  overflow: hidden;
+  gap: 14px;
+  padding: 20px 18px;
+  border-radius: 26px;
+  background: var(--t1);
+  background: radial-gradient(260px 160px at 100% 0, color-mix(in srgb, var(--surface) 80%, transparent) 0, transparent 70%), linear-gradient(135deg, var(--t1), var(--t2));
+  box-shadow: var(--sh-1);
+}
+.subject-ico.lg {
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: var(--surface);
+  color: var(--t3);
+  box-shadow: 0 4px 12px rgba(16, 40, 80, 0.08);
+}
+.subject-head h1 {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--brand);
+}
+.subject-head p {
+  color: var(--t4);
+  font-weight: 600;
+}
+.ring {
+  width: 74px;
+  height: 74px;
+  background: conic-gradient(var(--t3) calc(var(--p) * 1%), color-mix(in srgb, var(--surface) 70%, transparent) 0);
+}
+.ring::before {
+  inset: 8px;
+  background: var(--t1);
+}
+.ring .num {
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--brand);
+}
+.detail-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0 4px;
+}
+.detail-stats > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 6px;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+.detail-stats b {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--brand);
+}
+.detail-stats span {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+.subject-due {
+  margin: 8px 2px 0 !important;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--warn);
+}
+.subject-actions {
+  flex-direction: column;
+  align-items: stretch;
+}
+.subject-actions .btn {
+  flex: none;
+  width: 100%;
+  justify-content: center;
+}
+.next-step {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 14px 50px 14px 16px;
+  border-radius: 20px;
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  box-shadow: 0 8px 22px rgba(22, 48, 92, 0.25);
+  transition: transform var(--t-fast) var(--ease), box-shadow var(--t) var(--ease);
+}
+.next-step:hover {
+  box-shadow: 0 10px 26px rgba(22, 48, 92, 0.32);
+}
+.next-step:active {
+  transform: scale(0.985);
+}
+.next-step .kicker {
+  display: block;
+  color: #c4d3ee;
+}
+.next-step strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 15.5px;
+  line-height: 1.3;
+}
+.next-step > .ico {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subject-detail .subject-format + .section-head,
+.subject-detail .detail-stats + .section-head {
+  margin-top: var(--s6);
+}
+.subject-format {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+  border-left: 4px solid var(--t3);
+}
+.course-list {
+  display: grid;
+  gap: 10px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  overflow: visible;
+}
+.course-item {
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+.course-item + .course-item {
+  border-top: 0;
+}
+.course-row {
+  border-radius: 18px;
+}
+.course-num {
+  background: var(--t1);
+  color: var(--t4);
+  border: 0;
+}
+.status-doing .course-num {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+.status-done .course-num {
+  background: var(--ok-fill);
+  color: #fff;
+}
+
+/* ---------- Missions ---------- */
+.plan-hero {
+  border: 0;
+  border-radius: 22px;
+  background: var(--surface);
+  background: linear-gradient(140deg, var(--t1, #eaf3ff), var(--surface) 75%);
+  box-shadow: var(--sh-1);
+}
+.plan-hero::before {
+  display: none;
+}
+.plan-hero h2 {
+  color: var(--brand);
+}
+.plan-item {
+  border: 0;
+  border-left: 5px solid var(--t3, var(--brand-2));
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+.plan-item::before {
+  display: none;
+}
+.plan-item.is-done {
+  border-left-color: var(--ok-fill);
+}
+.plan-ico {
+  border-radius: 9px;
+  background: var(--t1);
+  color: var(--t3);
+}
+.plan-sub {
+  color: var(--t4);
+  font-weight: 750;
+}
+.plan-item h3 {
+  color: var(--brand);
+}
+.plan-later {
+  border: 0;
+  box-shadow: var(--sh-1);
+}
+
+/* ---------- Examens ---------- */
+.exam-item {
+  border: 0;
+  border-radius: 20px;
+  box-shadow: var(--sh-1);
+}
+.exam-item::before {
+  background: var(--t3);
+  width: 5px;
+}
+.exam-main h3 {
+  color: var(--brand);
+}
+
+/* ---------- Suivi ---------- */
+.act-kpis > div {
+  border: 0;
+  border-radius: 18px;
+  background: var(--t1);
+  color: var(--t4);
+}
+.act-kpis b {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--t4);
+}
+.act-kpis span {
+  color: var(--t4);
+}
+.act-bars .bar span {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--brand-2) 75%, #fff), var(--brand-2));
+}
+.mastery-row .row-ico,
+.weak-row .row-ico {
+  color: var(--t3);
+}
+
+/* ---------- Réglages ---------- */
+.settings .card {
+  border-radius: 20px;
+}
+
+/* ---------- Lecteur ---------- */
+.reader .lesson-tabs button:not(.active) .ico {
+  color: var(--tab-ico, currentColor);
+}
+#tab-story { --tab-ico: #3b82f6; }
+#tab-summary { --tab-ico: #e0952b; }
+#tab-chapter { --tab-ico: #e2683f; }
+#tab-qcm { --tab-ico: #7c5cf0; }
+#tab-qroc { --tab-ico: #e5486a; }
+#tab-cards { --tab-ico: #139aa4; }
+#tab-writing { --tab-ico: #a8793c; }
+#tab-final { --tab-ico: #18a077; }
+#tab-source { --tab-ico: #5a6b85; }
+#tab-fiches { --tab-ico: #4b5bd6; }
+.lesson-tabs button {
+  font-weight: 700;
+}
+.mk {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.lesson-intro {
+  margin: 10px 0 14px;
+  padding: 18px 18px 16px;
+  border-radius: 22px;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+}
+.lesson-title {
+  font-family: var(--round);
+  font-weight: 800;
+}
+.chapter-end,
+.final-head {
+  border-style: solid;
+  border-color: var(--line);
+  border-radius: 20px;
+  background: var(--surface-2);
+}
+
+/* ---------- Questions, cartes, entraînement ---------- */
+.q-format {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  padding: 4px 9px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.q-format.multi {
+  background: var(--violet-soft);
+  color: var(--violet);
+}
+.opt {
+  border-radius: 18px;
+  min-height: 56px;
+  padding: 13px 14px;
+}
+.opt-letter {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  background: var(--sunken);
+  color: var(--ink-2);
+}
+.opt.picked {
+  border-color: var(--brand-2);
+  background: var(--accent-soft);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand-2) 14%, transparent);
+}
+.opt.picked .opt-letter {
+  background: var(--brand-2);
+  color: #fff;
+}
+.opt.is-right {
+  border-color: var(--ok-fill);
+  background: var(--ok-soft);
+}
+.opt.is-right .opt-letter {
+  background: var(--ok-fill);
+  color: #fff;
+}
+.opt.is-wrong {
+  border-color: var(--ko-fill);
+  background: var(--ko-soft);
+}
+.opt.is-wrong .opt-letter {
+  background: var(--ko-fill);
+  color: #fff;
+}
+.opt.is-missed {
+  border-color: var(--ok-fill);
+  background: color-mix(in srgb, var(--ok-soft) 60%, transparent);
+}
+.opt.is-missed .opt-letter {
+  background: var(--surface);
+  color: var(--ok);
+  box-shadow: inset 0 0 0 2px var(--ok-fill);
+}
+.qfeedback,
+.train-explain {
+  border-radius: 16px;
+}
+.train-card,
+.qitem {
+  border: 0;
+  border-radius: 24px;
+  box-shadow: var(--sh-1);
+}
+.flashcard {
+  border: 0;
+  border-radius: 24px;
+  box-shadow: var(--sh-2);
+}
+.seg-progress i {
+  height: 6px;
+  border-radius: 6px;
+}
+.seg-progress i.s-ok {
+  background: var(--ok-fill);
+}
+.seg-progress i.s-ko {
+  background: var(--ko-fill);
+}
+.seg-progress i.s-ans {
+  background: #5b8def;
+}
+.primary-cta {
+  min-height: 52px;
+  border-radius: 16px;
+}
+.exam-footer .icon-btn {
+  background: var(--sunken);
+}
+
+/* ---------- Ajouts V0.42 : PDF joints, nombre de questions, fiches d'exhaustivité ---------- */
+.med2-pdf {
+  border: 0;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+.card .med2-pdf,
+.lesson-box .med2-pdf {
+  background: var(--surface-2);
+  box-shadow: none;
+}
+.med2-pdf h3 {
+  font-family: var(--round);
+  font-weight: 800;
+  color: var(--ink);
+}
+.question-count {
+  border-color: var(--line-2);
+  border-radius: 18px;
+  background: var(--surface);
+}
+.question-count legend {
+  font-family: var(--round);
+  font-weight: 800;
+}
+.fiche-exhaustivite-page {
+  border: 0;
+}
+
+/* =====================================================================
    90 · Adaptations : tailles d'écran, mouvements réduits, impression
    Compositions repensées (pas seulement rétrécies) :
    < 600 px téléphone · ≥ 600 px grand téléphone / tablette · ≥ 760 px boîtes de dialogue
@@ -5204,7 +6160,7 @@ kbd.hint {
     writingIndex: 0,
     writingReveal: false,
   };
-  const APP_VERSION = "V0.42";
+  const APP_VERSION = "V0.43";
   const lesson = (id) => pedagogie.lessons?.[id];
   const defaultState = {
     pace: 14,
@@ -5863,9 +6819,9 @@ kbd.hint {
   const UI_THEME = "med2.semestre1.apparence.v1";
   let appearance = (() => {
     try {
-      return localStorage.getItem(UI_THEME) || "auto";
+      return localStorage.getItem(UI_THEME) || "light";
     } catch {
-      return "auto";
+      return "light";
     }
   })();
   const darkQuery = window.matchMedia ? matchMedia("(prefers-color-scheme: dark)") : null;
@@ -5874,7 +6830,7 @@ kbd.hint {
     if (appearance === "light" || appearance === "dark") root.dataset.theme = appearance;
     else delete root.dataset.theme;
     const dark = appearance === "dark" || (appearance === "auto" && darkQuery?.matches);
-    document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.setAttribute("content", dark ? "#0e141e" : "#f3f5f9"));
+    document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.setAttribute("content", dark ? "#0e141e" : "#f3f6fb"));
   }
   darkQuery?.addEventListener?.("change", () => appearance === "auto" && applyAppearance());
   applyAppearance();
@@ -6153,16 +7109,16 @@ kbd.hint {
     if (rl && !recent)
       resumeRow = `<button class="list-row resume-row tone-${TONE[rl.subject] || "sky"}" data-action="resume-lesson" data-id="${esc(rl.id)}"><span class="row-ico" aria-hidden="true">${svgI(I.book, 18)}</span><span class="list-txt"><b>Reprendre : ${esc(rl.title)}</b><small>${esc(shortName(rl.subject))} · chapitre ${rk} sur ${rn}${rs.at ? ` · lu ${relDay(rs.at)}` : ""}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`;
     if (recent) {
-      focus = `<section class="focus-card tone-${TONE[rl.subject] || "sky"}" aria-labelledby="focus-title"><div class="focus-top"><span class="focus-ico">${icon(rl.subject, 22)}</span><span class="focus-kicker">Reprendre la lecture${rs.at && rs.at !== today() ? ` · ${relDay(rs.at)}` : ""}</span></div><h2 id="focus-title">${esc(rl.title)}</h2><p class="focus-meta">${esc(subject(rl.subject).name)} · chapitre ${rk} sur ${rn}</p>${meterA(pctOf(rk, rn), `Chapitre ${rk} sur ${rn}`)}<button class="btn block" data-action="resume-lesson" data-id="${esc(rl.id)}">${svgI(I.play, 16)} Continuer au chapitre ${rk}</button></section>`;
+      focus = `<section class="focus-card tone-${TONE[rl.subject] || "sky"}" aria-labelledby="focus-title"><span class="focus-art" aria-hidden="true">${icon(rl.subject, 128)}</span><div class="focus-top"><span class="focus-ico">${icon(rl.subject, 22)}</span><span class="focus-kicker">Reprendre la lecture${rs.at && rs.at !== today() ? ` · ${relDay(rs.at)}` : ""}</span></div><h2 id="focus-title">${esc(rl.title)}</h2><p class="focus-meta">${esc(subject(rl.subject).name)} · chapitre ${rk} sur ${rn}</p>${meterA(pctOf(rk, rn), `Chapitre ${rk} sur ${rn}`)}<button class="btn block" data-action="resume-lesson" data-id="${esc(rl.id)}">${svgI(I.play, 16)} Continuer au chapitre ${rk}</button></section>`;
     } else if (left.length) {
       const it = left[0],
         r = cms().find((x) => x.id === it.id),
         [what, label, ico] = planPrimary(it);
       focus = r
-        ? `<section class="focus-card tone-${TONE[r.subject] || "sky"}" aria-labelledby="focus-title"><div class="focus-top"><span class="focus-ico">${icon(r.subject, 22)}</span><span class="focus-kicker">Première mission du jour</span></div><h2 id="focus-title">${esc(lesson(r.id)?.title || r.title)}</h2><p class="focus-meta">${esc(subject(r.subject).name)} · ${it.mode === "veille" ? "Dernier regard" : `Tour ${it.tour} · ${TOUR_NAME(it.tour)}`} · ${fmtMin(it.min)}</p><button class="btn block" data-action="plan-open" data-id="${r.id}|${what}">${svgI(ico, 17)} ${label}</button></section>`
+        ? `<section class="focus-card tone-${TONE[r.subject] || "sky"}" aria-labelledby="focus-title"><span class="focus-art" aria-hidden="true">${icon(r.subject, 128)}</span><div class="focus-top"><span class="focus-ico">${icon(r.subject, 22)}</span><span class="focus-kicker">Première mission du jour</span></div><h2 id="focus-title">${esc(lesson(r.id)?.title || r.title)}</h2><p class="focus-meta">${esc(subject(r.subject).name)} · ${it.mode === "veille" ? "Dernier regard" : `Tour ${it.tour} · ${TOUR_NAME(it.tour)}`} · ${fmtMin(it.min)}</p><button class="btn block" data-action="plan-open" data-id="${r.id}|${what}">${svgI(ico, 17)} ${label}</button></section>`
         : "";
     } else if (items.length) {
-      focus = `<section class="focus-card tone-mint" aria-labelledby="focus-title"><div class="focus-top"><span class="focus-ico">${svgI(I.checkCircle, 22)}</span><span class="focus-kicker">Journée bouclée</span></div><h2 id="focus-title">Tout ce qui était prévu aujourd’hui est fait.</h2><p class="focus-meta">Tu peux avancer sur la suite du programme, ou t’arrêter là : le plan de demain en tient compte.</p>${ctx.cur && ctx.mode === "normal" ? `<button class="btn block secondary" data-action="plan-more">${svgI(I.plus, 17)} Ajouter une mission</button>` : ""}</section>`;
+      focus = `<section class="focus-card tone-mint" aria-labelledby="focus-title"><span class="focus-art" aria-hidden="true">${svgI(I.checkCircle, 128)}</span><div class="focus-top"><span class="focus-ico">${svgI(I.checkCircle, 22)}</span><span class="focus-kicker">Journée bouclée</span></div><h2 id="focus-title">Tout ce qui était prévu aujourd’hui est fait.</h2><p class="focus-meta">Tu peux avancer sur la suite du programme, ou t’arrêter là : le plan de demain en tient compte.</p>${ctx.cur && ctx.mode === "normal" ? `<button class="btn block secondary" data-action="plan-more">${svgI(I.plus, 17)} Ajouter une mission</button>` : ""}</section>`;
     } else {
       /* Jour d'examen, calendrier terminé ou premier lancement : un message adapté, jamais « Pour commencer » à tort. */
       const ended = ctx.mode === "none" && exams.length > 0 && !exams.some((x) => diff(x.date) >= 0);
@@ -6172,7 +7128,7 @@ kbd.hint {
           : ended
             ? [I.checkCircle, "Calendrier terminé", "Toutes les épreuves du calendrier sont passées.", "Les cours, les fiches et les entraînements restent disponibles pour réviser librement."]
             : [I.book, "Pour commencer", "Choisis un cours à lire", "Les cours sont regroupés par examen dans la bibliothèque."];
-      focus = `<section class="focus-card tone-sky" aria-labelledby="focus-title"><div class="focus-top"><span class="focus-ico">${svgI(fIco, 22)}</span><span class="focus-kicker">${fKick}</span></div><h2 id="focus-title">${fTitle}</h2><p class="focus-meta">${fMeta}</p><button class="btn block secondary" data-action="nav" data-id="library">${svgI(I.library, 17)} Ouvrir la bibliothèque</button></section>`;
+      focus = `<section class="focus-card tone-sky" aria-labelledby="focus-title"><span class="focus-art" aria-hidden="true">${svgI(fIco, 128)}</span><div class="focus-top"><span class="focus-ico">${svgI(fIco, 22)}</span><span class="focus-kicker">${fKick}</span></div><h2 id="focus-title">${fTitle}</h2><p class="focus-meta">${fMeta}</p><button class="btn block secondary" data-action="nav" data-id="library">${svgI(I.library, 17)} Ouvrir la bibliothèque</button></section>`;
     }
     const todayHtml = items.length
       ? `<section class="section" aria-labelledby="today-title"><div class="section-head"><h2 id="today-title">Aujourd’hui</h2><span class="muted num">${fmtMin(doneMin)} sur ${fmtMin(total)}</span></div>${meterA(pctOf(doneMin, total), "Temps de révision accompli aujourd’hui", "green")}<ul class="task-list">${items.map(taskRow).join("")}</ul><button class="btn quiet" data-action="nav" data-id="missions">Ouvrir le plan du jour ${svgI(I.next, 16)}</button></section>`
@@ -6183,7 +7139,7 @@ kbd.hint {
           .slice(0, 4)
           .map(
             (r) =>
-              `<button class="list-row tone-${TONE[r.subject] || "sky"}" data-action="open-mission" data-id="${r.id}"><span class="dot-tone" aria-hidden="true"></span><span class="list-txt"><b>${esc(lesson(r.id)?.title || r.title)}</b><small>${esc(shortName(r.subject))} · prévu ${relDay(st.memory[r.id].nextDue)}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`,
+              `<button class="list-row tone-${TONE[r.subject] || "sky"}" data-action="open-mission" data-id="${r.id}"><span class="row-ico" aria-hidden="true">${icon(r.subject, 18)}</span><span class="list-txt"><b>${esc(lesson(r.id)?.title || r.title)}</b><small>${esc(shortName(r.subject))} · prévu ${relDay(st.memory[r.id].nextDue)}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`,
           )
           .join("")}</div></section>`
       : "";
@@ -6212,14 +7168,14 @@ kbd.hint {
     const by = activityByDay(),
       streak = streakOf(by),
       nToday = by[today()] || 0;
-    const activity = `<section class="card activity-mini" aria-labelledby="act-title"><h2 id="act-title" class="sr-only">Activité</h2><div class="act-cell streak"><span class="act-ico">${svgI(I.fire, 18)}</span><span><b class="num">${streak}</b> ${streak > 1 ? "jours d’affilée" : "jour d’affilée"}</span></div><div class="act-cell today"><span class="act-ico">${svgI(I.checkCircle, 18)}</span><span><b class="num">${nToday}</b> ${nToday > 1 ? "réponses" : "réponse"} aujourd’hui</span></div><button class="btn quiet small" data-action="nav" data-id="progress">Mon suivi ${svgI(I.next, 15)}</button></section>`;
+    const activity = `<section class="card activity-mini" aria-labelledby="act-title"><h2 id="act-title" class="sr-only">Activité</h2><div class="act-cell streak tone-amber"><span class="act-ico">${svgI(I.fire, 18)}</span><span><b class="num">${streak}</b> ${streak > 1 ? "jours d’affilée" : "jour d’affilée"}</span></div><div class="act-cell today tone-mint"><span class="act-ico">${svgI(I.checkCircle, 18)}</span><span><b class="num">${nToday}</b> ${nToday > 1 ? "réponses" : "réponse"} aujourd’hui</span></div><button class="btn quiet small" data-action="nav" data-id="progress">Mon suivi ${svgI(I.next, 15)}</button></section>`;
     /* Entraînement : seulement les matières de la prochaine échéance (les autres restent dans Examens). */
     const trainKeys = cur ? trainSubjects().filter((k) => cur.subjects.includes(k)) : trainSubjects();
     const trainHtml = trainKeys.length
       ? `<section class="card" aria-labelledby="train-title"><h2 id="train-title" class="card-title">S’entraîner au format examen<small class="card-sub">${cur ? `Épreuves du ${esc(cur.label)}` : "Toutes les matières"}</small></h2><div class="group flush">${trainKeys
           .map((k) => {
             const t = trainStats(k);
-            return `<button class="list-row tone-${TONE[k] || "sky"}" data-action="training-open" data-id="${k}"><span class="dot-tone" aria-hidden="true"></span><span class="list-txt"><b>${esc(subject(k).name)}</b><small class="num">${t.done}/${t.total} traitées${t.done ? ` · ${pctOf(t.ok, t.done)} % justes` : ""}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`;
+            return `<button class="list-row tone-${TONE[k] || "sky"}" data-action="training-open" data-id="${k}"><span class="row-ico" aria-hidden="true">${icon(k, 18)}</span><span class="list-txt"><b>${esc(subject(k).name)}</b><small class="num">${t.done}/${t.total} traitées${t.done ? ` · ${pctOf(t.ok, t.done)} % justes` : ""}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`;
           })
           .join("")}</div></section>`
       : "";
@@ -6244,7 +7200,8 @@ kbd.hint {
     const parts = x.total
       ? [plural(x.total, "cours", "cours"), x.doing ? `${x.doing} en cours` : "", x.done ? plural(x.done, "maîtrisé") : "", x.due ? `<b class="due">${plural(x.due, "rappel")}</b>` : ""].filter(Boolean)
       : ["Sources à compléter"];
-    return `<button class="subject-row tone-${tone} ${x.total ? "" : "is-empty"}" data-action="subject" data-id="${s.id}"><span class="subject-ico">${icon(s.id, 22)}</span><span class="subject-txt"><b>${esc(s.name)}</b><small>${parts.join(" · ")}</small></span>${x.total ? `<span class="subject-pct"><span class="num">${x.pct} %</span>${meterA(x.pct, `Progression en ${s.name}`)}</span>` : ""}<span class="chev">${svgI(I.next, 18)}</span></button>`;
+    const nx = x.next && lesson(x.next.id);
+    return `<button class="subject-card tone-${tone} ${x.total ? "" : "is-empty"}" data-action="subject" data-id="${s.id}"><span class="sc-art" aria-hidden="true"><span class="sc-art-ico">${icon(s.id, 64)}</span></span><span class="sc-body"><span class="sc-head"><span class="sc-badge" aria-hidden="true">${icon(s.id, 18)}</span><span class="sc-name">${esc(s.name)}</span><span class="chev">${svgI(I.next, 18)}</span></span><span class="sc-count">${parts.join(" · ")}</span>${x.total ? `<span class="sc-meter">${meterA(x.pct, `Progression en ${s.name}`)}<b class="num">${x.pct} %</b></span>` : ""}${nx ? `<span class="sc-next">Prochaine étape : ${esc(nx.title)}</span>` : ""}</span></button>`;
   }
   function searchResults(q) {
     const terms = q.split(/\s+/).filter(Boolean);
@@ -6295,7 +7252,7 @@ kbd.hint {
     return groups
       .map(
         (g) =>
-          `<section class="lib-group" aria-label="${esc(g.label)}"><div class="section-head"><h2>${esc(g.label)}</h2>${g.start ? `<span class="badge num">J−${diff(g.start)}</span>` : ""}</div><div class="group">${g.ids.map((id) => subjectRow(subject(id), stats[id])).join("")}</div></section>`,
+          `<section class="lib-group" aria-label="${esc(g.label)}"><div class="section-head"><h2>${esc(g.label)}</h2>${g.start ? `<span class="badge num">J−${diff(g.start)}</span>` : ""}</div><div class="subject-grid">${g.ids.map((id) => subjectRow(subject(id), stats[id])).join("")}</div></section>`,
       )
       .join("");
   }
@@ -6327,7 +7284,7 @@ kbd.hint {
       const parts = l ? [plural(l.sections.length, "chapitre"), `${lessonMinutes(r)} min`, `${activeQcm(l).length} QCM`] : ["Leçon à venir · source sur Drive"];
       return `<li class="course-item status-${k}"><button class="course-row" data-action="${l ? "open-lesson" : "open-mission"}" data-id="${r.id}"><span class="course-num num" aria-hidden="true">${i + 1}</span><span class="course-main"><b>${esc(l?.title || r.title)}</b><small>${parts.join(" · ")}</small></span><span class="course-state">${statusBadge(k)}${fin ? `<span class="score num" title="${courseExamIsComplete(r.id, fin) ? "Dernière évaluation du cours" : `Série de ${plural(fin.total, "question")}`}">${Math.round(((20 * fin.score) / Math.max(1, fin.total)) * 10) / 10}/20${courseExamIsComplete(r.id, fin) ? "" : ` · ${fin.total} q.`}</span>` : ""}${l ? tourPips(r.id) : ""}</span></button>${l ? `<button class="icon-btn course-recall" data-action="open-mission" data-id="${r.id}" aria-label="Rappel actif : ${esc(l.title)}" title="Rappel actif et autoévaluation">${svgI(I.bulb, 19)}</button>` : ""}</li>`;
     };
-    return `<section class="subject-detail tone-${tone}" id="subject-detail"><button class="back-link" data-action="close-subject">${svgI(I.back, 18)} Cours</button><header class="subject-head"><span class="subject-ico lg">${icon(s.id, 28)}</span><div class="subject-head-txt"><h1>${esc(s.name)}</h1><p>${ex ? `Examen ${esc(shortDate(ex.date))}${diff(ex.date) >= 0 ? ` · J−${diff(ex.date)}` : ""}` : "Date d’examen à préciser"}</p></div>${x.total ? `<div class="ring" style="--p:${x.pct}" role="img" aria-label="Progression ${x.pct} %"><span class="num">${x.pct}<small>%</small></span></div>` : ""}</header><div class="subject-format"><p><span class="muted">Épreuve :</span> ${esc(m ? examFormats(s.id) : "modalités à préciser")}</p><ul class="facts" aria-label="Modalités d’examen">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>${next || train ? `<div class="subject-actions">${next ? `<button class="btn" data-action="open-lesson" data-id="${next.id}">${svgI(I.play, 15)} ${courseStatus(next) === "doing" ? "Continuer" : "Commencer"} : ${esc(shorten(lesson(next.id).title, 44))}</button>` : ""}${train ? `<button class="btn secondary" data-action="training-open" data-id="${s.id}">${svgI(I.exam, 18)} S’entraîner au format examen</button>` : ""}</div>` : ""}${x.total ? `<p class="subject-counts"><span><i class="dot done"></i>${plural(x.done, "maîtrisé")}</span><span><i class="dot doing"></i>${x.doing} en cours</span><span><i class="dot todo"></i>${x.todo} à découvrir</span>${x.due ? `<span class="due">${plural(x.due, "rappel")} à faire</span>` : ""}</p>` : ""}<div class="section-head"><h2>Cours</h2><span class="muted num">${courses.length}</span></div>${courses.length ? `<ol class="course-list">${courses.map(row).join("")}</ol>` : `<div class="empty-state"><p><b>Aucun cours indexé pour cette matière.</b></p><p class="muted">Les cours apparaîtront ici dès leur ajout au catalogue de la ronéo.</p></div>`}<p class="legend-line muted">${tourPips("__none__")} Les pastilles indiquent les tours validés dans le plan (comprendre, consolider, s’évaluer). ${svgI(I.bulb, 14)} ouvre le rappel actif du cours.</p><details class="annales"><summary>Annales repérées <span class="muted num">${annales.length}</span></summary><p class="muted">Les questions d’entraînement au format examen s’appuient sur l’analyse de ces annales ; les fichiers eux-mêmes restent sur ton Drive.</p><ul class="file-list">${annales.map((r) => `<li>${svgI(I.file, 16)}<span>${esc(r.title)}</span></li>`).join("") || "<li>Aucun fichier d’annales ici.</li>"}</ul></details></section>`;
+    return `<section class="subject-detail tone-${tone}" id="subject-detail"><button class="back-link" data-action="close-subject">${svgI(I.back, 18)} Cours</button><header class="subject-head"><span class="subject-ico lg">${icon(s.id, 28)}</span><div class="subject-head-txt"><h1>${esc(s.name)}</h1><p>${ex ? `Examen ${esc(shortDate(ex.date))}${diff(ex.date) >= 0 ? ` · J−${diff(ex.date)}` : ""}` : "Date d’examen à préciser"}</p></div>${x.total ? `<div class="ring" style="--p:${x.pct}" role="img" aria-label="Progression ${x.pct} %"><span class="num">${x.pct}<small>%</small></span></div>` : ""}</header>${x.total ? `<div class="detail-stats"><div><b class="num">${x.done}</b><span>${x.done > 1 ? "Maîtrisés" : "Maîtrisé"}</span></div><div><b class="num">${x.doing}</b><span>En cours</span></div><div><b class="num">${x.todo}</b><span>À découvrir</span></div></div>${x.due ? `<p class="subject-due">${plural(x.due, "rappel")} à faire</p>` : ""}` : ""}${next || train ? `<div class="subject-actions">${next ? `<button class="next-step" data-action="open-lesson" data-id="${next.id}"><span class="kicker">${courseStatus(next) === "doing" ? "Continuer" : "Prochaine étape"}</span><strong>${esc(lesson(next.id).title)}</strong>${svgI(I.next, 20)}</button>` : ""}${train ? `<button class="btn secondary" data-action="training-open" data-id="${s.id}">${svgI(I.exam, 18)} S’entraîner au format examen</button>` : ""}</div>` : ""}<div class="subject-format"><p><span class="muted">Épreuve :</span> ${esc(m ? examFormats(s.id) : "modalités à préciser")}</p><ul class="facts" aria-label="Modalités d’examen">${facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div><div class="section-head"><h2>Cours</h2><span class="muted num">${courses.length}</span></div>${courses.length ? `<ol class="course-list">${courses.map(row).join("")}</ol>` : `<div class="empty-state"><p><b>Aucun cours indexé pour cette matière.</b></p><p class="muted">Les cours apparaîtront ici dès leur ajout au catalogue de la ronéo.</p></div>`}<p class="legend-line muted">${tourPips("__none__")} Les pastilles indiquent les tours validés dans le plan (comprendre, consolider, s’évaluer). ${svgI(I.bulb, 14)} ouvre le rappel actif du cours.</p><details class="annales"><summary>Annales repérées <span class="muted num">${annales.length}</span></summary><p class="muted">Les questions d’entraînement au format examen s’appuient sur l’analyse de ces annales ; les fichiers eux-mêmes restent sur ton Drive.</p><ul class="file-list">${annales.map((r) => `<li>${svgI(I.file, 16)}<span>${esc(r.title)}</span></li>`).join("") || "<li>Aucun fichier d’annales ici.</li>"}</ul></details></section>`;
   }
   function examsView() {
     const days = [...new Set([...exams].sort((a, b) => a.date.localeCompare(b.date)).map((x) => x.date))];
@@ -6402,10 +7359,10 @@ kbd.hint {
       : `<div class="empty-state small"><p class="muted">Aucun chapitre sous 60 % de réussite parmi ceux où tu as répondu à au moins 3 questions. Les points faibles apparaîtront ici au fil de tes réponses.</p></div>`;
     const due = dueRecalls();
     const fins = Object.entries(st.courseExamResults || {}).sort((a, b) => b[1].date.localeCompare(a[1].date));
-    return `${mast()}<main id="main" class="shell view progress"><header class="page-head"><h1>Suivi</h1><p class="muted">Ce que tu as fait, et ce que tu sais vraiment. Tout est calculé à partir de tes réponses enregistrées sur cet appareil.</p></header><div class="progress-grid"><section class="card activity" aria-labelledby="act-h"><div class="section-head"><h2 id="act-h">Activité</h2><span class="muted">14 derniers jours</span></div><div class="act-kpis"><div><b class="num">${streak}</b><span>${streak > 1 ? "jours d’affilée" : "jour d’affilée"}</span></div><div><b class="num">${week}</b><span>réponses sur 7 jours</span></div><div><b class="num">${activeDays}/7</b><span>jours actifs</span></div></div><ol class="act-bars">${bars}</ol><p class="footnote">Réponses enregistrées : QCM, QROC, cartes mémoire, entraînement et évaluations de cours. Une carte revue plusieurs fois ne compte qu’à sa dernière révision.</p></section><section class="card" aria-labelledby="weak-h"><div class="section-head"><h2 id="weak-h">Chapitres à retravailler</h2>${weak.length ? `<span class="badge ko num">${weak.length}</span>` : ""}</div><p class="muted">Moins de 60 % de bonnes réponses à ta dernière tentative (au moins 3 questions répondues).</p>${weakHtml}</section></div><section class="section" aria-labelledby="mast-h"><div class="section-head"><h2 id="mast-h">Maîtrise par matière</h2></div><p class="muted">« Travaillé » : questions auxquelles tu as répondu au moins une fois. « Réussite » : part de bonnes réponses à ta dernière tentative. L’un mesure l’activité, l’autre la maîtrise.</p><div class="card flush mastery">${rows.map(rowHtml).join("")}</div></section>${due.length ? `<section class="section" aria-labelledby="due-h"><div class="section-head"><h2 id="due-h">Rappels espacés à faire</h2><span class="badge warn num">${due.length}</span></div><div class="group">${due
+    return `${mast()}<main id="main" class="shell view progress"><header class="page-head"><h1>Suivi</h1><p class="muted">Ce que tu as fait, et ce que tu sais vraiment. Tout est calculé à partir de tes réponses enregistrées sur cet appareil.</p></header><div class="progress-grid"><section class="card activity" aria-labelledby="act-h"><div class="section-head"><h2 id="act-h">Activité</h2><span class="muted">14 derniers jours</span></div><div class="act-kpis"><div class="tone-amber"><b class="num">${streak}</b><span>${streak > 1 ? "jours d’affilée" : "jour d’affilée"}</span></div><div class="tone-sky"><b class="num">${week}</b><span>réponses sur 7 jours</span></div><div class="tone-mint"><b class="num">${activeDays}/7</b><span>jours actifs</span></div></div><ol class="act-bars">${bars}</ol><p class="footnote">Réponses enregistrées : QCM, QROC, cartes mémoire, entraînement et évaluations de cours. Une carte revue plusieurs fois ne compte qu’à sa dernière révision.</p></section><section class="card" aria-labelledby="weak-h"><div class="section-head"><h2 id="weak-h">Chapitres à retravailler</h2>${weak.length ? `<span class="badge ko num">${weak.length}</span>` : ""}</div><p class="muted">Moins de 60 % de bonnes réponses à ta dernière tentative (au moins 3 questions répondues).</p>${weakHtml}</section></div><section class="section" aria-labelledby="mast-h"><div class="section-head"><h2 id="mast-h">Maîtrise par matière</h2></div><p class="muted">« Travaillé » : questions auxquelles tu as répondu au moins une fois. « Réussite » : part de bonnes réponses à ta dernière tentative. L’un mesure l’activité, l’autre la maîtrise.</p><div class="card flush mastery">${rows.map(rowHtml).join("")}</div></section>${due.length ? `<section class="section" aria-labelledby="due-h"><div class="section-head"><h2 id="due-h">Rappels espacés à faire</h2><span class="badge warn num">${due.length}</span></div><div class="group">${due
       .map(
         (r) =>
-          `<button class="list-row tone-${TONE[r.subject] || "sky"}" data-action="open-mission" data-id="${r.id}"><span class="dot-tone" aria-hidden="true"></span><span class="list-txt"><b>${esc(lesson(r.id)?.title || r.title)}</b><small>${esc(shortName(r.subject))} · prévu ${relDay(st.memory[r.id].nextDue)}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`,
+          `<button class="list-row tone-${TONE[r.subject] || "sky"}" data-action="open-mission" data-id="${r.id}"><span class="row-ico" aria-hidden="true">${icon(r.subject, 18)}</span><span class="list-txt"><b>${esc(lesson(r.id)?.title || r.title)}</b><small>${esc(shortName(r.subject))} · prévu ${relDay(st.memory[r.id].nextDue)}</small></span><span class="chev">${svgI(I.next, 18)}</span></button>`,
       )
       .join("")}</div></section>` : ""}<section class="section" aria-labelledby="fin-h"><div class="section-head"><h2 id="fin-h">Évaluations de cours</h2>${fins.length ? `<span class="muted num">${fins.length}</span>` : ""}</div>${fins.length ? `<div class="group">${fins
       .slice(0, 20)

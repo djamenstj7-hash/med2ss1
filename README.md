@@ -7,7 +7,7 @@ Application web de révision du semestre 1 de MED2 : cours rédigés, QCM et QRO
 - Fonctionne hors ligne après le téléchargement complet des cours et des images (vérifiable dans Réglages).
 - Aucun compte, aucun serveur : les résultats restent dans le navigateur de l’appareil (voir « Données »).
 
-Version actuelle : **V0.42** (hors ligne, séries personnalisées et PDF par cours). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
+Version actuelle : **V0.43** (identité visuelle d’origine et nouvelle icône ; V0.42 : hors ligne, séries personnalisées et PDF par cours). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
 
 ## Contenu du dépôt
 
@@ -16,7 +16,7 @@ Version actuelle : **V0.42** (hors ligne, séries personnalisées et PDF par cou
 | `index.html` | L’application : interface, styles et code (≈ 370 Ko). Les cours n’y sont plus intégrés. |
 | `service-worker.js` | Mode hors ligne, téléchargement des images et mises à jour. |
 | `pdf-library.js` | Import, association et consultation des PDF locaux par cours (IndexedDB). |
-| `manifest.webmanifest`, `icon-192.png`, `icon-512.png` | Installation sur l’écran d’accueil. |
+| `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` | Installation sur l’écran d’accueil (icône : un stéthoscope sur une blouse). |
 | `data/catalogue.json` | Matières et cours recensés. |
 | `data/examens.json` | Calendrier des épreuves. |
 | `data/modalites.json` | Modalités d’évaluation par matière. |
@@ -25,7 +25,7 @@ Version actuelle : **V0.42** (hors ligne, séries personnalisées et PDF par cou
 | `Assets/*.svg` | Schémas des cours. |
 | `Assets/fiches/` | Illustrations des fiches (téléchargées pour le hors ligne). |
 | `Assets/photos/` | Photos de sémiologie (téléchargées pour le hors ligne). |
-| `Assets/fonts/` | Police Atkinson Hyperlegible Next (licence SIL OFL, fichier `LICENCE-OFL.txt`). |
+| `Assets/fonts/` | Ancienne police, plus utilisée depuis la V0.43 (l’application reprend la police du système) ; dossier supprimable. |
 
 ⚠️ Le dossier s’appelle `Assets` avec un **A majuscule** : GitHub Pages distingue les majuscules.
 
@@ -62,7 +62,7 @@ GitHub Pages met en général une à deux minutes à publier un envoi (onglet **
 ## Fonctionnement hors ligne
 
 - Page et données : réseau d’abord (avec un délai maximal, puis copie locale), en requêtes conditionnelles.
-- Schémas, illustrations, photos et police : copie locale d’abord.
+- Schémas, illustrations et photos : copie locale d’abord.
 - Précache tolérant : un fichier manquant n’empêche plus l’installation du mode hors ligne ; il est signalé dans Réglages.
 - Les images sont découvertes dans les données des cours et dans l’interface : photos, schémas et nouvelles fiches sont téléchargés à l’avance, même sans ouvrir chaque cours.
 - Attendre la confirmation de téléchargement complet dans **Réglages › Installation et hors ligne** avant de couper la connexion. Le navigateur peut retirer le stockage du site en cas de manque de place ; demander sa protection dans Réglages.

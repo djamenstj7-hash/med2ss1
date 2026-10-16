@@ -2,13 +2,13 @@
    Les références sont découvertes dans le HTML et les JSON : les nouvelles images n’ont
    plus besoin d’être ajoutées à une liste manuelle. Une installation interrompue garde
    les copies précédentes ; les PDF personnels restent dans leur stockage IndexedDB. */
-const VERSION = '20261016-v042-offline-complet';
+const VERSION = '20261016-v043-identite';
 const CACHE = 'med2-s1-' + VERSION;
 const SCOPE = new URL('./', self.registration.scope);
 const SHELL = new URL('./index.html', SCOPE).href;
 const REPORT = new URL('./__installation.json', SCOPE).href;
 const PRECACHE = [
-  './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png',
+  './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png',
   './data/catalogue.json', './data/examens.json', './data/modalites.json',
   './data/pedagogie.json', './data/entrainements.json',
 ];
