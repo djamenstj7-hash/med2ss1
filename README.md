@@ -7,7 +7,7 @@ Application web de révision du semestre 1 de MED2 : cours rédigés, QCM et QRO
 - Fonctionne hors ligne après le téléchargement complet des cours et des images (vérifiable dans Réglages).
 - Aucun compte, aucun serveur : les résultats restent dans le navigateur de l’appareil (voir « Données »).
 
-Version actuelle : **V0.43** (identité visuelle d’origine et nouvelle icône ; V0.42 : hors ligne, séries personnalisées et PDF par cours). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
+Version actuelle : **V0.44** (8 cours de la semaine du 12/10 issus des prises de notes ; V0.43 : identité visuelle d’origine et nouvelle icône). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
 
 ## Contenu du dépôt
 

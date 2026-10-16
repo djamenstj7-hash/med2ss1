@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.43 (16/10/2026) — identité visuelle d’origine et nouvelle icône
+MED2 — Semestre 1 — V0.44 (16/10/2026) — cours de la semaine du 12 octobre (prises de notes)
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -27,16 +27,28 @@ MED2 — Semestre 1 — V0.43 (16/10/2026) — identité visuelle d’origine et
 ========================================================================
 3. CONTENU ACTUEL
 ========================================================================
-- 14 matières au calendrier, 115 ressources recensées.
-- 69 cours rédigés (Sémiologie 15, BMCP 15, BMCT 11, SSH 9, Immunologie 7, Tissu sanguin 6,
-  Informatique médicale 2, Biomédecine quantitative 2, Virologie 2), 484 chapitres.
+- 14 matières au calendrier, 123 ressources recensées.
+- 77 cours rédigés (Sémiologie 15, BMCP 15, BMCT 14, Immunologie 10, SSH 9, Tissu sanguin 8, Informatique médicale 2, Biomédecine quantitative 2, Virologie 2), 541 chapitres.
 - Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
-  évaluation de fin de cours. Au total 3 964 QCM, 897 QROC, 1 764 cartes.
-- Entraînement au format de l'examen : 1 629 QI et 105 dossiers.
+  évaluation de fin de cours. Au total 4 269 QCM, 1 099 QROC, 1 991 cartes.
+- Entraînement au format de l'examen : 1 754 QI et 128 dossiers.
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.43 (interface seulement : contenu, données et progression inchangés)
+4. NOUVEAUTÉS V0.44 (contenu ajouté ; interface, anciens cours et progression inchangés)
+========================================================================
+- 8 nouveaux cours issus du dossier « Prise de notes » de Ronéo & Juliette (semaine du 12/10),
+  corrigés et complétés avec la ronéo Swan et Ronéo 2025-2026 du même enseignant :
+  · Tissu sanguin : Syndromes hémorragiques ; Arbres décisionnels de l’hémostase.
+  · Immunologie : Immunité innée et réaction inflammatoire ; La réponse immunitaire T ; Contraction clonale et mémoire T.
+  · BMCT : Pharmacologie de la neurotransmission ; Pharmacologie du métabolisme ; Pharmacologie du système immunitaire.
+- Chaque cours : chapitres avec encadrés « À retenir », pièges d’annales, QCM au format de l’épreuve,
+  QROC à mots-clés, cartes mémoire, synthèse, évaluation de fin de cours et dossiers cliniques ajoutés
+  à l’entraînement de la matière (étiquetés « Très probable » quand le thème revient en annales).
+- Les écarts entre la prise de notes, la ronéo 2025-2026 et les annales sont signalés dans chaque cours.
+- Les schémas récapitulatifs de ces cours arriveront avec le lot suivant.
+
+HISTORIQUE V0.43 (interface seulement)
 ========================================================================
 - Retour de l’identité visuelle d’origine sur la nouvelle organisation : fond à halo lavande,
   cartes blanches à grands rayons et ombres douces, titres en SF Pro Rounded, dégradés pastel
@@ -90,3 +102,6 @@ HISTORIQUE V0.30 (refonte de l’interface)
   résultats. Conserver les originaux pour les importer sur un autre appareil. Le lecteur PDF dépend
   du navigateur ; le téléchargement du fichier reste proposé. Les liens Drive nécessitent Internet.
 - Les PDF et les liens Google Drive privés ne sont pas publiés dans le dépôt public.
+- Les cours marqués « prise de notes » reposent sur des notes d’étudiants pas encore relues par la ronéo officielle,
+  recoupées ligne à ligne avec la ronéo Swan et Ronéo 2025-2026 du même enseignant. Ils seront réalignés sur la
+  ronéo officielle dès sa parution ; les écarts repérés sont signalés en tête de chaque cours (« points de vigilance »).
