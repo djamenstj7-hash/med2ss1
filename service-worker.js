@@ -3,7 +3,7 @@
    plus besoin d’être ajoutées à une liste manuelle. Une installation interrompue garde
    les copies précédentes ; les PDF personnels (fiches et Mes PDF) restent dans leur stockage IndexedDB ; le lecteur PDF.js
    (Assets/pdfjs-4.10.38.*) est téléchargé avec les cours pour les ouvrir hors ligne. */
-const VERSION = '20261017-v045-fiches-pdf';
+const VERSION = '20261017-v046-viro-ssh';
 const CACHE = 'med2-s1-' + VERSION;
 const SCOPE = new URL('./', self.registration.scope);
 const SHELL = new URL('./index.html', SCOPE).href;

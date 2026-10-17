@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.45 (17/10/2026) — fiches PDF hors ligne dans chaque cours et schémas des cours du 12 octobre
+MED2 — Semestre 1 — V0.46 (17/10/2026) — virologie et SSH : trois cours de plus issus des prises de notes
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -27,25 +27,39 @@ MED2 — Semestre 1 — V0.45 (17/10/2026) — fiches PDF hors ligne dans chaque
 ========================================================================
 3. CONTENU ACTUEL
 ========================================================================
-- 14 matières au calendrier, 125 ressources recensées.
-- 77 cours rédigés (Sémiologie 15, BMCP 15, BMCT 14, Immunologie 10, SSH 9, Tissu sanguin 8, Informatique médicale 2, Biomédecine quantitative 2, Virologie 2), 541 chapitres.
+- 14 matières au calendrier, 128 ressources recensées.
+- 80 cours rédigés (Sémiologie 15, BMCP 15, BMCT 14, SSH 10, Immunologie 10, Tissu sanguin 8, Virologie 4, Informatique médicale 2, Biomédecine quantitative 2), 561 chapitres.
 - Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
-  évaluation de fin de cours. Au total 4 269 QCM, 1 099 QROC, 1 991 cartes.
-- Entraînement au format de l'examen : 1 754 QI et 128 dossiers.
+  évaluation de fin de cours. Au total 4 380 QCM, 1 099 QROC, 2 084 cartes.
+- Entraînement au format de l'examen : 1 782 QI et 134 dossiers.
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.45 (interface et contenu ajouté ; anciens cours et progression inchangés)
+4. NOUVEAUTÉS V0.46 (contenu ajouté ; anciens cours et progression inchangés)
+========================================================================
+- 3 nouveaux cours issus du dossier « Prise de notes » de Ronéo & Juliette (13/10), corrigés et
+  complétés avec la ronéo Swan et Ronéo 2025-2026 du même enseignant :
+  · Virologie : Multiplication des virus dans l’organisme 1 ; Multiplication des virus dans l’organisme 2.
+  · SSH : Éthique : Donner la mort 3.
+- Virologie : QCM au format de l’épreuve (QI en QRU et QRM, 5 propositions), cartes mémoire, synthèse,
+  évaluation de fin de cours ; 28 QI et 6 dossiers ajoutés à l’entraînement de virologie
+  (sans étiquette de probabilité : aucune annale de virologie dans les sources).
+- SSH : QCM d’entraînement, cartes mémoire et 7 sujets de restitution écrite
+  (QROC et QR, dont la QROC 7 des annales 2022-2023), comme les autres cours de SSH.
+- 4 schémas : portes d’entrée des virus, dissémination, évolution des infections, carte des arguments (SSH).
+- Les écarts entre la prise de notes, la ronéo 2025-2026 et les annales sont signalés en tête de chaque cours.
+- Interface : les renvois à la prise de notes s’affichent « prise de notes 2026 » au lieu d’un numéro de page PDF.
+
+HISTORIQUE V0.45 (interface et schémas)
 ========================================================================
 - Onglet « Fiches » dans chaque cours : importer une ou plusieurs fiches PDF depuis l’iPhone
   (Fichiers, iCloud Drive, Google Drive…), les lire dans l’application (zoom, numéro de page,
   plein écran où l’on peut pincer pour zoomer), les partager vers Fichiers ou Livres, les supprimer.
   Les fiches sont enregistrées sur l’appareil (IndexedDB) et s’ouvrent hors ligne.
-- Les PDF de « Mes PDF » (onglet Source) s’ouvrent eux aussi dans l’application (« Lire »),
-  y compris depuis l’icône de l’écran d’accueil sur iPhone.
+- Les PDF de « Mes PDF » (onglet Source) s’ouvrent eux aussi dans l’application (« Lire »).
 - Lecteur PDF : PDF.js 4.10.38 (Mozilla, licence Apache-2.0), fichiers Assets/pdfjs-4.10.38.*,
   téléchargé avec les cours pour fonctionner sans connexion.
-- 12 schémas récapitulatifs ajoutés aux 8 cours de la semaine du 12 octobre.
+- 12 schémas récapitulatifs ajoutés aux 8 cours de la V0.44.
 - Anatomie : 2 nouveaux cours recensés (Topographie du membre inférieur 1 ; Topographie membre supérieur 3).
 
 HISTORIQUE V0.44 (contenu ajouté)
@@ -58,7 +72,6 @@ HISTORIQUE V0.44 (contenu ajouté)
 - Chaque cours : chapitres avec encadrés « À retenir », pièges d’annales, QCM au format de l’épreuve,
   QROC à mots-clés, cartes mémoire, synthèse, évaluation de fin de cours et dossiers cliniques ajoutés
   à l’entraînement de la matière (étiquetés « Très probable » quand le thème revient en annales).
-- Les écarts entre la prise de notes, la ronéo 2025-2026 et les annales sont signalés dans chaque cours.
 
 HISTORIQUE V0.43 (interface seulement)
 ========================================================================
