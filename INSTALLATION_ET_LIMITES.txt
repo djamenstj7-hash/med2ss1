@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.44 (16/10/2026) — cours de la semaine du 12 octobre (prises de notes)
+MED2 — Semestre 1 — V0.45 (17/10/2026) — fiches PDF hors ligne dans chaque cours et schémas des cours du 12 octobre
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -27,7 +27,7 @@ MED2 — Semestre 1 — V0.44 (16/10/2026) — cours de la semaine du 12 octobre
 ========================================================================
 3. CONTENU ACTUEL
 ========================================================================
-- 14 matières au calendrier, 123 ressources recensées.
+- 14 matières au calendrier, 125 ressources recensées.
 - 77 cours rédigés (Sémiologie 15, BMCP 15, BMCT 14, Immunologie 10, SSH 9, Tissu sanguin 8, Informatique médicale 2, Biomédecine quantitative 2, Virologie 2), 541 chapitres.
 - Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
   évaluation de fin de cours. Au total 4 269 QCM, 1 099 QROC, 1 991 cartes.
@@ -35,7 +35,20 @@ MED2 — Semestre 1 — V0.44 (16/10/2026) — cours de la semaine du 12 octobre
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.44 (contenu ajouté ; interface, anciens cours et progression inchangés)
+4. NOUVEAUTÉS V0.45 (interface et contenu ajouté ; anciens cours et progression inchangés)
+========================================================================
+- Onglet « Fiches » dans chaque cours : importer une ou plusieurs fiches PDF depuis l’iPhone
+  (Fichiers, iCloud Drive, Google Drive…), les lire dans l’application (zoom, numéro de page,
+  plein écran où l’on peut pincer pour zoomer), les partager vers Fichiers ou Livres, les supprimer.
+  Les fiches sont enregistrées sur l’appareil (IndexedDB) et s’ouvrent hors ligne.
+- Les PDF de « Mes PDF » (onglet Source) s’ouvrent eux aussi dans l’application (« Lire »),
+  y compris depuis l’icône de l’écran d’accueil sur iPhone.
+- Lecteur PDF : PDF.js 4.10.38 (Mozilla, licence Apache-2.0), fichiers Assets/pdfjs-4.10.38.*,
+  téléchargé avec les cours pour fonctionner sans connexion.
+- 12 schémas récapitulatifs ajoutés aux 8 cours de la semaine du 12 octobre.
+- Anatomie : 2 nouveaux cours recensés (Topographie du membre inférieur 1 ; Topographie membre supérieur 3).
+
+HISTORIQUE V0.44 (contenu ajouté)
 ========================================================================
 - 8 nouveaux cours issus du dossier « Prise de notes » de Ronéo & Juliette (semaine du 12/10),
   corrigés et complétés avec la ronéo Swan et Ronéo 2025-2026 du même enseignant :
@@ -46,7 +59,6 @@ MED2 — Semestre 1 — V0.44 (16/10/2026) — cours de la semaine du 12 octobre
   QROC à mots-clés, cartes mémoire, synthèse, évaluation de fin de cours et dossiers cliniques ajoutés
   à l’entraînement de la matière (étiquetés « Très probable » quand le thème revient en annales).
 - Les écarts entre la prise de notes, la ronéo 2025-2026 et les annales sont signalés dans chaque cours.
-- Les schémas récapitulatifs de ces cours arriveront avec le lot suivant.
 
 HISTORIQUE V0.43 (interface seulement)
 ========================================================================
@@ -99,8 +111,9 @@ HISTORIQUE V0.30 (refonte de l’interface)
 - La synchronisation avec Google Drive n'est pas automatique : chaque nouveau cours est rédigé,
   vérifié puis ajouté dans data/ à la main.
 - Les PDF importés restent sur cet appareil et ne sont pas inclus dans la sauvegarde JSON des
-  résultats. Conserver les originaux pour les importer sur un autre appareil. Le lecteur PDF dépend
-  du navigateur ; le téléchargement du fichier reste proposé. Les liens Drive nécessitent Internet.
+  résultats. Conserver les originaux pour les importer sur un autre appareil. Le lecteur PDF intégré
+  demande un iPhone à jour (iOS 16.4 ou plus récent) ; sinon « Partager » ouvre le fichier dans une autre
+  app. Les liens Drive nécessitent Internet.
 - Les PDF et les liens Google Drive privés ne sont pas publiés dans le dépôt public.
 - Les cours marqués « prise de notes » reposent sur des notes d’étudiants pas encore relues par la ronéo officielle,
   recoupées ligne à ligne avec la ronéo Swan et Ronéo 2025-2026 du même enseignant. Ils seront réalignés sur la

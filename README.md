@@ -7,7 +7,7 @@ Application web de révision du semestre 1 de MED2 : cours rédigés, QCM et QRO
 - Fonctionne hors ligne après le téléchargement complet des cours et des images (vérifiable dans Réglages).
 - Aucun compte, aucun serveur : les résultats restent dans le navigateur de l’appareil (voir « Données »).
 
-Version actuelle : **V0.44** (8 cours de la semaine du 12/10 issus des prises de notes ; V0.43 : identité visuelle d’origine et nouvelle icône). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
+Version actuelle : **V0.45** (onglet Fiches : fiches PDF importées et lisibles hors ligne dans chaque cours ; schémas des cours du 12/10 ; V0.44 : 8 cours de la semaine du 12/10 issus des prises de notes). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
 
 ## Contenu du dépôt
 
@@ -15,7 +15,7 @@ Version actuelle : **V0.44** (8 cours de la semaine du 12/10 issus des prises de
 | --- | --- |
 | `index.html` | L’application : interface, styles et code (≈ 370 Ko). Les cours n’y sont plus intégrés. |
 | `service-worker.js` | Mode hors ligne, téléchargement des images et mises à jour. |
-| `pdf-library.js` | Import, association et consultation des PDF locaux par cours (IndexedDB). |
+| `pdf-library.js` | Fiches PDF (onglet Fiches) et PDF par cours (onglet Source) : import, lecture intégrée hors ligne, partage (IndexedDB). |
 | `manifest.webmanifest`, `icon-192.png`, `icon-512.png`, `apple-touch-icon.png` | Installation sur l’écran d’accueil (icône : un stéthoscope sur une blouse). |
 | `data/catalogue.json` | Matières et cours recensés. |
 | `data/examens.json` | Calendrier des épreuves. |
@@ -25,6 +25,7 @@ Version actuelle : **V0.44** (8 cours de la semaine du 12/10 issus des prises de
 | `Assets/*.svg` | Schémas des cours. |
 | `Assets/fiches/` | Illustrations des fiches (téléchargées pour le hors ligne). |
 | `Assets/photos/` | Photos de sémiologie (téléchargées pour le hors ligne). |
+| `Assets/pdfjs-4.10.38.min.mjs`, `Assets/pdfjs-4.10.38.worker.min.mjs` | Lecteur PDF : PDF.js de Mozilla (licence Apache-2.0, `Assets/pdfjs-4.10.38-LICENSE.txt`), téléchargé pour le hors ligne. |
 | `Assets/fonts/` | Ancienne police, plus utilisée depuis la V0.43 (l’application reprend la police du système) ; dossier supprimable. |
 
 ⚠️ Le dossier s’appelle `Assets` avec un **A majuscule** : GitHub Pages distingue les majuscules.
@@ -40,12 +41,16 @@ La progression et les réglages sont enregistrés dans le navigateur (`localStor
 | `med2.semestre1.reprise.v1` | Dernier cours ouvert et chapitre en cours. |
 | `med2.semestre1.apparence.v1` | Apparence de l’application : automatique, claire ou sombre (nouveau en V0.30). |
 | `med2.semestre1.catalogue.import.v1` | Catalogue importé à la main (facultatif). |
+| `med2.pdf.counts.v1`, `med2.pdf.fiche.selected.v1` | Nombre de PDF par cours (pastille de l’onglet Fiches) et dernière fiche affichée (V0.45). |
+
+Les PDF eux-mêmes (fiches et Mes PDF) sont dans la base IndexedDB `med2.semestre1.pdf.v1` de l’appareil.
 
 Sauvegarde : **Réglages › Mes données › Exporter** (fichier `.json`), puis **Importer** sur un autre appareil ou après une réinitialisation. Exporter avant chaque grosse mise à jour reste une bonne habitude.
 
 ## PDF et séries de questions
 
-- Dans un cours, **Mes PDF** (ou l’onglet **Source**) permet d’importer plusieurs PDF et de les joindre à ce cours. Ils sont enregistrés dans IndexedDB sur cet appareil, consultables et téléchargeables hors ligne. Aucun envoi à GitHub ou à un serveur.
+- Dans chaque cours, l’onglet **Fiches** permet d’importer une ou plusieurs fiches PDF et de les lire directement dans l’application (zoom, plein écran, partage vers Fichiers), même hors ligne.
+- L’onglet **Source** garde **Mes PDF** pour les autres documents du cours (ronéo, annales…), lisibles aussi dans l’application. Tout est enregistré dans IndexedDB sur cet appareil : aucun envoi à GitHub ou à un serveur.
 - La sauvegarde JSON des résultats ne contient **pas les PDF** : conserver les originaux ou les télécharger pour changer d’appareil. Les PDF importés ne modifient pas les textes ou les questions du cours.
 - Les évaluations de cours et l’entraînement d’examen proposent un choix du nombre de questions avant le démarrage. Les séries courtes indiquent leur couverture réelle des chapitres.
 - **Cours suivant** ouvre le cours suivant de la même matière ; le sommaire permet toujours de choisir un chapitre.
@@ -54,7 +59,7 @@ Sauvegarde : **Réglages › Mes données › Exporter** (fichier `.json`), puis
 
 - **Cours, banque d’entraînement, calendrier** : remplacer le fichier concerné dans `data/`. Inutile de toucher à `index.html` : à chaque ouverture en ligne, l’application redemande ces fichiers en requête conditionnelle (s’ils n’ont pas changé, rien n’est retéléchargé).
 - **Images** : ajouter le fichier dans `Assets/` (ou `Assets/photos/`, `Assets/fiches/`). Pour **remplacer** une image existante, le plus simple est de lui donner un **nouveau nom** ; si le nom reste le même, changer `VERSION` en tête de `service-worker.js`, sinon les appareils garderont l’ancienne copie hors ligne.
-- **Interface** (`index.html`, `pdf-library.js`) : remplacer les fichiers ; la nouvelle version est servie dès la réouverture suivante en ligne.
+- **Interface** (`index.html`, `pdf-library.js`, lecteur `Assets/pdfjs-*`) : remplacer les fichiers ; la nouvelle version est servie dès la réouverture suivante en ligne.
 - Après une mise à jour : **Réglages › Installation et hors ligne** indique si tous les fichiers essentiels ont été mis en cache, et permet de télécharger ou réessayer les fichiers manquants avant de couper la connexion.
 
 GitHub Pages met en général une à deux minutes à publier un envoi (onglet **Actions** du dépôt).

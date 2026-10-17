@@ -1,8 +1,9 @@
 /* MED2 S1 — téléchargement complet des cours, illustrations et fichiers de l’application.
    Les références sont découvertes dans le HTML et les JSON : les nouvelles images n’ont
    plus besoin d’être ajoutées à une liste manuelle. Une installation interrompue garde
-   les copies précédentes ; les PDF personnels restent dans leur stockage IndexedDB. */
-const VERSION = '20261016-v044-cours-semaine6';
+   les copies précédentes ; les PDF personnels (fiches et Mes PDF) restent dans leur stockage IndexedDB ; le lecteur PDF.js
+   (Assets/pdfjs-4.10.38.*) est téléchargé avec les cours pour les ouvrir hors ligne. */
+const VERSION = '20261017-v045-fiches-pdf';
 const CACHE = 'med2-s1-' + VERSION;
 const SCOPE = new URL('./', self.registration.scope);
 const SHELL = new URL('./index.html', SCOPE).href;
@@ -11,6 +12,7 @@ const PRECACHE = [
   './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png',
   './data/catalogue.json', './data/examens.json', './data/modalites.json',
   './data/pedagogie.json', './data/entrainements.json',
+  './pdf-library.js', './Assets/pdfjs-4.10.38.min.mjs', './Assets/pdfjs-4.10.38.worker.min.mjs',
 ];
 const NETWORK_TIMEOUT = 15000;
 
@@ -68,7 +70,7 @@ function localResource(path) {
   try {
     const url = new URL(path, SCOPE);
     if (url.origin !== SCOPE.origin || !url.pathname.startsWith(SCOPE.pathname)) return null;
-    if (!/\.(?:html|json|js|css|png|webp|jpe?g|gif|avif|svg|woff2?|webmanifest)$/i.test(url.pathname)) return null;
+    if (!/\.(?:html|json|m?js|css|png|webp|jpe?g|gif|avif|svg|woff2?|webmanifest)$/i.test(url.pathname)) return null;
     return keyOf(url);
   } catch {
     return null;
