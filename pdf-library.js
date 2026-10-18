@@ -463,7 +463,7 @@
 .m2f-foot { display: flex; gap: 8px; align-items: flex-start; margin: 12px 2px 0; color: var(--muted, #5f6e87); font-size: 13px; line-height: 1.55; }
 .m2f-foot .ico { flex: none; margin-top: 1px; }
 
-.m2pv-scroll { position: relative; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; padding: 12px 10px 18px; background: var(--sunken, #eef2f8); }
+.m2pv-scroll { position: relative; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; touch-action: pan-x pan-y; padding: 12px 10px 18px; background: var(--sunken, #eef2f8); }
 .m2pv-col { width: max-content; min-width: 100%; transform-origin: 0 0; }
 .m2pv-page { position: relative; margin: 0 auto 12px; background: #fff; border-radius: 3px; overflow: hidden; box-shadow: 0 1px 2px rgba(16, 40, 80, .16), 0 4px 14px rgba(16, 40, 80, .10); }
 .m2pv-page:last-child { margin-bottom: 0; }
@@ -475,13 +475,20 @@
 @keyframes m2pv-pulse { 50% { opacity: .45; } }
 @media (prefers-reduced-motion: reduce) { .m2pv-page:not(.is-ready)::before { animation: none; } }
 
-.m2pv-overlay .figure-overlay-bar { gap: 8px; }
+/* Plein écran : aucun geste ne doit agrandir toute l'application (sinon les boutons Fermer sortent de l'écran).
+   Seule la zone des pages défile ; le pincement y agrandit le PDF lui-même. */
+.m2pv-overlay { background: rgb(6, 14, 28); touch-action: none; -webkit-user-select: none; user-select: none; }
+.m2pv-overlay .figure-overlay-bar { gap: 8px; padding-left: max(10px, env(safe-area-inset-left)); padding-right: max(10px, env(safe-area-inset-right)); }
 .m2pv-title { flex: 1; min-width: 0; color: #fff; text-align: center; }
 .m2pv-title b { display: block; overflow: hidden; font-size: 15px; white-space: nowrap; text-overflow: ellipsis; }
 .m2pv-title small { display: block; margin-top: 2px; color: #c8d2e0; font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
 .m2pv-tools { display: flex; gap: 6px; }
 .m2pv-stage { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-.m2pv-overlay .m2pv-scroll { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; touch-action: pan-x pan-y; padding: 6px 8px calc(22px + env(safe-area-inset-bottom)); background: transparent; }
+.m2pv-overlay .m2pv-scroll { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; touch-action: pan-x pan-y; padding: 6px max(8px, env(safe-area-inset-right)) calc(92px + env(safe-area-inset-bottom)) max(8px, env(safe-area-inset-left)); background: transparent; }
+.m2pv-close-pill { position: absolute; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom)); z-index: 3; transform: translateX(-50%); display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 136px; min-height: 50px; margin: 0; padding: 0 24px 0 20px; border: 1px solid rgba(255, 255, 255, .30); border-radius: 999px; background: rgba(13, 24, 44, .92); color: #fff; font: inherit; font-size: 16px; font-weight: 700; letter-spacing: .01em; line-height: 1; box-shadow: 0 8px 26px rgba(0, 0, 0, .5); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); cursor: pointer; -webkit-tap-highlight-color: transparent; }
+.m2pv-close-pill .ico { flex: none; }
+.m2pv-close-pill:active { background: rgba(37, 62, 104, .96); }
+.m2pv-overlay .m2pv-close-pill:focus-visible { outline: 3px solid #8fb4ff; outline-offset: 3px; }
 .m2pv-overlay .m2pv-page { box-shadow: 0 2px 10px rgba(0, 0, 0, .45); }
 .m2pv-overlay .m2f-error, .m2pv-overlay .m2f-loading { color: #dfe6f0; }
 .m2pv-overlay .m2f-error b { color: #ffb4b8; }
@@ -492,7 +499,7 @@
   .m2f-tools .btn span { display: none; }
   .m2f-tools .btn { width: 42px; padding: 0; }
   .m2pv-scroll { padding: 10px 6px 16px; }
-  .m2pv-overlay .figure-overlay-bar { gap: 4px; padding-left: 6px; padding-right: 6px; }
+  .m2pv-overlay .figure-overlay-bar { gap: 4px; padding-left: max(6px, env(safe-area-inset-left)); padding-right: max(6px, env(safe-area-inset-right)); }
   .m2pv-tools, .m2pv-overlay .fo-zoom { gap: 4px; }
 }
 `;
@@ -551,6 +558,12 @@
     function rootRect() {
       if (ioRoot) return ioRoot.getBoundingClientRect();
       return { top: 0, bottom: window.innerHeight, left: 0, right: window.innerWidth, height: window.innerHeight, width: window.innerWidth };
+    }
+    // Rapport entre pixels de mise en page et pixels écran du lecteur (≠ 1 quand le plein écran est
+    // réduit pour suivre une page déjà agrandie) : les écarts mesurés à l'écran sont convertis avant de défiler.
+    function localScale() {
+      const w = scroller.getBoundingClientRect().width;
+      return w > 0 && scroller.offsetWidth > 0 ? scroller.offsetWidth / w : 1;
     }
     function freeCanvas(canvas) {
       try { canvas.width = 0; canvas.height = 0; } catch (_) {}
@@ -700,8 +713,9 @@
       }
       layout();
       const r = pages[a.i].slot.getBoundingClientRect();
-      vEl.scrollTop += r.top + a.fy * r.height - a.y;
-      scroller.scrollLeft += r.left + a.fx * r.width - a.x;
+      const k = localScale();
+      vEl.scrollTop += (r.top + a.fy * r.height - a.y) * k;
+      scroller.scrollLeft += (r.left + a.fx * r.width - a.x) * k;
       pump();
       emit();
     }
@@ -720,7 +734,7 @@
         const a = anchorFor(null);
         layout();
         const r = pages[a.i].slot.getBoundingClientRect();
-        vEl.scrollTop += r.top + a.fy * r.height - a.y;
+        vEl.scrollTop += (r.top + a.fy * r.height - a.y) * localScale();
         pump();
       }, 160);
     }
@@ -728,20 +742,24 @@
     if (ro) ro.observe(scroller);
     else window.addEventListener("resize", onResize);
 
+    /* Pincer ou toucher deux fois agrandit le PDF lui-même (pages redessinées nettes), dans l'onglet comme
+       en plein écran. Avant la V0.46.1, dans l'onglet, le pincement agrandissait toute l'application : les
+       boutons de retour et de fermeture pouvaient alors sortir de l'écran. */
     const cleanups = [];
-    if (overlay) {
+    {
       let pinch = null;
       const dist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
       const onStart = (e) => {
         if (e.touches.length !== 2) return;
         const t = e.touches;
         const cr = col.getBoundingClientRect();
+        const k = localScale();
         pinch = { d: dist(t) || 1, z: zoom, s: 1, x: (t[0].clientX + t[1].clientX) / 2, y: (t[0].clientY + t[1].clientY) / 2 };
-        col.style.transformOrigin = pinch.x - cr.left + "px " + (pinch.y - cr.top) + "px";
+        col.style.transformOrigin = (pinch.x - cr.left) * k + "px " + (pinch.y - cr.top) * k + "px";
       };
       const onMove = (e) => {
         if (!pinch || e.touches.length !== 2) return;
-        e.preventDefault();
+        if (e.cancelable) e.preventDefault();
         const target = Math.max(levels[0], Math.min(levels[levels.length - 1], (pinch.z * dist(e.touches)) / pinch.d));
         pinch.s = target / pinch.z;
         col.style.transform = "scale(" + pinch.s + ")";
@@ -755,14 +773,18 @@
         if (Math.abs(p.s - 1) > 0.03) setZoom(p.z * p.s, { x: p.x, y: p.y });
       };
       const onDouble = (e) => setZoom(zoom > 1.01 ? 1 : 2, { x: e.clientX, y: e.clientY });
-      const noGesture = (e) => e.preventDefault();
-      scroller.addEventListener("touchstart", onStart, { passive: true });
-      scroller.addEventListener("touchmove", onMove, { passive: false });
-      scroller.addEventListener("touchend", onEnd, { passive: true });
-      scroller.addEventListener("touchcancel", onEnd, { passive: true });
-      scroller.addEventListener("dblclick", onDouble);
-      scroller.addEventListener("gesturestart", noGesture);
-      cleanups.push(() => scroller.removeEventListener("gesturestart", noGesture));
+      const noGesture = (e) => { if (e.cancelable) e.preventDefault(); };
+      const listeners = [
+        ["touchstart", onStart, { passive: true }],
+        ["touchmove", onMove, { passive: false }],
+        ["touchend", onEnd, { passive: true }],
+        ["touchcancel", onEnd, { passive: true }],
+        ["dblclick", onDouble, false],
+        ["gesturestart", noGesture, { passive: false }],
+        ["gesturechange", noGesture, { passive: false }],
+      ];
+      listeners.forEach(([type, fn, o]) => scroller.addEventListener(type, fn, o));
+      cleanups.push(() => listeners.forEach(([type, fn, o]) => scroller.removeEventListener(type, fn, o)));
     }
 
     function destroy() {
@@ -806,6 +828,73 @@
     if (overlayCtx) overlayCtx.close();
   }
 
+  function safely(fn) {
+    try { fn(); } catch (_) {}
+  }
+
+  /* Si l'application est déjà agrandie (pincement, zoom automatique d'iOS) quand le plein écran s'ouvre,
+     le calque se cale sur la zone réellement visible et garde sa taille normale : la croix et le bouton
+     « Fermer » restent toujours à l'écran. Sans agrandissement, rien ne change (la feuille de style suffit). */
+  function pinToVisualViewport(el) {
+    const vv = window.visualViewport;
+    if (!vv) return () => {};
+    const props = ["left", "top", "right", "bottom", "width", "height", "transform", "transform-origin"];
+    let frame = 0;
+    let pinned = false;
+    const apply = () => {
+      frame = 0;
+      if (!el.isConnected) return;
+      const s = vv.scale > 0 ? vv.scale : 1;
+      const x = vv.offsetLeft || 0;
+      const y = vv.offsetTop || 0;
+      if (Math.abs(s - 1) < 0.01 && Math.abs(x) < 1 && Math.abs(y) < 1) {
+        if (pinned) props.forEach((p) => el.style.removeProperty(p));
+        pinned = false;
+        return;
+      }
+      pinned = true;
+      el.style.left = "0px";
+      el.style.top = "0px";
+      el.style.right = "auto";
+      el.style.bottom = "auto";
+      el.style.width = vv.width * s + "px";
+      el.style.height = vv.height * s + "px";
+      el.style.transformOrigin = "0 0";
+      el.style.transform = "translate(" + x + "px, " + y + "px) scale(" + 1 / s + ")";
+    };
+    const schedule = () => { if (!frame) frame = window.requestAnimationFrame(apply); };
+    apply();
+    vv.addEventListener("resize", schedule);
+    vv.addEventListener("scroll", schedule);
+    window.addEventListener("orientationchange", schedule);
+    return () => {
+      if (frame) window.cancelAnimationFrame(frame);
+      vv.removeEventListener("resize", schedule);
+      vv.removeEventListener("scroll", schedule);
+      window.removeEventListener("orientationchange", schedule);
+    };
+  }
+
+  /* Pendant la lecture en plein écran, aucun geste n'agrandit l'application entière (Safari iOS ignore
+     parfois touch-action pour le pincement) : seul le PDF s'agrandit, dans la zone des pages. */
+  function blockPageZoom(el) {
+    const stop = (e) => { if (e.cancelable) e.preventDefault(); };
+    const multi = (e) => {
+      if (!e.touches || e.touches.length < 2 || !e.cancelable) return;
+      const t = e.target;
+      if (t && t.closest && t.closest(".m2pv-scroll")) return; // pincement du PDF, géré par le lecteur
+      e.preventDefault();
+    };
+    document.addEventListener("gesturestart", stop, { passive: false });
+    document.addEventListener("gesturechange", stop, { passive: false });
+    el.addEventListener("touchmove", multi, { passive: false });
+    return () => {
+      document.removeEventListener("gesturestart", stop, { passive: false });
+      document.removeEventListener("gesturechange", stop, { passive: false });
+      el.removeEventListener("touchmove", multi, { passive: false });
+    };
+  }
+
   function view(record, opener) {
     closeOverlay();
     styles();
@@ -832,29 +921,45 @@
     tools.append(zoomBox, share);
     bar.append(close, title, tools);
     const stage = node("div", "m2pv-stage");
-    over.append(bar, stage);
+    // Grand bouton en bas, à portée du pouce : toujours visible, loin de l'encoche et de la barre d'état.
+    const closeBig = button("m2pv-close-pill", ICON.close, "Fermer");
+    closeBig.dataset.pdfAction = "close-viewer";
+    over.append(bar, stage, closeBig);
     document.body.append(over);
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    close.focus();
+    const unpin = pinToVisualViewport(over);
+    const unblock = blockPageZoom(over);
+    safely(() => close.focus({ preventScroll: true }));
 
     let viewer = null;
     let closed = false;
     let acquired = false;
+    let watcher = null;
     const ctx = {
       close() {
         if (closed) return;
         closed = true;
-        if (viewer) viewer.destroy();
-        if (acquired) releaseDoc(record.id);
-        over.remove();
+        // Chaque étape est protégée : quoi qu'il arrive, le plein écran disparaît et l'application redevient utilisable.
+        safely(() => { if (watcher) watcher.disconnect(); });
+        safely(() => { if (viewer) viewer.destroy(); });
+        safely(() => { if (acquired) releaseDoc(record.id); });
+        safely(unpin);
+        safely(unblock);
+        safely(() => over.remove());
         document.body.style.overflow = previousOverflow;
         if (overlayCtx === ctx) overlayCtx = null;
-        if (back && back.isConnected && typeof back.focus === "function") back.focus({ preventScroll: true });
+        safely(() => { if (back && back.isConnected && typeof back.focus === "function") back.focus({ preventScroll: true }); });
       },
     };
     overlayCtx = ctx;
+    // Calque retiré par un autre écran de l'application : on libère quand même le document et les gestes.
+    if (window.MutationObserver) {
+      watcher = new MutationObserver(() => { if (!over.isConnected) ctx.close(); });
+      watcher.observe(document.body, { childList: true });
+    }
     close.addEventListener("click", () => ctx.close());
+    closeBig.addEventListener("click", () => ctx.close());
     over.addEventListener("click", (e) => {
       if (e.target === over) ctx.close();
     });

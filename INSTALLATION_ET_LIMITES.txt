@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.46 (17/10/2026) — virologie et SSH : trois cours de plus issus des prises de notes
+MED2 — Semestre 1 — V0.48 (18/10/2026) — virologie : Virus et hôte 2, les défenses de l’hôte
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -27,15 +27,56 @@ MED2 — Semestre 1 — V0.46 (17/10/2026) — virologie et SSH : trois cours de
 ========================================================================
 3. CONTENU ACTUEL
 ========================================================================
-- 14 matières au calendrier, 128 ressources recensées.
-- 80 cours rédigés (Sémiologie 15, BMCP 15, BMCT 14, SSH 10, Immunologie 10, Tissu sanguin 8, Virologie 4, Informatique médicale 2, Biomédecine quantitative 2), 561 chapitres.
+- 14 matières au calendrier, 133 ressources recensées.
+- 85 cours rédigés (BMCT 17, Sémiologie 15, BMCP 15, SSH 10, Immunologie 10, Tissu sanguin 9, Virologie 5, Informatique médicale 2, Biomédecine quantitative 2), 594 chapitres.
 - Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
-  évaluation de fin de cours. Au total 4 380 QCM, 1 099 QROC, 2 084 cartes.
-- Entraînement au format de l'examen : 1 782 QI et 134 dossiers.
+  évaluation de fin de cours. Au total 4 558 QCM, 1 191 QROC, 2 225 cartes.
+- Entraînement au format de l'examen : 1 852 QI et 151 dossiers.
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.46 (contenu ajouté ; anciens cours et progression inchangés)
+4. NOUVEAUTÉS V0.48 (contenu ajouté ; anciens cours et progression inchangés)
+========================================================================
+- 1 nouveau cours issu du dossier « Prise de notes » de Ronéo & Juliette (16/10, 11h-12h), corrigé et
+  complété avec la ronéo Swan et Ronéo 2025-2026 du même enseignant (FC n°3 « Virus et hôte partie 2 ») :
+  · Virologie : Virus et hôte 2.
+- Barrières non spécifiques et résistance génétique (parvovirus B19, CCR5), TRIM5α et APOBEC3G, infection
+  aiguë ou chronique, vaccins et séroprophylaxie, immunité innée (capteurs, interférons), LT CD8 et CD4,
+  anticorps (neutralisation, isotypes, diagnostic) et leurs effets néfastes (complexes immuns, facilitation).
+- QCM au format de l’épreuve (QRU et QRM, 5 propositions), cartes mémoire, synthèse, évaluation de fin de cours ;
+  21 QI et 4 dossiers ajoutés à l’entraînement de virologie (sans étiquette de probabilité).
+- 2 schémas : les défenses de la cellule contre le VIH (TRIM5α, APOBEC3G, Vif), les rôles des anticorps.
+- Les erreurs de la prise de notes (pH « 14 », vaccin contre l’hépatite C…) sont corrigées et signalées en tête du cours.
+
+HISTORIQUE V0.47 (contenu ajouté)
+========================================================================
+- 4 nouveaux cours issus du dossier « Prise de notes » de Ronéo & Juliette (14 et 16/10), corrigés et
+  complétés avec la ronéo Swan et Ronéo 2025-2026 du même enseignant :
+  · Tissu sanguin : Physiologie de l’hémostase.
+  · BMCT : Risque médicamenteux 1 ; Risque médicamenteux 2 ; Risque médicamenteux 3.
+- Chaque cours : chapitres avec encadrés « À retenir », QCM au format de l’épreuve, QROC à mots-clés,
+  cartes mémoire, synthèse et évaluation de fin de cours ; 49 QI et 13 dossiers ajoutés à l’entraînement
+  (tissu sanguin et BMCT), étiquetés « Très probable » quand le thème revient en annales.
+- BMCT : les annales du Pr Gautier (2015-2024) sur le risque médicamenteux et la pharmacovigilance sont
+  reprises avec leur corrigé ; quand le corrigé change d’une année à l’autre, l’explication le signale.
+- 5 schémas : récepteurs plaquettaires, modèle cellulaire de la coagulation, effet indésirable attendu
+  ou inattendu, les dix points de la balance bénéfice/risque, circuit de la pharmacovigilance.
+- Les écarts entre la prise de notes, la ronéo 2025-2026 et les annales sont signalés en tête de chaque cours.
+- Inclut le correctif V0.46.1 du lecteur PDF plein écran (voir ci-dessous).
+
+HISTORIQUE V0.46.1 (correctif d’interface)
+========================================================================
+- Lecteur PDF en plein écran (fiches et Mes PDF) : un grand bouton « Fermer » en bas de l’écran,
+  toujours visible et à portée du pouce, en plus de la croix en haut à gauche ; la croix s’écarte
+  désormais de l’encoche quand l’iPhone est tenu en paysage.
+- Si l’application était agrandie (pincement de l’écran) au moment d’ouvrir le PDF, le plein écran
+  se cale sur la partie visible : les boutons de fermeture ne peuvent plus sortir de l’écran.
+- Pincer une fiche, dans l’onglet Fiches comme en plein écran, agrandit le PDF lui-même (pages
+  redessinées nettes) et non plus toute l’application ; toucher deux fois alterne 100 % et 200 %.
+- Fermeture protégée : même pendant le dessin d’une page, le plein écran disparaît et l’application
+  reste utilisable, sans devoir la quitter.
+
+HISTORIQUE V0.46 (contenu ajouté)
 ========================================================================
 - 3 nouveaux cours issus du dossier « Prise de notes » de Ronéo & Juliette (13/10), corrigés et
   complétés avec la ronéo Swan et Ronéo 2025-2026 du même enseignant :
