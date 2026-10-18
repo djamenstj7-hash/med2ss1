@@ -7,7 +7,7 @@ Application web de révision du semestre 1 de MED2 : cours rédigés, QCM et QRO
 - Fonctionne hors ligne après le téléchargement complet des cours et des images (vérifiable dans Réglages).
 - Aucun compte, aucun serveur : les résultats restent dans le navigateur de l’appareil (voir « Données »).
 
-Version actuelle : **V0.48** (virologie : Virus et hôte 2, les défenses de l’hôte — prise de notes du 16/10 ; V0.47 : tissu sanguin, physiologie de l’hémostase, et BMCT, risque médicamenteux 1 à 3 ; V0.46.1 : lecteur PDF plein écran qui se referme toujours ; V0.46 : virologie et SSH (prises de notes du 13/10) ; V0.45 : onglet Fiches avec fiches PDF lisibles hors ligne ; V0.44 : 8 cours de la semaine du 12/10 issus des prises de notes). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
+Version actuelle : **V0.49** (« Cours détaillé » : le texte de la ronéo chapitre par chapitre, à la place du cours réécrit, dans les 85 cours ; V0.48 : virologie, Virus et hôte 2 — prise de notes du 16/10 ; V0.47 : tissu sanguin, physiologie de l’hémostase, et BMCT, risque médicamenteux 1 à 3 ; V0.46.1 : lecteur PDF plein écran qui se referme toujours ; V0.46 : virologie et SSH (prises de notes du 13/10) ; V0.45 : onglet Fiches avec fiches PDF lisibles hors ligne ; V0.44 : 8 cours de la semaine du 12/10 issus des prises de notes). Le détail de la version et ses limites sont dans `INSTALLATION_ET_LIMITES.txt`.
 
 ## Contenu du dépôt
 
@@ -22,6 +22,7 @@ Version actuelle : **V0.48** (virologie : Virus et hôte 2, les défenses de l�
 | `data/modalites.json` | Modalités d’évaluation par matière. |
 | `data/pedagogie.json` | Cours rédigés : chapitres, encadrés, QCM, QROC, cartes, évaluations. |
 | `data/entrainements.json` | Banque d’entraînement au format de l’examen (QI et dossiers). |
+| `data/cours-<matière>.json` | Cours détaillé : texte des ronéos et prises de notes, rangé par chapitre et par page (chargé à la demande, gardé hors ligne). |
 | `Assets/*.svg` | Schémas des cours. |
 | `Assets/fiches/` | Illustrations des fiches (téléchargées pour le hors ligne). |
 | `Assets/photos/` | Photos de sémiologie (téléchargées pour le hors ligne). |
@@ -39,6 +40,9 @@ La progression et les réglages sont enregistrés dans le navigateur (`localStor
 | `med2.semestre1.etat.v1` | Progression : réponses, plan de révision, rappels, évaluations. Clé et format conservés. |
 | `med2.semestre1.lecture.v1` | Réglages de lecture (police, taille, interligne, thème du lecteur). |
 | `med2.semestre1.reprise.v1` | Dernier cours ouvert et chapitre en cours. |
+| `med2.semestre1.coursdetaille.v1` | Outils du cours détaillé (mots-clés des QROC, surligneur). |
+| `med2.semestre1.surlignages.v1` | Passages surlignés dans le cours détaillé. |
+| `med2.semestre1.chapitreslus.v1` | Chapitres marqués « lus ». |
 | `med2.semestre1.apparence.v1` | Apparence de l’application : automatique, claire ou sombre (nouveau en V0.30). |
 | `med2.semestre1.catalogue.import.v1` | Catalogue importé à la main (facultatif). |
 | `med2.pdf.counts.v1`, `med2.pdf.fiche.selected.v1` | Nombre de PDF par cours (pastille de l’onglet Fiches) et dernière fiche affichée (V0.45). |

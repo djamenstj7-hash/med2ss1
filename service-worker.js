@@ -3,7 +3,7 @@
    plus besoin d’être ajoutées à une liste manuelle. Une installation interrompue garde
    les copies précédentes ; les PDF personnels (fiches et Mes PDF) restent dans leur stockage IndexedDB ; le lecteur PDF.js
    (Assets/pdfjs-4.10.38.*) est téléchargé avec les cours pour les ouvrir hors ligne. */
-const VERSION = '20261018-v048-virus-hote';
+const VERSION = '20261018-v049-cours-detaille';
 const CACHE = 'med2-s1-' + VERSION;
 const SCOPE = new URL('./', self.registration.scope);
 const SHELL = new URL('./index.html', SCOPE).href;
@@ -13,6 +13,7 @@ const PRECACHE = [
   './data/catalogue.json', './data/examens.json', './data/modalites.json',
   './data/pedagogie.json', './data/entrainements.json',
   './pdf-library.js', './Assets/pdfjs-4.10.38.min.mjs', './Assets/pdfjs-4.10.38.worker.min.mjs',
+  './data/cours-bmcp.json', './data/cours-bmct.json', './data/cours-immuno.json', './data/cours-informatique.json', './data/cours-quantitative.json', './data/cours-sang.json', './data/cours-semio.json', './data/cours-ssh.json', './data/cours-viro.json',
 ];
 const NETWORK_TIMEOUT = 15000;
 

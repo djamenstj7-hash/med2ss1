@@ -1,4 +1,4 @@
-MED2 — Semestre 1 — V0.48 (18/10/2026) — virologie : Virus et hôte 2, les défenses de l’hôte
+MED2 — Semestre 1 — V0.49 (18/10/2026) — « Cours détaillé » : la ronéo chapitre par chapitre, dans les 85 cours
 
 ========================================================================
 1. INSTALLATION (nouveau dépôt)
@@ -31,11 +31,32 @@ MED2 — Semestre 1 — V0.48 (18/10/2026) — virologie : Virus et hôte 2, les
 - 85 cours rédigés (BMCT 17, Sémiologie 15, BMCP 15, SSH 10, Immunologie 10, Tissu sanguin 9, Virologie 5, Informatique médicale 2, Biomédecine quantitative 2), 594 chapitres.
 - Par cours : QCM de chapitre, QROC, cartes mémoire, synthèse « Révision express »,
   évaluation de fin de cours. Au total 4 558 QCM, 1 191 QROC, 2 225 cartes.
+- Onglet « Cours détaillé » dans chaque cours : le texte intégral de la ronéo 2026-2027 (ou de la prise de
+  notes de l'année quand la ronéo n'est pas parue), rangé chapitre par chapitre et page par page.
 - Entraînement au format de l'examen : 1 852 QI et 151 dossiers.
 - Calendrier officiel de novembre, décembre et janvier ; plan de révision en tours jusqu'aux épreuves.
 
 ========================================================================
-4. NOUVEAUTÉS V0.48 (contenu ajouté ; anciens cours et progression inchangés)
+4. NOUVEAUTÉS V0.49 (interface ; cours, exercices et progression inchangés)
+========================================================================
+- Dans les 85 cours, l’onglet « Cours » (version réécrite, « cours intéressant ») est remplacé par
+  « Cours détaillé » : le texte de la ronéo Ronéo & Juliette 2026-2027, sans en-têtes ni numéros de page,
+  découpé selon les chapitres de l’application et présenté page par page (une carte = une page du PDF),
+  comme la rubrique « Cours détaillé » du site de sémiologie.
+- Les 16 cours issus d’une prise de notes affichent la prise de notes de l’année ; sous chaque chapitre,
+  « Comparer avec la ronéo 2025-2026 » montre les passages correspondants de l’an dernier (les passages
+  identiques à la prise de notes sont masqués). Immunité innée : la prise de notes recopie la ronéo
+  2025-2026 (FC n°7), c’est donc ce texte, avec ses pages, qui est affiché.
+- Quand un chapitre approfondit des passages déjà lus (cours construits par thèmes), les extraits utiles de
+  la ronéo y sont regroupés, avec un lien vers leur chapitre d’origine.
+- Pour mieux apprendre : mots-clés attendus aux QROC soulignés dans le texte ; surligneur personnel ;
+  « Marquer comme lu » (coche dans le sommaire) ; rappel actif de l’essentiel en fin de chapitre ;
+  schémas du chapitre ; durée de lecture par chapitre ; replier ou déplier toutes les pages.
+- Inchangés : entraînement par chapitre (QCM, QROC, cartes), synthèse, fiches, évaluation, dossiers,
+  entraînement au format de l’examen et progression.
+- Hors ligne : 9 nouveaux fichiers data/cours-<matière>.json (2,2 Mo), téléchargés avec les cours.
+
+HISTORIQUE V0.48 (contenu ajouté)
 ========================================================================
 - 1 nouveau cours issu du dossier « Prise de notes » de Ronéo & Juliette (16/10, 11h-12h), corrigé et
   complété avec la ronéo Swan et Ronéo 2025-2026 du même enseignant (FC n°3 « Virus et hôte partie 2 ») :
@@ -169,6 +190,10 @@ HISTORIQUE V0.30 (refonte de l’interface)
   demande un iPhone à jour (iOS 16.4 ou plus récent) ; sinon « Partager » ouvre le fichier dans une autre
   app. Les liens Drive nécessitent Internet.
 - Les PDF et les liens Google Drive privés ne sont pas publiés dans le dépôt public.
+- Cours détaillé : le texte est extrait des PDF. Les tableaux et schémas y perdent leur mise en forme (les
+  vérifier dans l’onglet Source) ; les fautes de frappe des ronéos et des prises de notes sont conservées.
+  Le découpage en chapitres est automatique : un passage peut se trouver à la frontière de deux chapitres.
+- Les surlignages et les chapitres « lus » restent sur l’appareil ; ils ne font pas partie de la sauvegarde.
 - Les cours marqués « prise de notes » reposent sur des notes d’étudiants pas encore relues par la ronéo officielle,
   recoupées ligne à ligne avec la ronéo Swan et Ronéo 2025-2026 du même enseignant. Ils seront réalignés sur la
   ronéo officielle dès sa parution ; les écarts repérés sont signalés en tête de chaque cours (« points de vigilance »).

@@ -6103,6 +6103,415 @@ h3,
 .question-count-presets { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .question-count-presets .chip-btn { min-height: 44px; }
 .question-count .small { margin-bottom: 0; }
+/* ---------- V0.49 · Cours détaillé : texte de la ronéo par chapitre ---------- */
+.cd-source {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 8px 0 4px;
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+.cd-source .ico {
+  flex: none;
+  margin-top: 2px;
+  color: var(--t3, var(--accent));
+}
+.cd-read-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--ok);
+  font-weight: 750;
+}
+.cd-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.cd-tool {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 6px 13px;
+  border-radius: var(--pill);
+  border: 1px solid var(--line-2);
+  background: var(--surface);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.cd-tool[aria-pressed="true"] {
+  background: var(--accent-soft);
+  border-color: var(--accent-line);
+  color: var(--accent-ink);
+}
+.cd-tool:active {
+  transform: scale(0.97);
+}
+.cd-study,
+.cd-hl-banner {
+  margin: 14px 0 4px;
+}
+.cd-study p + p {
+  margin-top: 6px;
+}
+.cd-hl-banner {
+  position: sticky;
+  top: calc(var(--bar-h, 56px) + env(safe-area-inset-top) + 6px);
+  z-index: 3;
+  background: color-mix(in srgb, rgb(255, 205, 60) 22%, var(--surface));
+  border-color: rgba(214, 160, 20, 0.55);
+}
+.cd-hl-banner .ico {
+  color: #a87400;
+}
+.cd-loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 18px 0;
+  padding: 16px;
+  border-radius: var(--r);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-weight: 650;
+}
+.cd-spin {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2.5px solid var(--line-2);
+  border-top-color: var(--accent);
+  animation: cd-spin 0.8s linear infinite;
+}
+@keyframes cd-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cd-error > div {
+  flex: 1;
+}
+.cd-error-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.cd-min {
+  font-weight: 650;
+  color: var(--muted);
+}
+.cd-read-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 1px 8px;
+  border-radius: var(--pill);
+  background: var(--ok-soft);
+  color: var(--ok);
+  font-size: 12px;
+  font-weight: 750;
+}
+/* Une carte = une page du PDF (ou la prise de notes) */
+.cd-page {
+  margin: 12px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface);
+  overflow: hidden;
+}
+.cd-page > summary,
+.cd-compare > summary,
+.cd-recall > summary,
+.cd-more > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.cd-page > summary::-webkit-details-marker,
+.cd-compare > summary::-webkit-details-marker,
+.cd-recall > summary::-webkit-details-marker,
+.cd-more > summary::-webkit-details-marker {
+  display: none;
+}
+.cd-page > summary {
+  justify-content: space-between;
+  padding: 9px 14px;
+  background: var(--surface-2);
+  font-size: 12.5px;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+}
+.cd-page[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+.cd-page-lab {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.cd-page-lab .ico {
+  flex: none;
+  color: var(--t3, var(--accent));
+}
+.cd-chev {
+  display: inline-flex;
+  margin-left: auto;
+  color: var(--muted);
+}
+.cd-chev .ico {
+  transition: transform 0.2s ease;
+}
+details:not([open]) > summary .cd-chev .ico {
+  transform: rotate(-90deg);
+}
+.cd-page-body {
+  padding: 10px 16px 6px;
+}
+.cd-p,
+.cd-arrow,
+.cd-ul li,
+.cd-box {
+  font-size: var(--rs);
+  line-height: var(--rlh);
+  color: var(--ink);
+  overflow-wrap: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.cd-p,
+.cd-arrow {
+  margin: 0 0 0.8em;
+  text-wrap: pretty;
+}
+.cd-arrow {
+  padding-left: 2px;
+}
+.reader[data-font="serif"] :is(.cd-p, .cd-arrow, .cd-ul li, .cd-box) {
+  font-family: var(--serif);
+}
+.cd-h {
+  margin: 1.05em 0 0.45em;
+  line-height: 1.3;
+  font-weight: 800;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.cd-page-body > .cd-h:first-child {
+  margin-top: 0.3em;
+}
+.cd-h1 {
+  font-size: calc(var(--rs) + 2px);
+  color: var(--t4, var(--accent-ink));
+}
+.cd-h2 {
+  font-size: calc(var(--rs) + 0.5px);
+}
+.cd-h3,
+.cd-h4 {
+  font-size: calc(var(--rs) - 1px);
+  color: var(--ink-2);
+}
+.cd-ul {
+  margin: 0 0 0.85em;
+  padding-left: 1.25em;
+}
+.cd-ul li {
+  margin: 0 0 0.35em;
+}
+.cd-ul li.lv2 {
+  margin-left: 1.1em;
+  list-style-type: circle;
+}
+.cd-ul li::marker {
+  color: var(--t3, var(--accent));
+}
+.cd-box {
+  margin: 0.3em 0 1em;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: var(--mk-key-bg);
+  box-shadow: inset 3px 0 0 var(--mk-key);
+  font-size: calc(var(--rs) - 1px);
+  line-height: 1.6;
+}
+.cd-table-wrap {
+  margin: 0.3em 0 1em;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.cd-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.cd-table.wide {
+  min-width: 520px;
+}
+.cd-table th,
+.cd-table td {
+  padding: 7px 9px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.cd-table tr:last-child td {
+  border-bottom: 0;
+}
+.cd-table th {
+  background: var(--surface-2);
+  font-weight: 750;
+}
+mark.cd-key {
+  background: none;
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 3px;
+  box-shadow: inset 0 -0.45em 0 var(--mk-key-bg);
+  text-decoration-line: underline;
+  text-decoration-color: var(--mk-key-line);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+.is-hl {
+  background: rgba(255, 210, 70, 0.4) !important;
+  box-shadow: 0 0 0 4px rgba(255, 210, 70, 0.4);
+  border-radius: 4px;
+}
+.reader[data-theme="nuit"] .is-hl {
+  background: rgba(255, 196, 60, 0.26) !important;
+  box-shadow: 0 0 0 4px rgba(255, 196, 60, 0.26);
+}
+[data-action="cd-hl"] {
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(255, 210, 70, 0.3);
+}
+/* Chapitres qui reprennent des passages lus ailleurs, comparaison 2025-2026, rappel actif */
+.cd-note {
+  margin: 4px 0 12px;
+}
+.cd-excerpt {
+  margin: 10px 0 16px;
+  padding: 10px 12px 6px;
+  border: 1px dashed var(--line-2);
+  border-radius: var(--r);
+  background: var(--surface-2);
+}
+.cd-excerpt .cd-page {
+  margin: 8px 0;
+}
+.cd-excerpt-from {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0 0 4px;
+  font-size: 13px;
+  font-weight: 750;
+  color: var(--muted);
+}
+.cd-excerpt-from .ico {
+  flex: none;
+  margin-top: 2px;
+}
+.cd-compare,
+.cd-recall,
+.cd-more {
+  margin: 14px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--surface-2);
+}
+.cd-compare > summary,
+.cd-recall > summary,
+.cd-more > summary {
+  padding: 12px 14px;
+  color: var(--ink);
+}
+.cd-compare > summary > span:not(.cd-chev),
+.cd-recall > summary > span:not(.cd-chev),
+.cd-more > summary > span:not(.cd-chev) {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 15px;
+}
+.cd-compare > summary small,
+.cd-recall > summary small,
+.cd-more > summary small {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--muted);
+}
+.cd-compare > summary > .ico,
+.cd-recall > summary > .ico,
+.cd-more > summary > .ico {
+  flex: none;
+  color: var(--t3, var(--accent));
+}
+.cd-compare[open] > summary,
+.cd-recall[open] > summary,
+.cd-more[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+.cd-compare {
+  border-color: var(--warn-line);
+  background: color-mix(in srgb, var(--warn-soft) 55%, var(--surface));
+}
+.cd-compare > summary > .ico {
+  color: var(--warn);
+}
+.cd-compare-body,
+.cd-more-body {
+  padding: 2px 10px 6px;
+}
+.cd-recall .lesson-memory {
+  margin: 12px;
+}
+.cd-figs {
+  margin: 18px 0 6px;
+}
+.cd-figs-lab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 750;
+  color: var(--muted);
+}
+.cd-read-btn[aria-pressed="true"] {
+  color: var(--ok);
+}
+.toc-n.is-read {
+  background: var(--ok-soft);
+  color: var(--ok);
+  box-shadow: inset 0 0 0 1px var(--ok-line);
+}
+@media (max-width: 420px) {
+  .cd-page-body {
+    padding: 8px 13px 4px;
+  }
+  .cd-tool {
+    padding: 6px 11px;
+  }
+}
 </style>
 </head>
 <body>
@@ -6160,7 +6569,7 @@ h3,
     writingIndex: 0,
     writingReveal: false,
   };
-  const APP_VERSION = "V0.48";
+  const APP_VERSION = "V0.49";
   const lesson = (id) => pedagogie.lessons?.[id];
   const defaultState = {
     pace: 14,
@@ -6985,7 +7394,9 @@ h3,
     if (rest.length) groups.push({ label: "Autres matières", start: null, ids: rest });
     return groups;
   }
-  const lessonMinutes = (r) => Math.max(5, Math.round((meta(r).words || 0) / 200));
+  /* V0.49 · durée de lecture du cours détaillé (texte original), calculée à la construction */
+  const CD_MIN = {"cm-e10df979bd70a41b":22,"cm-17d937af59a76936":11,"cm-5d88827ca74b8467":6,"cm-7cdd116892e98be9":14,"cm-33784883ba375f64":23,"cm-f4f93c08df6bbb46":22,"cm-14ade23d6eed80bc":19,"cm-da7ac6c64fd7c13a":8,"cm-46985393d93043f1":13,"cm-1bb435518266383a":25,"cm-b30aafe19bfb6e8b":18,"cm-386e94efc8f29819":14,"cm-a7015f26c0d0ba15":14,"cm-7d3b5df322bdd61e":6,"cm-6d627e77c7f9c3c6":6,"cm-a1455c22b6155e9e":8,"cm-ba8ff30e33bd44a2":10,"cm-5577fdfabb1f4a4f":7,"cm-cd99ee336ad4170e":20,"cm-df6d07888f9de364":21,"cm-8a0d6c767da975e0":13,"cm-83d3532e68142895":10,"cm-3f5628e6652b3bc3":22,"cm-d6a1dda4aa3812f2":10,"cm-490c633d40d3412c":20,"cm-6c28b05fb0c96e9f":20,"cm-6f13257d0257691f":14,"cm-9ff60aa9646a8ac8":19,"cm-91b7076c0c156548":24,"cm-38df8a00be053ab5":13,"cm-e5c18af544d992b0":17,"cm-1a6931c956c8b3bf":23,"cm-db33f80d6c1658c7":22,"cm-626b16e1414a733b":21,"cm-9abcbb99036af1b2":18,"cm-d61a54f0b33ea533":11,"cm-2cec17e525fe9ab8":27,"cm-47ea29e3cdab8578":29,"cm-941317b5505f7438":21,"cm-d4c84d885520454c":16,"cm-d3e2efa221cd1968":37,"cm-2f25271a8291a803":22,"cm-48e271641f0f9332":11,"cm-4f9953d4bf538343":18,"cm-1d28074cb495b152":15,"cm-b13a2ce7fad39733":14,"cm-25910e7347112e7a":13,"cm-22ef8ab1d84a9a4e":13,"cm-b60fb75949097685":21,"cm-f7f97bb68302c0fd":18,"cm-74ff7292f56d7fa1":35,"cm-0e4e5f61963a1ce1":10,"cm-3044c96bb00c0f65":19,"cm-e06c52e15f406d90":34,"cm-a14bedfd3d211ef7":28,"cm-de715b67886d4881":13,"cm-f3c1f87a603ee97a":12,"cm-9b2dde96a5767cb5":15,"cm-4bad03044b50d97a":22,"cm-140d94062b181d01":11,"cm-09299a7d780980fb":18,"cm-0d0e1066fbb95dc7":11,"cm-4ef5997c951820a2":22,"cm-f0b2974154b1b4e7":26,"cm-00ad902cbbcfc9ee":12,"cm-d4b0e96ef7a8b1a7":16,"cm-902a16006f1cb7d3":24,"cm-ef1a54f93d5a2366":21,"cm-16323bb6df6e6573":10,"cm-67af8b3da656c367":16,"cm-2aa6612fb797e2ce":12,"cm-92e51fcb0663ec84":13,"cm-6a225f1ff1a57109":18,"cm-155b6628607c7570":18,"cm-ccaf38a1efdb9bd3":11,"cm-76303527bdaf2375":7,"cm-805e80053cdb437d":10,"cm-d6955def610bfbd1":29,"cm-b2a4b7eaf1ac2b06":23,"cm-5efab2faa8108a73":15,"cm-5137e49eca158d11":9,"cm-c2f72ff1470696b9":17,"cm-0b6ca0bf2861d270":19,"cm-891f14d1d04463ba":23,"cm-c2a3b1b5acb6a26e":22};
+  const lessonMinutes = (r) => CD_MIN[r.id] || Math.max(5, Math.round((meta(r).words || 0) / 200));
   function tourPips(id) {
     const n = Math.min(3, toursOf(id));
     return `<span class="pips" role="img" aria-label="${n} tour${n > 1 ? "s" : ""} validé${n > 1 ? "s" : ""} sur 3">${[1, 2, 3].map((k) => `<i class="${k <= n ? "on" : ""}"></i>`).join("")}</span>`;
@@ -8825,11 +9236,12 @@ h3,
   }
   function tocHtml(l, cur) {
     const answered = (i) => lessonChapter(l, i).qcm.filter((j) => st.quizAnswers?.[`${l.id}#${j}`] !== undefined).length;
+    const rd = cdReadMap(l.id);
     return `<p class="toc-title">${esc(l.title)}</p><ol class="toc-list">${l.sections
       .map((s, i) => {
         const g = lessonChapter(l, i).qcm.length,
           d = answered(i);
-        return `<li><button type="button" class="toc-item ${i === cur ? "is-current" : ""}" data-action="chapter-read" data-id="${i}" ${i === cur ? 'aria-current="true"' : ""}><span class="toc-n num">${i + 1}</span><span class="toc-txt">${esc(s.heading)}</span>${g ? `<span class="toc-q num ${d >= g ? "full" : ""}" title="QCM faits">${d}/${g}</span>` : ""}</button></li>`;
+        return `<li><button type="button" class="toc-item ${i === cur ? "is-current" : ""}" data-action="chapter-read" data-id="${i}" ${i === cur ? 'aria-current="true"' : ""}><span class="toc-n num${rd[i] ? " is-read" : ""}"${rd[i] ? ' title="Chapitre lu"' : ""}>${i + 1}</span><span class="toc-txt">${esc(s.heading)}</span>${g ? `<span class="toc-q num ${d >= g ? "full" : ""}" title="QCM faits">${d}/${g}</span>` : ""}</button></li>`;
       })
       .join("")}</ol><div class="toc-extra"><button type="button" class="toc-link" data-action="lesson-tab" data-id="summary">${svgI(I.spark, 17)} Synthèse</button><button type="button" class="toc-link" data-action="lesson-tab" data-id="final">${svgI(I.flag, 17)} Évaluation du cours</button></div>`;
   }
@@ -8915,6 +9327,295 @@ h3,
     return `<section class="fiches-exhaustivite" aria-label="Fiches d'exhaustivité utile du cours"><div class="learning-head"><h2>Fiches d’exhaustivité utile</h2><p class="muted">${pages.length} pages illustrées propres à ce cours. Touche une page pour l’agrandir, puis zoome avec les boutons + / −, un double-toucher ou en écartant deux doigts.</p></div><div class="fiches-exhaustivite-pages">${pages.map((src, i) => `<figure class="fiche-figure fiche-exhaustivite-page"><button class="fiche-open" type="button" data-action="figure-open" data-id="${esc(src)}" aria-label="Agrandir la fiche page ${i+1} sur ${pages.length}"><img loading="lazy" decoding="async" src="${esc(src)}" alt="Fiche d’exhaustivité utile de ${esc(l.title)}, page ${i+1} sur ${pages.length}" width="1448" height="1086"><span class="fiche-zoom-hint">${svgI(I.search,14)} Agrandir / zoomer</span></button><figcaption>Page ${i+1} sur ${pages.length}</figcaption></figure>`).join("")}</div></section>`;
   }
 
+  /* ===== V0.49 · « Cours détaillé » : le texte de la ronéo (ou de la prise de notes de l’année) réparti dans
+     les chapitres de l’application, page par page. Données : data/cours-<matière>.json, chargées à la demande et
+     gardées hors ligne par le service worker. Les cours, QCM, QROC, cartes et la progression ne changent pas. ===== */
+  const UI_CD = "med2.semestre1.coursdetaille.v1";
+  const UI_CD_HL = "med2.semestre1.surlignages.v1";
+  const UI_CD_READ = "med2.semestre1.chapitreslus.v1";
+  let cdPrefs = uiGet(UI_CD, { keys: true, hl: false });
+  const COURS = {};
+  const CD_FR_MONTHS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"];
+  function cdLesson(l) {
+    const c = COURS[l.subject];
+    return c && c.lessons ? c.lessons[l.id] || null : null;
+  }
+  function cdLoad(subj) {
+    const c = COURS[subj];
+    if (c && (c.lessons || c.pending)) return;
+    COURS[subj] = { pending: true };
+    fetch(`./data/cours-${subj}.json`, { cache: "no-cache" })
+      .then((r) => {
+        if (!r.ok) throw new Error(`réponse ${r.status}`);
+        return r.json();
+      })
+      .then((j) => {
+        if (!j || typeof j.lessons !== "object") throw new Error("format inattendu");
+        COURS[subj] = j;
+      })
+      .catch((e) => {
+        COURS[subj] = { error: navigator.onLine === false ? "pas de connexion" : e?.message || "réseau indisponible" };
+      })
+      .finally(() => {
+        const l = learning.id ? lesson(learning.id) : null;
+        if (l && l.subject === subj && learning.tab === "story" && modal.querySelector(".modal.reader")) drawLesson(false);
+      });
+  }
+  function cdHash(s) {
+    let h = 2166136261;
+    const t = String(s);
+    for (let i = 0; i < t.length; i++) {
+      h ^= t.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0).toString(36);
+  }
+  const cdText = (b) => (Array.isArray(b[3]) ? b[3].map((r) => (Array.isArray(r) ? r.join(" ") : String(r))).join(" ") : String(b[3] ?? ""));
+  function cdHlSet(lid) {
+    return new Set(uiGet(UI_CD_HL, {})[lid] || []);
+  }
+  function cdHlToggle(lid, id) {
+    const all = uiGet(UI_CD_HL, {});
+    const s = new Set(all[lid] || []);
+    if (s.has(id)) s.delete(id);
+    else s.add(id);
+    if (s.size) all[lid] = [...s];
+    else delete all[lid];
+    uiSet(UI_CD_HL, all);
+    return s.has(id);
+  }
+  function cdReadMap(lid) {
+    return uiGet(UI_CD_READ, {})[lid] || {};
+  }
+  function cdReadToggle(lid, i) {
+    const all = uiGet(UI_CD_READ, {});
+    const m = { ...(all[lid] || {}) };
+    if (m[i]) delete m[i];
+    else m[i] = today();
+    if (Object.keys(m).length) all[lid] = m;
+    else delete all[lid];
+    uiSet(UI_CD_READ, all);
+    return !!m[i];
+  }
+  /* Mots-clés attendus aux QROC du chapitre : soulignés dans le texte original. */
+  function cdKeyRe(l, i) {
+    const alts = new Set();
+    for (const it of qrocList(l, i))
+      for (const g of it.keys || [])
+        for (const k of g || []) {
+          const s = String(k || "").trim();
+          if (s.length >= 4 || /^[A-ZÀ-Ý0-9αβγδκλμ-]{2,}$/.test(s)) alts.add(s);
+        }
+    if (!alts.size) return null;
+    const src = [...alts]
+      .sort((a, b) => b.length - a.length)
+      .map((s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+"))
+      .join("|");
+    try {
+      return new RegExp(`(^|[^\\p{L}\\p{N}])(${src})(?![\\p{L}\\p{N}])`, "giu");
+    } catch {
+      return null;
+    }
+  }
+  function cdMarkKeys(html, re, seen) {
+    if (!re) return html;
+    return html
+      .split(/(<[^>]+>)/)
+      .map((part) =>
+        part.startsWith("<")
+          ? part
+          : part.replace(re, (m, pre, w) => {
+              const k = w.toLowerCase();
+              const n = (seen.get(k) || 0) + 1;
+              seen.set(k, n);
+              return n <= 2 ? `${pre}<mark class="cd-key">${w}</mark>` : m;
+            }),
+      )
+      .join("");
+  }
+  const cdFmt = (s) =>
+    esc(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[\s(«])\*([^*\s](?:[^*]*?[^*\s])?)\*(?=[\s).,;:!?»]|$)/g, "$1<em>$2</em>")
+      .replace(/~~(.+?)~~/g, "<del>$1</del>");
+  function cdTable(rows, cls, act) {
+    const r = (rows || []).map((x) => (Array.isArray(x) ? x : [x])).filter((x) => x.some((c) => String(c).trim()));
+    if (!r.length) return "";
+    const filled = r[0].filter((c) => String(c).trim());
+    if (r.length === 1 && filled.length === 1) {
+      const txt = String(filled[0]).replace(/([a-zà-ÿ]{4,})([A-ZÀ-Ý][a-zà-ÿ])/g, "$1 — $2");
+      return `<div class="cd-box${cls}"${act}>${cdFmt(txt)}</div>`;
+    }
+    const head = r.length > 1 ? r[0] : null,
+      body = head ? r.slice(1) : r;
+    const wide = Math.max(...r.map((x) => x.length)) >= 4;
+    return `<div class="cd-table-wrap${cls}"${act}${act ? "" : ' tabindex="0" role="region" aria-label="Tableau de la ronéo"'}><table class="cd-table${wide ? " wide" : ""}">${head ? `<thead><tr>${head.map((c) => `<th>${cdFmt(c)}</th>`).join("")}</tr></thead>` : ""}<tbody>${body.map((row) => `<tr>${row.map((c) => `<td>${cdFmt(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  }
+  function cdBlocks(list, ctx) {
+    let out = "",
+      ul = "";
+    const flush = () => {
+      if (ul) out += `<ul class="cd-ul">${ul}</ul>`;
+      ul = "";
+    };
+    for (const b of list) {
+      const t = String(b[2] || "p");
+      const id = "b" + cdHash(cdText(b));
+      const on = ctx.hl.has(id);
+      const semantic = t[0] === "h" || t === "l1" || t === "l2";
+      const act = ctx.mode ? ` data-action="cd-hl" data-id="${id}" tabindex="0"${semantic ? "" : ` role="button" aria-pressed="${on}"`}` : "";
+      const cls = on ? " is-hl" : "";
+      if (t === "tb") {
+        flush();
+        out += cdTable(b[3], cls, act);
+        continue;
+      }
+      const html = cdMarkKeys(cdFmt(b[3]), ctx.re, ctx.seen);
+      if (t === "l1" || t === "l2") {
+        ul += `<li class="${t === "l2" ? "lv2" : ""}${cls}"${act}>${html}</li>`;
+        continue;
+      }
+      flush();
+      if (t[0] === "h") {
+        const lv = Number(t[1]) || 3,
+          tag = lv <= 2 ? "h3" : "h4";
+        out += `<${tag} class="cd-h cd-h${lv}${cls}"${act}>${html}</${tag}>`;
+      } else out += `<p class="${t === "a" ? "cd-arrow" : "cd-p"}${cls}"${act}>${html}</p>`;
+    }
+    flush();
+    return out;
+  }
+  function cdDocShort(doc) {
+    return doc?.sh || "ronéo";
+  }
+  function cdPageLabel(L, d, p) {
+    const doc = L.docs[d] || {};
+    if (doc.k === "notes" && !doc.paged) return { ico: I.pen, txt: String(doc.lab || "Prise de notes 2026–2027").replace("Prise de notes Ronéo & Juliette 2026–2027", "Prise de notes 2026–2027") };
+    if (!p) return { ico: I.file, txt: cdDocShort(doc) };
+    return { ico: I.file, txt: `Page ${p}${doc.n ? ` sur ${doc.n}` : ""} · ${cdDocShort(doc)}` };
+  }
+  function cdPages(L, list, ctx) {
+    const groups = [];
+    for (const b of list) {
+      const g = groups[groups.length - 1];
+      if (g && g.d === b[0] && g.p === b[1]) g.b.push(b);
+      else groups.push({ d: b[0], p: b[1], b: [b] });
+    }
+    return groups
+      .map((g) => {
+        const lab = cdPageLabel(L, g.d, g.p);
+        return `<details class="cd-page" open><summary><span class="cd-page-lab">${svgI(lab.ico, 15)}<span>${esc(lab.txt)}</span></span><span class="cd-chev" aria-hidden="true">${svgI(I.down, 16)}</span></summary><div class="cd-page-body">${cdBlocks(g.b, ctx)}</div></details>`;
+      })
+      .join("");
+  }
+  function cdRange(L, list) {
+    const byDoc = new Map();
+    let notes = false;
+    for (const b of list) {
+      const doc = L.docs[b[0]];
+      if (!doc) continue;
+      if (doc.k === "notes" && !doc.paged) {
+        notes = true;
+        continue;
+      }
+      if (!b[1]) continue;
+      if (!byDoc.has(b[0])) byDoc.set(b[0], []);
+      byDoc.get(b[0]).push(b[1]);
+    }
+    const parts = [...byDoc.entries()].map(([d, ps]) => {
+      const a = Math.min(...ps),
+        z = Math.max(...ps),
+        doc = L.docs[d];
+      const same = L.docs.filter((x) => x.k === doc.k && x.k === "roneo").length > 1;
+      return (a === z ? `p. ${a}` : `p. ${a}–${z}`) + (same ? ` (${String(doc.sh || "").split(" · ").pop()})` : "");
+    });
+    if (notes) parts.unshift("prise de notes");
+    return parts.join(" · ");
+  }
+  const cdMinutes = (chars) => Math.max(1, Math.round(chars / 1100));
+  function cdDateFr(iso) {
+    const m = String(iso || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
+    return m ? `${Number(m[3])} ${CD_FR_MONTHS[Number(m[2]) - 1]} ${m[1]}` : "";
+  }
+  function cdChapterHtml(l, L, i, base, nav) {
+    const sect = l.sections[i];
+    const C = L.ch[i] || { m: [], x: [], c: [], cd: 0 };
+    const g = lessonChapter(l, i),
+      done = g.qcm.filter((j) => st.quizAnswers?.[`${l.id}#${j}`] !== undefined).length,
+      nq = qrocList(l, i).length;
+    const ctx = { ...base, re: cdPrefs.keys ? cdKeyRe(l, i) : null, seen: new Map() };
+    const chars = C.m.reduce((a, b) => a + cdText(b).length, 0),
+      xchars = (C.x || []).reduce((a, r) => a + r.b.reduce((s, b) => s + cdText(b).length, 0), 0);
+    const read = !!base.read[i];
+    const range = C.m.length ? cdRange(L, C.m) : "";
+    let main = C.m.length ? cdPages(L, C.m, ctx) : "";
+    let ex = "";
+    if (C.x?.length) {
+      const homes = [...new Set(C.x.map((r) => r.h).filter((h) => h >= 0))];
+      const runs = C.x
+        .map(
+          (r) =>
+            `<div class="cd-excerpt"><p class="cd-excerpt-from">${svgI(I.book, 14)}<span>${r.h >= 0 ? `Extrait du chapitre ${r.h + 1} · ${esc(l.sections[r.h]?.heading || "")}` : `Extrait du cours « ${esc(r.hl || "")} »`}</span></p>${cdPages(L, r.b, ctx)}${r.h >= 0 && r.h !== i ? `<button type="button" class="btn quiet small" data-action="chapter-read" data-id="${r.h}">${svgI(I.next, 14)} Lire ce passage dans le chapitre ${r.h + 1}</button>` : ""}</div>`,
+        )
+        .join("");
+      if (!C.m.length)
+        ex = `<div class="notice cd-note">${svgI(I.info, 18)}<p>Ce chapitre reprend et approfondit des passages de la ronéo ${homes.length ? `déjà lus au chapitre ${homes.map((h) => h + 1).join(" et au chapitre ")}` : "lus dans un autre cours"} : ils sont rassemblés ici pour que tu le lises d’un seul tenant.</p></div>${runs}`;
+      else ex = `<details class="cd-more"><summary>${svgI(I.book, 16)}<span><b>Passages liés, ailleurs dans le cours</b><small>${plural(C.x.length, "extrait")} utiles pour ce chapitre</small></span><span class="cd-chev" aria-hidden="true">${svgI(I.down, 16)}</span></summary><div class="cd-more-body">${runs}</div></details>`;
+    } else if (!C.m.length)
+      ex = `<div class="notice cd-note">${svgI(I.info, 18)}<p>Ce chapitre fait la synthèse du cours : il ne correspond à aucun passage particulier de la ronéo. Relis les chapitres précédents, puis entraîne-toi.</p></div>`;
+    let cmp = "";
+    if (C.c?.length || C.cd) {
+      const doc = L.docs[C.c?.[0]?.[0]] || L.docs.find((d) => d.k === "fc") || {};
+      cmp = `<details class="cd-compare"><summary>${svgI(I.file, 16)}<span><b>Comparer avec la ${esc(cdDocShort(doc))}</b><small>${C.c.length ? `${plural(C.c.length, "passage")} de l’an dernier pour ce chapitre` : "Aucun passage différent"}${C.cd ? ` · ${plural(C.cd, "passage identique", "passages identiques")} à la prise de notes masqué${C.cd > 1 ? "s" : ""}` : ""}</small></span><span class="cd-chev" aria-hidden="true">${svgI(I.down, 16)}</span></summary><div class="cd-compare-body">${C.c.length ? cdPages(L, C.c, ctx) : ""}</div></details>`;
+    }
+    const figs = sect.figures?.length
+      ? `<div class="cd-figs"><p class="cd-figs-lab">${svgI(I.spark, 15)} Schéma récapitulatif</p>${sect.figures.map((f) => `<figure class="med-figure"><button class="med-figure-hit" type="button" data-action="figure-open" data-id="${esc(f.src)}" aria-label="Agrandir le schéma : ${esc(f.caption)}"><img loading="lazy" decoding="async" src="${esc(f.src)}" alt="${esc(f.caption)}"><span class="med-figure-zoom">${svgI(I.search, 14)} Agrandir</span></button><figcaption>${esc(f.caption)}</figcaption></figure>`).join("")}</div>`
+      : "";
+    const recall = sect.memory
+      ? `<details class="cd-recall"><summary>${svgI(I.bulb, 16)}<span><b>Rappel actif</b><small>Redis l’essentiel de ce chapitre de tête, puis vérifie</small></span><span class="cd-chev" aria-hidden="true">${svgI(I.down, 16)}</span></summary><div class="lesson-memory callout-key"><span class="mk mk-key">${MK.key.ico}L’essentiel du chapitre</span><p>${fmt(sect.memory)}</p></div></details>`
+      : "";
+    const n = nav;
+    const end = `<div class="chapter-end"><p><b>Chapitre terminé ?</b> Vérifie-le tout de suite : ${plural(g.qcm.length, "QCM", "QCM")}${nq ? `, ${nq} QROC` : ""} et ${plural(g.cards.length, "carte")}${done ? ` · ${done} QCM déjà faits` : ""}.</p><div class="chapter-action-row"><button class="btn" data-action="chapter-practice" data-id="${i}">${svgI(I.quiz, 18)} S’entraîner sur ce chapitre</button>${nq ? `<button class="btn secondary" data-action="chapter-qroc" data-id="${i}">${svgI(I.pen, 18)} ${nq} QROC</button>` : ""}${l.subject === "ssh" && l.writing?.some((w) => w.chapter === i) ? `<button class="btn secondary" data-action="writing-chapter" data-id="${i}">${svgI(I.pen, 18)} Rédiger</button>` : ""}<button type="button" class="btn quiet cd-read-btn" data-action="cd-read" data-id="${i}" aria-pressed="${read}">${svgI(read ? I.checkCircle : I.check, 18)} ${read ? "Chapitre lu" : "Marquer comme lu"}</button>${n.next ? `<button class="btn quiet" data-action="course-neighbor" data-id="${esc(n.next)}" title="${esc(lesson(n.next)?.title || "")}">Cours suivant ${svgI(I.next, 18)}</button>` : `<button class="btn quiet" data-action="course-return">${svgI(I.library, 18)} Tous les cours</button>`}${i === l.sections.length - 1 ? `<button class="btn quiet" data-action="lesson-tab" data-id="final">${svgI(I.flag, 18)} Évaluation du cours</button>` : ""}</div></div>`;
+    return `<section class="lesson-section cd-section${read ? " is-read" : ""}" data-chapter-section="${i}" aria-labelledby="ch-${i}"><p class="chapter-kicker">Chapitre ${i + 1} sur ${l.sections.length}${range ? ` <span class="page-ref">${esc(range)}</span>` : ""} <span class="cd-min num">~${cdMinutes(chars || xchars)} min</span>${read ? ` <span class="cd-read-badge">${svgI(I.check, 13)} Lu</span>` : ""}</p><h2 id="ch-${i}">${esc(sect.heading)}</h2>${main}${ex}${figs}${cmp}${recall}${end}</section>`;
+  }
+  function cdStoryHtml(l, o) {
+    const L = cdLesson(l);
+    const sub = subject(l.subject);
+    const head = (extra) => `<header class="lesson-intro cd-intro"><span class="badge tone">${icon(l.subject, 14)} ${esc(sub.name)}</span><h1 class="lesson-title" id="reader-h">${esc(l.title)}</h1>${extra}</header>`;
+    if (!L) {
+      const c = COURS[l.subject];
+      if (!c || (!c.error && !c.pending)) cdLoad(l.subject);
+      const err = c && c.error;
+      return (
+        head(`<p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ${o.qcmN} QCM · ${plural(l.flashcards.length, "carte")}</p>`) +
+        (err
+          ? `<div class="notice ko cd-error" role="alert">${svgI(I.offline, 18)}<div><p><b>Le cours détaillé n’a pas pu être chargé</b> (${esc(err)}).</p><p class="muted small">Il se télécharge une fois connecté, puis reste disponible hors ligne. En attendant, la synthèse, les QCM et les cartes fonctionnent.</p><div class="cd-error-actions"><button class="btn small" data-action="cd-retry">${svgI(I.refresh, 16)} Réessayer</button><button class="btn secondary small" data-action="lesson-tab" data-id="summary">${svgI(I.spark, 16)} Synthèse</button></div></div></div>`
+          : `<div class="cd-loading" role="status" aria-live="polite"><span class="cd-spin" aria-hidden="true"></span>Chargement du cours détaillé…</div>`)
+      );
+    }
+    const mainDocs = [...new Set(L.ch.flatMap((c) => c.m.map((b) => b[0])))].sort((a, b) => a - b).map((d) => L.docs[d]).filter(Boolean);
+    const total = L.ch.reduce((a, c) => a + c.m.reduce((s, b) => s + cdText(b).length, 0), 0);
+    const read = cdReadMap(l.id);
+    const nRead = l.sections.filter((_, i) => read[i]).length;
+    const hl = cdHlSet(l.id);
+    const isNotes = mainDocs.some((d) => d.k === "notes");
+    const isFcMain = !isNotes && mainDocs.some((d) => d.k === "fc");
+    const teacher = String(l.teacher || "").trim();
+    const when = cdDateFr(l.date);
+    const labs = [...new Set(mainDocs.map((d) => d.lab))].join(" + ");
+    const src = `<p class="cd-source">${svgI(isNotes ? I.pen : I.file, 15)}<span>${esc(labs)}${teacher ? ` · ${esc(teacher)}` : ""}${when && !/\d{1,2}\/\d{1,2}/.test(labs) ? ` · ${esc(when)}` : ""}</span></p>`;
+    const facts = `<p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ~${cdMinutes(total)} min de lecture · ${o.qcmN} QCM · ${plural(l.flashcards.length, "carte")}${l.qroc?.length ? ` · ${l.qroc.length} QROC` : ""}${nRead ? ` · <span class="cd-read-count">${svgI(I.check, 13)} ${nRead}/${l.sections.length} lu${nRead > 1 ? "s" : ""}</span>` : ""}</p>`;
+    const actions = `<div class="intro-actions"><button class="btn ghost small" data-action="lesson-tab" data-id="fiches">${svgI(I.file, 17)} Ma fiche</button>${o.rs.id === l.id && o.curChapter > 0 ? `<button class="btn small" data-action="chapter-read" data-id="${o.curChapter}">${svgI(I.play, 14)} Reprendre au chapitre ${o.curChapter + 1}</button>` : ""}<button class="btn ghost small toc-inline" data-action="reader-toc">${svgI(I.list, 17)} Sommaire</button></div>`;
+    const hasQroc = !!l.qroc?.length;
+    const tools = `<div class="cd-tools" role="group" aria-label="Outils de lecture">${hasQroc ? `<button type="button" class="cd-tool" data-action="cd-keys" aria-pressed="${!!cdPrefs.keys}">${svgI(I.target, 15)} Mots-clés des QROC</button>` : ""}<button type="button" class="cd-tool" data-action="cd-hlmode" aria-pressed="${!!cdPrefs.hl}">${svgI(I.pen, 15)} Surligner<span class="cd-hl-count num">${hl.size ? ` · ${hl.size}` : ""}</span></button><button type="button" class="cd-tool" data-action="cd-fold" data-id="close">${svgI(I.list, 15)} Replier les pages</button></div>`;
+    const note = isNotes
+      ? `<div class="notice warn cd-study">${svgI(I.alert, 18)}<div><p><b>Prise de notes de l’année, pas encore corrigée.</b> La ronéo 2026–2027 de ce cours n’est pas encore parue : le texte ci-dessous est la prise de notes de Ronéo & Juliette. Sous chaque chapitre, « Comparer avec la ronéo 2025–2026 » montre ce que disait le cours l’an dernier ; les écarts repérés sont listés dans les points de vigilance.</p></div></div>`
+      : `<div class="notice cd-study">${svgI(I.book, 18)}<div><p><b>Le texte original du cours, découpé selon les chapitres de l’application.</b> ${isFcMain ? "La prise de notes de cette année reprend mot pour mot la ronéo 2025–2026 : c’est ce texte, avec ses pages, qui est affiché." : "En-têtes et numéros de page retirés ; chaque carte correspond à une page du PDF."} Les tableaux et schémas du PDF peuvent perdre leur mise en forme : vérifie-les dans l’onglet Source.</p><p class="muted small">${hasQroc && cdPrefs.keys ? `<mark class="cd-key">Mots soulignés</mark> : réponses attendues aux QROC du chapitre. ` : ""}« Surligner » garde tes passages sur cet appareil.</p></div></div>`;
+    const mode = cdPrefs.hl ? `<div class="notice cd-hl-banner" role="status">${svgI(I.pen, 18)}<p><b>Surligneur actif</b> : touche un paragraphe pour le surligner ou l’effacer.</p></div>` : "";
+    const base = { hl, mode: !!cdPrefs.hl, read };
+    const flow = Array.isArray(l.flow) && l.flow.length ? `<ol class="logic-chain" aria-label="Fil logique du cours">${l.flow.map((x) => `<li>${esc(x)}</li>`).join("")}</ol>` : "";
+    return `${head(src + facts + actions + tools)}${note}${mode}${flow}${o.flags}${l.sections.map((_, i) => cdChapterHtml(l, L, i, base, o.n)).join("")}`;
+  }
   /* V0.46 · renvois de page : « notes 2026 » désigne la prise de notes de l’année, pas une page du PDF. */
   function pgRef(p, prefix = "PDF p. ") {
     const s = String(p ?? "").trim();
@@ -8950,7 +9651,7 @@ h3,
     const before = modal.querySelector(".modal")?.scrollTop || 0;
     const qcmN = activeQcm(l).length;
     const tabs = [
-      ["story", "Cours", I.book, ""],
+      ["story", "Cours détaillé", I.book, ""],
       ["summary", "Synthèse", I.spark, ""],
       ["fiches", "Fiches", I.file, ficheCount(l) || ""],
       ...(learning.tab === "chapter" ? [["chapter", `Chapitre ${learning.chapterIndex + 1}`, I.target, ""]] : []),
@@ -8978,22 +9679,7 @@ h3,
     const rs = uiGet(UI_RESUME, {});
     const curChapter = rs.id === l.id ? rs.chapter || 0 : 0;
     let body = "";
-    if (learning.tab === "story") {
-      const r = cms().find((x) => x.id === l.id) || { id: l.id };
-      body = `<header class="lesson-intro"><span class="badge tone">${icon(l.subject, 14)} ${esc(subject(l.subject).name)}</span><h1 class="lesson-title" id="reader-h">${esc(l.title)}</h1><p class="lesson-hook">${esc(l.hook)}</p><p class="lesson-facts num">${plural(l.sections.length, "chapitre")} · ~${lessonMinutes(r)} min de lecture · ${qcmN} QCM · ${plural(l.flashcards.length, "carte")}${l.qroc?.length ? ` · ${l.qroc.length} QROC` : ""}</p><div class="intro-actions"><button class="btn ghost small" data-action="lesson-tab" data-id="fiches">${svgI(I.file, 17)} Ma fiche</button>${rs.id === l.id && curChapter > 0 ? `<button class="btn small" data-action="chapter-read" data-id="${curChapter}">${svgI(I.play, 14)} Reprendre au chapitre ${curChapter + 1}</button>` : ""}<button class="btn ghost small toc-inline" data-action="reader-toc">${svgI(I.list, 17)} Sommaire</button></div></header>${flow}${flags}${l.sections
-        .map((sect, i) => {
-          const g = lessonChapter(l, i),
-            done = g.qcm.filter((j) => st.quizAnswers?.[`${l.id}#${j}`] !== undefined).length,
-            nq = qrocList(l, i).length;
-          return `<section class="lesson-section" data-chapter-section="${i}" aria-labelledby="ch-${i}"><p class="chapter-kicker">Chapitre ${i + 1} sur ${l.sections.length} <span class="page-ref">${esc(pgRef(sect.pages))}</span></p><h2 id="ch-${i}">${esc(sect.heading)}</h2>${sect.paragraphs
-            .map(
-              (p, j) =>
-                `${para(p)}${j === 1 && sect.figures?.length ? sect.figures.map((f) => `<figure class="med-figure"><button class="med-figure-hit" type="button" data-action="figure-open" data-id="${esc(f.src)}" aria-label="Agrandir le schéma : ${esc(f.caption)}"><img loading="lazy" decoding="async" src="${esc(f.src)}" alt="${esc(f.caption)}"><span class="med-figure-zoom">${svgI(I.search, 14)} Agrandir</span></button><figcaption>${esc(f.caption)}</figcaption></figure>`).join("") : ""}`,
-            )
-            .join("")}${sect.visual ? v10Fiche(sect.visual) : ""}<div class="lesson-memory callout-key"><span class="mk mk-key">${MK.key.ico}L’essentiel du chapitre</span><p>${fmt(sect.memory)}</p></div><div class="chapter-end"><p><b>Chapitre terminé ?</b> Vérifie-le tout de suite : ${plural(g.qcm.length, "QCM", "QCM")}${nq ? `, ${nq} QROC` : ""} et ${plural(g.cards.length, "carte")}${done ? ` · ${done} QCM déjà faits` : ""}.</p><div class="chapter-action-row"><button class="btn" data-action="chapter-practice" data-id="${i}">${svgI(I.quiz, 18)} S’entraîner sur ce chapitre</button>${nq ? `<button class="btn secondary" data-action="chapter-qroc" data-id="${i}">${svgI(I.pen, 18)} ${nq} QROC</button>` : ""}${l.subject === "ssh" && l.writing?.some((w) => w.chapter === i) ? `<button class="btn secondary" data-action="writing-chapter" data-id="${i}">${svgI(I.pen, 18)} Rédiger</button>` : ""}${n.next ? `<button class="btn quiet" data-action="course-neighbor" data-id="${esc(n.next)}" title="${esc(lesson(n.next)?.title || "")}">Cours suivant ${svgI(I.next, 18)}</button>` : `<button class="btn quiet" data-action="course-return">${svgI(I.library, 18)} Tous les cours</button>`}${i === l.sections.length - 1 ? `<button class="btn quiet" data-action="lesson-tab" data-id="final">${svgI(I.flag, 18)} Évaluation du cours</button>` : ""}</div></div></section>`;
-        })
-        .join("")}`;
-    }
+    if (learning.tab === "story") body = cdStoryHtml(l, { qcmN, rs, curChapter, flags, n });
     if (learning.tab === "chapter") body = chapterPracticeHtml(l);
     if (learning.tab === "final") body = finalCourseHtml(l);
     if (learning.tab === "summary" && learning.summaryMode === "express") body = expressHtml(l);
@@ -9033,7 +9719,7 @@ h3,
       body = `${pdfSection}<div class="learning-head"><h2>Retrouver le cours original</h2><p class="muted">${esc(l.editorialNote)}</p></div>${flags}${sourceLine}<p>Les descriptions complètes, les illustrations cliniques et le texte original se trouvent dans la ronéo.</p><div class="actions"><a href="${esc(l.source.url)}" class="btn" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} Ouvrir le PDF sur Drive</a>${(l.relatedSources || []).map((src) => `<a href="${esc(src.url)}" class="btn secondary" target="_blank" rel="noopener noreferrer">${svgI(I.external, 17)} ${esc(src.label)}</a>`).join("")}</div><p class="note">La réécriture et les exercices sont des supports pédagogiques nouveaux, fondés exclusivement sur le chapitre cité. Ils ne remplacent pas le document original.</p>`;
     if (learning.tab === "story" || (learning.tab === "final" && learning.finalSubmitted)) body += courseSwitch(l);
     const legend =
-      learning.tab === "story"
+      learning.tab === "story" && false
         ? `<div class="mk-legend" aria-label="Repères visuels du cours"><span class="mk mk-ex">${MK.ex.ico}Exemple</span><span class="mk mk-mech">${MK.mech.ico}Mécanisme</span><span class="mk mk-trap">${MK.trap.ico}Piège d’examen</span><span class="mk mk-key">${MK.key.ico}À retenir</span></div>`
         : "";
     const tabChanged = lastReaderTab !== learning.tab + "|" + learning.id;
@@ -9055,7 +9741,7 @@ h3,
       el.scrollTop = reset ? 0 : before;
       if (learning.tab === "story" && learning.scrollChapter !== null) {
         const target = modal.querySelector(`[data-chapter-section="${learning.scrollChapter}"]`);
-        learning.scrollChapter = null;
+        if (target || cdLesson(l) || COURS[l.subject]?.error) learning.scrollChapter = null;
         const barH = modal.querySelector(".reader-bar")?.offsetHeight || 56;
         if (target) el.scrollTop = Math.max(0, el.scrollTop + target.getBoundingClientRect().top - el.getBoundingClientRect().top - barH - 12);
       }
@@ -9156,6 +9842,11 @@ h3,
     input.click();
   }
   document.addEventListener("keydown", (e) => {
+    if ((e.key === "Enter" || e.key === " ") && e.target.dataset?.action === "cd-hl") {
+      e.preventDefault();
+      e.target.click();
+      return;
+    }
     if (e.key === "Enter" && e.target.classList?.contains("qroc-input")) {
       e.preventDefault();
       qrocCheck(e.target.dataset.qroc, true);
@@ -9229,6 +9920,56 @@ h3,
     }
     if (act === "reader-toc") {
       readerToc(id !== "close" && !document.querySelector(".reader-toc-layer"));
+      return;
+    }
+    /* V0.49 · outils du cours détaillé */
+    if (act === "cd-keys") {
+      cdPrefs = { ...cdPrefs, keys: !cdPrefs.keys };
+      uiSet(UI_CD, cdPrefs);
+      drawLesson(false);
+      toast(cdPrefs.keys ? "Mots-clés des QROC soulignés dans le texte" : "Mots-clés des QROC masqués");
+      return;
+    }
+    if (act === "cd-hlmode") {
+      cdPrefs = { ...cdPrefs, hl: !cdPrefs.hl };
+      uiSet(UI_CD, cdPrefs);
+      drawLesson(false);
+      toast(cdPrefs.hl ? "Surligneur actif : touche un paragraphe" : "Surligneur rangé, tes passages restent surlignés");
+      return;
+    }
+    if (act === "cd-hl") {
+      if (!cdPrefs.hl || !learning.id) return;
+      const on = cdHlToggle(learning.id, id);
+      document.querySelectorAll(`[data-action="cd-hl"][data-id="${id}"]`).forEach((x) => {
+        x.classList.toggle("is-hl", on);
+        if (x.hasAttribute("aria-pressed")) x.setAttribute("aria-pressed", String(on));
+      });
+      const cnt = document.querySelector(".cd-hl-count");
+      if (cnt) {
+        const k = cdHlSet(learning.id).size;
+        cnt.textContent = k ? ` · ${k}` : "";
+      }
+      return;
+    }
+    if (act === "cd-read" && learning.id) {
+      const on = cdReadToggle(learning.id, Number(id));
+      drawLesson(false);
+      toast(on ? "Chapitre marqué comme lu" : "Marque « lu » retirée");
+      return;
+    }
+    if (act === "cd-fold") {
+      const open = id === "open";
+      modal.querySelectorAll(".reader-body details.cd-page").forEach((d) => (d.open = open));
+      btn.dataset.id = open ? "close" : "open";
+      btn.innerHTML = `${svgI(I.list, 15)} ${open ? "Replier les pages" : "Déplier les pages"}`;
+      return;
+    }
+    if (act === "cd-retry" && learning.id) {
+      const l = lesson(learning.id);
+      if (l) {
+        delete COURS[l.subject];
+        drawLesson(false);
+      }
       return;
     }
     if (act === "train-options") {
