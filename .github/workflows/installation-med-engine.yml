@@ -25,7 +25,7 @@ jobs:
           node-version: '22'
       - name: Vérifier et ouvrir le paquet de mise à jour
         env:
-          ENGINE_MAIN_SHA256: ce154553e175ffe53fb718e19e7197dd0ddaa7c3db186401ec3f7c8b7218668e
+          ENGINE_MAIN_SHA256: 3171b8576696114d52fea2a1ae15d0c3b8d61761e1382f2b2224aa5be173335d
         run: |
           python3 - <<'PY'
           import hashlib, os, pathlib, stat, zipfile
