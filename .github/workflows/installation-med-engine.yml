@@ -1,0 +1,69 @@
+name: Installer MED_ENGINE dans MED2 S1
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  installation:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publication.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Vérifier et ouvrir le paquet de mise à jour
+        env:
+          ENGINE_MAIN_SHA256: ce154553e175ffe53fb718e19e7197dd0ddaa7c3db186401ec3f7c8b7218668e
+        run: |
+          python3 - <<'PY'
+          import hashlib, os, pathlib, stat, zipfile
+          archive = pathlib.Path('med2ss1-engine-mise-a-jour.zip')
+          if not archive.is_file() or archive.is_symlink():
+              raise SystemExit('Ajoute med2ss1-engine-mise-a-jour.zip à la racine du dépôt.')
+          with archive.open('rb') as stream:
+              actual = hashlib.file_digest(stream, 'sha256').hexdigest()
+          if actual != os.environ['ENGINE_MAIN_SHA256']:
+              raise SystemExit('Le ZIP principal ne correspond pas à ce workflow. Utilise les fichiers de la même livraison.')
+          output = pathlib.Path(os.environ['RUNNER_TEMP']) / 'med2-engine-delivery'
+          total = 0
+          seen = set()
+          with zipfile.ZipFile(archive) as bundle:
+              for entry in bundle.infolist():
+                  name = entry.filename
+                  parts = name.rstrip('/').split('/')
+                  total += entry.file_size
+                  if (not name or name.startswith('/') or '\\' in name or ':' in name or
+                          any(part in {'', '.', '..'} for part in parts) or
+                          stat.S_ISLNK(entry.external_attr >> 16) or name in seen or
+                          len(seen) >= 5000 or total > 50 * 1024 * 1024):
+                      raise SystemExit('Le ZIP principal contient un chemin ou une taille non autorisés.')
+                  seen.add(name)
+              if bundle.testzip() is not None:
+                  raise SystemExit('Le ZIP principal est endommagé.')
+              bundle.extractall(output)
+          PY
+      - name: Assembler les contenus en conservant les cours existants
+        run: |
+          python3 "$RUNNER_TEMP/med2-engine-delivery/assemble.py" \
+            --repository-root "$GITHUB_WORKSPACE" \
+            --delivery-root "$RUNNER_TEMP/med2-engine-delivery" \
+            --output "$RUNNER_TEMP/med2-engine-site"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/med2-engine-site
+      - name: Publier MED2 S1
+        id: publication
+        uses: actions/deploy-pages@v4
